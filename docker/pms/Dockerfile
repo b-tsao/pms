@@ -1,0 +1,14 @@
+FROM java:8
+
+WORKDIR /pms
+
+COPY dist dist
+COPY *.sh ./
+COPY *.txt ./
+COPY *.properties ./
+
+EXPOSE 7575
+EXPOSE 7576
+EXPOSE 7577
+EXPOSE 7578
+EXPOSE 8484
