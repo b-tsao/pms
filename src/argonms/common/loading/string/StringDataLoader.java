@@ -33,21 +33,23 @@ public abstract class StringDataLoader {
 	private static StringDataLoader instance;
 
 	protected final Map<Integer, String> itemNames;
+	protected final Map<Integer, String> itemDescs;
+	protected final Map<Integer, String> itemMsgs;
 	protected final Map<Integer, String> skillNames;
 	protected final Map<Integer, String> streetNames;
 	protected final Map<Integer, String> mapNames;
 	protected final Map<Integer, String> mobNames;
 	protected final Map<Integer, String> npcNames;
-	protected final Map<Integer, String> itemMsgs;
 
 	protected StringDataLoader() {
 		itemNames = new HashMap<Integer, String>();
+		itemDescs = new HashMap<Integer, String>();
+		itemMsgs = new HashMap<Integer, String>();
 		skillNames = new HashMap<Integer, String>();
 		streetNames = new HashMap<Integer, String>();
 		mapNames = new HashMap<Integer, String>();
 		mobNames = new HashMap<Integer, String>();
 		npcNames = new HashMap<Integer, String>();
-		itemMsgs = new HashMap<Integer, String>();
 	}
 
 	public abstract boolean loadAll();
