@@ -6,7 +6,7 @@ docker build --file pms/Dockerfile -t pms ..
 docker network create pms_net
 
 docker run -d --network pms_net --name pms_sql pms_sql
-docker run -it --rm --network pms_net -p 8383:8383 --name pms pms bash
+docker run -it --rm --network pms_net -p 8484:8484 --name pms pms bash
 
 docker rm -f pms_sql
 
