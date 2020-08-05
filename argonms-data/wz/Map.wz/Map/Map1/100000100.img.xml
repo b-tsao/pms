@@ -9497,21 +9497,19 @@
 		</imgdir>
 		<imgdir name="11">
 			<string name="pn" value="h_east"/>
-			<int name="pt" value="10"/>
+			<int name="pt" value="1"/>
 			<int name="x" value="3354"/>
 			<int name="y" value="98"/>
 			<int name="tm" value="100000100"/>
 			<string name="tn" value="h_west"/>
-			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="12">
 			<string name="pn" value="h_west"/>
-			<int name="pt" value="10"/>
+			<int name="pt" value="1"/>
 			<int name="x" value="1338"/>
 			<int name="y" value="215"/>
 			<int name="tm" value="100000100"/>
 			<string name="tn" value="h_east"/>
-			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="13">
 			<string name="pn" value="st00"/>
@@ -9586,22 +9584,6 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 			<string name="script" value="market01"/>
-		</imgdir>
-		<imgdir name="22">
-			<string name="pn" value="hp00"/>
-			<int name="pt" value="10"/>
-			<int name="x" value="-219"/>
-			<int name="y" value="153"/>
-			<int name="tm" value="100000100"/>
-			<string name="tn" value="hp00_1"/>
-		</imgdir>
-		<imgdir name="23">
-			<string name="pn" value="hp00_1"/>
-			<int name="pt" value="10"/>
-			<int name="x" value="4751"/>
-			<int name="y" value="92"/>
-			<int name="tm" value="100000100"/>
-			<string name="tn" value="hp00"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

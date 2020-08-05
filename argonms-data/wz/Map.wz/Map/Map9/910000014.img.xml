@@ -1761,6 +1761,54 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
+		<imgdir name="0">
+			<string name="id" value="9002002"/>
+			<int name="x" value="-153"/>
+			<int name="y" value="1505"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="id" value="9002002"/>
+			<int name="x" value="328"/>
+			<int name="y" value="1505"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="id" value="9002002"/>
+			<int name="x" value="-153"/>
+			<int name="y" value="1175"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="id" value="9002002"/>
+			<int name="x" value="328"/>
+			<int name="y" value="1175"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="id" value="9002002"/>
+			<int name="x" value="-153"/>
+			<int name="y" value="965"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="id" value="9002002"/>
+			<int name="x" value="328"/>
+			<int name="y" value="965"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
 	</imgdir>
 	<imgdir name="info">
 		<int name="version" value="10"/>
@@ -2515,15 +2563,6 @@
 			<int name="y" value="1510"/>
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
-			<string name="script" value=""/>
-		</imgdir>
-		<imgdir name="10">
-			<string name="pn" value="out00"/>
-			<int name="pt" value="2"/>
-			<int name="x" value="50"/>
-			<int name="y" value="1421"/>
-			<int name="tm" value="910000000"/>
-			<string name="tn" value="in14"/>
 			<string name="script" value=""/>
 		</imgdir>
 	</imgdir>

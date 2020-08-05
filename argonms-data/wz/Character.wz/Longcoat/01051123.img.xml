@@ -19,7 +19,7 @@
 	</imgdir>
 	<imgdir name="walk1">
 		<imgdir name="0">
-			<canvas name="mail" width="24" height="20">
+			<canvas name="mail" width="25" height="19">
 				<vector name="origin" x="11" y="9"/>
 				<imgdir name="map">
 					<vector name="navel" x="-3" y="-2"/>
@@ -299,7 +299,7 @@
 			<canvas name="mail" width="28" height="20">
 				<vector name="origin" x="10" y="10"/>
 				<imgdir name="map">
-					<vector name="navel" x="5" y="-1"/>
+					<vector name="navel" x="5" y="-3"/>
 				</imgdir>
 				<string name="z" value="mailChestOverHighest"/>
 			</canvas>

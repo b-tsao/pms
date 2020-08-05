@@ -1615,7 +1615,7 @@
 		<int name="forcedReturn" value="999999999"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm03/SnowyVillage"/>
-		<string name="mapMark" value="FreeMarket"/>
+		<string name="mapMark" value="ElNath"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="personalShop" value="1"/>
 		<int name="entrustedShop" value="1"/>

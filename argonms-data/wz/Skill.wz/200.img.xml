@@ -477,7 +477,7 @@
 					<string name="hs" value="h20"/>
 					<int name="time" value="400"/>
 					<int name="mpCon" value="16"/>
-					<int name="pdd" value="40"/>
+					<int name="pdd" value="30000"/>
 				</imgdir>
 			</imgdir>
 			<imgdir name="req">
@@ -616,7 +616,7 @@
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="14"/>
 					<int name="mad" value="55"/>
-					<int name="mastery" value="10"/>
+					<int name="mastery" value="30000"/>
 				</imgdir>
 			</imgdir>
 			<imgdir name="ball">

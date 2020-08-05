@@ -3,6 +3,7 @@
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
 		<int name="level" value="59"/>
+		<int name="maxHP" value="19000"/>
 		<int name="maxMP" value="160"/>
 		<int name="speed" value="-30"/>
 		<int name="PADamage" value="155"/>
@@ -18,6 +19,5 @@
 		<int name="summonType" value="1"/>
 		<string name="link" value="4230506"/>
 		<int name="hideName" value="1"/>
-		<int name="maxHP" value="9500"/>
 	</imgdir>
 </imgdir>

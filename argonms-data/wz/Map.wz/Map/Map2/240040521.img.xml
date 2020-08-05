@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="240040521.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="swim" value="0"/>
+		<int name="returnMap" value="240000000"/>
+		<int name="forcedReturn" value="999999999"/>
+		<float name="mobRate" value="1.4000001"/>
+		<string name="bgm" value="Bgm14/DragonNest"/>
+		<string name="mapMark" value="Leafre"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="0"/>
+		<int name="VRTop" value="120"/>
+		<int name="VRLeft" value="-404"/>
+		<int name="VRBottom" value="1680"/>
+		<int name="VRRight" value="1195"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="dragonValley"/>
@@ -648,6 +665,223 @@
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
 				<int name="zM" value="2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="4">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-4"/>
+				<int name="y" value="1596"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="793"/>
+				<int name="y" value="1585"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-5"/>
+				<int name="y" value="943"/>
+				<int name="z" value="8"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="11"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="803"/>
+				<int name="y" value="1263"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="4"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-209"/>
+				<int name="y" value="1300"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="8"/>
+				<int name="x" value="78"/>
+				<int name="y" value="1159"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="373"/>
+				<int name="y" value="1282"/>
+				<int name="z" value="7"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-263"/>
+				<int name="y" value="790"/>
+				<int name="z" value="7"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="11"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="996"/>
+				<int name="y" value="960"/>
+				<int name="z" value="8"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="9"/>
+				<int name="x" value="418"/>
+				<int name="y" value="882"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="11"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="7"/>
+				<int name="x" value="401"/>
+				<int name="y" value="918"/>
+				<int name="z" value="10"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="9"/>
+				<int name="x" value="602"/>
+				<int name="y" value="1271"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="7"/>
+				<int name="x" value="585"/>
+				<int name="y" value="1170"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="9"/>
+				<int name="x" value="581"/>
+				<int name="y" value="1153"/>
+				<int name="z" value="8"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="7"/>
+				<int name="x" value="-100"/>
+				<int name="y" value="522"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="24"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="8"/>
+				<int name="x" value="96"/>
+				<int name="y" value="484"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="24"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="9"/>
+				<int name="x" value="227"/>
+				<int name="y" value="504"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="24"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="8"/>
+				<int name="x" value="590"/>
+				<int name="y" value="474"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="26"/>
+			</imgdir>
+			<imgdir name="18">
+				<string name="oS" value="dungeon3"/>
+				<string name="l0" value="dragonValley"/>
+				<string name="l1" value="foot"/>
+				<string name="l2" value="9"/>
+				<int name="x" value="484"/>
+				<int name="y" value="499"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="26"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -2593,6 +2827,15 @@
 			<int name="page" value="5"/>
 		</imgdir>
 	</imgdir>
+	<imgdir name="miniMap">
+		<canvas name="canvas" width="107" height="106">
+		</canvas>
+		<int name="width" value="1713"/>
+		<int name="height" value="1704"/>
+		<int name="centerX" value="453"/>
+		<int name="centerY" value="-86"/>
+		<int name="mag" value="4"/>
+	</imgdir>
 	<imgdir name="portal">
 		<imgdir name="0">
 			<string name="pn" value="sp"/>
@@ -2624,261 +2867,5 @@
 			<int name="hideTooltip" value="0"/>
 			<int name="delay" value="0"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="swim" value="0"/>
-		<int name="returnMap" value="240000000"/>
-		<int name="forcedReturn" value="999999999"/>
-		<float name="mobRate" value="1.4000001"/>
-		<string name="bgm" value="Bgm14/DragonNest"/>
-		<string name="mapMark" value="Leafre"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="0"/>
-		<int name="VRTop" value="120"/>
-		<int name="VRLeft" value="-404"/>
-		<int name="VRBottom" value="1680"/>
-		<int name="VRRight" value="1195"/>
-		<int name="lvLimit" value="15"/>
-	</imgdir>
-	<imgdir name="4">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-4"/>
-				<int name="y" value="1596"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="793"/>
-				<int name="y" value="1585"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="2">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-5"/>
-				<int name="y" value="943"/>
-				<int name="z" value="8"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="11"/>
-			</imgdir>
-			<imgdir name="3">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="803"/>
-				<int name="y" value="1263"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="4"/>
-			</imgdir>
-			<imgdir name="4">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="2"/>
-				<int name="x" value="-209"/>
-				<int name="y" value="1300"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="5">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="8"/>
-				<int name="x" value="78"/>
-				<int name="y" value="1159"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="6">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="373"/>
-				<int name="y" value="1282"/>
-				<int name="z" value="7"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="8">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="-263"/>
-				<int name="y" value="790"/>
-				<int name="z" value="7"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="11"/>
-			</imgdir>
-			<imgdir name="9">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="996"/>
-				<int name="y" value="960"/>
-				<int name="z" value="8"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="7">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="9"/>
-				<int name="x" value="418"/>
-				<int name="y" value="882"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="11"/>
-			</imgdir>
-			<imgdir name="10">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="7"/>
-				<int name="x" value="401"/>
-				<int name="y" value="918"/>
-				<int name="z" value="10"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="11">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="9"/>
-				<int name="x" value="602"/>
-				<int name="y" value="1271"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="12">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="7"/>
-				<int name="x" value="585"/>
-				<int name="y" value="1170"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="13">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="9"/>
-				<int name="x" value="581"/>
-				<int name="y" value="1153"/>
-				<int name="z" value="8"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="14">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="7"/>
-				<int name="x" value="-100"/>
-				<int name="y" value="522"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="24"/>
-			</imgdir>
-			<imgdir name="15">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="8"/>
-				<int name="x" value="96"/>
-				<int name="y" value="484"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="24"/>
-			</imgdir>
-			<imgdir name="16">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="9"/>
-				<int name="x" value="227"/>
-				<int name="y" value="504"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="24"/>
-			</imgdir>
-			<imgdir name="17">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="8"/>
-				<int name="x" value="590"/>
-				<int name="y" value="474"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="26"/>
-			</imgdir>
-			<imgdir name="18">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="foot"/>
-				<string name="l2" value="9"/>
-				<int name="x" value="484"/>
-				<int name="y" value="499"/>
-				<int name="z" value="9"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="26"/>
-			</imgdir>
-			<imgdir name="19">
-				<string name="oS" value="dungeon3"/>
-				<string name="l0" value="dragonValley"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="5"/>
-				<int name="x" value="335"/>
-				<int name="y" value="1408"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-				<int name="r" value="0"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="miniMap">
-		<canvas name="canvas" width="107" height="106">
-		</canvas>
-		<int name="width" value="1713"/>
-		<int name="height" value="1704"/>
-		<int name="centerX" value="453"/>
-		<int name="centerY" value="-86"/>
-		<int name="mag" value="4"/>
 	</imgdir>
 </imgdir>

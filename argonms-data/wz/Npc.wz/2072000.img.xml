@@ -6,7 +6,6 @@
 		<int name="dcRight" value="74"/>
 		<int name="dcBottom" value="0"/>
 		<int name="hideName" value="1"/>
-		<int name="talkMouseOnly" value="1"/>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="137" height="67">

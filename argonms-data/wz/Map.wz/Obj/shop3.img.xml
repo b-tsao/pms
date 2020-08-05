@@ -843,7 +843,7 @@
 				<canvas name="0" width="47" height="95">
 					<vector name="origin" x="23" y="47"/>
 					<int name="z" value="0"/>
-					<extended name="ladder">
+					<extended name="rope">
 						<vector name="null" x="-3" y="-35"/>
 						<vector name="null" x="-3" y="48"/>
 					</extended>

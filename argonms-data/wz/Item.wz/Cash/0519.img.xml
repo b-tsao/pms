@@ -91,32 +91,6 @@
 			<int name="add" value="1"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="05190007">
-		<imgdir name="info">
-			<canvas name="icon" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-			</canvas>
-			<canvas name="iconRaw" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-			</canvas>
-			<int name="cash" value="1"/>
-			<int name="add" value="1"/>
-			<int name="recall" value="1"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="05190008">
-		<imgdir name="info">
-			<canvas name="icon" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-			</canvas>
-			<canvas name="iconRaw" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-			</canvas>
-			<int name="cash" value="1"/>
-			<int name="add" value="1"/>
-			<int name="autoSpeaking" value="1"/>
-		</imgdir>
-	</imgdir>
 	<imgdir name="05191000">
 		<imgdir name="info">
 			<canvas name="icon" width="32" height="32">

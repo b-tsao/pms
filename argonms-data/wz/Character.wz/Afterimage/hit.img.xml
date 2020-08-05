@@ -91,7 +91,7 @@
 			<int name="z" value="0"/>
 		</canvas>
 	</imgdir>
-	<imgdir name="anniversary_2">
+	<imgdir name="anniversary">
 		<canvas name="0" width="130" height="103">
 			<vector name="origin" x="65" y="65"/>
 			<int name="delay" value="120"/>
@@ -114,7 +114,7 @@
 		</canvas>
 		<int name="fixed" value="1"/>
 	</imgdir>
-	<imgdir name="anniversary">
+	<imgdir name="anniversary_1">
 		<canvas name="0" width="163" height="122">
 			<vector name="origin" x="81" y="61"/>
 			<int name="delay" value="100"/>

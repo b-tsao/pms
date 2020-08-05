@@ -109,11 +109,11 @@
 	</imgdir>
 	<imgdir name="life">
 		<imgdir name="0">
-			<string name="type" value="m"/>
-			<string name="id" value="9300093"/>
+			<string name="type" value="n"/>
+			<string name="id" value="2040047"/>
 			<int name="x" value="-359"/>
 			<int name="y" value="-93"/>
-			<int name="mobTime" value="-1"/>
+			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
 			<int name="fh" value="61"/>
@@ -3299,7 +3299,7 @@
 		<int name="forcedReturn" value="211000001"/>
 		<float name="mobRate" value="0.6999999"/>
 		<string name="bgm" value="Bgm04/WarmRegard"/>
-		<string name="mapMark" value="Quest"/>
+		<string name="mapMark" value="None"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="decHP" value="10"/>
 		<float name="fs" value="0.2"/>
@@ -3308,7 +3308,7 @@
 		<int name="VRLeft" value="-1170"/>
 		<int name="VRBottom" value="383"/>
 		<int name="VRRight" value="450"/>
-		<int name="fieldLimit" value="271096"/>
+		<int name="fieldLimit" value="8952"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">

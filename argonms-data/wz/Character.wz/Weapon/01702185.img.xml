@@ -142,7 +142,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="1">
@@ -151,7 +151,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="2">
@@ -160,7 +160,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 		</imgdir>
@@ -750,7 +750,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="1">
@@ -759,7 +759,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="2">
@@ -768,7 +768,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 		</imgdir>
@@ -1206,7 +1206,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="1">
@@ -1215,7 +1215,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="2">
@@ -1224,7 +1224,7 @@
 					<imgdir name="map">
 						<vector name="hand" x="0" y="0"/>
 					</imgdir>
-					<string name="z" value="weaponOverGlove"/>
+					<string name="z" value="weaponOverHand"/>
 				</canvas>
 			</imgdir>
 		</imgdir>

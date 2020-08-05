@@ -319,6 +319,8 @@
 					<string name="act" value="chat"/>
 					<string name="0" value="c13_s1"/>
 					<string name="1" value="c13_s2"/>
+					<string name="2" value="c13_s3"/>
+					<string name="3" value="c13_s4"/>
 				</imgdir>
 			</imgdir>
 			<imgdir name="fail">
@@ -326,6 +328,8 @@
 					<string name="act" value="no"/>
 					<string name="0" value="c13_f1"/>
 					<string name="1" value="c13_f2"/>
+					<string name="2" value="c13_f3"/>
+					<string name="3" value="c13_f4"/>
 				</imgdir>
 			</imgdir>
 		</imgdir>
@@ -745,7 +749,7 @@
 					<string name="act" value="no"/>
 					<string name="0" value="c31_f1"/>
 					<string name="1" value="c31_f2"/>
-					<string name="2" value="c31_f3"/>
+					<string name="2" value="c31_3"/>
 					<string name="3" value="c31_f4"/>
 				</imgdir>
 			</imgdir>

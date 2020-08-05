@@ -26,7 +26,6 @@
 				<int name="level" value="6"/>
 			</imgdir>
 		</imgdir>
-		<int name="hideName" value="1"/>
 	</imgdir>
 	<imgdir name="regen">
 		<canvas name="0" width="89" height="88">

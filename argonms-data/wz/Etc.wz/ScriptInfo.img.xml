@@ -38,7 +38,6 @@
 	<string name="PartyAmoria_enter" value="I&apos;d like to start Amoria Party Quest!"/>
 	<string name="halloween_Lud" value="I think I left something on the floor..."/>
 	<string name="About_NLC" value="Welcome to New Leaf City!!!"/>
-	<string name="Lost_Trans1" value="Lost in Translation"/>
 	<string name="abouttheWedding" value="I want to know how to get married in Amoria!"/>
 	<string name="refine_TCG1" value="I found a futuristic-looking object!  I figured you might be right person to talk to with you being a time-traveling scientist and all..."/>
 	<string name="refine_TCG2" value="I found something that looks really old..."/>
@@ -71,7 +70,6 @@
 	<string name="s4common2" value="I would like to enter the Distorted Dimension."/>
 	<string name="refine_elnath" value="I would like to refine the items."/>
 	<string name="wizard3" value="I have something to tell you."/>
-	<string name="begin5" value="I have something to tell you."/>
 	<string name="Zakum00" value="I would like to challenge the Zakum Quest."/>
 	<string name="thief3" value="I have something to tell you."/>
 	<string name="warrior3" value="I have something to tell you."/>
@@ -116,7 +114,6 @@
 	<string name="subway_ticket" value="I want to enter the Subway."/>
 	<string name="subway_get1" value="Investigate the box."/>
 	<string name="scrollchange" value="I would like to exchange for the scroll."/>
-	<string name="begin_jp3" value="I would like to go out from this training camp."/>
 	<string name="begin7" value="I would like to go to Victoria Island."/>
 	<string name="make_murueng" value="Having special request to murueng"/>
 	<string name="cejan" value="Talk to the people of Ariant who has insufficient food."/>
@@ -138,8 +135,6 @@
 	<string name="loveProof_Leaf" value="I would like to get the proof of love."/>
 	<string name="loveProof_Muru" value="I would like to get the proof of love."/>
 	<string name="loveProof_Aria" value="I would like to get the proof of love."/>
-	<string name="Brewing_Storm" value="The Days of Yore"/>
-	<string name="Fallen_Woods" value="Additional Info"/>
 	<string name="romio_start" value="Romio, I will assist you."/>
 	<string name="juliet_start" value="Juliet, I will assist you."/>
 	<string name="watermelon" value="Please take me to the watermelon field."/>
@@ -147,28 +142,6 @@
 	<string name="X2007give" value="Maplemas? Versalmas? Grubber?!"/>
 	<string name="snow_rose" value="I wish to make the snow rose"/>
 	<string name="naomi1" value="Tell me what I need to do."/>
-	<string name="naomi" value="Can you take a look at anything?"/>
-	<string name="levelup_open" value="..."/>
-	<string name="jenu_homun" value="I wish to go to the closed laboratory."/>
-	<string name="in_bath" value="I wish to go to the bathhouse."/>
-	<string name="Jack_Additional" value="I&apos;d like to get more information!"/>
-	<string name="hwamber" value="I&apos;d like to make a Jack-o&apos;-Lantern."/>
-	<string name="pirate" value="I want to know more about Pirates."/>
-	<string name="pirate4" value="About the ultimate skills of the Pirate class."/>
-	<string name="pirate3" value="I have something to tell you..."/>
-	<string name="nautilus01" value="I have a request for you."/>
-	<string name="s4mind" value="Delli, I am here to help you!"/>
-	<string name="s4mind_in" value="Let&apos;s go save Delli!"/>
-	<string name="s4mind_out" value="I can&apos;t find Delli!"/>
-	<string name="s4strike" value="Dear Jonathan."/>
-	<string name="s4time" value="Please send me back to the world where I came from."/>
-	<string name="refine_ellinia" value="I&apos;d like to request a forged item."/>
-	<string name="guild_union" value="What&apos;s a Guild Union?"/>
-	<string name="refine_kerning" value="I&apos;d like to make an item."/>
-	<string name="nautil_black" value="Please take me to where the Black Magician&apos;s Disciples are."/>
-	<string name="kairinT" value="I have something to tell you."/>
-	<string name="nautil_cow" value="Please take me to the Stable."/>
-	<string name="aMatchMove" value="I will move to the Ariant Battle Arena/Now moving to the Ariant Battle Arena."/>
-	<string name="aMatchEnt" value="I will sign up for the Ariant Tournament/Now participating in the Ariant Tournament."/>
-	<string name="TCG5" value="I&apos;m ready for the next step-Liberation!"/>
+	<string name="naomi" value="I think I found an Artifact. Can you take a look at it?"/>
+	<string name="jenu_homun" value="I wish to go to the closed laboratory    "/>
 </imgdir>

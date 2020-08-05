@@ -257,7 +257,7 @@
 			<canvas name="shoes" width="36" height="9">
 				<vector name="origin" x="18" y="4"/>
 				<imgdir name="map">
-					<vector name="navel" x="-2" y="-7"/>
+					<vector name="navel" x="-2" y="-9"/>
 				</imgdir>
 				<string name="z" value="shoes"/>
 			</canvas>

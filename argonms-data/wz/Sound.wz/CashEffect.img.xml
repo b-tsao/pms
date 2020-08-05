@@ -27,17 +27,17 @@
 	<imgdir name="05021008">
 		<sound name="Hit"/>
 	</imgdir>
-	<imgdir name="05021009">
-		<sound name="Hit"/>
-	</imgdir>
-	<imgdir name="05021010">
-		<sound name="Hit"/>
-	</imgdir>
 	<imgdir name="05021011">
+		<uol name="Hit" value="../05021002/Hit"/>
+	</imgdir>
+	<imgdir name="05021009">
 		<sound name="Hit"/>
 	</imgdir>
 	<imgdir name="05021012">
 		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="05021016">
+		<uol name="Hit" value="../05021013/Hit"/>
 	</imgdir>
 	<imgdir name="05021013">
 		<sound name="Hit"/>
@@ -47,21 +47,6 @@
 	</imgdir>
 	<imgdir name="05021015">
 		<sound name="Hit"/>
-	</imgdir>
-	<imgdir name="05021016">
-		<uol name="Hit" value="../05021013/Hit"/>
-	</imgdir>
-	<imgdir name="05021017">
-		<sound name="Hit"/>
-	</imgdir>
-	<imgdir name="05021020">
-		<sound name="Hit"/>
-	</imgdir>
-	<imgdir name="05021021">
-		<sound name="Hit"/>
-	</imgdir>
-	<imgdir name="05021023">
-		<uol name="Hit" value="../05021002/Hit"/>
 	</imgdir>
 	<imgdir name="05190000">
 		<sound name="Use"/>

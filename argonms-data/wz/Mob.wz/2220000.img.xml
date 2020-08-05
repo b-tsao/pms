@@ -3,6 +3,7 @@
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
 		<int name="level" value="20"/>
+		<int name="maxHP" value="1000"/>
 		<int name="maxMP" value="30"/>
 		<int name="speed" value="-40"/>
 		<int name="PADamage" value="90"/>
@@ -11,8 +12,10 @@
 		<int name="MDDamage" value="30"/>
 		<int name="acc" value="60"/>
 		<int name="eva" value="8"/>
+		<int name="exp" value="65"/>
 		<int name="undead" value="0"/>
 		<int name="pushed" value="1"/>
+		<int name="hpRecovery" value="5"/>
 		<int name="mpRecovery" value="1"/>
 		<int name="hpTagColor" value="1"/>
 		<int name="hpTagBgcolor" value="5"/>
@@ -34,22 +37,7 @@
 				<int name="level" value="78"/>
 				<int name="effectAfter" value="0"/>
 			</imgdir>
-			<imgdir name="2">
-				<int name="skill" value="112"/>
-				<int name="action" value="1"/>
-				<int name="level" value="1"/>
-				<int name="effectAfter" value="0"/>
-			</imgdir>
-			<imgdir name="3">
-				<int name="skill" value="113"/>
-				<int name="action" value="1"/>
-				<int name="level" value="1"/>
-				<int name="effectAfter" value="0"/>
-			</imgdir>
 		</imgdir>
-		<int name="maxHP" value="2000"/>
-		<int name="exp" value="120"/>
-		<int name="hpRecovery" value="10"/>
 	</imgdir>
 	<imgdir name="move">
 		<canvas name="0" width="104" height="97">

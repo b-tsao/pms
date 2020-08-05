@@ -1186,7 +1186,7 @@
 		<int name="forcedReturn" value="211041900"/>
 		<float name="mobRate" value="0.39999992"/>
 		<string name="bgm" value="Bgm05/HellGate"/>
-		<string name="mapMark" value="Quest"/>
+		<string name="mapMark" value="None"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="VRTop" value="-720"/>
 		<int name="VRLeft" value="-1335"/>
@@ -1194,7 +1194,7 @@
 		<int name="VRRight" value="-225"/>
 		<int name="allMoveCheck" value="1"/>
 		<int name="swim" value="0"/>
-		<int name="fieldLimit" value="270968"/>
+		<int name="fieldLimit" value="8824"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="4">

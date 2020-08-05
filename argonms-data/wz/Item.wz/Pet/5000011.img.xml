@@ -841,7 +841,7 @@
 					<string name="act" value="sulk"/>
 					<string name="0" value="c34_f1"/>
 					<string name="1" value="c34_f2"/>
-					<string name="2" value="c34_f3"/>
+					<string name="2" value="c34_3"/>
 					<string name="3" value="c34_f4"/>
 				</imgdir>
 			</imgdir>
@@ -866,7 +866,7 @@
 					<string name="act" value="sulk"/>
 					<string name="0" value="c35_f1"/>
 					<string name="1" value="c35_f2"/>
-					<string name="2" value="c35_f3"/>
+					<string name="2" value="c35_3"/>
 					<string name="3" value="c35_f4"/>
 				</imgdir>
 			</imgdir>

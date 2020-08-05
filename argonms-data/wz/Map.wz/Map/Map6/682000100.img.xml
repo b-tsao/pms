@@ -239,32 +239,6 @@
 			<int name="rx0" value="-1179"/>
 			<int name="rx1" value="1481"/>
 		</imgdir>
-		<imgdir name="16">
-			<string name="type" value="n"/>
-			<string name="id" value="2120003"/>
-			<int name="x" value="-220"/>
-			<int name="y" value="629"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="1"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="119"/>
-			<int name="cy" value="637"/>
-			<int name="rx0" value="-270"/>
-			<int name="rx1" value="-170"/>
-		</imgdir>
-		<imgdir name="17">
-			<string name="type" value="n"/>
-			<string name="id" value="2120002"/>
-			<int name="x" value="-28"/>
-			<int name="y" value="113"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="53"/>
-			<int name="cy" value="122"/>
-			<int name="rx0" value="-78"/>
-			<int name="rx1" value="22"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
@@ -5771,14 +5745,6 @@
 			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="6">
-			<string name="pn" value="start00"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="-143"/>
-			<int name="y" value="636"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="7">
 			<string name="pn" value="st00"/>
 			<int name="pt" value="2"/>
 			<int name="x" value="17"/>
@@ -5789,7 +5755,7 @@
 			<int name="hideTooltip" value="0"/>
 			<int name="delay" value="0"/>
 		</imgdir>
-		<imgdir name="8">
+		<imgdir name="7">
 			<string name="pn" value="cm00"/>
 			<int name="pt" value="8"/>
 			<int name="x" value="17"/>

@@ -248,32 +248,6 @@
 			<int name="rx0" value="1132"/>
 			<int name="rx1" value="1232"/>
 		</imgdir>
-		<imgdir name="10">
-			<string name="type" value="n"/>
-			<string name="id" value="9010010"/>
-			<int name="x" value="-2159"/>
-			<int name="y" value="88"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="223"/>
-			<int name="cy" value="94"/>
-			<int name="rx0" value="-2209"/>
-			<int name="rx1" value="-2109"/>
-		</imgdir>
-		<imgdir name="11">
-			<string name="type" value="n"/>
-			<string name="id" value="9201106"/>
-			<int name="x" value="864"/>
-			<int name="y" value="83"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="199"/>
-			<int name="cy" value="94"/>
-			<int name="rx0" value="814"/>
-			<int name="rx1" value="914"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -5707,6 +5681,26 @@
 			<int name="y2" value="-94"/>
 		</imgdir>
 	</imgdir>
+	<imgdir name="seat">
+		<vector name="0" x="276" y="-519"/>
+		<vector name="1" x="298" y="-519"/>
+		<vector name="2" x="377" y="-519"/>
+		<vector name="3" x="402" y="-519"/>
+		<vector name="4" x="-106" y="-520"/>
+		<vector name="5" x="-78" y="-520"/>
+		<vector name="6" x="-231" y="-520"/>
+		<vector name="7" x="-203" y="-520"/>
+		<vector name="8" x="-2082" y="91"/>
+		<vector name="9" x="-2054" y="91"/>
+		<vector name="10" x="-2273" y="92"/>
+		<vector name="11" x="-2245" y="92"/>
+		<vector name="12" x="227" y="-100"/>
+		<vector name="13" x="255" y="-100"/>
+		<vector name="14" x="307" y="-100"/>
+		<vector name="15" x="335" y="-100"/>
+		<vector name="16" x="146" y="-100"/>
+		<vector name="17" x="174" y="-100"/>
+	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="0">
 			<imgdir name="3">
@@ -8205,26 +8199,6 @@
 			<int name="page" value="5"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="seat">
-		<vector name="0" x="276" y="-519"/>
-		<vector name="1" x="298" y="-519"/>
-		<vector name="2" x="377" y="-519"/>
-		<vector name="3" x="402" y="-519"/>
-		<vector name="4" x="-106" y="-520"/>
-		<vector name="5" x="-78" y="-520"/>
-		<vector name="6" x="-231" y="-520"/>
-		<vector name="7" x="-203" y="-520"/>
-		<vector name="8" x="-2082" y="91"/>
-		<vector name="9" x="-2054" y="91"/>
-		<vector name="10" x="-2273" y="92"/>
-		<vector name="11" x="-2245" y="92"/>
-		<vector name="12" x="227" y="-100"/>
-		<vector name="13" x="255" y="-100"/>
-		<vector name="14" x="307" y="-100"/>
-		<vector name="15" x="335" y="-100"/>
-		<vector name="16" x="146" y="-100"/>
-		<vector name="17" x="174" y="-100"/>
-	</imgdir>
 	<imgdir name="miniMap">
 		<canvas name="canvas" width="400" height="113">
 		</canvas>
@@ -8325,21 +8299,19 @@
 		</imgdir>
 		<imgdir name="11">
 			<string name="pn" value="h002"/>
-			<int name="pt" value="10"/>
+			<int name="pt" value="1"/>
 			<int name="x" value="-3149"/>
 			<int name="y" value="94"/>
 			<int name="tm" value="211000000"/>
 			<string name="tn" value="h002_1"/>
-			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="12">
 			<string name="pn" value="h002_1"/>
-			<int name="pt" value="10"/>
+			<int name="pt" value="1"/>
 			<int name="x" value="438"/>
 			<int name="y" value="-98"/>
 			<int name="tm" value="211000000"/>
 			<string name="tn" value="h002"/>
-			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="13">
 			<string name="pn" value="east00"/>

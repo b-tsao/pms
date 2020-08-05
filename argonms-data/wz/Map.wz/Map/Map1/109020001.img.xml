@@ -108,6 +108,19 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="life">
+	    <imgdir name="1">
+			<string name="type" value="n"/>
+			<string name="id" value="1061010"/>
+			<int name="x" value="-225"/>
+			<int name="y" value="-356"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="78"/>
+			<int name="cy" value="-356"/>
+			<int name="rx0" value="-275"/>
+			<int name="rx1" value="-175"/>
+		</imgdir>
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -2547,6 +2560,22 @@
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm00/GoPicnic"/>
+		<int name="returnMap" value="109050001"/>
+		<string name="mapDesc" value=""/>
+		<int name="hideMinimap" value="0"/>
+		<int name="forcedReturn" value="109050001"/>
+		<string name="help" value="#e[&amp;#49828;&amp;#54588;&amp;#46300; OX&amp;#53300;&amp;#51592;]#n\n\n&amp;#44636;&amp;#51677; &amp;#51060;&amp;#48292;&amp;#53944; &amp;#44172;&amp;#51076;&amp;#50640; &amp;#52280;&amp;#50668;&amp;#54644; &amp;#51452;&amp;#49888; &amp;#50668;&amp;#47084;&amp;#48516;&amp;#44760; &amp;#44048;&amp;#49324; &amp;#46300;&amp;#47549;&amp;#45768;&amp;#45796;. &amp;#44172;&amp;#51076;&amp;#50640; &amp;#45824;&amp;#54620; &amp;#44036;&amp;#45800;&amp;#54620; &amp;#49444;&amp;#47749;&amp;#51012; &amp;#46300;&amp;#47532;&amp;#44192;&amp;#49845;&amp;#45768;&amp;#45796;.\n\n&amp;#50864;&amp;#49440; [OX&amp;#53300;&amp;#51592;]&amp;#50640; &amp;#52280;&amp;#50668;&amp;#54616;&amp;#49888; &amp;#47784;&amp;#46304; &amp;#48516;&amp;#46308;&amp;#51008; #r&amp;#48120;&amp;#45768;&amp;#47605;#k&amp;#51012; &amp;#53020;&amp;#46160;&amp;#49901;&amp;#49884;&amp;#50724;. &amp;#48120;&amp;#45768;&amp;#47605;&amp;#51012; &amp;#53020;&amp;#45716; &amp;#48169;&amp;#48277;&amp;#51008; &amp;#51088;&amp;#54032;&amp;#50640;&amp;#49436; #b&apos;M&apos;#k&amp;#51012; &amp;#45572;&amp;#47476;&amp;#49884;&amp;#47732; &amp;#46121;&amp;#45768;&amp;#45796;. &amp;#48120;&amp;#45768;&amp;#47605;&amp;#50640;&amp;#49436; &amp;#48372;&amp;#51060;&amp;#45716;&amp;#45824;&amp;#47196; #b&amp;#50812;&amp;#51901;#k&amp;#51060; #rO#k, #b&amp;#50724;&amp;#47480;&amp;#51901;#k&amp;#51060; #rX#k &amp;#51077;&amp;#45768;&amp;#45796;.\n&amp;#47928;&amp;#51228;&amp;#44032; &amp;#52636;&amp;#51228;&amp;#46104;&amp;#47732; &amp;#51221;&amp;#45813;&amp;#51012; &amp;#44208;&amp;#51221;&amp;#54620; &amp;#54980; O&amp;#45208; X&amp;#51648;&amp;#50669;&amp;#51004;&amp;#47196; #b&amp;#49324;&amp;#45796;&amp;#47532;#k&amp;#47484; &amp;#53440;&amp;#44256; &amp;#45236;&amp;#47140;&amp;#44032;&amp;#49901;&amp;#49884;&amp;#50724;. #b&amp;#53440;&amp;#51060;&amp;#47672;#k&amp;#50640; &amp;#51080;&amp;#45716; &amp;#49884;&amp;#44036;&amp;#51060; &amp;#47784;&amp;#46160; &amp;#51648;&amp;#45208;&amp;#44592; &amp;#51204;&amp;#50640; &amp;#51221;&amp;#45813;&amp;#51012; &amp;#49440;&amp;#53469;&amp;#54616;&amp;#49492;&amp;#50556; &amp;#54633;&amp;#45768;&amp;#45796;. #r&amp;#51473;&amp;#44036;#k&amp;#50640; &amp;#47672;&amp;#47932;&amp;#44144;&amp;#45208; #r&amp;#49324;&amp;#45796;&amp;#47532;#k&amp;#50640; &amp;#47588;&amp;#45804;&amp;#47140; &amp;#51080;&amp;#51004;&amp;#47732; &amp;#51221;&amp;#45813;&amp;#51060; &amp;#44277;&amp;#44060;&amp;#46112;&amp;#46412; #r&amp;#51088;&amp;#46041;&amp;#51333;&amp;#47308;#k &amp;#46121;&amp;#45768;&amp;#45796;.\n&amp;#47928;&amp;#51228;&amp;#45716; #b&amp;#52509; 10&amp;#47928;&amp;#51228;#k&amp;#44032; &amp;#52636;&amp;#51228;&amp;#46104;&amp;#47728; &amp;#47784;&amp;#46304; &amp;#47928;&amp;#51228;&amp;#47484; &amp;#45796; &amp;#47582;&amp;#52628;&amp;#49884;&amp;#47732; &amp;#49345;&amp;#54408; &amp;#48155;&amp;#45716; &amp;#44275;&amp;#51004;&amp;#47196; &amp;#51060;&amp;#46041;&amp;#46121;&amp;#45768;&amp;#45796;. OX&amp;#47605;&amp;#50640;&amp;#49436;&amp;#45716; &amp;#52968;&amp;#45789;&amp;#51060;&amp;#45208; &amp;#54728;&amp;#50948;&amp;#51221;&amp;#48372; &amp;#44277;&amp;#44060;&amp;#46321;&amp;#51012; &amp;#47561;&amp;#44592;&amp;#50948;&amp;#54616;&amp;#50668; #b&amp;#52292;&amp;#54021;&amp;#44288;&amp;#47144;#k &amp;#44592;&amp;#45733;&amp;#51060; &amp;#47784;&amp;#46160; &amp;#47561;&amp;#54784;&amp;#51080;&amp;#49845;&amp;#45768;&amp;#45796;.\n"/>
+		<string name="mapMark" value="None"/>
+		<int name="fieldType" value="5"/>
+		<int name="fieldLimit" value="8958"/>
+		<int name="swim" value="0"/>
+	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">
 			<imgdir name="26">
@@ -4239,29 +4268,5 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="19">
-			<string name="pn" value="join00"/>
-			<int name="pt" value="4"/>
-			<int name="x" value="-234"/>
-			<int name="y" value="-206"/>
-			<int name="tm" value="109050000"/>
-			<string name="tn" value="start00"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm00/GoPicnic"/>
-		<int name="returnMap" value="109050001"/>
-		<string name="mapDesc" value=""/>
-		<int name="hideMinimap" value="0"/>
-		<int name="forcedReturn" value="109050001"/>
-		<string name="help" value="&amp;#44725;&amp;#42074;&amp;#64019;&amp;#21113;&amp;#41850;&amp;#54745;&amp;#52919;&amp;#26679;&amp;#41075;&amp;#24432;&amp;#40777;&amp;#12835;&amp;#57823;&amp;#45979;&amp;#5192;&amp;#8875;&amp;#50089;&amp;#11782;&amp;#28097;&amp;#49815;&amp;#65242;&amp;#33308;&amp;#14071;&amp;#36675;&amp;#20265;&amp;#20693;&amp;#54893;&amp;#24258;&amp;#4089;&amp;#9418;&amp;#44174;&amp;#41807;&amp;#34919;&amp;#48620;&amp;#8524;&amp;#55222;&amp;#55095;&amp;#31381;&amp;#23005;&amp;#41528;&amp;#41420;&amp;#32492;&amp;#64542;&amp;#19100;&amp;#10631;&amp;#4310;&amp;#39758;&amp;#12492;&amp;#17189;&amp;#16505;&amp;#19286;&amp;#21601;&amp;#6725;&amp;#544;&amp;#14827;&amp;#55778;&amp;#4305;&amp;#63406;&amp;#9871;&amp;#8652;&amp;#52949;&amp;#8396;&amp;#46052;&amp;#52821;&amp;#57968;&amp;#63624;&amp;#61609;&amp;#9271;&amp;#12877;&amp;#42855;&amp;#57006;&amp;#3790;&amp;#49154;&amp;#43939;&amp;#8206;&amp;#11974;&amp;#41696;&amp;#56106;&amp;#15904;&amp;#59845;&amp;#53285;&amp;#46401;&amp;#24277;&amp;#63578;&amp;#17400;&amp;#60786;&amp;#62886;&amp;#45566;&amp;#58368;&amp;#57825;&amp;#52547;&amp;#57905;&amp;#49058;&amp;#699;&amp;#3509;&amp;#57481;&amp;#7256;&amp;#47554;&amp;#65201;&amp;#59404;&amp;#61116;&amp;#25967;&amp;#27645;&amp;#64352;&amp;#24903;&amp;#43796;&amp;#14527;&amp;#46710;&amp;#28899;&amp;#11992;&amp;#21327;&amp;#49187;&amp;#5727;&amp;#22020;&amp;#3139;&amp;#37801;&amp;#1509;&amp;#2139;&amp;#38738;&amp;#16901;&amp;#45449;&amp;#11641;&amp;#35324;&amp;#7486;&amp;#34718;&amp;#65099;&amp;#39736;&amp;#57732;&amp;#54325;&amp;#43552;&amp;#60024;&amp;#17292;&amp;#57889;&amp;#21692;&amp;#41763;&amp;#57755;&amp;#6520;&amp;#27019;&amp;#51979;&amp;#20095;&amp;#65526;&amp;#10959;&amp;#34388;&amp;#38429;&amp;#14801;&amp;#34219;&amp;#12448;&amp;#50592;&amp;#35611;&amp;#21937;&amp;#25177;&amp;#25931;&amp;#23967;&amp;#44381;&amp;#40836;&amp;#51950;&amp;#49404;&amp;#51600;&amp;#22089;&amp;#5078;&amp;#29231;&amp;#42614;&amp;#57664;&amp;#14446;&amp;#52014;&amp;#28548;&amp;#23325;&amp;#42121;&amp;#28888;&amp;#11855;&amp;#4276;&amp;#16241;&amp;#53839;&amp;#44138;&amp;#63358;&amp;#39597;&amp;#32992;&amp;#20649;&amp;#8509;&amp;#33486;&amp;#33264;&amp;#12844;&amp;#36185;&amp;#10746;&amp;#39211;&amp;#48182;&amp;#56285;&amp;#54268;&amp;#22346;&amp;#18534;&amp;#33948;&amp;#11511;&amp;#45682;&amp;#43649;&amp;#41028;&amp;#34930;&amp;#55343;&amp;#47747;&amp;#22830;&amp;#29997;&amp;#58020;&amp;#13393;&amp;#15400;&amp;#44670;&amp;#2107;&amp;#25511;&amp;#18946;&amp;#20670;&amp;#35053;&amp;#37794;&amp;#40102;&amp;#33197;&amp;#65027;&amp;#41745;&amp;#46671;&amp;#50827;&amp;#28996;&amp;#40877;&amp;#61905;&amp;#52197;&amp;#28411;&amp;#18583;&amp;#21370;&amp;#29818;&amp;#21238;&amp;#8675;&amp;#65501;&amp;#21443;&amp;#16672;&amp;#17548;&amp;#56912;&amp;#27171;&amp;#31722;&amp;#65464;&amp;#61940;&amp;#14983;&amp;#2772;&amp;#50513;&amp;#38021;&amp;#1288;&amp;#65505;&amp;#26707;&amp;#31355;&amp;#3964;&amp;#7530;&amp;#27535;&amp;#20973;&amp;#21567;&amp;#26716;&amp;#53203;&amp;#58278;&amp;#40394;&amp;#41436;&amp;#49004;&amp;#31292;&amp;#9115;&amp;#48425;&amp;#61365;&amp;#41489;&amp;#19709;&amp;#41344;&amp;#136;&amp;#31279;&amp;#37598;&amp;#22617;&amp;#54482;&amp;#36249;&amp;#53414;&amp;#42637;&amp;#30295;&amp;#33933;&amp;#591;&amp;#28423;&amp;#56006;&amp;#4190;&amp;#20595;&amp;#7411;&amp;#56259;&amp;#23804;&amp;#46472;&amp;#6185;&amp;#34972;&amp;#62144;&amp;#33804;&amp;#59194;&amp;#2647;&amp;#27851;&amp;#37693;&amp;#22695;&amp;#36054;&amp;#32818;&amp;#38562;&amp;#3782;&amp;#62819;&amp;#50077;&amp;#22413;&amp;#22703;&amp;#52701;&amp;#42278;&amp;#46886;&amp;#49981;&amp;#61136;&amp;#17281;&amp;#45401;&amp;#18738;&amp;#53745;&amp;#8302;&amp;#52022;&amp;#40726;&amp;#44405;&amp;#57803;&amp;#39578;&amp;#35493;&amp;#51970;&amp;#8920;&amp;#14734;&amp;#47319;&amp;#45315;&amp;#56153;&amp;#64462;&amp;#22760;&amp;#43843;&amp;#18767;&amp;#15044;&amp;#38442;&amp;#12176;&amp;#18881;&amp;#64842;&amp;#61066;&amp;#6457;&amp;#36057;&amp;#16419;&amp;#55046;&amp;#21216;&amp;#41053;&amp;#6417;&amp;#17685;&amp;#784;&amp;#39102;&amp;#11450;&amp;#8796;&amp;#58962;&amp;#18804;&amp;#31401;&amp;#15479;&amp;#6879;&amp;#33223;&amp;#61822;&amp;#154;&amp;#50285;&amp;#18002;&amp;#24936;&amp;#58636;&amp;#51617;&amp;#26973;&amp;#47051;&amp;#1444;&amp;#26242;&amp;#2894;&amp;#38285;&amp;#31943;&amp;#53877;&amp;#20200;&amp;#48662;&amp;#13498;&amp;#36298;&amp;#2404;&amp;#54679;&amp;#21296;&amp;#2983;&amp;#41714;&amp;#20483;&amp;#62781;&amp;#37880;&amp;#33718;&amp;#49485;&amp;#2802;&amp;#5316;&amp;#20132;&amp;#64894;&amp;#62243;&amp;#35898;&amp;#18908;&amp;#16451;&amp;#49826;&amp;#47398;&amp;#61384;&amp;#59420;&amp;#18762;&amp;#28992;&amp;#36912;&amp;#39432;&amp;#14677;&amp;#23891;&amp;#9565;&amp;#17940;&amp;#7465;&amp;#39618;&amp;#59568;&amp;#63545;&amp;#43964;&amp;#37073;&amp;#8493;&amp;#44514;&amp;#46461;&amp;#1576;&amp;#21671;&amp;#9089;&amp;#50032;&amp;#15425;&amp;#4389;&amp;#10136;&amp;#6592;&amp;#23303;&amp;#63792;&amp;#60621;&amp;#48659;&amp;#28477;&amp;#1665;&amp;#37170;&amp;#42830;&amp;#17974;&amp;#21305;&amp;#20429;&amp;#53087;&amp;#32745;&amp;#46425;&amp;#14642;&amp;#26005;&amp;#14451;&amp;#63887;&amp;#47910;&amp;#47600;&amp;#63676;&amp;#38703;&amp;#27450;&amp;#46860;&amp;#63131;&amp;#16494;&amp;#37703;&amp;#48537;&amp;#1030;&amp;#7810;&amp;#5083;&amp;#32933;&amp;#29761;"/>
-		<string name="mapMark" value="Event"/>
-		<int name="fieldType" value="5"/>
-		<int name="fieldLimit" value="74494"/>
-		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

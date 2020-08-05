@@ -3766,9 +3766,9 @@
 		<int name="forcedReturn" value="910010300"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm11/DarkMountain"/>
-		<string name="mapMark" value="Quest"/>
+		<string name="mapMark" value="None"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="270972"/>
+		<int name="fieldLimit" value="8824"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">

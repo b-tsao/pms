@@ -2751,7 +2751,7 @@
 				<canvas name="0" width="34" height="38">
 					<vector name="origin" x="17" y="19"/>
 					<int name="z" value="0"/>
-					<canvas name="*??" width="94" height="77">
+					<canvas name="???" width="94" height="77">
 						<vector name="origin" x="47" y="38"/>
 						<int name="z" value="0"/>
 						<canvas name="???" width="350" height="122">
@@ -2759,7 +2759,7 @@
 							<int name="z" value="0"/>
 						</canvas>
 					</canvas>
-					<canvas name="???????" width="228" height="246">
+					<canvas name="??? ???" width="228" height="246">
 						<vector name="origin" x="114" y="123"/>
 						<int name="z" value="0"/>
 					</canvas>
@@ -2767,7 +2767,7 @@
 						<vector name="origin" x="58" y="35"/>
 						<int name="z" value="0"/>
 					</canvas>
-					<canvas name="????" width="67" height="44">
+					<canvas name="???1" width="67" height="44">
 						<vector name="origin" x="33" y="22"/>
 						<int name="z" value="0"/>
 					</canvas>

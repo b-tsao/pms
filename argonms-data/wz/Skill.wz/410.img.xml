@@ -634,7 +634,7 @@
 					<string name="hs" value="h20"/>
 					<int name="hpCon" value="10"/>
 					<int name="mpCon" value="10"/>
-					<int name="time" value="200"/>
+					<int name="time" value="30000"/>
 					<int name="x" value="-2"/>
 				</imgdir>
 			</imgdir>
@@ -871,7 +871,7 @@
 				<imgdir name="20">
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="30"/>
-					<int name="time" value="200"/>
+					<int name="time" value="30000"/>
 					<int name="speed" value="40"/>
 					<int name="jump" value="20"/>
 					<vector name="lt" x="-300" y="-200"/>

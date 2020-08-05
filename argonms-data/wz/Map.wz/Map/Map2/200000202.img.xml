@@ -16,6 +16,50 @@
 		<int name="VRBottom" value="301"/>
 		<int name="VRRight" value="400"/>
 	</imgdir>
+	<imgdir name="back">
+		<imgdir name="0">
+			<string name="bS" value="skyStation"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="0"/>
+			<int name="x" value="0"/>
+			<int name="y" value="0"/>
+			<int name="rx" value="0"/>
+			<int name="ry" value="0"/>
+			<int name="type" value="3"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="bS" value="skyStation"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="3"/>
+			<int name="x" value="284"/>
+			<int name="y" value="248"/>
+			<int name="rx" value="4"/>
+			<int name="ry" value="0"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="950"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="bS" value="skyStation"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="5"/>
+			<int name="x" value="274"/>
+			<int name="y" value="204"/>
+			<int name="rx" value="5"/>
+			<int name="ry" value="0"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="1200"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+	</imgdir>
 	<imgdir name="portal">
 		<imgdir name="0">
 			<string name="pn" value="sp"/>
@@ -59,6 +103,188 @@
 			<int name="rx0" value="154"/>
 			<int name="rx1" value="254"/>
 		</imgdir>
+	</imgdir>
+	<imgdir name="0">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="1">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="0"/>
+				<int name="y" value="-1"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-40"/>
+				<int name="y" value="41"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="7"/>
+				<int name="x" value="7"/>
+				<int name="y" value="34"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="5"/>
+				<int name="x" value="124"/>
+				<int name="y" value="165"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="5"/>
+				<int name="x" value="224"/>
+				<int name="y" value="165"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="0"/>
+				<int name="y" value="-2"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="3"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="3">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="298"/>
+				<int name="y" value="2"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="2"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="4">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-16"/>
+				<int name="y" value="-252"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="1"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="shop2"/>
+				<string name="l0" value="shop"/>
+				<string name="l1" value="hairshopSS"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="303"/>
+				<int name="y" value="0"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="1"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="6">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="7">
+		<imgdir name="info">
+			<string name="tS" value="blueCave"/>
+			<int name="tSMag" value="1"/>
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="seat">
+		<vector name="0" x="-11" y="54"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="1">
@@ -223,222 +449,5 @@
 			<int name="y2" value="172"/>
 			<int name="page" value="3"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="back">
-		<imgdir name="0">
-			<string name="bS" value="skyStation"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="0"/>
-			<int name="x" value="0"/>
-			<int name="y" value="0"/>
-			<int name="rx" value="0"/>
-			<int name="ry" value="0"/>
-			<int name="type" value="3"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="f" value="0"/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="bS" value="skyStation"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="3"/>
-			<int name="x" value="284"/>
-			<int name="y" value="248"/>
-			<int name="rx" value="4"/>
-			<int name="ry" value="0"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="950"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="f" value="0"/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="bS" value="skyStation"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="5"/>
-			<int name="x" value="274"/>
-			<int name="y" value="204"/>
-			<int name="rx" value="5"/>
-			<int name="ry" value="0"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="1200"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="f" value="0"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="0">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="1">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="0"/>
-				<int name="y" value="-1"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-40"/>
-				<int name="y" value="41"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="2">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="7"/>
-				<int name="x" value="7"/>
-				<int name="y" value="34"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="3">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="5"/>
-				<int name="x" value="124"/>
-				<int name="y" value="165"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="4">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="5"/>
-				<int name="x" value="224"/>
-				<int name="y" value="165"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="2">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="0"/>
-				<int name="y" value="-2"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="3"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="3">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="2"/>
-				<int name="x" value="298"/>
-				<int name="y" value="2"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="2"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="4">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="-16"/>
-				<int name="y" value="-252"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="1"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="oS" value="shop2"/>
-				<string name="l0" value="shop"/>
-				<string name="l1" value="hairshopSS"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="303"/>
-				<int name="y" value="0"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="1"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="5">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="6">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="7">
-		<imgdir name="info">
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="reactor">
-	</imgdir>
-	<imgdir name="seat">
-		<vector name="0" x="-11" y="54"/>
-		<vector name="1" x="106" y="194"/>
-		<vector name="2" x="206" y="194"/>
 	</imgdir>
 </imgdir>

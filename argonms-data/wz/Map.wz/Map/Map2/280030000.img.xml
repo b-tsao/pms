@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="280030000.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="returnMap" value="211000000"/>
+		<int name="forcedReturn" value="211041900"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm06/WelcomeToTheHell"/>
+		<string name="mapMark" value="ElNathDungeon"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8828"/>
+		<int name="VRTop" value="-695"/>
+		<int name="VRLeft" value="-570"/>
+		<int name="VRBottom" value="-95"/>
+		<int name="VRRight" value="660"/>
+		<int name="swim" value="0"/>
+		<int name="fieldType" value="12"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="moltenRock"/>
@@ -2675,23 +2693,5 @@
 			<int name="tm" value="280030000"/>
 			<string name="tn" value="h000"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="returnMap" value="211000000"/>
-		<int name="forcedReturn" value="211041900"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm06/WelcomeToTheHell"/>
-		<string name="mapMark" value="ElNathDungeon"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="467580"/>
-		<int name="VRTop" value="-695"/>
-		<int name="VRLeft" value="-570"/>
-		<int name="VRBottom" value="-95"/>
-		<int name="VRRight" value="660"/>
-		<int name="swim" value="0"/>
-		<int name="fieldType" value="12"/>
 	</imgdir>
 </imgdir>

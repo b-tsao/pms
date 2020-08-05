@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="240040210.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="swim" value="0"/>
+		<int name="returnMap" value="240000000"/>
+		<int name="forcedReturn" value="999999999"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm14/DragonNest"/>
+		<string name="mapMark" value="Leafre"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="0"/>
+		<int name="VRTop" value="23"/>
+		<int name="VRLeft" value="-407"/>
+		<int name="VRBottom" value="2067"/>
+		<int name="VRRight" value="393"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="dragonValley"/>
@@ -2829,23 +2846,5 @@
 			<int name="tm" value="240040200"/>
 			<string name="tn" value="st00"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="swim" value="0"/>
-		<int name="returnMap" value="240000000"/>
-		<int name="forcedReturn" value="999999999"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm14/DragonNest"/>
-		<string name="mapMark" value="Leafre"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="0"/>
-		<int name="VRTop" value="23"/>
-		<int name="VRLeft" value="-407"/>
-		<int name="VRBottom" value="2067"/>
-		<int name="VRRight" value="393"/>
-		<int name="lvLimit" value="15"/>
 	</imgdir>
 </imgdir>

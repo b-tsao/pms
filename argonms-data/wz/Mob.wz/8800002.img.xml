@@ -65,14 +65,6 @@
 				<int name="effectAfter" value="0"/>
 			</imgdir>
 		</imgdir>
-		<string name="defaultHP" value="&amp;#24759;&amp;#27690;&amp;#18368;&amp;#15581;"/>
-		<string name="defaultMP" value="&amp;#24759;&amp;#27690;&amp;#18368;&amp;#15581;"/>
-		<imgdir name="default">
-			<canvas name="0" width="205" height="146">
-				<vector name="origin" x="102" y="73"/>
-				<int name="z" value="0"/>
-			</canvas>
-		</imgdir>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="385" height="416">

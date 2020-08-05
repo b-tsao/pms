@@ -242,7 +242,7 @@
 			<uol name="default" value="../0/default"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="hot">
+	<imgdir name="dam">
 		<imgdir name="0">
 			<canvas name="default" width="34" height="26">
 				<vector name="origin" x="15" y="25"/>
@@ -256,12 +256,18 @@
 			<uol name="default" value="../0/default"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="dam">
+	<imgdir name="hot">
 		<imgdir name="0">
-			<uol name="default" value="../../default/default"/>
+			<canvas name="default" width="34" height="26">
+				<vector name="origin" x="15" y="25"/>
+				<imgdir name="map">
+					<vector name="brow" x="0" y="-32"/>
+				</imgdir>
+				<string name="z" value="accessoryFace"/>
+			</canvas>
 		</imgdir>
 		<imgdir name="1">
-			<uol name="default" value="../../default/default"/>
+			<uol name="default" value="../0/default"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

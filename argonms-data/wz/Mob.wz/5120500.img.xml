@@ -128,6 +128,34 @@
 		<uol name="11" value="5"/>
 	</imgdir>
 	<imgdir name="attack1">
+		<imgdir name="info">
+			<imgdir name="range">
+				<vector name="sp" x="-44" y="-33"/>
+				<int name="r" value="50"/>
+			</imgdir>
+			<imgdir name="hit">
+				<canvas name="0" width="84" height="90">
+					<vector name="origin" x="52" y="90"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="1" width="95" height="105">
+					<vector name="origin" x="58" y="101"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="2" width="76" height="76">
+					<vector name="origin" x="46" y="72"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<canvas name="3" width="74" height="72">
+					<vector name="origin" x="46" y="70"/>
+					<int name="delay" value="120"/>
+				</canvas>
+				<int name="attach" value="1"/>
+			</imgdir>
+			<int name="type" value="1"/>
+			<int name="attackAfter" value="330"/>
+			<int name="PADamage" value="165"/>
+		</imgdir>
 		<canvas name="0" width="78" height="85">
 			<vector name="origin" x="42" y="85"/>
 			<vector name="lt" x="-42" y="-85"/>
@@ -218,34 +246,6 @@
 		<uol name="15" value="9"/>
 		<uol name="16" value="10"/>
 		<uol name="17" value="11"/>
-		<imgdir name="info">
-			<imgdir name="range">
-				<vector name="sp" x="-44" y="-33"/>
-				<int name="r" value="35"/>
-			</imgdir>
-			<imgdir name="hit">
-				<canvas name="0" width="84" height="90">
-					<vector name="origin" x="52" y="90"/>
-					<int name="delay" value="120"/>
-				</canvas>
-				<canvas name="1" width="95" height="105">
-					<vector name="origin" x="58" y="101"/>
-					<int name="delay" value="120"/>
-				</canvas>
-				<canvas name="2" width="76" height="76">
-					<vector name="origin" x="46" y="72"/>
-					<int name="delay" value="120"/>
-				</canvas>
-				<canvas name="3" width="74" height="72">
-					<vector name="origin" x="46" y="70"/>
-					<int name="delay" value="120"/>
-				</canvas>
-				<int name="attach" value="1"/>
-			</imgdir>
-			<int name="type" value="1"/>
-			<int name="attackAfter" value="330"/>
-			<int name="PADamage" value="165"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="chase">
 		<canvas name="0" width="92" height="86">

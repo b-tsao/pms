@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="200090011.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="1"/>
+		<int name="returnMap" value="101000300"/>
+		<int name="forcedReturn" value="101000300"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm04/UponTheSky"/>
+		<string name="mapMark" value="Ellinia"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8318"/>
+		<int name="VRTop" value="-300"/>
+		<int name="VRLeft" value="-400"/>
+		<int name="VRBottom" value="300"/>
+		<int name="VRRight" value="400"/>
+		<int name="swim" value="0"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value=""/>
@@ -623,22 +640,5 @@
 			<int name="tm" value="200090010"/>
 			<string name="tn" value="under00"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="1"/>
-		<int name="returnMap" value="101000300"/>
-		<int name="forcedReturn" value="101000300"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm04/UponTheSky"/>
-		<string name="mapMark" value="Ellinia"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="401534"/>
-		<int name="VRTop" value="-300"/>
-		<int name="VRLeft" value="-400"/>
-		<int name="VRBottom" value="300"/>
-		<int name="VRRight" value="400"/>
-		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

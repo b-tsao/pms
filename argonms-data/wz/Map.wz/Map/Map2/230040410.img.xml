@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="230040410.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="swim" value="0"/>
+		<int name="returnMap" value="230000000"/>
+		<int name="forcedReturn" value="230040400"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm12/AquaCave"/>
+		<string name="mapMark" value="AquaRoad"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8296"/>
+		<int name="VRTop" value="-300"/>
+		<int name="VRLeft" value="-405"/>
+		<int name="VRBottom" value="300"/>
+		<int name="VRRight" value="1247"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="aquaCave"/>
@@ -1493,23 +1510,5 @@
 			<string name="tn" value=""/>
 			<string name="script" value="Pianus"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="swim" value="0"/>
-		<int name="returnMap" value="230000000"/>
-		<int name="forcedReturn" value="230040400"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm12/AquaCave"/>
-		<string name="mapMark" value="AquaRoad"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8296"/>
-		<int name="VRTop" value="-300"/>
-		<int name="VRLeft" value="-405"/>
-		<int name="VRBottom" value="300"/>
-		<int name="VRRight" value="1247"/>
-		<int name="lvLimit" value="15"/>
 	</imgdir>
 </imgdir>

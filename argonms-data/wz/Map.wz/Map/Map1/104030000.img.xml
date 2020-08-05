@@ -90,6 +90,685 @@
 			<int name="f" value="0"/>
 		</imgdir>
 	</imgdir>
+	<imgdir name="life">
+		<imgdir name="4">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-2850"/>
+			<int name="y" value="-784"/>
+			<int name="fh" value="282"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="0">
+			<string name="type" value="m"/>
+			<string name="id" value="0130101"/>
+			<int name="x" value="-612"/>
+			<int name="y" value="150"/>
+			<int name="fh" value="96"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-2697"/>
+			<int name="y" value="-760"/>
+			<int name="fh" value="285"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="type" value="m"/>
+			<string name="id" value="0130101"/>
+			<int name="x" value="-1774"/>
+			<int name="y" value="145"/>
+			<int name="fh" value="140"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-453"/>
+			<int name="y" value="174"/>
+			<int name="fh" value="95"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="type" value="m"/>
+			<string name="id" value="0130101"/>
+			<int name="x" value="-1697"/>
+			<int name="y" value="-795"/>
+			<int name="fh" value="265"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-2610"/>
+			<int name="y" value="-772"/>
+			<int name="fh" value="285"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="type" value="m"/>
+			<string name="id" value="0130101"/>
+			<int name="x" value="-1117"/>
+			<int name="y" value="-40"/>
+			<int name="fh" value="126"/>
+			<int name="cy" value="-25"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="type" value="m"/>
+			<string name="id" value="0130101"/>
+			<int name="x" value="-2131"/>
+			<int name="y" value="167"/>
+			<int name="fh" value="148"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-1182"/>
+			<int name="y" value="-1319"/>
+			<int name="fh" value="192"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="type" value="m"/>
+			<string name="id" value="0210100"/>
+			<int name="x" value="-1334"/>
+			<int name="y" value="-1340"/>
+			<int name="fh" value="193"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-2986"/>
+			<int name="y" value="-18"/>
+			<int name="fh" value="172"/>
+			<int name="cy" value="35"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="12">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-2762"/>
+			<int name="y" value="-21"/>
+			<int name="fh" value="147"/>
+			<int name="cy" value="35"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="13">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-2237"/>
+			<int name="y" value="168"/>
+			<int name="fh" value="149"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="14">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-2335"/>
+			<int name="y" value="-164"/>
+			<int name="fh" value="58"/>
+			<int name="cy" value="-115"/>
+			<int name="rx0" value="-2674"/>
+			<int name="rx1" value="-2096"/>
+		</imgdir>
+		<imgdir name="15">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-2742"/>
+			<int name="y" value="-372"/>
+			<int name="fh" value="317"/>
+			<int name="cy" value="-325"/>
+			<int name="rx0" value="-2899"/>
+			<int name="rx1" value="-2501"/>
+		</imgdir>
+		<imgdir name="16">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-1533"/>
+			<int name="y" value="149"/>
+			<int name="fh" value="143"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="17">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-334"/>
+			<int name="y" value="156"/>
+			<int name="fh" value="93"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="18">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-157"/>
+			<int name="y" value="155"/>
+			<int name="fh" value="89"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="19">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-103"/>
+			<int name="y" value="-390"/>
+			<int name="fh" value="79"/>
+			<int name="cy" value="-355"/>
+			<int name="rx0" value="-514"/>
+			<int name="rx1" value="154"/>
+		</imgdir>
+		<imgdir name="20">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-322"/>
+			<int name="y" value="-802"/>
+			<int name="fh" value="221"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-919"/>
+			<int name="rx1" value="-71"/>
+		</imgdir>
+		<imgdir name="21">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-1961"/>
+			<int name="y" value="-788"/>
+			<int name="fh" value="264"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="22">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-787"/>
+			<int name="y" value="-1330"/>
+			<int name="fh" value="208"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="23">
+			<string name="type" value="m"/>
+			<string name="id" value="1210100"/>
+			<int name="x" value="-957"/>
+			<int name="y" value="-1330"/>
+			<int name="fh" value="196"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="24">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-869"/>
+			<int name="y" value="-1343"/>
+			<int name="fh" value="206"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="25">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-1410"/>
+			<int name="y" value="-1335"/>
+			<int name="fh" value="201"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="26">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-1551"/>
+			<int name="y" value="-1336"/>
+			<int name="fh" value="200"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="27">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-2574"/>
+			<int name="y" value="-1314"/>
+			<int name="fh" value="337"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-2719"/>
+			<int name="rx1" value="-1961"/>
+		</imgdir>
+		<imgdir name="28">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-2406"/>
+			<int name="y" value="-1308"/>
+			<int name="fh" value="335"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-2719"/>
+			<int name="rx1" value="-1961"/>
+		</imgdir>
+		<imgdir name="29">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-2061"/>
+			<int name="y" value="-1310"/>
+			<int name="fh" value="338"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-2719"/>
+			<int name="rx1" value="-1961"/>
+		</imgdir>
+		<imgdir name="30">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-2773"/>
+			<int name="y" value="-776"/>
+			<int name="fh" value="283"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="31">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-1809"/>
+			<int name="y" value="-795"/>
+			<int name="fh" value="257"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="32">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-2860"/>
+			<int name="y" value="-30"/>
+			<int name="fh" value="162"/>
+			<int name="cy" value="35"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="33">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-1929"/>
+			<int name="y" value="155"/>
+			<int name="fh" value="145"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="34">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="94"/>
+			<int name="y" value="143"/>
+			<int name="fh" value="92"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="35">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-61"/>
+			<int name="y" value="-48"/>
+			<int name="fh" value="35"/>
+			<int name="cy" value="5"/>
+			<int name="rx0" value="-334"/>
+			<int name="rx1" value="154"/>
+		</imgdir>
+		<imgdir name="36">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-415"/>
+			<int name="y" value="-386"/>
+			<int name="fh" value="75"/>
+			<int name="cy" value="-355"/>
+			<int name="rx0" value="-514"/>
+			<int name="rx1" value="154"/>
+		</imgdir>
+		<imgdir name="37">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-580"/>
+			<int name="y" value="-783"/>
+			<int name="fh" value="218"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-919"/>
+			<int name="rx1" value="-71"/>
+		</imgdir>
+		<imgdir name="38">
+			<string name="type" value="m"/>
+			<string name="id" value="1210101"/>
+			<int name="x" value="-447"/>
+			<int name="y" value="-783"/>
+			<int name="fh" value="222"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-919"/>
+			<int name="rx1" value="-71"/>
+		</imgdir>
+		<imgdir name="39">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-217"/>
+			<int name="y" value="-783"/>
+			<int name="fh" value="220"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-919"/>
+			<int name="rx1" value="-71"/>
+		</imgdir>
+		<imgdir name="40">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-1059"/>
+			<int name="y" value="-1313"/>
+			<int name="fh" value="205"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="41">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-1275"/>
+			<int name="y" value="-1329"/>
+			<int name="fh" value="193"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="42">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2493"/>
+			<int name="y" value="-1320"/>
+			<int name="fh" value="328"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-2719"/>
+			<int name="rx1" value="-1961"/>
+		</imgdir>
+		<imgdir name="43">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2306"/>
+			<int name="y" value="-1303"/>
+			<int name="fh" value="334"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-2719"/>
+			<int name="rx1" value="-1961"/>
+		</imgdir>
+		<imgdir name="44">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2079"/>
+			<int name="y" value="-772"/>
+			<int name="fh" value="263"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="45">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2910"/>
+			<int name="y" value="-777"/>
+			<int name="fh" value="281"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="46">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2025"/>
+			<int name="y" value="176"/>
+			<int name="fh" value="146"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="47">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-930"/>
+			<int name="y" value="-90"/>
+			<int name="fh" value="6"/>
+			<int name="cy" value="-55"/>
+			<int name="rx0" value="-1144"/>
+			<int name="rx1" value="-656"/>
+		</imgdir>
+		<imgdir name="48">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-529"/>
+			<int name="y" value="155"/>
+			<int name="fh" value="95"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="49">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-5"/>
+			<int name="y" value="163"/>
+			<int name="fh" value="90"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="50">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-278"/>
+			<int name="y" value="-386"/>
+			<int name="fh" value="82"/>
+			<int name="cy" value="-355"/>
+			<int name="rx0" value="-514"/>
+			<int name="rx1" value="154"/>
+		</imgdir>
+		<imgdir name="51">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2187"/>
+			<int name="y" value="-777"/>
+			<int name="fh" value="271"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="52">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-2632"/>
+			<int name="y" value="-346"/>
+			<int name="fh" value="319"/>
+			<int name="cy" value="-325"/>
+			<int name="rx0" value="-2899"/>
+			<int name="rx1" value="-2501"/>
+		</imgdir>
+		<imgdir name="53">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-3106"/>
+			<int name="y" value="-13"/>
+			<int name="fh" value="171"/>
+			<int name="cy" value="35"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="54">
+			<string name="type" value="m"/>
+			<string name="id" value="0130100"/>
+			<int name="x" value="-1630"/>
+			<int name="y" value="163"/>
+			<int name="fh" value="144"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="55">
+			<string name="type" value="m"/>
+			<string name="id" value="0100101"/>
+			<int name="x" value="-1847"/>
+			<int name="y" value="-1245"/>
+			<int name="fh" value="344"/>
+			<int name="cy" value="-1225"/>
+			<int name="rx0" value="-1909"/>
+			<int name="rx1" value="-1781"/>
+		</imgdir>
+		<imgdir name="56">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-1841"/>
+			<int name="y" value="143"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="139"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="57">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-1626"/>
+			<int name="y" value="166"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="144"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="58">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-406"/>
+			<int name="y" value="166"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="94"/>
+			<int name="cy" value="215"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+		<imgdir name="59">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-196"/>
+			<int name="y" value="-403"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="78"/>
+			<int name="cy" value="-355"/>
+			<int name="rx0" value="-514"/>
+			<int name="rx1" value="154"/>
+		</imgdir>
+		<imgdir name="60">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-510"/>
+			<int name="y" value="-777"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="219"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-919"/>
+			<int name="rx1" value="-71"/>
+		</imgdir>
+		<imgdir name="61">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-1233"/>
+			<int name="y" value="-1306"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="192"/>
+			<int name="cy" value="-1285"/>
+			<int name="rx0" value="-1729"/>
+			<int name="rx1" value="-611"/>
+		</imgdir>
+		<imgdir name="62">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-2543"/>
+			<int name="y" value="-770"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="284"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2989"/>
+			<int name="rx1" value="-2321"/>
+		</imgdir>
+		<imgdir name="63">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-1886"/>
+			<int name="y" value="-793"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="257"/>
+			<int name="cy" value="-745"/>
+			<int name="rx0" value="-2269"/>
+			<int name="rx1" value="-1421"/>
+		</imgdir>
+		<imgdir name="64">
+			<string name="type" value="m"/>
+			<string name="id" value="9400570"/>
+			<int name="x" value="-2770"/>
+			<int name="y" value="7"/>
+			<int name="mobTime" value="1"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="147"/>
+			<int name="cy" value="35"/>
+			<int name="rx0" value="-3259"/>
+			<int name="rx1" value="199"/>
+		</imgdir>
+	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
 			<string name="tS" value="grassySoil"/>
@@ -11407,582 +12086,6 @@
 			<int name="y" value="35"/>
 			<int name="tm" value="104020000"/>
 			<string name="tn" value="east00"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="ToolTip">
-		<imgdir name="0">
-			<int name="x1" value="-2988"/>
-			<int name="y1" value="-109"/>
-			<int name="x2" value="-2899"/>
-			<int name="y2" value="-17"/>
-		</imgdir>
-		<imgdir name="1">
-			<int name="x1" value="-214"/>
-			<int name="y1" value="-503"/>
-			<int name="x2" value="-122"/>
-			<int name="y2" value="-383"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="life">
-		<imgdir name="4">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-2850"/>
-			<int name="y" value="-784"/>
-			<int name="fh" value="282"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2989"/>
-			<int name="rx1" value="-2321"/>
-		</imgdir>
-		<imgdir name="0">
-			<string name="type" value="m"/>
-			<string name="id" value="0130101"/>
-			<int name="x" value="-612"/>
-			<int name="y" value="150"/>
-			<int name="fh" value="96"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="5">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-2697"/>
-			<int name="y" value="-760"/>
-			<int name="fh" value="285"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2989"/>
-			<int name="rx1" value="-2321"/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="type" value="m"/>
-			<string name="id" value="0130101"/>
-			<int name="x" value="-1774"/>
-			<int name="y" value="145"/>
-			<int name="fh" value="140"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-453"/>
-			<int name="y" value="174"/>
-			<int name="fh" value="95"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="3">
-			<string name="type" value="m"/>
-			<string name="id" value="0130101"/>
-			<int name="x" value="-1697"/>
-			<int name="y" value="-795"/>
-			<int name="fh" value="265"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2269"/>
-			<int name="rx1" value="-1421"/>
-		</imgdir>
-		<imgdir name="8">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-2610"/>
-			<int name="y" value="-772"/>
-			<int name="fh" value="285"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2989"/>
-			<int name="rx1" value="-2321"/>
-		</imgdir>
-		<imgdir name="7">
-			<string name="type" value="m"/>
-			<string name="id" value="0130101"/>
-			<int name="x" value="-1117"/>
-			<int name="y" value="-40"/>
-			<int name="fh" value="126"/>
-			<int name="cy" value="-25"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="6">
-			<string name="type" value="m"/>
-			<string name="id" value="0130101"/>
-			<int name="x" value="-2131"/>
-			<int name="y" value="167"/>
-			<int name="fh" value="148"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="10">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-1182"/>
-			<int name="y" value="-1319"/>
-			<int name="fh" value="192"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="9">
-			<string name="type" value="m"/>
-			<string name="id" value="0210100"/>
-			<int name="x" value="-1334"/>
-			<int name="y" value="-1340"/>
-			<int name="fh" value="193"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="11">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-2986"/>
-			<int name="y" value="-18"/>
-			<int name="fh" value="172"/>
-			<int name="cy" value="35"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="12">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-2762"/>
-			<int name="y" value="-21"/>
-			<int name="fh" value="147"/>
-			<int name="cy" value="35"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="13">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-2237"/>
-			<int name="y" value="168"/>
-			<int name="fh" value="149"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="14">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-2335"/>
-			<int name="y" value="-164"/>
-			<int name="fh" value="58"/>
-			<int name="cy" value="-115"/>
-			<int name="rx0" value="-2674"/>
-			<int name="rx1" value="-2096"/>
-		</imgdir>
-		<imgdir name="15">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-2742"/>
-			<int name="y" value="-372"/>
-			<int name="fh" value="317"/>
-			<int name="cy" value="-325"/>
-			<int name="rx0" value="-2899"/>
-			<int name="rx1" value="-2501"/>
-		</imgdir>
-		<imgdir name="16">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-1533"/>
-			<int name="y" value="149"/>
-			<int name="fh" value="143"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="17">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-334"/>
-			<int name="y" value="156"/>
-			<int name="fh" value="93"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="18">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-157"/>
-			<int name="y" value="155"/>
-			<int name="fh" value="89"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="19">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-103"/>
-			<int name="y" value="-390"/>
-			<int name="fh" value="79"/>
-			<int name="cy" value="-355"/>
-			<int name="rx0" value="-514"/>
-			<int name="rx1" value="154"/>
-		</imgdir>
-		<imgdir name="20">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-322"/>
-			<int name="y" value="-802"/>
-			<int name="fh" value="221"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-919"/>
-			<int name="rx1" value="-71"/>
-		</imgdir>
-		<imgdir name="21">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-1900"/>
-			<int name="y" value="-784"/>
-			<int name="fh" value="264"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2269"/>
-			<int name="rx1" value="-1421"/>
-		</imgdir>
-		<imgdir name="22">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-787"/>
-			<int name="y" value="-1330"/>
-			<int name="fh" value="208"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="23">
-			<string name="type" value="m"/>
-			<string name="id" value="1210100"/>
-			<int name="x" value="-957"/>
-			<int name="y" value="-1330"/>
-			<int name="fh" value="196"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="24">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-869"/>
-			<int name="y" value="-1343"/>
-			<int name="fh" value="206"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="25">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-1410"/>
-			<int name="y" value="-1335"/>
-			<int name="fh" value="201"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="26">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-1551"/>
-			<int name="y" value="-1336"/>
-			<int name="fh" value="200"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="27">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-2574"/>
-			<int name="y" value="-1314"/>
-			<int name="fh" value="337"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-2719"/>
-			<int name="rx1" value="-1961"/>
-		</imgdir>
-		<imgdir name="28">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-2406"/>
-			<int name="y" value="-1308"/>
-			<int name="fh" value="335"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-2719"/>
-			<int name="rx1" value="-1961"/>
-		</imgdir>
-		<imgdir name="29">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-2061"/>
-			<int name="y" value="-1310"/>
-			<int name="fh" value="338"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-2719"/>
-			<int name="rx1" value="-1961"/>
-		</imgdir>
-		<imgdir name="30">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-2773"/>
-			<int name="y" value="-776"/>
-			<int name="fh" value="283"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2989"/>
-			<int name="rx1" value="-2321"/>
-		</imgdir>
-		<imgdir name="31">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-1809"/>
-			<int name="y" value="-795"/>
-			<int name="fh" value="257"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2269"/>
-			<int name="rx1" value="-1421"/>
-		</imgdir>
-		<imgdir name="32">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-2860"/>
-			<int name="y" value="-30"/>
-			<int name="fh" value="162"/>
-			<int name="cy" value="35"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="33">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-1929"/>
-			<int name="y" value="155"/>
-			<int name="fh" value="145"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="34">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="94"/>
-			<int name="y" value="143"/>
-			<int name="fh" value="92"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="35">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-61"/>
-			<int name="y" value="-48"/>
-			<int name="fh" value="35"/>
-			<int name="cy" value="5"/>
-			<int name="rx0" value="-334"/>
-			<int name="rx1" value="154"/>
-		</imgdir>
-		<imgdir name="36">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-415"/>
-			<int name="y" value="-386"/>
-			<int name="fh" value="75"/>
-			<int name="cy" value="-355"/>
-			<int name="rx0" value="-514"/>
-			<int name="rx1" value="154"/>
-		</imgdir>
-		<imgdir name="37">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-580"/>
-			<int name="y" value="-783"/>
-			<int name="fh" value="218"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-919"/>
-			<int name="rx1" value="-71"/>
-		</imgdir>
-		<imgdir name="38">
-			<string name="type" value="m"/>
-			<string name="id" value="1210101"/>
-			<int name="x" value="-447"/>
-			<int name="y" value="-783"/>
-			<int name="fh" value="222"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-919"/>
-			<int name="rx1" value="-71"/>
-		</imgdir>
-		<imgdir name="39">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-217"/>
-			<int name="y" value="-783"/>
-			<int name="fh" value="220"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-919"/>
-			<int name="rx1" value="-71"/>
-		</imgdir>
-		<imgdir name="40">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-1059"/>
-			<int name="y" value="-1313"/>
-			<int name="fh" value="205"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="41">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-1275"/>
-			<int name="y" value="-1329"/>
-			<int name="fh" value="193"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-1729"/>
-			<int name="rx1" value="-611"/>
-		</imgdir>
-		<imgdir name="42">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2493"/>
-			<int name="y" value="-1320"/>
-			<int name="fh" value="328"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-2719"/>
-			<int name="rx1" value="-1961"/>
-		</imgdir>
-		<imgdir name="43">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2306"/>
-			<int name="y" value="-1303"/>
-			<int name="fh" value="334"/>
-			<int name="cy" value="-1285"/>
-			<int name="rx0" value="-2719"/>
-			<int name="rx1" value="-1961"/>
-		</imgdir>
-		<imgdir name="44">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2079"/>
-			<int name="y" value="-772"/>
-			<int name="fh" value="263"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2269"/>
-			<int name="rx1" value="-1421"/>
-		</imgdir>
-		<imgdir name="45">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2910"/>
-			<int name="y" value="-777"/>
-			<int name="fh" value="281"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2989"/>
-			<int name="rx1" value="-2321"/>
-		</imgdir>
-		<imgdir name="46">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2025"/>
-			<int name="y" value="176"/>
-			<int name="fh" value="146"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="47">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-930"/>
-			<int name="y" value="-90"/>
-			<int name="fh" value="6"/>
-			<int name="cy" value="-55"/>
-			<int name="rx0" value="-1144"/>
-			<int name="rx1" value="-656"/>
-		</imgdir>
-		<imgdir name="48">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-529"/>
-			<int name="y" value="155"/>
-			<int name="fh" value="95"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="49">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-5"/>
-			<int name="y" value="163"/>
-			<int name="fh" value="90"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="50">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-278"/>
-			<int name="y" value="-386"/>
-			<int name="fh" value="82"/>
-			<int name="cy" value="-355"/>
-			<int name="rx0" value="-514"/>
-			<int name="rx1" value="154"/>
-		</imgdir>
-		<imgdir name="51">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2187"/>
-			<int name="y" value="-777"/>
-			<int name="fh" value="271"/>
-			<int name="cy" value="-745"/>
-			<int name="rx0" value="-2269"/>
-			<int name="rx1" value="-1421"/>
-		</imgdir>
-		<imgdir name="52">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-2632"/>
-			<int name="y" value="-346"/>
-			<int name="fh" value="319"/>
-			<int name="cy" value="-325"/>
-			<int name="rx0" value="-2899"/>
-			<int name="rx1" value="-2501"/>
-		</imgdir>
-		<imgdir name="53">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-3106"/>
-			<int name="y" value="-13"/>
-			<int name="fh" value="171"/>
-			<int name="cy" value="35"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="54">
-			<string name="type" value="m"/>
-			<string name="id" value="0130100"/>
-			<int name="x" value="-1630"/>
-			<int name="y" value="163"/>
-			<int name="fh" value="144"/>
-			<int name="cy" value="215"/>
-			<int name="rx0" value="-3259"/>
-			<int name="rx1" value="199"/>
-		</imgdir>
-		<imgdir name="55">
-			<string name="type" value="m"/>
-			<string name="id" value="0100101"/>
-			<int name="x" value="-1847"/>
-			<int name="y" value="-1245"/>
-			<int name="fh" value="344"/>
-			<int name="cy" value="-1225"/>
-			<int name="rx0" value="-1909"/>
-			<int name="rx1" value="-1781"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

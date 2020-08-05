@@ -2569,7 +2569,7 @@
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="24"/>
 					<int name="x" value="20"/>
-					<int name="time" value="160"/>
+					<int name="time" value="30000"/>
 					<int name="pad" value="12"/>
 				</imgdir>
 			</imgdir>

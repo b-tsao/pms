@@ -768,7 +768,7 @@
 				<imgdir name="20">
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="30"/>
-					<int name="time" value="300"/>
+					<int name="time" value="30000"/>
 					<int name="x" value="30"/>
 				</imgdir>
 			</imgdir>
@@ -1051,7 +1051,7 @@
 				<imgdir name="20">
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="24"/>
-					<int name="time" value="200"/>
+					<int name="time" value="30000"/>
 					<int name="acc" value="20"/>
 					<int name="eva" value="20"/>
 					<int name="pdd" value="20"/>

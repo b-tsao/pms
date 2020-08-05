@@ -206,7 +206,7 @@
 			<uol name="default" value="../0/default"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="hot">
+	<imgdir name="dam">
 		<imgdir name="0">
 			<canvas name="default" width="29" height="15">
 				<vector name="origin" x="15" y="25"/>
@@ -220,7 +220,7 @@
 			<uol name="default" value="../0/default"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="dam">
+	<imgdir name="hot">
 		<imgdir name="0">
 			<canvas name="default" width="29" height="15">
 				<vector name="origin" x="15" y="25"/>

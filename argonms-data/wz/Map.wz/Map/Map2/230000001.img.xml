@@ -273,19 +273,6 @@
 			<int name="rx0" value="-19"/>
 			<int name="rx1" value="81"/>
 		</imgdir>
-		<imgdir name="1">
-			<string name="type" value="n"/>
-			<string name="id" value="9010010"/>
-			<int name="x" value="-125"/>
-			<int name="y" value="418"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="39"/>
-			<int name="cy" value="426"/>
-			<int name="rx0" value="-175"/>
-			<int name="rx1" value="-75"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
@@ -851,6 +838,11 @@
 			<int name="y2" value="196"/>
 		</imgdir>
 	</imgdir>
+	<imgdir name="seat">
+		<vector name="0" x="-286" y="-69"/>
+		<vector name="1" x="-316" y="-69"/>
+		<vector name="2" x="-256" y="-69"/>
+	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="0">
 			<imgdir name="11">
@@ -1204,11 +1196,6 @@
 			<int name="y2" value="174"/>
 			<int name="page" value="3"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="seat">
-		<vector name="0" x="-286" y="-69"/>
-		<vector name="1" x="-316" y="-69"/>
-		<vector name="2" x="-256" y="-69"/>
 	</imgdir>
 	<imgdir name="miniMap">
 		<canvas name="canvas" width="59" height="65">

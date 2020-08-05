@@ -3282,12 +3282,6 @@
 			<int name="x2" value="1603"/>
 			<int name="y2" value="-98"/>
 		</imgdir>
-		<imgdir name="3">
-			<int name="x1" value="-671"/>
-			<int name="y1" value="368"/>
-			<int name="x2" value="-547"/>
-			<int name="y2" value="436"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="5">

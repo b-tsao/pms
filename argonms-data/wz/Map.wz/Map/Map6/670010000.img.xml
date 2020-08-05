@@ -8,7 +8,7 @@
 		<int name="returnMap" value="670010000"/>
 		<int name="forcedReturn" value="670010000"/>
 		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="BgmGL/amoria"/>
+		<string name="bgm" value="Bgm14/Ariant"/>
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="fieldLimit" value="0"/>
@@ -723,7 +723,7 @@
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="n"/>
-			<string name="id" value="9201043"/>
+			<string name="id" value="2102000"/>
 			<int name="x" value="2043"/>
 			<int name="y" value="1975"/>
 			<int name="mobTime" value="0"/>

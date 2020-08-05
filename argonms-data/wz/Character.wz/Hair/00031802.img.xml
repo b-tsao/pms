@@ -248,7 +248,8 @@
 		</imgdir>
 		<imgdir name="1">
 			<uol name="backHair" value="../../backDefault/backHair"/>
-			<uol name="backHairBelowCap" value="../../backDefault/backHairBelowCap"/>
+			<uol name="backHairBelowCapWide" value="../../backDefault/backHairBelowCapWide"/>
+			<uol name="backHairBelowCapNarrow" value="../../backDefault/backHairBelowCapNarrow"/>
 		</imgdir>
 		<imgdir name="2">
 			<uol name="hairOverHead" value="../../default/hairOverHead"/>

@@ -110,7 +110,7 @@
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="n"/>
-			<string name="id" value="9000002"/>
+			<string name="id" value="9201072"/>
 			<int name="x" value="254"/>
 			<int name="y" value="271"/>
 			<int name="mobTime" value="0"/>

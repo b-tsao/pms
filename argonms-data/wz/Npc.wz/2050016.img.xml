@@ -11,7 +11,6 @@
 				<string name="script" value="earth011"/>
 			</imgdir>
 		</imgdir>
-		<int name="talkMouseOnly" value="1"/>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="103" height="75">

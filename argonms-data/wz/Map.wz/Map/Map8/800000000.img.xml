@@ -261,19 +261,6 @@
 			<int name="rx0" value="1244"/>
 			<int name="rx1" value="1344"/>
 		</imgdir>
-		<imgdir name="9">
-			<string name="type" value="n"/>
-			<string name="id" value="9010010"/>
-			<int name="x" value="2003"/>
-			<int name="y" value="83"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="191"/>
-			<int name="cy" value="95"/>
-			<int name="rx0" value="1953"/>
-			<int name="rx1" value="2053"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -5486,6 +5473,26 @@
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
+	<imgdir name="seat">
+		<vector name="0" x="2801" y="-149"/>
+		<vector name="1" x="2824" y="-149"/>
+		<vector name="2" x="2847" y="-149"/>
+		<vector name="3" x="2902" y="-149"/>
+		<vector name="4" x="2925" y="-149"/>
+		<vector name="5" x="2948" y="-149"/>
+		<vector name="6" x="375" y="152"/>
+		<vector name="7" x="398" y="152"/>
+		<vector name="8" x="421" y="152"/>
+		<vector name="9" x="4950" y="91"/>
+		<vector name="10" x="4973" y="91"/>
+		<vector name="11" x="4996" y="91"/>
+		<vector name="12" x="4848" y="91"/>
+		<vector name="13" x="4871" y="91"/>
+		<vector name="14" x="4894" y="91"/>
+		<vector name="15" x="4747" y="91"/>
+		<vector name="16" x="4770" y="91"/>
+		<vector name="17" x="4793" y="91"/>
+	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="1">
 			<imgdir name="3">
@@ -7727,26 +7734,6 @@
 			<int name="y2" value="93"/>
 			<int name="page" value="3"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="seat">
-		<vector name="0" x="2801" y="-149"/>
-		<vector name="1" x="2824" y="-149"/>
-		<vector name="2" x="2847" y="-149"/>
-		<vector name="3" x="2902" y="-149"/>
-		<vector name="4" x="2925" y="-149"/>
-		<vector name="5" x="2948" y="-149"/>
-		<vector name="6" x="375" y="152"/>
-		<vector name="7" x="398" y="152"/>
-		<vector name="8" x="421" y="152"/>
-		<vector name="9" x="4950" y="91"/>
-		<vector name="10" x="4973" y="91"/>
-		<vector name="11" x="4996" y="91"/>
-		<vector name="12" x="4848" y="91"/>
-		<vector name="13" x="4871" y="91"/>
-		<vector name="14" x="4894" y="91"/>
-		<vector name="15" x="4747" y="91"/>
-		<vector name="16" x="4770" y="91"/>
-		<vector name="17" x="4793" y="91"/>
 	</imgdir>
 	<imgdir name="miniMap">
 		<canvas name="canvas" width="406" height="79">

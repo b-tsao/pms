@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="280020000.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="returnMap" value="211000000"/>
+		<int name="forcedReturn" value="211041900"/>
+		<float name="mobRate" value="0.39999992"/>
+		<string name="bgm" value="Bgm05/HellGate"/>
+		<string name="mapMark" value="ElNathDungeon"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8830"/>
+		<int name="VRTop" value="-720"/>
+		<int name="VRLeft" value="-1290"/>
+		<int name="VRBottom" value="-70"/>
+		<int name="VRRight" value="5790"/>
+		<int name="allMoveCheck" value="1"/>
+		<int name="swim" value="0"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="moltenRock"/>
@@ -12891,23 +12909,5 @@
 			<int name="tm" value="280020001"/>
 			<string name="tn" value="west00"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="returnMap" value="211000000"/>
-		<int name="forcedReturn" value="211041900"/>
-		<float name="mobRate" value="0.39999992"/>
-		<string name="bgm" value="Bgm05/HellGate"/>
-		<string name="mapMark" value="ElNathDungeon"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="402046"/>
-		<int name="VRTop" value="-720"/>
-		<int name="VRLeft" value="-1290"/>
-		<int name="VRBottom" value="-70"/>
-		<int name="VRRight" value="5790"/>
-		<int name="allMoveCheck" value="1"/>
-		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

@@ -8,9 +8,9 @@
 		<int name="forcedReturn" value="103000890"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm00/SleepyWood"/>
-		<string name="mapMark" value="KerningParty"/>
+		<string name="mapMark" value="Dungeon"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="270460"/>
+		<int name="fieldLimit" value="8316"/>
 		<int name="VRTop" value="-3210"/>
 		<int name="VRLeft" value="-300"/>
 		<int name="VRBottom" value="-280"/>

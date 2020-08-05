@@ -352,19 +352,6 @@
 			<int name="rx0" value="-865"/>
 			<int name="rx1" value="-765"/>
 		</imgdir>
-		<imgdir name="14">
-			<string name="type" value="n"/>
-			<string name="id" value="9010010"/>
-			<int name="x" value="-2025"/>
-			<int name="y" value="46"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="508"/>
-			<int name="cy" value="51"/>
-			<int name="rx0" value="-2075"/>
-			<int name="rx1" value="-1975"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
@@ -11904,21 +11891,25 @@
 		</imgdir>
 		<imgdir name="11">
 			<string name="pn" value="h004"/>
-			<int name="pt" value="10"/>
+			<int name="pt" value="1"/>
 			<int name="x" value="-3380"/>
 			<int name="y" value="49"/>
 			<int name="tm" value="250000000"/>
 			<string name="tn" value="h005"/>
-			<string name="image" value=""/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="12">
 			<string name="pn" value="h005"/>
-			<int name="pt" value="10"/>
-			<int name="x" value="-138"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="-140"/>
 			<int name="y" value="46"/>
 			<int name="tm" value="250000000"/>
 			<string name="tn" value="h006"/>
-			<string name="image" value=""/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="13">
 			<string name="pn" value="st00"/>
@@ -11930,12 +11921,14 @@
 		</imgdir>
 		<imgdir name="14">
 			<string name="pn" value="h006"/>
-			<int name="pt" value="10"/>
-			<int name="x" value="1443"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="1433"/>
 			<int name="y" value="-496"/>
 			<int name="tm" value="250000000"/>
 			<string name="tn" value="h004"/>
-			<string name="image" value=""/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="15">
 			<string name="pn" value="wd00"/>

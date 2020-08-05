@@ -357,7 +357,7 @@
 				<canvas name="weapon" width="131" height="112">
 					<vector name="origin" x="65" y="56"/>
 					<imgdir name="map">
-						<vector name="navel" x="17" y="29"/>
+						<vector name="navel" x="37" y="29"/>
 					</imgdir>
 					<string name="z" value="weaponOverArm"/>
 				</canvas>

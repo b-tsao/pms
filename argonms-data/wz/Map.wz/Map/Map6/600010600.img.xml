@@ -570,6 +570,19 @@
 			<int name="rx0" value="618"/>
 			<int name="rx1" value="822"/>
 		</imgdir>
+		<imgdir name="25">
+			<string name="type" value="m"/>
+			<string name="id" value="9400572"/>
+			<int name="x" value="-532"/>
+			<int name="y" value="-1830"/>
+			<int name="mobTime" value="1800"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="426"/>
+			<int name="cy" value="-1811"/>
+			<int name="rx0" value="-822"/>
+			<int name="rx1" value="-438"/>
+		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
@@ -1048,55 +1061,6 @@
 				<string name="u" value="bsc"/>
 				<int name="no" value="2"/>
 				<int name="zM" value="2"/>
-			</imgdir>
-			<imgdir name="50">
-				<int name="x" value="1305"/>
-				<int name="y" value="-990"/>
-				<string name="u" value="enV0"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="51">
-				<int name="x" value="1305"/>
-				<int name="y" value="-990"/>
-				<string name="u" value="edU"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="52">
-				<int name="x" value="1305"/>
-				<int name="y" value="-930"/>
-				<string name="u" value="edD"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="53">
-				<int name="x" value="1575"/>
-				<int name="y" value="-930"/>
-				<string name="u" value="enV0"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="54">
-				<int name="x" value="1575"/>
-				<int name="y" value="-870"/>
-				<string name="u" value="enV0"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="55">
-				<int name="x" value="1575"/>
-				<int name="y" value="-810"/>
-				<string name="u" value="enV0"/>
-				<int name="no" value="1"/>
-				<int name="zM" value="0"/>
-			</imgdir>
-			<imgdir name="56">
-				<int name="x" value="1575"/>
-				<int name="y" value="-750"/>
-				<string name="u" value="enV0"/>
-				<int name="no" value="0"/>
-				<int name="zM" value="0"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="obj">

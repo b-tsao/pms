@@ -27,16 +27,4 @@
 		<sound name="Attack"/>
 		<sound name="Attack2"/>
 	</imgdir>
-	<imgdir name="knuckle">
-		<sound name="Attack"/>
-		<sound name="Attack2"/>
-	</imgdir>
-	<imgdir name="barehands">
-		<sound name="Attack"/>
-		<sound name="Attack2"/>
-	</imgdir>
-	<imgdir name="gun">
-		<sound name="Attack"/>
-		<sound name="Attack2"/>
-	</imgdir>
 </imgdir>

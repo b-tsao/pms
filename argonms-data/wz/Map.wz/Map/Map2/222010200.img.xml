@@ -17,6 +17,368 @@
 		<int name="VRBottom" value="280"/>
 		<int name="VRRight" value="990"/>
 	</imgdir>
+	<imgdir name="back">
+		<imgdir name="0">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="0"/>
+			<int name="f" value="0"/>
+			<int name="x" value="0"/>
+			<int name="y" value="0"/>
+			<int name="rx" value="0"/>
+			<int name="ry" value="0"/>
+			<int name="type" value="3"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="1"/>
+			<int name="f" value="0"/>
+			<int name="x" value="1"/>
+			<int name="y" value="-120"/>
+			<int name="rx" value="-3"/>
+			<int name="ry" value="-5"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="1"/>
+			<int name="no" value="0"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-104"/>
+			<int name="y" value="-259"/>
+			<int name="rx" value="-5"/>
+			<int name="ry" value="-6"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="800"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="1"/>
+			<int name="no" value="1"/>
+			<int name="f" value="0"/>
+			<int name="x" value="349"/>
+			<int name="y" value="-285"/>
+			<int name="rx" value="-5"/>
+			<int name="ry" value="-6"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="700"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="2"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-108"/>
+			<int name="y" value="-249"/>
+			<int name="rx" value="-2"/>
+			<int name="ry" value="-10"/>
+			<int name="type" value="0"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="4"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-188"/>
+			<int name="y" value="-115"/>
+			<int name="rx" value="1"/>
+			<int name="ry" value="-12"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="1000"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="5"/>
+			<int name="f" value="0"/>
+			<int name="x" value="366"/>
+			<int name="y" value="-44"/>
+			<int name="rx" value="1"/>
+			<int name="ry" value="-12"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="1200"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="7"/>
+			<int name="f" value="0"/>
+			<int name="x" value="46"/>
+			<int name="y" value="-52"/>
+			<int name="rx" value="2"/>
+			<int name="ry" value="-14"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="900"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="17"/>
+			<int name="f" value="0"/>
+			<int name="x" value="211"/>
+			<int name="y" value="32"/>
+			<int name="rx" value="-10"/>
+			<int name="ry" value="-20"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1799"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="14"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-797"/>
+			<int name="y" value="-19"/>
+			<int name="rx" value="-10"/>
+			<int name="ry" value="-20"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1799"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="12">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="15"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-541"/>
+			<int name="y" value="22"/>
+			<int name="rx" value="-10"/>
+			<int name="ry" value="-20"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1799"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="13">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="22"/>
+			<int name="f" value="0"/>
+			<int name="x" value="29"/>
+			<int name="y" value="22"/>
+			<int name="rx" value="-13"/>
+			<int name="ry" value="-30"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1000"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="14">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="8"/>
+			<int name="f" value="0"/>
+			<int name="x" value="61"/>
+			<int name="y" value="-155"/>
+			<int name="rx" value="2"/>
+			<int name="ry" value="-15"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="900"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="15">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="9"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-41"/>
+			<int name="y" value="-110"/>
+			<int name="rx" value="2"/>
+			<int name="ry" value="-16"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="1000"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="16">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="10"/>
+			<int name="f" value="0"/>
+			<int name="x" value="216"/>
+			<int name="y" value="-248"/>
+			<int name="rx" value="3"/>
+			<int name="ry" value="-18"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="2000"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="17">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="20"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-110"/>
+			<int name="y" value="46"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="-33"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1800"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="16"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-238"/>
+			<int name="y" value="0"/>
+			<int name="rx" value="-10"/>
+			<int name="ry" value="-20"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1799"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="6"/>
+			<int name="f" value="0"/>
+			<int name="x" value="295"/>
+			<int name="y" value="-147"/>
+			<int name="rx" value="1"/>
+			<int name="ry" value="-13"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="1300"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="18">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="21"/>
+			<int name="f" value="0"/>
+			<int name="x" value="343"/>
+			<int name="y" value="-19"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="-33"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1800"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="19">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="18"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-1291"/>
+			<int name="y" value="-5"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="-33"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1800"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="20">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="19"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-1236"/>
+			<int name="y" value="-225"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="-33"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="1799"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="21">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="23"/>
+			<int name="f" value="0"/>
+			<int name="x" value="27"/>
+			<int name="y" value="100"/>
+			<int name="rx" value="-30"/>
+			<int name="ry" value="-40"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="22">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="24"/>
+			<int name="f" value="0"/>
+			<int name="x" value="0"/>
+			<int name="y" value="46"/>
+			<int name="rx" value="-35"/>
+			<int name="ry" value="-50"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+		<imgdir name="23">
+			<string name="bS" value="darkMountain"/>
+			<int name="front" value="1"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="4"/>
+			<int name="f" value="0"/>
+			<int name="x" value="-182"/>
+			<int name="y" value="58"/>
+			<int name="rx" value="5"/>
+			<int name="ry" value="-100"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+		</imgdir>
+	</imgdir>
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="m"/>
@@ -4369,368 +4731,6 @@
 			<int name="tm" value="222010201"/>
 			<string name="tn" value="out00"/>
 			<string name="script" value=""/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="back">
-		<imgdir name="0">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="0"/>
-			<int name="f" value="0"/>
-			<int name="x" value="0"/>
-			<int name="y" value="0"/>
-			<int name="rx" value="0"/>
-			<int name="ry" value="0"/>
-			<int name="type" value="3"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="1"/>
-			<int name="f" value="0"/>
-			<int name="x" value="1"/>
-			<int name="y" value="-120"/>
-			<int name="rx" value="-3"/>
-			<int name="ry" value="-5"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="1"/>
-			<int name="no" value="0"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-104"/>
-			<int name="y" value="-259"/>
-			<int name="rx" value="-5"/>
-			<int name="ry" value="-6"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="800"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="3">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="1"/>
-			<int name="no" value="1"/>
-			<int name="f" value="0"/>
-			<int name="x" value="349"/>
-			<int name="y" value="-285"/>
-			<int name="rx" value="-5"/>
-			<int name="ry" value="-6"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="700"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="4">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="2"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-108"/>
-			<int name="y" value="-249"/>
-			<int name="rx" value="-2"/>
-			<int name="ry" value="-10"/>
-			<int name="type" value="0"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="5">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="4"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-188"/>
-			<int name="y" value="-115"/>
-			<int name="rx" value="1"/>
-			<int name="ry" value="-12"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="1000"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="6">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="5"/>
-			<int name="f" value="0"/>
-			<int name="x" value="366"/>
-			<int name="y" value="-44"/>
-			<int name="rx" value="1"/>
-			<int name="ry" value="-12"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="1200"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="8">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="7"/>
-			<int name="f" value="0"/>
-			<int name="x" value="46"/>
-			<int name="y" value="-52"/>
-			<int name="rx" value="2"/>
-			<int name="ry" value="-14"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="900"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="9">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="17"/>
-			<int name="f" value="0"/>
-			<int name="x" value="211"/>
-			<int name="y" value="32"/>
-			<int name="rx" value="-10"/>
-			<int name="ry" value="-20"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1799"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="11">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="14"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-797"/>
-			<int name="y" value="-19"/>
-			<int name="rx" value="-10"/>
-			<int name="ry" value="-20"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1799"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="12">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="15"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-541"/>
-			<int name="y" value="22"/>
-			<int name="rx" value="-10"/>
-			<int name="ry" value="-20"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1799"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="13">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="22"/>
-			<int name="f" value="0"/>
-			<int name="x" value="29"/>
-			<int name="y" value="22"/>
-			<int name="rx" value="-13"/>
-			<int name="ry" value="-30"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1000"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="14">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="8"/>
-			<int name="f" value="0"/>
-			<int name="x" value="61"/>
-			<int name="y" value="-155"/>
-			<int name="rx" value="2"/>
-			<int name="ry" value="-15"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="900"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="15">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="9"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-41"/>
-			<int name="y" value="-110"/>
-			<int name="rx" value="2"/>
-			<int name="ry" value="-16"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="1000"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="16">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="10"/>
-			<int name="f" value="0"/>
-			<int name="x" value="216"/>
-			<int name="y" value="-248"/>
-			<int name="rx" value="3"/>
-			<int name="ry" value="-18"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="2000"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="17">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="20"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-110"/>
-			<int name="y" value="46"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="-33"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1800"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="10">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="16"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-238"/>
-			<int name="y" value="0"/>
-			<int name="rx" value="-10"/>
-			<int name="ry" value="-20"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1799"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="7">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="6"/>
-			<int name="f" value="0"/>
-			<int name="x" value="295"/>
-			<int name="y" value="-147"/>
-			<int name="rx" value="1"/>
-			<int name="ry" value="-13"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="1300"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="18">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="21"/>
-			<int name="f" value="0"/>
-			<int name="x" value="343"/>
-			<int name="y" value="-19"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="-33"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1800"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="19">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="18"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-1291"/>
-			<int name="y" value="-5"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="-33"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1800"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="20">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="19"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-1236"/>
-			<int name="y" value="-214"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="-33"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="1799"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="21">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="23"/>
-			<int name="f" value="0"/>
-			<int name="x" value="27"/>
-			<int name="y" value="100"/>
-			<int name="rx" value="-30"/>
-			<int name="ry" value="-40"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="22">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="24"/>
-			<int name="f" value="0"/>
-			<int name="x" value="0"/>
-			<int name="y" value="46"/>
-			<int name="rx" value="-35"/>
-			<int name="ry" value="-50"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-		<imgdir name="23">
-			<string name="bS" value="darkMountain"/>
-			<int name="front" value="1"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="4"/>
-			<int name="f" value="0"/>
-			<int name="x" value="-182"/>
-			<int name="y" value="58"/>
-			<int name="rx" value="5"/>
-			<int name="ry" value="-100"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

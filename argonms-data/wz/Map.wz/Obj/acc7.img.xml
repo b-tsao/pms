@@ -965,11 +965,6 @@
 					<int name="delay" value="2000"/>
 				</canvas>
 			</imgdir>
-			<imgdir name="18">
-				<canvas name="0" width="1" height="1">
-					<vector name="origin" x="0" y="0"/>
-				</canvas>
-			</imgdir>
 		</imgdir>
 		<imgdir name="nature">
 			<imgdir name="0">
@@ -1388,20 +1383,6 @@
 				<canvas name="0" width="147" height="80">
 					<vector name="origin" x="73" y="40"/>
 					<int name="z" value="0"/>
-				</canvas>
-			</imgdir>
-		</imgdir>
-		<imgdir name="reacter">
-			<imgdir name="0">
-				<canvas name="0" width="113" height="36">
-					<vector name="origin" x="56" y="18"/>
-					<int name="z" value="0"/>
-					<extended name="foothold">
-						<vector name="null" x="-43" y="-14"/>
-						<vector name="null" x="-23" y="-15"/>
-						<vector name="null" x="-22" y="-16"/>
-						<vector name="null" x="42" y="-17"/>
-					</extended>
 				</canvas>
 			</imgdir>
 		</imgdir>

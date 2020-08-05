@@ -15,7 +15,6 @@
 				<string name="script" value="secret_wall"/>
 			</imgdir>
 		</imgdir>
-		<int name="talkMouseOnly" value="1"/>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="4" height="4">

@@ -43,6 +43,5 @@
 			<int name="z" value="0"/>
 			<int name="delay" value="200"/>
 		</canvas>
-		<uol name="3" value="1"/>
 	</imgdir>
 </imgdir>

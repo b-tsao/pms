@@ -294,7 +294,7 @@
 				<imgdir name="20">
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="60"/>
-					<int name="time" value="120"/>
+					<int name="time" value="30000"/>
 					<int name="x" value="150"/>
 					<vector name="lt" x="-300" y="-200"/>
 					<vector name="rb" x="300" y="200"/>
@@ -695,7 +695,7 @@
 				<imgdir name="30">
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="55"/>
-					<int name="time" value="180"/>
+					<int name="time" value="30000"/>
 					<int name="x" value="80"/>
 					<int name="y" value="50"/>
 					<int name="itemCon" value="4006001"/>

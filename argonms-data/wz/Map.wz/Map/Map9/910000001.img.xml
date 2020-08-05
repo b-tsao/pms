@@ -78,6 +78,7 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="life">
+
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -1849,7 +1850,7 @@
 		<int name="forcedReturn" value="999999999"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm00/FloralLife"/>
-		<string name="mapMark" value="FreeMarket"/>
+		<string name="mapMark" value="Henesys"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="personalShop" value="1"/>
 		<int name="fieldLimit" value="8428"/>

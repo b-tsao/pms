@@ -2,6 +2,7 @@
 <imgdir name="9300106.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
+		<int name="level" value="76"/>
 		<int name="maxHP" value="540000"/>
 		<int name="maxMP" value="500"/>
 		<int name="speed" value="-40"/>
@@ -40,8 +41,5 @@
 				<int name="effectAfter" value="0"/>
 			</imgdir>
 		</imgdir>
-		<int name="level" value="68"/>
-		<int name="hpTagColor" value="4"/>
-		<int name="hpTagBgcolor" value="1"/>
 	</imgdir>
 </imgdir>

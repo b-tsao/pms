@@ -3,6 +3,7 @@
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
 		<int name="level" value="62"/>
+		<int name="maxHP" value="38000"/>
 		<int name="maxMP" value="100"/>
 		<int name="speed" value="0"/>
 		<int name="PADamage" value="155"/>
@@ -11,14 +12,13 @@
 		<int name="MDDamage" value="250"/>
 		<int name="acc" value="130"/>
 		<int name="eva" value="24"/>
+		<int name="exp" value="230"/>
 		<int name="undead" value="0"/>
 		<int name="pushed" value="1000"/>
 		<float name="fs" value="10.0"/>
 		<int name="summonType" value="1"/>
 		<int name="removeAfter" value="10"/>
 		<int name="hideName" value="1"/>
-		<int name="maxHP" value="22800"/>
-		<int name="exp" value="313"/>
 	</imgdir>
 	<imgdir name="move">
 		<canvas name="0" width="113" height="83">

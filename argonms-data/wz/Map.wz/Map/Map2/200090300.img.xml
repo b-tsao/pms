@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="200090300.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="1"/>
+		<int name="swim" value="0"/>
+		<int name="returnMap" value="200000141"/>
+		<int name="forcedReturn" value="200000141"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm15/MureungHill"/>
+		<string name="mapMark" value="None"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8830"/>
+		<int name="VRTop" value="-2450"/>
+		<int name="VRLeft" value="-270"/>
+		<int name="VRBottom" value="-1862"/>
+		<int name="VRRight" value="530"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="mureung"/>
@@ -808,22 +825,5 @@
 			<int name="hideTooltip" value="0"/>
 			<int name="delay" value="0"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="1"/>
-		<int name="swim" value="0"/>
-		<int name="returnMap" value="200000141"/>
-		<int name="forcedReturn" value="200000141"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm15/MureungHill"/>
-		<string name="mapMark" value="None"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="402046"/>
-		<int name="VRTop" value="-2450"/>
-		<int name="VRLeft" value="-270"/>
-		<int name="VRBottom" value="-1862"/>
-		<int name="VRRight" value="530"/>
 	</imgdir>
 </imgdir>

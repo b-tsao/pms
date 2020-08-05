@@ -713,51 +713,5 @@
 				<int name="3" value="100000203"/>
 			</imgdir>
 		</imgdir>
-		<imgdir name="87">
-			<vector name="spot" x="64" y="99"/>
-			<int name="type" value="3"/>
-			<imgdir name="mapNo">
-				<int name="0" value="120010000"/>
-			</imgdir>
-		</imgdir>
-		<imgdir name="88">
-			<vector name="spot" x="161" y="159"/>
-			<int name="type" value="0"/>
-			<imgdir name="mapNo">
-				<int name="0" value="120000000"/>
-				<int name="1" value="120000100"/>
-				<int name="2" value="120000101"/>
-				<int name="3" value="120000102"/>
-				<int name="4" value="120000103"/>
-				<int name="5" value="120000104"/>
-				<int name="6" value="120000200"/>
-				<int name="7" value="120000201"/>
-				<int name="8" value="120000202"/>
-				<int name="9" value="120000300"/>
-				<int name="10" value="120000301"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="MapLink">
-		<imgdir name="0">
-			<imgdir name="link">
-				<string name="linkMap" value="WorldMap11"/>
-				<canvas name="linkImg" width="151" height="87">
-					<vector name="origin" x="-74" y="-114"/>
-					<int name="z" value="1"/>
-				</canvas>
-			</imgdir>
-			<string name="toolTip" value="Nautilus"/>
-		</imgdir>
-		<imgdir name="1">
-			<imgdir name="link">
-				<string name="linkMap" value="WorldMap12"/>
-				<canvas name="linkImg" width="121" height="100">
-					<vector name="origin" x="105" y="23"/>
-					<int name="z" value="1"/>
-				</canvas>
-			</imgdir>
-			<string name="toolTip" value="Sleepywood"/>
-		</imgdir>
 	</imgdir>
 </imgdir>

@@ -651,6 +651,24 @@
 			</imgdir>
 		</imgdir>
 	</imgdir>
+	<imgdir name="ladderRope">
+		<imgdir name="1">
+			<int name="l" value="0"/>
+			<int name="uf" value="1"/>
+			<int name="x" value="-59"/>
+			<int name="y1" value="76"/>
+			<int name="y2" value="178"/>
+			<int name="page" value="3"/>
+		</imgdir>
+		<imgdir name="2">
+			<int name="l" value="1"/>
+			<int name="uf" value="1"/>
+			<int name="x" value="64"/>
+			<int name="y1" value="76"/>
+			<int name="y2" value="178"/>
+			<int name="page" value="3"/>
+		</imgdir>
+	</imgdir>
 	<imgdir name="portal">
 		<imgdir name="0">
 			<string name="pn" value="sp"/>
@@ -667,24 +685,6 @@
 			<int name="y" value="103"/>
 			<int name="tm" value="220000000"/>
 			<string name="tn" value="in04"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="ladderRope">
-		<imgdir name="1">
-			<int name="l" value="1"/>
-			<int name="uf" value="1"/>
-			<int name="x" value="-59"/>
-			<int name="y1" value="76"/>
-			<int name="y2" value="178"/>
-			<int name="page" value="3"/>
-		</imgdir>
-		<imgdir name="2">
-			<int name="l" value="1"/>
-			<int name="uf" value="1"/>
-			<int name="x" value="64"/>
-			<int name="y1" value="76"/>
-			<int name="y2" value="178"/>
-			<int name="page" value="3"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

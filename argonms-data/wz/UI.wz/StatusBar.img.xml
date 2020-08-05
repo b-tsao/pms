@@ -29,8 +29,6 @@
 		</canvas>
 		<canvas name="gray" width="1" height="16">
 		</canvas>
-		<canvas name="tempExp" width="1" height="16">
-		</canvas>
 		<imgdir name="hpFlash">
 			<canvas name="0" width="109" height="18">
 				<vector name="origin" x="0" y="0"/>

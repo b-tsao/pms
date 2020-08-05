@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2112009.img">
 	<imgdir name="info">
-		<string name="info" value="&amp;#32547;&amp;#5842;"/>
+		<string name="info" value="&amp;#53685;&amp;#45805;"/>
 		<string name="link" value="2112007"/>
 	</imgdir>
 	<string name="action" value="boxItem2"/>

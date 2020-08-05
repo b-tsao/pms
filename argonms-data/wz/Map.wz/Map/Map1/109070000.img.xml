@@ -2434,6 +2434,22 @@
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm00/FloralLife"/>
+		<int name="returnMap" value="109050001"/>
+		<string name="mapDesc" value=""/>
+		<int name="forcedReturn" value="109050001"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="moveLimit" value="0"/>
+		<string name="mapMark" value="Henesys"/>
+		<int name="fieldType" value="3"/>
+		<int name="fieldLimit" value="8958"/>
+		<int name="swim" value="0"/>
+	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="0">
 			<imgdir name="28">
@@ -4239,21 +4255,5 @@
 			<int name="tm" value="109050001"/>
 			<string name="tn" value="start00"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm00/FloralLife"/>
-		<int name="returnMap" value="109050001"/>
-		<string name="mapDesc" value=""/>
-		<int name="forcedReturn" value="109050001"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="moveLimit" value="0"/>
-		<string name="mapMark" value="Event"/>
-		<int name="fieldType" value="3"/>
-		<int name="fieldLimit" value="467710"/>
-		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

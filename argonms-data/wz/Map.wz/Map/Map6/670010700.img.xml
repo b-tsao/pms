@@ -8,10 +8,10 @@
 		<int name="returnMap" value="670011000"/>
 		<int name="forcedReturn" value="670011000"/>
 		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="BgmGL/Amorianchallenge"/>
+		<string name="bgm" value="Bgm14/HotDesert"/>
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="132092"/>
+		<int name="fieldLimit" value="1020"/>
 	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
@@ -198,16 +198,42 @@
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="n"/>
-			<string name="id" value="9201045"/>
-			<int name="x" value="224"/>
-			<int name="y" value="-9"/>
+			<string name="id" value="9201048"/>
+			<int name="x" value="109"/>
+			<int name="y" value="0"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="172"/>
+			<int name="fh" value="171"/>
 			<int name="cy" value="0"/>
-			<int name="rx0" value="174"/>
-			<int name="rx1" value="274"/>
+			<int name="rx0" value="159"/>
+			<int name="rx1" value="59"/>
+		</imgdir>
+		<imgdir name="0">
+			<string name="type" value="n"/>
+			<string name="id" value="9201047"/>
+			<int name="x" value="262"/>
+			<int name="y" value="0"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="175"/>
+			<int name="cy" value="0"/>
+			<int name="rx0" value="312"/>
+			<int name="rx1" value="212"/>
+		</imgdir>
+		<imgdir name="0">
+			<string name="type" value="m"/>
+			<string name="id" value="9400536"/>
+			<int name="x" value="943"/>
+			<int name="y" value="570"/>
+			<int name="mobTime" value="21600"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="59"/>
+			<int name="cy" value="0"/>
+			<int name="rx0" value="993"/>
+			<int name="rx1" value="831"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">

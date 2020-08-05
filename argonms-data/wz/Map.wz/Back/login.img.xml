@@ -120,14 +120,6 @@
 			<vector name="origin" x="319" y="163"/>
 			<int name="z" value="0"/>
 		</canvas>
-		<canvas name="26" width="27" height="600">
-			<vector name="origin" x="13" y="300"/>
-			<int name="z" value="0"/>
-		</canvas>
-		<canvas name="27" width="800" height="356">
-			<vector name="origin" x="400" y="178"/>
-			<int name="z" value="0"/>
-		</canvas>
 	</imgdir>
 	<imgdir name="ani">
 		<imgdir name="0">

@@ -18,6 +18,26 @@
 		<float name="fs" value="10.0"/>
 		<int name="summonType" value="1"/>
 	</imgdir>
+	<imgdir name="move">
+		<canvas name="0" width="31" height="28">
+			<vector name="origin" x="15" y="28"/>
+			<vector name="lt" x="-15" y="-28"/>
+			<vector name="rb" x="16" y="0"/>
+			<vector name="head" x="-6" y="-26"/>
+		</canvas>
+		<canvas name="1" width="33" height="28">
+			<vector name="origin" x="16" y="28"/>
+			<vector name="lt" x="-5" y="-28"/>
+			<vector name="rb" x="28" y="0"/>
+			<vector name="head" x="-6" y="-26"/>
+		</canvas>
+		<canvas name="2" width="28" height="28">
+			<vector name="origin" x="14" y="28"/>
+			<vector name="lt" x="5" y="-28"/>
+			<vector name="rb" x="33" y="0"/>
+			<vector name="head" x="-6" y="-26"/>
+		</canvas>
+	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="28" height="28">
 			<vector name="origin" x="14" y="28"/>
@@ -50,30 +70,10 @@
 			<vector name="head" x="6" y="-29"/>
 		</canvas>
 	</imgdir>
-	<imgdir name="move">
-		<canvas name="0" width="31" height="28">
-			<vector name="origin" x="15" y="28"/>
-			<vector name="lt" x="-15" y="-28"/>
-			<vector name="rb" x="16" y="0"/>
-			<vector name="head" x="-6" y="-26"/>
-		</canvas>
-		<canvas name="1" width="33" height="28">
-			<vector name="origin" x="16" y="28"/>
-			<vector name="lt" x="-15" y="-28"/>
-			<vector name="rb" x="16" y="0"/>
-			<vector name="head" x="-6" y="-26"/>
-		</canvas>
-		<canvas name="2" width="28" height="28">
-			<vector name="origin" x="14" y="28"/>
-			<vector name="lt" x="-15" y="-28"/>
-			<vector name="rb" x="16" y="0"/>
-			<vector name="head" x="-6" y="-26"/>
-		</canvas>
-	</imgdir>
 	<imgdir name="die1">
 		<canvas name="0" width="28" height="29">
 			<vector name="origin" x="14" y="29"/>
-			<vector name="head" x="-6" y="-29"/>
+			<vector name="head" x="-6" y="-26"/>
 			<int name="delay" value="300"/>
 		</canvas>
 		<canvas name="1" width="46" height="32">

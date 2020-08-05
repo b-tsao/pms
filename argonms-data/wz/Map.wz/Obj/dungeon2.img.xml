@@ -516,13 +516,35 @@
 				</canvas>
 			</imgdir>
 			<imgdir name="2">
-				<canvas name="0" width="1" height="1">
-					<vector name="origin" x="0" y="0"/>
+				<canvas name="0" width="77" height="77">
+					<vector name="origin" x="38" y="38"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="50"/>
+					<int name="a1" value="255"/>
+					<int name="delay" value="4000"/>
+				</canvas>
+				<canvas name="1" width="77" height="77">
+					<vector name="origin" x="38" y="38"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="255"/>
+					<int name="a1" value="50"/>
+					<int name="delay" value="4000"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="3">
-				<canvas name="0" width="1" height="1">
-					<vector name="origin" x="0" y="0"/>
+				<canvas name="0" width="77" height="77">
+					<vector name="origin" x="38" y="38"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="100"/>
+					<int name="a1" value="255"/>
+					<int name="delay" value="4000"/>
+				</canvas>
+				<canvas name="1" width="77" height="77">
+					<vector name="origin" x="38" y="38"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="255"/>
+					<int name="a1" value="100"/>
+					<int name="delay" value="4000"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="4">
@@ -1598,9 +1620,9 @@
 						<vector name="null" x="-56" y="-33"/>
 						<vector name="null" x="-50" y="-40"/>
 						<vector name="null" x="-41" y="-45"/>
-						<vector name="null" x="-27" y="-45"/>
-						<vector name="null" x="-23" y="-40"/>
-						<vector name="null" x="-17" y="-37"/>
+						<vector name="null" x="-19" y="-45"/>
+						<vector name="null" x="-13" y="-42"/>
+						<vector name="null" x="-7" y="-37"/>
 						<vector name="null" x="-1" y="-37"/>
 						<vector name="null" x="5" y="-41"/>
 						<vector name="null" x="11" y="-44"/>
@@ -4068,8 +4090,9 @@
 				</canvas>
 			</imgdir>
 			<imgdir name="2">
-				<canvas name="0" width="1" height="1">
-					<vector name="origin" x="0" y="0"/>
+				<canvas name="0" width="69" height="176">
+					<vector name="origin" x="34" y="88"/>
+					<int name="z" value="0"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="3">

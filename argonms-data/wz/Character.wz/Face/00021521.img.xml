@@ -9,7 +9,7 @@
 		<canvas name="face" width="24" height="14">
 			<vector name="origin" x="12" y="-7"/>
 			<imgdir name="map">
-				<vector name="brow" x="0" y="1"/>
+				<vector name="brow" x="0" y="0"/>
 			</imgdir>
 			<string name="z" value="face"/>
 		</canvas>
@@ -19,7 +19,7 @@
 			<canvas name="face" width="24" height="14">
 				<vector name="origin" x="12" y="-7"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -29,7 +29,7 @@
 			<canvas name="face" width="24" height="13">
 				<vector name="origin" x="12" y="-7"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="0"/>
+					<vector name="brow" x="0" y="-1"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -39,7 +39,7 @@
 			<canvas name="face" width="24" height="13">
 				<vector name="origin" x="12" y="-8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -51,7 +51,7 @@
 			<canvas name="face" width="24" height="13">
 				<vector name="origin" x="12" y="-8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -62,7 +62,7 @@
 			<canvas name="face" width="24" height="14">
 				<vector name="origin" x="12" y="-7"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -84,7 +84,7 @@
 			<canvas name="face" width="24" height="17">
 				<vector name="origin" x="11" y="-5"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -106,7 +106,7 @@
 			<canvas name="face" width="22" height="15">
 				<vector name="origin" x="12" y="-5"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -173,7 +173,7 @@
 			<canvas name="face" width="25" height="15">
 				<vector name="origin" x="12" y="-6"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -184,7 +184,7 @@
 			<canvas name="face" width="24" height="13">
 				<vector name="origin" x="12" y="-7"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -206,7 +206,7 @@
 			<canvas name="face" width="27" height="17">
 				<vector name="origin" x="13" y="-5"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -216,7 +216,7 @@
 			<canvas name="face" width="27" height="17">
 				<vector name="origin" x="13" y="-5"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="1"/>
+					<vector name="brow" x="0" y="0"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -228,7 +228,7 @@
 			<canvas name="face" width="42" height="20">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="14" y="-11"/>
+					<vector name="brow" x="14" y="-12"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -238,7 +238,7 @@
 			<canvas name="face" width="44" height="20">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="16" y="-11"/>
+					<vector name="brow" x="16" y="-12"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -250,7 +250,7 @@
 			<canvas name="face" width="27" height="22">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="-8"/>
+					<vector name="brow" x="0" y="-9"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -260,7 +260,7 @@
 			<canvas name="face" width="27" height="22">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="-8"/>
+					<vector name="brow" x="0" y="-9"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -272,7 +272,7 @@
 			<canvas name="face" width="26" height="16">
 				<vector name="origin" x="13" y="6"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="-7"/>
+					<vector name="brow" x="0" y="-8"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -283,7 +283,7 @@
 			<canvas name="face" width="30" height="21">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="-9"/>
+					<vector name="brow" x="0" y="-10"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -293,7 +293,7 @@
 			<canvas name="face" width="30" height="23">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="0" y="-7"/>
+					<vector name="brow" x="0" y="-8"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -305,7 +305,7 @@
 			<canvas name="face" width="25" height="21">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="-2" y="-8"/>
+					<vector name="brow" x="-2" y="-9"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -315,7 +315,7 @@
 			<canvas name="face" width="25" height="21">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="-2" y="-8"/>
+					<vector name="brow" x="-2" y="-9"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -327,7 +327,7 @@
 			<canvas name="face" width="36" height="20">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="11" y="-10"/>
+					<vector name="brow" x="11" y="-11"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -337,7 +337,7 @@
 			<canvas name="face" width="37" height="20">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="12" y="-10"/>
+					<vector name="brow" x="12" y="-11"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -349,7 +349,7 @@
 			<canvas name="face" width="40" height="25">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="16" y="-9"/>
+					<vector name="brow" x="16" y="-10"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>
@@ -359,7 +359,7 @@
 			<canvas name="face" width="46" height="26">
 				<vector name="origin" x="13" y="8"/>
 				<imgdir name="map">
-					<vector name="brow" x="21" y="-8"/>
+					<vector name="brow" x="21" y="-9"/>
 				</imgdir>
 				<string name="z" value="face"/>
 			</canvas>

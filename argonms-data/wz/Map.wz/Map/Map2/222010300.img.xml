@@ -424,12 +424,12 @@
 		<imgdir name="2">
 			<string name="type" value="m"/>
 			<string name="id" value="5100004"/>
-			<int name="x" value="-93"/>
-			<int name="y" value="138"/>
+			<int name="x" value="-23"/>
+			<int name="y" value="133"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="80"/>
+			<int name="fh" value="79"/>
 			<int name="cy" value="153"/>
 			<int name="rx0" value="-340"/>
 			<int name="rx1" value="464"/>
@@ -645,27 +645,27 @@
 		<imgdir name="19">
 			<string name="type" value="m"/>
 			<string name="id" value="5100004"/>
-			<int name="x" value="2091"/>
-			<int name="y" value="150"/>
+			<int name="x" value="2551"/>
+			<int name="y" value="-433"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="136"/>
-			<int name="cy" value="153"/>
-			<int name="rx0" value="1944"/>
-			<int name="rx1" value="2110"/>
+			<int name="fh" value="74"/>
+			<int name="cy" value="-387"/>
+			<int name="rx0" value="2240"/>
+			<int name="rx1" value="2860"/>
 		</imgdir>
 		<imgdir name="20">
 			<string name="type" value="m"/>
 			<string name="id" value="5100004"/>
-			<int name="x" value="2422"/>
-			<int name="y" value="44"/>
+			<int name="x" value="2726"/>
+			<int name="y" value="-420"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="96"/>
-			<int name="cy" value="99"/>
-			<int name="rx0" value="2150"/>
+			<int name="fh" value="66"/>
+			<int name="cy" value="-387"/>
+			<int name="rx0" value="2240"/>
 			<int name="rx1" value="2860"/>
 		</imgdir>
 	</imgdir>
@@ -5982,12 +5982,6 @@
 			<int name="x2" value="1972"/>
 			<int name="y2" value="144"/>
 		</imgdir>
-		<imgdir name="2">
-			<int name="x1" value="2647"/>
-			<int name="y1" value="-500"/>
-			<int name="x2" value="2812"/>
-			<int name="y2" value="-390"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="1">
@@ -7218,25 +7212,14 @@
 			<string name="script" value=""/>
 		</imgdir>
 		<imgdir name="11">
-			<string name="pn" value="in00"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="-28"/>
-			<int name="y" value="141"/>
-			<int name="tm" value="222010310"/>
-			<string name="tn" value="out00"/>
-		</imgdir>
-		<imgdir name="12">
 			<string name="pn" value="west00"/>
-			<int name="pt" value="7"/>
+			<int name="pt" value="2"/>
 			<int name="x" value="-301"/>
 			<int name="y" value="149"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-			<string name="script" value="foxLaidy_map"/>
-			<int name="hideTooltip" value="0"/>
-			<int name="delay" value="0"/>
+			<int name="tm" value="222010200"/>
+			<string name="tn" value="east00"/>
 		</imgdir>
-		<imgdir name="13">
+		<imgdir name="12">
 			<string name="pn" value="east00"/>
 			<int name="pt" value="2"/>
 			<int name="x" value="2831"/>

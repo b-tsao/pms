@@ -17,8 +17,8 @@
 		<int name="reqLUK" value="0"/>
 		<int name="cash" value="1"/>
 		<imgdir name="effect">
-			<string name="path" value="Effect/CharacterEff.img/1072337"/>
-			<int name="follow" value="0"/>
+			<string name="path" value="Effect/CharacterEff.img/1072337/0"/>
+			<int name="follow" value="1"/>
 			<string name="left" value="-1"/>
 			<int name="top" value="-1"/>
 			<int name="right" value="1"/>
@@ -27,7 +27,6 @@
 			<int name="dy" value="-20"/>
 			<int name="delay" value="1200"/>
 			<int name="interval" value="170"/>
-			<int name="genOnMove" value="1"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="walk1">
@@ -37,7 +36,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -46,7 +45,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -55,7 +54,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="3">
@@ -64,7 +63,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -89,7 +88,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -98,7 +97,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -107,7 +106,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -129,7 +128,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -138,7 +137,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -147,7 +146,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -158,7 +157,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -167,7 +166,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -176,7 +175,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -187,7 +186,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -196,7 +195,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -205,7 +204,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -216,7 +215,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -225,7 +224,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -234,7 +233,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -245,7 +244,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -263,7 +262,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="3">
@@ -272,7 +271,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -283,7 +282,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -292,7 +291,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -301,7 +300,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -312,7 +311,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -321,7 +320,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -330,7 +329,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -341,7 +340,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -350,7 +349,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -359,7 +358,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -379,7 +378,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -388,7 +387,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="3">
@@ -397,7 +396,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -408,7 +407,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -417,7 +416,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -426,7 +425,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -437,7 +436,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -446,7 +445,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -455,7 +454,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -466,7 +465,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -475,7 +474,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -484,7 +483,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="3">
@@ -493,7 +492,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -504,7 +503,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -513,7 +512,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -524,7 +523,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -533,7 +532,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -544,7 +543,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -553,7 +552,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -562,7 +561,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -573,7 +572,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -582,7 +581,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -591,7 +590,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -602,7 +601,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -611,7 +610,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -620,7 +619,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -637,7 +636,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="3">
@@ -651,7 +650,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -668,7 +667,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -691,7 +690,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -700,7 +699,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="2">
@@ -714,7 +713,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -744,7 +743,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -753,7 +752,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -764,7 +763,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -775,7 +774,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="shoesTop"/>
+				<string name="z" value="shoesOverPants"/>
 			</canvas>
 		</imgdir>
 	</imgdir>

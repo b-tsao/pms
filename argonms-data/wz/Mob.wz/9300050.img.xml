@@ -2,10 +2,15 @@
 <imgdir name="9300050.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
+		<int name="level" value="68"/>
 		<int name="maxHP" value="25000"/>
 		<int name="maxMP" value="200"/>
+		<int name="flySpeed" value="-30"/>
 		<int name="PADamage" value="170"/>
+		<int name="PDDamage" value="350"/>
 		<int name="MADamage" value="0"/>
+		<int name="MDDamage" value="400"/>
+		<int name="acc" value="130"/>
 		<int name="eva" value="40"/>
 		<int name="exp" value="515"/>
 		<int name="undead" value="0"/>
@@ -14,11 +19,6 @@
 		<int name="summonType" value="1"/>
 		<int name="firstAttack" value="1"/>
 		<int name="hideName" value="1"/>
-		<int name="level" value="60"/>
-		<int name="flySpeed" value="-40"/>
-		<int name="PDDamage" value="225"/>
-		<int name="MDDamage" value="190"/>
-		<int name="acc" value="150"/>
 	</imgdir>
 	<imgdir name="fly">
 		<canvas name="0" width="55" height="34">

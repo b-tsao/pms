@@ -110,8 +110,6 @@
 		<string name="40" value="Visit the job instructors in each town to make a job advancement."/>
 		<string name="41" value="To become a magician, make the job advancement at level 8. The other job classes require a minimum level of 10."/>
 		<string name="42" value="Account sharing, selling, or trading is STRICTLY FORBIDDEN. Such accounts will be blocked."/>
-		<string name="43" value="To view your friends, party and/or guild membership, click on &apos;R&apos;."/>
-		<string name="44" value="To leave a guild, input &apos;leaveguild&apos;."/>
 	</imgdir>
 	<imgdir name="novice2">
 		<string name="0" value="Visit town stores where you can purchase equipments and potions."/>
@@ -196,7 +194,6 @@
 		<string name="20" value="Cash items can be bought in the Cash Shop using Nexon Cash purchased from our website."/>
 		<string name="21" value="Trading items for Nexon Cash gifts is NOT allowed. Such trades will result in being blocked from the game."/>
 		<string name="22" value="Account sharing, selling, or trading is STRICTLY FORBIDDEN. Such accounts will be blocked."/>
-		<string name="23" value="Ahoy matey! A new job has been added: Pirates! Head to the Nautilus Port today and join the ranks!"/>
 	</imgdir>
 	<imgdir name="novice5">
 		<string name="0" value="The 3rd job advancement is available at level 70 (requires 2nd job advancement)."/>
@@ -215,8 +212,6 @@
 		<string name="13" value="Cash items can be bought in the Cash Shop using Nexon Cash purchased from our website."/>
 		<string name="14" value="Trading items for Nexon Cash gifts is NOT allowed. Such trades will result in being blocked from the game."/>
 		<string name="15" value="Account sharing, selling, or trading is STRICTLY FORBIDDEN. Such accounts will be blocked."/>
-		<string name="16" value="At Level 70+, you can obtain a mount to move around faster! Speak with Kenta in the Aquarium Zoo for more info! "/>
-		<string name="17" value="A new job has been added: Pirates! Try advancing your character as a pirate!"/>
 	</imgdir>
 	<imgdir name="novice6">
 		<string name="0" value="The 4th job advancement is available at level 120 after 3rd job adv."/>
@@ -227,70 +222,7 @@
 		<string name="5" value="Cash items can be bought in the Cash Shop using Nexon Cash purchased from our website."/>
 		<string name="6" value="Trading items for Nexon Cash gifts is NOT allowed. Such trades will result in being blocked from the game."/>
 		<string name="7" value="Account sharing, selling, or trading is STRICTLY FORBIDDEN. Such accounts will be blocked."/>
-		<string name="8" value="You can obtain a mount by catching one--see Kenta in the Aquarium Zoo for more details! "/>
-		<string name="9" value="You can upgrade your mount by completing a quest, see Kenta in the Aquarium Zoo for more details!"/>
-		<string name="10" value="You can sometimes upgrade to 4th level skills by learning mastery books.  Good luck!"/>
-		<string name="11" value="You can sometimes upgrade to 4th level skills by completing quests.  Good luck!"/>
-		<string name="12" value="You can sometimes upgrade to 4th level skills only if you have the conditions for starting a quest.  Good luck!"/>
-		<string name="13" value="Ahoy Matey!  Captain Kyrin is recruiting ambitious rogues with a taste for mesos.  Become a Pirate today! "/>
 	</imgdir>
 	<imgdir name="novice7">
-		<string name="0" value="Each town has a general shop where you can purchase equipment and potions. "/>
-		<string name="1" value="Certain items are restricted based on gender and jobs. Please be sure to check the restrictions when purchasing an item. "/>
-		<string name="2" value="Once you make your 1st Job advancement, you cannot select a different Job with that character."/>
-		<string name="3" value="When you revive after making a job advancement, you will lose some EXP, so be careful! "/>
-		<string name="4" value="When you complete a quest, you may be able to acquire an item that you normally can&apos;t purchase from the store. "/>
-		<string name="5" value="When you make a job advancement, you will gain additional slots in your inventory."/>
-		<string name="6" value="If you have trained your job advancement past the minimum level required for making that advancement, you can still receive your lost Skill Points until you reach level 29."/>
-		<string name="7" value="If you type &apos;/trade [CharacterName]&apos; in the chat window, the exchange window will open. "/>
-		<string name="8" value="You can become a Magician at level 8, and all other classes at level 10. "/>
-		<string name="9" value="If you want to create a party, then type &apos;/makeparty&apos; in the chat window."/>
-		<string name="10" value="If you want to invite someone to the party, type in &apos;/partyinvite [character name]&apos;. "/>
-		<string name="11" value="If you want to force a character to leave the party, then type in &apos;/partyexpel [character name]&apos;. "/>
-		<string name="12" value="If you want to leave the party, then type in &apos;/leaveparty&apos;. "/>
-		<string name="13" value="If you would like to see the party information, then type in &apos;/partyinfo&apos;. "/>
-		<string name="14" value="If the party leader wishes to invite someone to the party, then right click on the character and the &apos;party invitation&apos; function will appear. "/>
-		<string name="15" value="To raise or lower a character&apos;s Fame, right click on the character and the +/- function will appear. "/>
-		<string name="16" value="Fame can be either raised or lowered only once per day. "/>
-		<string name="17" value="You can only raise or lower the Fame of a character once per month. "/>
-		<string name="18" value="Job advancements take place at each town&apos;s guild. Henesys - Bowmen, Perion - Warriors, Ellinia - Mages, Kerning City - Theives, Nautilus Port - Pirates"/>
-		<string name="19" value="Passive skills are applied automatically once you have and increase points in that skill. "/>
-		<string name="20" value="If you want to use your active skills, drag over the icon to the Skill window and set up short-cut keys for use."/>
-		<string name="21" value="Each town has class-based equipment particular to that town for sale."/>
-		<string name="22" value="If you level up without making your job advancement at the level you are able to advance at, you will not be given your Skill Points."/>
-		<string name="23" value="If you level up after you make your job advancement, you will be given Skill Points."/>
-		<string name="24" value="You can use your skill points in the &apos;Skill&apos; window."/>
-		<string name="25" value="Powerful monsters inhabit the underground dungeons, so please be careful! "/>
-		<string name="26" value="If you defeat a powerful monster, you will be able to obtain a valuable item which you cannot buy from a store."/>
-		<string name="27" value="After some time passes, your magical energy (MP) will regenerate."/>
-		<string name="28" value="Any skill that requires magical energy (MP) cannot be used without magical energy."/>
-		<string name="29" value="If you select &apos;/trade [CharacterName]&apos; in the chat window, the exchange window will open."/>
-		<string name="30" value="If you use the &quot;Return Scroll&quot; you will be able to get back to the town much more quickly and easily."/>
-		<string name="31" value="Even when you have finished using all of your throwing-stars and/or bullets and the number goes down to 0, they do not ever completely disappear--you must recharge them."/>
-		<string name="32" value="Throwing-stars or bullets can be recharged at the weapon shop or the general shop of each town and be reused."/>
-		<string name="33" value="The dash skill can be used with the arrow keys -&gt;-&gt; or &lt;-&lt;-. "/>
-		<string name="34" value="When making the 2nd job advancement, Pirates can choose between a Gunslinger and a Brawler."/>
-	</imgdir>
-	<imgdir name="novice8">
-		<string name="0" value="When the Pirate&apos;s 3rd level transformation skill is being used, only the pirate-exclusive skills can be used."/>
-		<string name="1" value="All skill points gained after level 30 are better off being distributed after the 2nd job advancement."/>
-		<string name="2" value="If you do not distribute all the skill points you have accumulated by level 30, you will not be able to make your 2nd job advancement."/>
-		<string name="3" value="There are some skills that overlap with other skills and therefore are not used."/>
-		<string name="4" value="You can make powerful weapons and armor using a variety of scrolls."/>
-		<string name="5" value="Deep inside the underground dungeons are powerful potions that cannot be purchased from general shops in the towns."/>
-		<string name="6" value="When making the 2nd job advancement, Pirates can choose between a Gunslinger and a Brawler."/>
-		<string name="7" value="Some quests and items have popularity restrictions."/>
-		<string name="8" value="Elemental bullets allow you to make much more powerful elemental attacks compared to attacks made with general bullets. "/>
-		<string name="9" value="Elemental-exclusive bullets can only be used for making elemental attacks."/>
-	</imgdir>
-	<imgdir name="novice9">
-		<string name="0" value="3rd job advancements can be made after the 2nd job advancement, when you reach level 70."/>
-		<string name="1" value="All skill points acquired after reach level 70 are better off being distributed after the 3rd job advancement."/>
-		<string name="2" value="If you don&apos;t distribute all of the skill points accumulated up to level 70, you will not be able to make the 3rd job advancement."/>
-		<string name="3" value="There are some quests that you can repeat even if you&apos;ve cleared it once."/>
-		<string name="4" value="If you use the sauna in Sleepywood, you will be able to recover your HP and MP much more quickly."/>
-		<string name="5" value="The 2nd Job Advancement skill set of a magician differs.  These skills are elemental-based, and damages each monster differently."/>
-		<string name="6" value="You can learn the skill needed to ride on a Mount by completing a quest. "/>
-		<string name="7" value="While the Pirate&apos;s 3rd, 4th level transformation and/or riding skills are in use, only pirate-exclusive skills can be used. "/>
 	</imgdir>
 </imgdir>

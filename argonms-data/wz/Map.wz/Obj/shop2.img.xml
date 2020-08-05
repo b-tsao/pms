@@ -1616,9 +1616,6 @@
 					<vector name="origin" x="50" y="29"/>
 					<int name="z" value="0"/>
 				</canvas>
-				<imgdir name="seat">
-					<vector name="0" x="-18" y="29"/>
-				</imgdir>
 			</imgdir>
 			<imgdir name="6">
 				<canvas name="0" width="75" height="68">

@@ -885,7 +885,6 @@
 		<uol name="prone" value="../40/prone"/>
 		<uol name="jump" value="../40/jump"/>
 		<uol name="fly" value="../40/fly"/>
-		<uol name="swingTF" value="../40/swingTF"/>
 	</imgdir>
 	<imgdir name="42">
 		<uol name="walk1" value="../40/walk1"/>

@@ -553,23 +553,11 @@
 			</canvas>
 			<int name="clr" value="-1"/>
 		</imgdir>
-		<imgdir name="30">
+		<imgdir name="29">
 			<canvas name="w" width="7" height="20">
-				<vector name="origin" x="7" y="4"/>
+				<vector name="origin" x="5" y="5"/>
 			</canvas>
-			<canvas name="c" width="8" height="20">
-				<vector name="origin" x="0" y="4"/>
-			</canvas>
-			<canvas name="e" width="7" height="20">
-				<vector name="origin" x="0" y="4"/>
-			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="50">
-			<canvas name="w" width="7" height="20">
-				<vector name="origin" x="7" y="5"/>
-			</canvas>
-			<canvas name="c" width="2" height="20">
+			<canvas name="c" width="5" height="20">
 				<vector name="origin" x="0" y="5"/>
 			</canvas>
 			<canvas name="e" width="7" height="20">
@@ -577,9 +565,9 @@
 			</canvas>
 			<int name="clr" value="-16777216"/>
 		</imgdir>
-		<imgdir name="51">
+		<imgdir name="28">
 			<canvas name="w" width="7" height="20">
-				<vector name="origin" x="7" y="5"/>
+				<vector name="origin" x="5" y="5"/>
 			</canvas>
 			<canvas name="c" width="1" height="20">
 				<vector name="origin" x="0" y="5"/>
@@ -587,67 +575,7 @@
 			<canvas name="e" width="7" height="20">
 				<vector name="origin" x="0" y="5"/>
 			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="31">
-			<canvas name="w" width="10" height="24">
-				<vector name="origin" x="9" y="7"/>
-			</canvas>
-			<canvas name="c" width="1" height="20">
-				<vector name="origin" x="0" y="5"/>
-			</canvas>
-			<canvas name="e" width="8" height="24">
-				<vector name="origin" x="0" y="7"/>
-			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="32">
-			<canvas name="w" width="10" height="24">
-				<vector name="origin" x="9" y="7"/>
-			</canvas>
-			<canvas name="c" width="1" height="20">
-				<vector name="origin" x="0" y="5"/>
-			</canvas>
-			<canvas name="e" width="8" height="24">
-				<vector name="origin" x="0" y="7"/>
-			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="33">
-			<canvas name="w" width="10" height="24">
-				<vector name="origin" x="10" y="6"/>
-			</canvas>
-			<canvas name="c" width="1" height="20">
-				<vector name="origin" x="0" y="4"/>
-			</canvas>
-			<canvas name="e" width="8" height="24">
-				<vector name="origin" x="0" y="6"/>
-			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="34">
-			<canvas name="w" width="10" height="24">
-				<vector name="origin" x="9" y="7"/>
-			</canvas>
-			<canvas name="c" width="1" height="20">
-				<vector name="origin" x="0" y="5"/>
-			</canvas>
-			<canvas name="e" width="8" height="24">
-				<vector name="origin" x="0" y="7"/>
-			</canvas>
-			<int name="clr" value="-1"/>
-		</imgdir>
-		<imgdir name="35">
-			<canvas name="w" width="9" height="24">
-				<vector name="origin" x="9" y="7"/>
-			</canvas>
-			<canvas name="c" width="1" height="20">
-				<vector name="origin" x="0" y="5"/>
-			</canvas>
-			<canvas name="e" width="9" height="24">
-				<vector name="origin" x="0" y="7"/>
-			</canvas>
-			<int name="clr" value="-1"/>
+			<int name="clr" value="-16777216"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

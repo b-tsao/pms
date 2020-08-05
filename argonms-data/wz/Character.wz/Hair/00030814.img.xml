@@ -20,8 +20,8 @@
 			</imgdir>
 			<string name="z" value="hair"/>
 		</canvas>
-		<canvas name="hairBelowBody" width="42" height="35">
-			<vector name="origin" x="17" y="12"/>
+		<canvas name="hairBelowBody" width="48" height="42">
+			<vector name="origin" x="22" y="19"/>
 			<imgdir name="map">
 				<vector name="brow" x="0" y="0"/>
 			</imgdir>
@@ -50,13 +50,6 @@
 				<vector name="brow" x="0" y="0"/>
 			</imgdir>
 			<string name="z" value="backHair"/>
-		</canvas>
-		<canvas name="backHairBelowCap" width="38" height="37">
-			<vector name="origin" x="15" y="12"/>
-			<imgdir name="map">
-				<vector name="brow" x="0" y="0"/>
-			</imgdir>
-			<string name="z" value="backHairBelowCap"/>
 		</canvas>
 	</imgdir>
 	<imgdir name="walk1">

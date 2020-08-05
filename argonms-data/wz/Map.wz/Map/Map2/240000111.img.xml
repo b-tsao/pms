@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="240000111.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="1"/>
+		<int name="swim" value="0"/>
+		<int name="returnMap" value="240000000"/>
+		<int name="forcedReturn" value="240000100"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm13/Leafre"/>
+		<string name="mapMark" value="Leafre"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="248"/>
+		<int name="VRTop" value="-1261"/>
+		<int name="VRLeft" value="414"/>
+		<int name="VRBottom" value="407"/>
+		<int name="VRRight" value="2161"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="minar"/>
@@ -1082,23 +1099,6 @@
 		<int name="centerY" value="942"/>
 		<int name="mag" value="4"/>
 	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="1"/>
-		<int name="swim" value="0"/>
-		<int name="returnMap" value="240000000"/>
-		<int name="forcedReturn" value="240000100"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm13/Leafre"/>
-		<string name="mapMark" value="Leafre"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="262392"/>
-		<int name="VRTop" value="-1261"/>
-		<int name="VRLeft" value="414"/>
-		<int name="VRBottom" value="407"/>
-		<int name="VRRight" value="2161"/>
-	</imgdir>
 	<imgdir name="portal">
 		<imgdir name="0">
 			<string name="pn" value="sp"/>
@@ -1116,21 +1116,15 @@
 			<int name="tm" value="240000111"/>
 			<string name="tn" value="h002"/>
 			<string name="script" value=""/>
-			<int name="hideTooltip" value="0"/>
-			<int name="onlyOnce" value="0"/>
-			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="2">
 			<string name="pn" value="h002"/>
 			<int name="pt" value="1"/>
 			<int name="x" value="1201"/>
-			<int name="y" value="-629"/>
+			<int name="y" value="-638"/>
 			<int name="tm" value="240000111"/>
 			<string name="tn" value="h001"/>
 			<string name="script" value=""/>
-			<int name="hideTooltip" value="0"/>
-			<int name="onlyOnce" value="0"/>
-			<int name="delay" value="0"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

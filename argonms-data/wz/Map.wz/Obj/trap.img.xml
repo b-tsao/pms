@@ -4346,6 +4346,350 @@
 				<int name="dir" value="3"/>
 				<int name="damage" value="50"/>
 			</imgdir>
+			<imgdir name="penguin">
+				<canvas name="0" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="2500"/>
+				</canvas>
+				<canvas name="1" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="2" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="3" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="4" width="92" height="56">
+					<vector name="origin" x="46" y="41"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="5" width="92" height="69">
+					<vector name="origin" x="46" y="54"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="6" width="92" height="63">
+					<vector name="origin" x="46" y="48"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="7" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="8" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="9" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="10" value="8"/>
+				<uol name="11" value="9"/>
+				<uol name="12" value="8"/>
+				<uol name="13" value="9"/>
+				<canvas name="14" width="92" height="59">
+					<vector name="origin" x="46" y="44"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="15" width="92" height="49">
+					<vector name="origin" x="46" y="34"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="16" value="0"/>
+				<int name="obstacle" value="1"/>
+				<int name="damage" value="100"/>
+			</imgdir>
+			<imgdir name="penguin2">
+				<canvas name="0" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="3500"/>
+				</canvas>
+				<canvas name="1" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="2" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="3" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="4" width="92" height="56">
+					<vector name="origin" x="46" y="41"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="5" width="92" height="69">
+					<vector name="origin" x="46" y="54"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="6" width="92" height="63">
+					<vector name="origin" x="46" y="48"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="7" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="8" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="9" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="10" value="8"/>
+				<uol name="11" value="9"/>
+				<uol name="12" value="8"/>
+				<uol name="13" value="9"/>
+				<uol name="14" value="8"/>
+				<uol name="15" value="9"/>
+				<canvas name="16" width="92" height="59">
+					<vector name="origin" x="46" y="44"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="17" width="92" height="49">
+					<vector name="origin" x="46" y="34"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="18" value="0"/>
+				<int name="obstacle" value="1"/>
+				<int name="damage" value="100"/>
+			</imgdir>
+			<imgdir name="penguin3">
+				<canvas name="0" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="2500"/>
+				</canvas>
+				<canvas name="1" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="2" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="3" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="4" width="92" height="56">
+					<vector name="origin" x="46" y="41"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="5" width="92" height="69">
+					<vector name="origin" x="46" y="54"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="6" width="92" height="63">
+					<vector name="origin" x="46" y="48"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="7" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="8" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="9" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="10" value="8"/>
+				<uol name="11" value="9"/>
+				<uol name="12" value="8"/>
+				<uol name="13" value="9"/>
+				<canvas name="14" width="92" height="59">
+					<vector name="origin" x="46" y="44"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="15" width="92" height="49">
+					<vector name="origin" x="46" y="34"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="16" value="0"/>
+				<int name="obstacle" value="1"/>
+				<int name="damage" value="200"/>
+			</imgdir>
+			<imgdir name="penguin4">
+				<canvas name="0" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="3500"/>
+				</canvas>
+				<canvas name="1" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="2" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="3" width="92" height="29">
+					<vector name="origin" x="46" y="14"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+				</canvas>
+				<canvas name="4" width="92" height="56">
+					<vector name="origin" x="46" y="41"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="5" width="92" height="69">
+					<vector name="origin" x="46" y="54"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="6" width="92" height="63">
+					<vector name="origin" x="46" y="48"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="7" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="8" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="9" width="92" height="60">
+					<vector name="origin" x="46" y="45"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="10" value="8"/>
+				<uol name="11" value="9"/>
+				<uol name="12" value="8"/>
+				<uol name="13" value="9"/>
+				<uol name="14" value="8"/>
+				<uol name="15" value="9"/>
+				<canvas name="16" width="92" height="59">
+					<vector name="origin" x="46" y="44"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-41"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<canvas name="17" width="92" height="49">
+					<vector name="origin" x="46" y="34"/>
+					<int name="z" value="0"/>
+					<string name="delay" value="100"/>
+					<vector name="lt" x="-29" y="-30"/>
+					<vector name="rb" x="25" y="0"/>
+				</canvas>
+				<uol name="18" value="0"/>
+				<int name="obstacle" value="1"/>
+				<int name="damage" value="200"/>
+			</imgdir>
 			<imgdir name="icicle1">
 				<canvas name="0" width="27" height="48">
 					<vector name="origin" x="12" y="-1"/>
@@ -4535,350 +4879,6 @@
 				<int name="obstacle" value="1"/>
 				<int name="damage" value="250"/>
 				<int name="dir" value="3"/>
-			</imgdir>
-			<imgdir name="penguin">
-				<canvas name="0" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="3500"/>
-				</canvas>
-				<canvas name="1" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="2" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="3" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="4" width="92" height="56">
-					<vector name="origin" x="46" y="41"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="5" width="92" height="69">
-					<vector name="origin" x="46" y="54"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="6" width="92" height="63">
-					<vector name="origin" x="46" y="48"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="7" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="8" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="9" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="10" value="8"/>
-				<uol name="11" value="9"/>
-				<uol name="12" value="8"/>
-				<uol name="13" value="9"/>
-				<canvas name="14" width="92" height="59">
-					<vector name="origin" x="46" y="44"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="15" width="92" height="49">
-					<vector name="origin" x="46" y="34"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="16" value="0"/>
-				<int name="obstacle" value="1"/>
-				<int name="damage" value="100"/>
-			</imgdir>
-			<imgdir name="penguin2">
-				<canvas name="0" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="4500"/>
-				</canvas>
-				<canvas name="1" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="2" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="3" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="4" width="92" height="56">
-					<vector name="origin" x="46" y="41"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="5" width="92" height="69">
-					<vector name="origin" x="46" y="54"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="6" width="92" height="63">
-					<vector name="origin" x="46" y="48"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="7" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="8" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="9" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="10" value="8"/>
-				<uol name="11" value="9"/>
-				<uol name="12" value="8"/>
-				<uol name="13" value="9"/>
-				<uol name="14" value="8"/>
-				<uol name="15" value="9"/>
-				<canvas name="16" width="92" height="59">
-					<vector name="origin" x="46" y="44"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="17" width="92" height="49">
-					<vector name="origin" x="46" y="34"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="18" value="0"/>
-				<int name="obstacle" value="1"/>
-				<int name="damage" value="100"/>
-			</imgdir>
-			<imgdir name="penguin3">
-				<canvas name="0" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="3500"/>
-				</canvas>
-				<canvas name="1" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="2" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="3" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="4" width="92" height="56">
-					<vector name="origin" x="46" y="41"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="5" width="92" height="69">
-					<vector name="origin" x="46" y="54"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="6" width="92" height="63">
-					<vector name="origin" x="46" y="48"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="7" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="8" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="9" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="10" value="8"/>
-				<uol name="11" value="9"/>
-				<uol name="12" value="8"/>
-				<uol name="13" value="9"/>
-				<canvas name="14" width="92" height="59">
-					<vector name="origin" x="46" y="44"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="15" width="92" height="49">
-					<vector name="origin" x="46" y="34"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="16" value="0"/>
-				<int name="obstacle" value="1"/>
-				<int name="damage" value="200"/>
-			</imgdir>
-			<imgdir name="penguin4">
-				<canvas name="0" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="4500"/>
-				</canvas>
-				<canvas name="1" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="2" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="3" width="92" height="29">
-					<vector name="origin" x="46" y="14"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-				</canvas>
-				<canvas name="4" width="92" height="56">
-					<vector name="origin" x="46" y="41"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="5" width="92" height="69">
-					<vector name="origin" x="46" y="54"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="6" width="92" height="63">
-					<vector name="origin" x="46" y="48"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="7" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="8" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="9" width="92" height="60">
-					<vector name="origin" x="46" y="45"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="10" value="8"/>
-				<uol name="11" value="9"/>
-				<uol name="12" value="8"/>
-				<uol name="13" value="9"/>
-				<uol name="14" value="8"/>
-				<uol name="15" value="9"/>
-				<canvas name="16" width="92" height="59">
-					<vector name="origin" x="46" y="44"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-41"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<canvas name="17" width="92" height="49">
-					<vector name="origin" x="46" y="34"/>
-					<int name="z" value="0"/>
-					<string name="delay" value="100"/>
-					<vector name="lt" x="-29" y="-30"/>
-					<vector name="rb" x="25" y="0"/>
-				</canvas>
-				<uol name="18" value="0"/>
-				<int name="obstacle" value="1"/>
-				<int name="damage" value="200"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>

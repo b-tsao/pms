@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="280010091.img">
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<int name="returnMap" value="280090000"/>
+		<int name="forcedReturn" value="280090000"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm05/MineQuest"/>
+		<string name="mapMark" value="ElNathDungeon"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="8830"/>
+		<int name="VRTop" value="-442"/>
+		<int name="VRLeft" value="-394"/>
+		<int name="VRBottom" value="954"/>
+		<int name="VRRight" value="1113"/>
+		<int name="swim" value="0"/>
+	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<string name="bS" value="deepMine"/>
@@ -4299,22 +4316,5 @@
 			<int name="tm" value="280010090"/>
 			<string name="tn" value="west00"/>
 		</imgdir>
-	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<int name="returnMap" value="280090000"/>
-		<int name="forcedReturn" value="280090000"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm05/MineQuest"/>
-		<string name="mapMark" value="ElNathDungeon"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="402046"/>
-		<int name="VRTop" value="-442"/>
-		<int name="VRLeft" value="-394"/>
-		<int name="VRBottom" value="954"/>
-		<int name="VRRight" value="1113"/>
-		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

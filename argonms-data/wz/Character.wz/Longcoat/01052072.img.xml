@@ -21,7 +21,6 @@
 		<int name="tuc" value="10"/>
 		<int name="price" value="300000"/>
 		<int name="cash" value="0"/>
-		<int name="incPDD" value="115"/>
 	</imgdir>
 	<imgdir name="walk1">
 		<imgdir name="0">
