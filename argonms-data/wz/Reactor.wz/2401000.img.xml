@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2401000.img">
 	<imgdir name="info">
-		<string name="name" value="&amp;#48393;&amp;#51064;&amp;#46108;&amp;#45208;&amp;#51064;&amp;#49828;&amp;#54588;&amp;#47551;"/>
+		<string name="name" value="&amp;#5023;&amp;#25415;&amp;#20052;&amp;#8261;&amp;#45374;&amp;#41889;&amp;#7083;&amp;#53703;"/>
 		<int name="backTile" value="1"/>
 	</imgdir>
 	<imgdir name="0">

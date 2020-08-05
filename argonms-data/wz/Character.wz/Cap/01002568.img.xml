@@ -27,13 +27,6 @@
 		</canvas>
 	</imgdir>
 	<imgdir name="backDefault">
-		<canvas name="default" width="4" height="4">
-			<vector name="origin" x="2" y="2"/>
-			<imgdir name="map">
-				<vector name="brow" x="-2" y="-12"/>
-			</imgdir>
-			<string name="z" value="backCapAccessory"/>
-		</canvas>
 	</imgdir>
 	<imgdir name="walk1">
 		<imgdir name="0">
@@ -375,18 +368,18 @@
 	</imgdir>
 	<imgdir name="ladder">
 		<imgdir name="0">
-			<uol name="backDefault" value="../../backDefault/default"/>
+			<uol name="backDefault" value="../../backDefault/default1"/>
 		</imgdir>
 		<imgdir name="1">
-			<uol name="backDefault" value="../../backDefault/default"/>
+			<uol name="backDefault" value="../../backDefault/default1"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="rope">
 		<imgdir name="0">
-			<uol name="backDefault" value="../../backDefault/default"/>
+			<uol name="backDefault" value="../../backDefault/default1"/>
 		</imgdir>
 		<imgdir name="1">
-			<uol name="backDefault" value="../../backDefault/default"/>
+			<uol name="backDefault" value="../../backDefault/default1"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

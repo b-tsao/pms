@@ -34,21 +34,6 @@
 			<int name="f" value="0"/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="life">
-		<imgdir name="0">
-			<string name="type" value="n"/>
-			<string name="id" value="1001001"/>
-			<int name="x" value="-270"/>
-			<int name="y" value="127"/>
-			<int name="fh" value="11"/>
-			<int name="cy" value="140"/>
-			<int name="rx0" value="-318"/>
-			<int name="rx1" value="-220"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="mobTime" value="0"/>
-		</imgdir>
-	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
 		</imgdir>
@@ -559,6 +544,19 @@
 			<int name="y" value="181"/>
 			<int name="tm" value="104000000"/>
 			<string name="tn" value="in00"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="life">
+		<imgdir name="0">
+			<string name="type" value="n"/>
+			<string name="id" value="1001001"/>
+			<int name="x" value="-276"/>
+			<int name="y" value="136"/>
+			<int name="fh" value="11"/>
+			<int name="cy" value="140"/>
+			<int name="rx0" value="-318"/>
+			<int name="rx1" value="-226"/>
+			<int name="f" value="1"/>
 		</imgdir>
 	</imgdir>
 </imgdir>

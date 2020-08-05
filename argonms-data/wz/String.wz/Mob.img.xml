@@ -49,16 +49,16 @@
 		<string name="name" value="Desert Rabbit (M)"/>
 	</imgdir>
 	<imgdir name="2100102">
-		<string name="name" value="Jr. Catus"/>
+		<string name="name" value="Jr. Cactus"/>
 	</imgdir>
 	<imgdir name="2100103">
-		<string name="name" value="Catus"/>
+		<string name="name" value="Cactus"/>
 	</imgdir>
 	<imgdir name="2100104">
-		<string name="name" value="Royal Catus"/>
+		<string name="name" value="Royal Cactus"/>
 	</imgdir>
 	<imgdir name="2100105">
-		<string name="name" value="Bellamoa "/>
+		<string name="name" value="Bellamoa"/>
 	</imgdir>
 	<imgdir name="2100106">
 		<string name="name" value="Ear Plug Plead"/>
@@ -222,6 +222,9 @@
 	<imgdir name="3220000">
 		<string name="name" value="Stumpy"/>
 	</imgdir>
+	<imgdir name="3220001">
+		<string name="name" value="Deo"/>
+	</imgdir>
 	<imgdir name="3230100">
 		<string name="name" value="Curse Eye"/>
 	</imgdir>
@@ -299,6 +302,12 @@
 	</imgdir>
 	<imgdir name="4130104">
 		<string name="name" value="Dark Nependeath"/>
+	</imgdir>
+	<imgdir name="4220000">
+		<string name="name" value="Seruf"/>
+	</imgdir>
+	<imgdir name="4220001">
+		<string name="name" value="Seruf"/>
 	</imgdir>
 	<imgdir name="4230100">
 		<string name="name" value="Cold Eye"/>
@@ -420,6 +429,18 @@
 	<imgdir name="4240000">
 		<string name="name" value="Chief Gray"/>
 	</imgdir>
+	<imgdir name="4250000">
+		<string name="name" value="Moss Snail"/>
+	</imgdir>
+	<imgdir name="4250001">
+		<string name="name" value="Lord Tree"/>
+	</imgdir>
+	<imgdir name="5090000">
+		<string name="name" value="Shade"/>
+	</imgdir>
+	<imgdir name="5090001">
+		<string name="name" value="Master Dummy"/>
+	</imgdir>
 	<imgdir name="5100000">
 		<string name="name" value="Jr. Yeti"/>
 	</imgdir>
@@ -534,6 +555,21 @@
 	<imgdir name="5220001">
 		<string name="name" value="King Clang"/>
 	</imgdir>
+	<imgdir name="5220002">
+		<string name="name" value="Faust"/>
+	</imgdir>
+	<imgdir name="5220003">
+		<string name="name" value="Timer"/>
+	</imgdir>
+	<imgdir name="5250000">
+		<string name="name" value="Moss Mushroom"/>
+	</imgdir>
+	<imgdir name="5250001">
+		<string name="name" value="Stone Bug"/>
+	</imgdir>
+	<imgdir name="5250002">
+		<string name="name" value="Prehistoric Boar"/>
+	</imgdir>
 	<imgdir name="5300000">
 		<string name="name" value="Leatty"/>
 	</imgdir>
@@ -548,6 +584,18 @@
 	</imgdir>
 	<imgdir name="6090000">
 		<string name="name" value="Riche"/>
+	</imgdir>
+	<imgdir name="6090001">
+		<string name="name" value="Snow Witch"/>
+	</imgdir>
+	<imgdir name="6090002">
+		<string name="name" value="Bamboo Warrior"/>
+	</imgdir>
+	<imgdir name="6090003">
+		<string name="name" value="Scholar Ghost"/>
+	</imgdir>
+	<imgdir name="6090004">
+		<string name="name" value="Rurumo"/>
 	</imgdir>
 	<imgdir name="6110300">
 		<string name="name" value="Homun"/>
@@ -593,6 +641,12 @@
 	</imgdir>
 	<imgdir name="6130209">
 		<string name="name" value="Sage Cat"/>
+	</imgdir>
+	<imgdir name="6220000">
+		<string name="name" value="Dyle"/>
+	</imgdir>
+	<imgdir name="6220001">
+		<string name="name" value="Zeno"/>
 	</imgdir>
 	<imgdir name="6230100">
 		<string name="name" value="Wild Kargo"/>
@@ -668,6 +722,9 @@
 	</imgdir>
 	<imgdir name="6400100">
 		<string name="name" value="Deep Buffoon"/>
+	</imgdir>
+	<imgdir name="7090000">
+		<string name="name" value="Security Camera"/>
 	</imgdir>
 	<imgdir name="7110300">
 		<string name="name" value="D. Roy"/>
@@ -749,6 +806,15 @@
 	</imgdir>
 	<imgdir name="7220000">
 		<string name="name" value="Tae Roon"/>
+	</imgdir>
+	<imgdir name="7220001">
+		<string name="name" value="Old Fox"/>
+	</imgdir>
+	<imgdir name="7220002">
+		<string name="name" value="King Sage Cat"/>
+	</imgdir>
+	<imgdir name="8090000">
+		<string name="name" value="Deet and Roi"/>
 	</imgdir>
 	<imgdir name="8110300">
 		<string name="name" value="Homunscullo"/>
@@ -887,6 +953,12 @@
 	</imgdir>
 	<imgdir name="8220001">
 		<string name="name" value="Snowman"/>
+	</imgdir>
+	<imgdir name="8220002">
+		<string name="name" value="Kimera"/>
+	</imgdir>
+	<imgdir name="8220003">
+		<string name="name" value="Leviathan"/>
 	</imgdir>
 	<imgdir name="8500000">
 		<string name="name" value="Time Sphere"/>
@@ -1061,6 +1133,21 @@
 	</imgdir>
 	<imgdir name="9001003">
 		<string name="name" value="Dark Lord&apos;s Clone"/>
+	</imgdir>
+	<imgdir name="9001004">
+		<string name="name" value="Kyrin&apos;s Other Self"/>
+	</imgdir>
+	<imgdir name="9001005">
+		<string name="name" value="Pirate Octopus"/>
+	</imgdir>
+	<imgdir name="9001006">
+		<string name="name" value="Pirate Octopus"/>
+	</imgdir>
+	<imgdir name="9001007">
+		<string name="name" value="Scarecrow for Training"/>
+	</imgdir>
+	<imgdir name="9001008">
+		<string name="name" value="Kyrin&apos;s other self&apos;s other self"/>
 	</imgdir>
 	<imgdir name="9100000">
 		<string name="name" value="Super Slime"/>
@@ -1626,6 +1713,135 @@
 	<imgdir name="9300152">
 		<string name="name" value="Angry Franken Lloyd"/>
 	</imgdir>
+	<imgdir name="9300153">
+		<string name="name" value="Obstacle Mutae"/>
+	</imgdir>
+	<imgdir name="9300154">
+		<string name="name" value="Neo Huroid for Experiement"/>
+	</imgdir>
+	<imgdir name="9300155">
+		<string name="name" value="Pig"/>
+	</imgdir>
+	<imgdir name="9300156">
+		<string name="name" value="Black Wizard&apos;s Subordinate"/>
+	</imgdir>
+	<imgdir name="9300157">
+		<string name="name" value="Scorpion"/>
+	</imgdir>
+	<imgdir name="9300158">
+		<string name="name" value="Kyrin"/>
+	</imgdir>
+	<imgdir name="9300159">
+		<string name="name" value="Kyrin"/>
+	</imgdir>
+	<imgdir name="9300160">
+		<string name="name" value="Blue Flower Serpent"/>
+	</imgdir>
+	<imgdir name="9300161">
+		<string name="name" value="Red Flower Serpent"/>
+	</imgdir>
+	<imgdir name="9300162">
+		<string name="name" value="Delly"/>
+	</imgdir>
+	<imgdir name="9300163">
+		<string name="name" value="Sage Cat"/>
+	</imgdir>
+	<imgdir name="9300164">
+		<string name="name" value="The Book Ghost"/>
+	</imgdir>
+	<imgdir name="9300165">
+		<string name="name" value="Peach Monkey"/>
+	</imgdir>
+	<imgdir name="9300166">
+		<string name="name" value="Bomb"/>
+	</imgdir>
+	<imgdir name="9300167">
+		<string name="name" value="Degraded Rumo"/>
+	</imgdir>
+	<imgdir name="9300168">
+		<string name="name" value="Reinforced Roid"/>
+	</imgdir>
+	<imgdir name="9300169">
+		<string name="name" value="Ratz from Another Dimension"/>
+	</imgdir>
+	<imgdir name="9300170">
+		<string name="name" value="Black Ratz from Another Dimension"/>
+	</imgdir>
+	<imgdir name="9300171">
+		<string name="name" value="Bloctopus from Another Dimension"/>
+	</imgdir>
+	<imgdir name="9300172">
+		<string name="name" value="Poisoned Lord Tree"/>
+	</imgdir>
+	<imgdir name="9300173">
+		<string name="name" value="Poisoned Stone Bug"/>
+	</imgdir>
+	<imgdir name="9300174">
+		<string name="name" value="Poisoned Spright"/>
+	</imgdir>
+	<imgdir name="9300175">
+		<string name="name" value="Poison Flower"/>
+	</imgdir>
+	<imgdir name="9300176">
+		<string name="name" value="Poison Golem"/>
+	</imgdir>
+	<imgdir name="9300177">
+		<string name="name" value="Poison Golem Level 2"/>
+	</imgdir>
+	<imgdir name="9300178">
+		<string name="name" value="Poison Golem Level 3"/>
+	</imgdir>
+	<imgdir name="9300179">
+		<string name="name" value="Spright"/>
+	</imgdir>
+	<imgdir name="9300180">
+		<string name="name" value="Poison Tree"/>
+	</imgdir>
+	<imgdir name="9300181">
+		<string name="name" value="More Poisoned Stone Bug"/>
+	</imgdir>
+	<imgdir name="9300182">
+		<string name="name" value="Deeply Poisoned Lord Tree"/>
+	</imgdir>
+	<imgdir name="9300183">
+		<string name="name" value="Deeply Poisoned Stone Bug"/>
+	</imgdir>
+	<imgdir name="9300184">
+		<string name="name" value="Deeply Poisoned Spright"/>
+	</imgdir>
+	<imgdir name="9300185">
+		<string name="name" value="Poison Flower2"/>
+	</imgdir>
+	<imgdir name="9300186">
+		<string name="name" value="Poison Flower3"/>
+	</imgdir>
+	<imgdir name="9300187">
+		<string name="name" value="Poisoned Spright in the Deep Forest 1"/>
+	</imgdir>
+	<imgdir name="9300188">
+		<string name="name" value="Poisoned Spright in the Deep Forest 1"/>
+	</imgdir>
+	<imgdir name="9300189">
+		<string name="name" value="Poisoned Spright in the Deep Forest 2"/>
+	</imgdir>
+	<imgdir name="9300190">
+		<string name="name" value="Poisoned Spright in the Deep Forest 2"/>
+	</imgdir>
+	<imgdir name="9300191">
+		<string name="name" value="Poisoned Spright in the Deep Forest 3"/>
+	</imgdir>
+	<imgdir name="9300192">
+		<string name="name" value="Poisoned Spright in the Deep Forest 3"/>
+	</imgdir>
+	<imgdir name="9300193">
+		<string name="name" value="Poison Flower 4"/>
+	</imgdir>
+	<imgdir name="9300194">
+		<string name="name" value="Poison Flower 5"/>
+	</imgdir>
+	<imgdir name="9300195">
+		<string name="name" value="Transparent Monster for Checking the Boss Elimination"/>
+	</imgdir>
 	<imgdir name="9301000">
 		<string name="name" value="Bain"/>
 	</imgdir>
@@ -1982,6 +2198,66 @@
 	</imgdir>
 	<imgdir name="9400568">
 		<string name="name" value="Turkey Commando"/>
+	</imgdir>
+	<imgdir name="9400569">
+		<string name="name" value="Big Puff Daddy"/>
+	</imgdir>
+	<imgdir name="9400570">
+		<string name="name" value="Anniversary Cake"/>
+	</imgdir>
+	<imgdir name="9400571">
+		<string name="name" value="Headless Horseman"/>
+	</imgdir>
+	<imgdir name="9400572">
+		<string name="name" value="Geist Balrog"/>
+	</imgdir>
+	<imgdir name="9400573">
+		<string name="name" value="Baby typhon"/>
+	</imgdir>
+	<imgdir name="9400574">
+		<string name="name" value="Typhon"/>
+	</imgdir>
+	<imgdir name="9400575">
+		<string name="name" value="Bigfoot"/>
+	</imgdir>
+	<imgdir name="9400576">
+		<string name="name" value="Windraider"/>
+	</imgdir>
+	<imgdir name="9400577">
+		<string name="name" value="Firebrand"/>
+	</imgdir>
+	<imgdir name="9400578">
+		<string name="name" value="Firebrand"/>
+	</imgdir>
+	<imgdir name="9400579">
+		<string name="name" value="Nightshadow"/>
+	</imgdir>
+	<imgdir name="9400580">
+		<string name="name" value="Elderwraith"/>
+	</imgdir>
+	<imgdir name="9400581">
+		<string name="name" value="Stormbreaker"/>
+	</imgdir>
+	<imgdir name="9400582">
+		<string name="name" value="Crimson Guardian"/>
+	</imgdir>
+	<imgdir name="9400583">
+		<string name="name" value="Leprechaun"/>
+	</imgdir>
+	<imgdir name="9400584">
+		<string name="name" value="Leprechaun"/>
+	</imgdir>
+	<imgdir name="9400585">
+		<string name="name" value="Crimson Tree"/>
+	</imgdir>
+	<imgdir name="9400586">
+		<string name="name" value="Crimson Tree"/>
+	</imgdir>
+	<imgdir name="9400587">
+		<string name="name" value="Phantom Tree"/>
+	</imgdir>
+	<imgdir name="9400588">
+		<string name="name" value="Phantom Tree"/>
 	</imgdir>
 	<imgdir name="9400707">
 		<string name="name" value="Item Maker"/>
@@ -2442,6 +2718,54 @@
 	<imgdir name="9500183">
 		<string name="name" value="Watermelon Guard Hogol "/>
 	</imgdir>
+	<imgdir name="9500184">
+		<string name="name" value="Rideword P"/>
+	</imgdir>
+	<imgdir name="9500185">
+		<string name="name" value="Rideword Y"/>
+	</imgdir>
+	<imgdir name="9500186">
+		<string name="name" value="Rideword B"/>
+	</imgdir>
+	<imgdir name="9500187">
+		<string name="name" value="Busted Doll"/>
+	</imgdir>
+	<imgdir name="9500188">
+		<string name="name" value="Destroyed Doll"/>
+	</imgdir>
+	<imgdir name="9500189">
+		<string name="name" value="Gift Box"/>
+	</imgdir>
+	<imgdir name="9500190">
+		<string name="name" value="Toy Clown"/>
+	</imgdir>
+	<imgdir name="9500191">
+		<string name="name" value="Green Phantom"/>
+	</imgdir>
+	<imgdir name="9500192">
+		<string name="name" value="Pumpkin Knight"/>
+	</imgdir>
+	<imgdir name="9500193">
+		<string name="name" value="Fire Steed"/>
+	</imgdir>
+	<imgdir name="9500194">
+		<string name="name" value="Mirror Ghost"/>
+	</imgdir>
+	<imgdir name="9500195">
+		<string name="name" value="Jack-o-Lantern"/>
+	</imgdir>
+	<imgdir name="9500196">
+		<string name="name" value="Ghost"/>
+	</imgdir>
+	<imgdir name="9500197">
+		<string name="name" value="Ghost"/>
+	</imgdir>
+	<imgdir name="9500198">
+		<string name="name" value="Gift Box"/>
+	</imgdir>
+	<imgdir name="9500199">
+		<string name="name" value="Toy Clown"/>
+	</imgdir>
 	<imgdir name="9500200">
 		<string name="name" value="Zoo Balrog"/>
 	</imgdir>
@@ -2457,8 +2781,167 @@
 	<imgdir name="9500204">
 		<string name="name" value="Zoo Ribbon Pig"/>
 	</imgdir>
+	<imgdir name="9500300">
+		<string name="name" value="Busted Doll"/>
+	</imgdir>
+	<imgdir name="9500301">
+		<string name="name" value="Destroyed Doll"/>
+	</imgdir>
+	<imgdir name="9500302">
+		<string name="name" value="Jack-o-Lantern at Pumpkin Farm"/>
+	</imgdir>
+	<imgdir name="9500303">
+		<string name="name" value="Mirror Ghost 2"/>
+	</imgdir>
+	<imgdir name="9500304">
+		<string name="name" value="Mirror Ghost 3"/>
+	</imgdir>
+	<imgdir name="9500305">
+		<string name="name" value="Jack-o-Lantern"/>
+	</imgdir>
+	<imgdir name="9500306">
+		<string name="name" value="Mano"/>
+	</imgdir>
+	<imgdir name="9500307">
+		<string name="name" value="Stumpy"/>
+	</imgdir>
+	<imgdir name="9500308">
+		<string name="name" value="Faust"/>
+	</imgdir>
+	<imgdir name="9500309">
+		<string name="name" value="King Clang"/>
+	</imgdir>
+	<imgdir name="9500310">
+		<string name="name" value="Timer"/>
+	</imgdir>
+	<imgdir name="9500311">
+		<string name="name" value="Dyle"/>
+	</imgdir>
+	<imgdir name="9500312">
+		<string name="name" value="Nona-Tailed Fox"/>
+	</imgdir>
+	<imgdir name="9500313">
+		<string name="name" value="Tae Roon"/>
+	</imgdir>
+	<imgdir name="9500314">
+		<string name="name" value="King Sage Cat"/>
+	</imgdir>
+	<imgdir name="9500315">
+		<string name="name" value="Elliza"/>
+	</imgdir>
+	<imgdir name="9500316">
+		<string name="name" value="Snow Yeti"/>
+	</imgdir>
+	<imgdir name="9500317">
+		<string name="name" value="Kid Snowman"/>
+	</imgdir>
+	<imgdir name="9500318">
+		<string name="name" value="Angry Snowman"/>
+	</imgdir>
+	<imgdir name="9500319">
+		<string name="name" value="Giant Snowman"/>
+	</imgdir>
+	<imgdir name="9500320">
+		<string name="name" value="Lost Rudolph"/>
+	</imgdir>
+	<imgdir name="9500321">
+		<string name="name" value="Snowman"/>
+	</imgdir>
+	<imgdir name="9500322">
+		<string name="name" value="Kid Snowman"/>
+	</imgdir>
+	<imgdir name="9500323">
+		<string name="name" value="Kitty from Cheese Storage"/>
+	</imgdir>
+	<imgdir name="9500324">
+		<string name="name" value="Kitty from Cheese Storage"/>
+	</imgdir>
+	<imgdir name="9500325">
+		<string name="name" value="King Slime"/>
+	</imgdir>
+	<imgdir name="9500326">
+		<string name="name" value="Mushmom"/>
+	</imgdir>
+	<imgdir name="9500327">
+		<string name="name" value="Jr. Balrog"/>
+	</imgdir>
+	<imgdir name="9500328">
+		<string name="name" value="Crimson Balrog"/>
+	</imgdir>
+	<imgdir name="9500329">
+		<string name="name" value="Papa Pixie"/>
+	</imgdir>
+	<imgdir name="9500330">
+		<string name="name" value="Alishar"/>
+	</imgdir>
+	<imgdir name="9500331">
+		<string name="name" value="Papulatus"/>
+	</imgdir>
+	<imgdir name="9500332">
+		<string name="name" value="Pianus"/>
+	</imgdir>
+	<imgdir name="9500333">
+		<string name="name" value="Leviathan"/>
+	</imgdir>
+	<imgdir name="9500334">
+		<string name="name" value="Lord Pirate"/>
+	</imgdir>
+	<imgdir name="9500335">
+		<string name="name" value="Frankenroid"/>
+	</imgdir>
 	<imgdir name="9500400">
 		<string name="name" value="Gourd"/>
+	</imgdir>
+	<imgdir name="9501000">
+		<string name="name" value="Sealed"/>
+	</imgdir>
+	<imgdir name="9501001">
+		<string name="name" value="Darkness"/>
+	</imgdir>
+	<imgdir name="9501002">
+		<string name="name" value="Weakness"/>
+	</imgdir>
+	<imgdir name="9501003">
+		<string name="name" value="Knocked Out"/>
+	</imgdir>
+	<imgdir name="9501004">
+		<string name="name" value="Cursed"/>
+	</imgdir>
+	<imgdir name="9501005">
+		<string name="name" value="Poisoned"/>
+	</imgdir>
+	<imgdir name="9501006">
+		<string name="name" value="Slow"/>
+	</imgdir>
+	<imgdir name="9501007">
+		<string name="name" value="Disable Buff"/>
+	</imgdir>
+	<imgdir name="9501008">
+		<string name="name" value="Seduce"/>
+	</imgdir>
+	<imgdir name="9501009">
+		<string name="name" value="Immune to Weapon"/>
+	</imgdir>
+	<imgdir name="9501010">
+		<string name="name" value="Immune to Magic"/>
+	</imgdir>
+	<imgdir name="9501011">
+		<string name="name" value="Cancel Element"/>
+	</imgdir>
+	<imgdir name="9501012">
+		<string name="name" value="Reduce Element"/>
+	</imgdir>
+	<imgdir name="9501013">
+		<string name="name" value="Expand Element"/>
+	</imgdir>
+	<imgdir name="9501014">
+		<string name="name" value="Undead"/>
+	</imgdir>
+	<imgdir name="9501015">
+		<string name="name" value="Boss"/>
+	</imgdir>
+	<imgdir name="9501016">
+		<string name="name" value="Monster Book Test"/>
 	</imgdir>
 	<imgdir name="9600001">
 		<string name="name" value="Rooster"/>
@@ -2490,19 +2973,46 @@
 	<imgdir name="9600010">
 		<string name="name" value="Giant Centipede"/>
 	</imgdir>
+	<imgdir name="9999998">
+		<string name="name" value="Star Monster"/>
+	</imgdir>
 	<imgdir name="9999999">
 		<string name="name" value="???"/>
 	</imgdir>
-	<imgdir name="9400569">
-		<string name="name" value="Big Puff Daddy"/>
+	<imgdir name="9400238">
+		<string name="name" value="Drumming Bunny"/>
 	</imgdir>
-	<imgdir name="9400570">
-		<string name="name" value="Anniversary Cake"/>
+	<imgdir name="9400239">
+		<string name="name" value="Sand Rat"/>
 	</imgdir>
-	<imgdir name="9400571">
-		<string name="name" value="Headless Horseman"/>
+	<imgdir name="9400240">
+		<string name="name" value="Roid "/>
 	</imgdir>
-	<imgdir name="9400572">
-		<string name="name" value="Geist Balrog"/>
+	<imgdir name="9400241">
+		<string name="name" value="Pig"/>
+	</imgdir>
+	<imgdir name="9400242">
+		<string name="name" value="Ribbon Pig"/>
+	</imgdir>
+	<imgdir name="9400243">
+		<string name="name" value="Stone Golem"/>
+	</imgdir>
+	<imgdir name="9400244">
+		<string name="name" value="Mixed Golem"/>
+	</imgdir>
+	<imgdir name="9400245">
+		<string name="name" value="Zombie Mushroom"/>
+	</imgdir>
+	<imgdir name="9400246">
+		<string name="name" value="Horny Mushroom"/>
+	</imgdir>
+	<imgdir name="9400247">
+		<string name="name" value="Drumming Bunny"/>
+	</imgdir>
+	<imgdir name="9400248">
+		<string name="name" value="Sand Rat"/>
+	</imgdir>
+	<imgdir name="9400249">
+		<string name="name" value="Roid "/>
 	</imgdir>
 </imgdir>

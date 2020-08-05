@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9001000.img">
 	<imgdir name="info">
-		<string name="info" value="&amp;#49800;&amp;#54140; &amp;#51452;&amp;#45768;&amp;#50612; &amp;#45348;&amp;#53412; &amp;#54620;&amp;#47560;&amp;#47532; &amp;#52636;&amp;#54788;"/>
+		<string name="info" value="&amp;#27678;&amp;#30531;&amp;#64104;&amp;#22561;&amp;#50318;&amp;#42161;&amp;#52919;&amp;#55644;&amp;#28815;&amp;#36708;&amp;#33693;&amp;#35766;&amp;#22608;&amp;#46037;&amp;#55688;&amp;#62657;"/>
 		<string name="link" value="2202002"/>
 	</imgdir>
 	<string name="action" value="eventMob0"/>

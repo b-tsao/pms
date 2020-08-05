@@ -11,7 +11,7 @@
 		<float name="mobRate" value="1.0"/>
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="1"/>
-		<int name="fieldLimit" value="254"/>
+		<int name="fieldLimit" value="131326"/>
 		<int name="VRTop" value="-197"/>
 		<int name="VRLeft" value="-672"/>
 		<int name="VRBottom" value="412"/>

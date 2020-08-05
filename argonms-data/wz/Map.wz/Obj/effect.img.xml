@@ -190,6 +190,19 @@
 				</canvas>
 				<int name="repeat" value="8"/>
 			</imgdir>
+			<imgdir name="5">
+				<canvas name="0" width="50" height="46">
+					<vector name="origin" x="25" y="23"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="0"/>
+				</canvas>
+				<canvas name="1" width="50" height="46">
+					<vector name="origin" x="25" y="23"/>
+					<int name="z" value="0"/>
+					<int name="a0" value="255"/>
+				</canvas>
+				<int name="repeat" value="1"/>
+			</imgdir>
 		</imgdir>
 	</imgdir>
 </imgdir>

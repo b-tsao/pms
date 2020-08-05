@@ -22,4 +22,5 @@
 	<sound name="WorldmapClose"/>
 	<sound name="SelectMap"/>
 	<sound name="Plant"/>
+	<sound name="ScrollOpen"/>
 </imgdir>

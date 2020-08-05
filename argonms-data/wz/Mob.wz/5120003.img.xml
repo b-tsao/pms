@@ -78,7 +78,7 @@
 		<imgdir name="info">
 			<imgdir name="range">
 				<vector name="sp" x="-28" y="-29"/>
-				<int name="r" value="300"/>
+				<int name="r" value="220"/>
 			</imgdir>
 			<imgdir name="hit">
 				<canvas name="0" width="78" height="81">
@@ -175,7 +175,7 @@
 			<vector name="lt" x="-38" y="-48"/>
 			<vector name="rb" x="27" y="0"/>
 			<vector name="head" x="-28" y="-33"/>
-			<int name="delay" value="400"/>
+			<int name="delay" value="700"/>
 		</canvas>
 	</imgdir>
 	<imgdir name="jump">

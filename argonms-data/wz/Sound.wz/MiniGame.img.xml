@@ -11,4 +11,7 @@
 	<sound name="Open"/>
 	<sound name="Match"/>
 	<sound name="NoMatch"/>
+	<sound name="Reel"/>
+	<sound name="Stop"/>
+	<sound name="Show"/>
 </imgdir>

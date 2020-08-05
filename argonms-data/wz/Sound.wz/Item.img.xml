@@ -474,4 +474,34 @@
 	<imgdir name="02120000">
 		<uol name="Use" value="../02000000/Use"/>
 	</imgdir>
+	<imgdir name="02022266">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="02022267">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="02022268">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="02022269">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="02022279">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="02210010">
+		<uol name="Use" value="../02000000/Use"/>
+	</imgdir>
+	<imgdir name="02210011">
+		<uol name="Use" value="../02000000/Use"/>
+	</imgdir>
+	<imgdir name="04220021">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="04220023">
+		<uol name="Use" value="04220021/Use"/>
+	</imgdir>
+	<imgdir name="04220045">
+		<sound name="Use"/>
+	</imgdir>
 </imgdir>

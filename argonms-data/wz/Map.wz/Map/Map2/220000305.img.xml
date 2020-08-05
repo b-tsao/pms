@@ -94,18 +94,6 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="life">
-		<imgdir name="0">
-			<string name="type" value="n"/>
-			<string name="id" value="9201093"/>
-			<int name="x" value="88"/>
-			<int name="y" value="-28"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="fh" value="1"/>
-			<int name="cy" value="-28"/>
-			<int name="rx0" value="138"/>
-			<int name="rx1" value="38"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
@@ -654,6 +642,15 @@
 			<int name="y" value="-66"/>
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="pn" value="out00"/>
+			<int name="pt" value="2"/>
+			<int name="x" value="-238"/>
+			<int name="y" value="101"/>
+			<int name="tm" value="220000300"/>
+			<string name="tn" value="in04"/>
+			<string name="script" value=""/>
 		</imgdir>
 	</imgdir>
 </imgdir>

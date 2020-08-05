@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="2111001.img">
 	<imgdir name="info">
-		<string name="info" value="&amp;#51228;&amp;#45800;"/>
+		<string name="info" value="&amp;#26250;&amp;#5847;"/>
 	</imgdir>
 	<imgdir name="0">
 		<canvas name="0" width="452" height="59">

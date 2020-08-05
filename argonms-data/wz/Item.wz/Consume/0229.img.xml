@@ -1758,6 +1758,8 @@
 				<int name="7" value="3221000"/>
 				<int name="8" value="4121000"/>
 				<int name="9" value="4221000"/>
+				<int name="10" value="5121000"/>
+				<int name="11" value="5221000"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -1794,6 +1796,492 @@
 			<int name="reqSkillLevel" value="15"/>
 			<imgdir name="skill">
 				<int name="0" value="2121007"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290097">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121001"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290098">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121001"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290099">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121002"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290100">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121002"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290101">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121003"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290102">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121004"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290103">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121004"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290104">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121005"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290105">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121005"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290106">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121007"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290107">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121007"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290108">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121009"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290110">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5121010"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290111">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5121010"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290112">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5220001"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290113">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5220001"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290114">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5220002"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290115">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5221003"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290116">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5221003"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290117">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5221004"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290118">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5221004"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290119">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5221007"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290120">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5221007"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290121">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5221008"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290122">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="30"/>
+			<int name="success" value="50"/>
+			<int name="reqSkillLevel" value="15"/>
+			<imgdir name="skill">
+				<int name="0" value="5221008"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290123">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5221009"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="02290124">
+		<imgdir name="info">
+			<canvas name="icon" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconRaw" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<int name="slotMax" value="1"/>
+			<int name="price" value="1"/>
+			<int name="masterLevel" value="20"/>
+			<int name="success" value="70"/>
+			<int name="reqSkillLevel" value="5"/>
+			<imgdir name="skill">
+				<int name="0" value="5220011"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>

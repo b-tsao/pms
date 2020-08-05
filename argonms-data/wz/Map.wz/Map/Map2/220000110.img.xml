@@ -1868,6 +1868,10 @@
 			<int name="y" value="-251"/>
 			<int name="tm" value="220000110"/>
 			<string name="tn" value="h001"/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="onlyOnce" value="0"/>
+			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="2">
 			<string name="pn" value="h001"/>
@@ -1876,6 +1880,10 @@
 			<int name="y" value="-513"/>
 			<int name="tm" value="220000110"/>
 			<string name="tn" value="h000"/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="onlyOnce" value="0"/>
+			<int name="delay" value="0"/>
 		</imgdir>
 		<imgdir name="3">
 			<string name="pn" value="west00"/>

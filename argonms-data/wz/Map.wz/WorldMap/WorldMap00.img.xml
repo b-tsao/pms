@@ -93,5 +93,12 @@
 				<int name="1" value="60001"/>
 			</imgdir>
 		</imgdir>
+		<imgdir name="11">
+			<vector name="spot" x="46" y="48"/>
+			<int name="type" value="1"/>
+			<imgdir name="mapNo">
+				<int name="0" value="50001"/>
+			</imgdir>
+		</imgdir>
 	</imgdir>
 </imgdir>

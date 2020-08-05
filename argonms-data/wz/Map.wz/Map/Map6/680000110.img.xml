@@ -11,7 +11,7 @@
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="1"/>
 		<int name="fieldType" value="60"/>
-		<int name="fieldLimit" value="254"/>
+		<int name="fieldLimit" value="131326"/>
 		<int name="VRTop" value="-300"/>
 		<int name="VRLeft" value="-400"/>
 		<int name="VRBottom" value="300"/>
@@ -307,35 +307,6 @@
 		<imgdir name="obj">
 		</imgdir>
 	</imgdir>
-	<imgdir name="seat">
-		<vector name="0" x="21" y="6"/>
-		<vector name="1" x="54" y="6"/>
-		<vector name="2" x="90" y="6"/>
-		<vector name="3" x="155" y="6"/>
-		<vector name="4" x="188" y="6"/>
-		<vector name="5" x="224" y="6"/>
-		<vector name="6" x="55" y="-38"/>
-		<vector name="7" x="88" y="-38"/>
-		<vector name="8" x="124" y="-38"/>
-		<vector name="9" x="188" y="-38"/>
-		<vector name="10" x="221" y="-38"/>
-		<vector name="11" x="257" y="-38"/>
-		<vector name="12" x="89" y="-82"/>
-		<vector name="13" x="122" y="-82"/>
-		<vector name="14" x="158" y="-82"/>
-		<vector name="15" x="223" y="-82"/>
-		<vector name="16" x="256" y="-82"/>
-		<vector name="17" x="292" y="-82"/>
-		<vector name="18" x="322" y="-38"/>
-		<vector name="19" x="353" y="-38"/>
-		<vector name="20" x="383" y="-38"/>
-		<vector name="21" x="349" y="-82"/>
-		<vector name="22" x="366" y="-82"/>
-		<vector name="23" x="383" y="-82"/>
-		<vector name="24" x="291" y="6"/>
-		<vector name="25" x="324" y="6"/>
-		<vector name="26" x="360" y="6"/>
-	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="1">
 			<imgdir name="1">
@@ -487,6 +458,35 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="ladderRope">
+	</imgdir>
+	<imgdir name="seat">
+		<vector name="0" x="21" y="6"/>
+		<vector name="1" x="54" y="6"/>
+		<vector name="2" x="90" y="6"/>
+		<vector name="3" x="155" y="6"/>
+		<vector name="4" x="188" y="6"/>
+		<vector name="5" x="224" y="6"/>
+		<vector name="6" x="55" y="-38"/>
+		<vector name="7" x="88" y="-38"/>
+		<vector name="8" x="124" y="-38"/>
+		<vector name="9" x="188" y="-38"/>
+		<vector name="10" x="221" y="-38"/>
+		<vector name="11" x="257" y="-38"/>
+		<vector name="12" x="89" y="-82"/>
+		<vector name="13" x="122" y="-82"/>
+		<vector name="14" x="158" y="-82"/>
+		<vector name="15" x="223" y="-82"/>
+		<vector name="16" x="256" y="-82"/>
+		<vector name="17" x="292" y="-82"/>
+		<vector name="18" x="322" y="-38"/>
+		<vector name="19" x="353" y="-38"/>
+		<vector name="20" x="383" y="-38"/>
+		<vector name="21" x="349" y="-82"/>
+		<vector name="22" x="366" y="-82"/>
+		<vector name="23" x="383" y="-82"/>
+		<vector name="24" x="291" y="6"/>
+		<vector name="25" x="324" y="6"/>
+		<vector name="26" x="360" y="6"/>
 	</imgdir>
 	<imgdir name="portal">
 		<imgdir name="0">

@@ -19,7 +19,7 @@
 		<int name="summonType" value="0"/>
 		<imgdir name="ban">
 			<int name="banType" value="1"/>
-			<string name="banMsg" value="&amp;#54840;&amp;#44152;&amp;#50640;&amp;#44172; &amp;#46308;&amp;#53020; &amp;#49688;&amp;#48149;&amp;#48173;&amp;#50640;&amp;#49436; &amp;#51923;&amp;#44200;&amp;#45225;&amp;#45768;&amp;#45796;."/>
+			<string name="banMsg" value="&amp;#30894;&amp;#2119;&amp;#16280;&amp;#15441;&amp;#30310;&amp;#54753;&amp;#395;&amp;#26712;&amp;#25139;&amp;#13137;&amp;#60140;&amp;#63406;&amp;#8416;&amp;#46037;&amp;#57031;&amp;#36461;&amp;#29532;&amp;#40096;&amp;#29049;&amp;#2916;"/>
 			<imgdir name="banMap">
 				<imgdir name="0">
 					<int name="field" value="922210300"/>

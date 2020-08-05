@@ -9,9 +9,9 @@
 		<int name="forcedReturn" value="925100700"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm15/Pirate"/>
-		<string name="mapMark" value="WhiteHerb"/>
+		<string name="mapMark" value="DevijonParty"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8952"/>
+		<int name="fieldLimit" value="271096"/>
 		<int name="VRTop" value="-545"/>
 		<int name="VRLeft" value="-172"/>
 		<int name="VRBottom" value="438"/>

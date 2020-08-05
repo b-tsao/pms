@@ -7,18 +7,6 @@
 	</imgdir>
 	<imgdir name="skill">
 		<imgdir name="3220004">
-			<canvas name="icon" width="32" height="32">
-				<int name="z" value="0"/>
-				<vector name="origin" x="0" y="32"/>
-			</canvas>
-			<canvas name="iconMouseOver" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-				<int name="z" value="0"/>
-			</canvas>
-			<canvas name="iconDisabled" width="32" height="32">
-				<vector name="origin" x="0" y="32"/>
-				<int name="z" value="0"/>
-			</canvas>
 			<int name="skillType" value="1"/>
 			<imgdir name="level">
 				<imgdir name="1">
@@ -176,6 +164,18 @@
 				<int name="3200000" value="20"/>
 			</imgdir>
 			<int name="masterLevel" value="10"/>
+			<canvas name="icon" width="32" height="32">
+				<int name="z" value="0"/>
+				<vector name="origin" x="0" y="32"/>
+			</canvas>
+			<canvas name="iconMouseOver" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<canvas name="iconDisabled" width="32" height="32">
+				<vector name="origin" x="0" y="32"/>
+				<int name="z" value="0"/>
+			</canvas>
 		</imgdir>
 		<imgdir name="3221000">
 			<canvas name="icon" width="32" height="32">
@@ -347,7 +347,7 @@
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="40"/>
 					<int name="x" value="10"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="600"/>
 					<vector name="lt" x="-400" y="-300"/>
 					<vector name="rb" x="400" y="300"/>
 				</imgdir>
@@ -796,7 +796,7 @@
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="40"/>
 					<int name="x" value="15"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="300"/>
 					<int name="y" value="140"/>
 					<vector name="lt" x="-400" y="-300"/>
 					<vector name="rb" x="400" y="300"/>
@@ -1513,8 +1513,8 @@
 					<vector name="origin" x="70" y="143"/>
 					<int name="delay" value="60"/>
 				</canvas>
-				<string name="action" value="shoot2"/>
 				<int name="time" value="1200"/>
+				<string name="action" value="dash"/>
 			</imgdir>
 			<imgdir name="keydown">
 				<canvas name="0" width="184" height="232">
@@ -2007,7 +2007,7 @@
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="30"/>
 					<int name="x" value="30"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="180"/>
 					<int name="prop" value="40"/>
 					<int name="y" value="15"/>
 				</imgdir>
@@ -2354,7 +2354,7 @@
 				<imgdir name="30">
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="100"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="200"/>
 					<int name="x" value="3"/>
 					<int name="pad" value="500"/>
 				</imgdir>
@@ -2721,158 +2721,6 @@
 				<vector name="origin" x="0" y="32"/>
 				<int name="z" value="0"/>
 			</canvas>
-			<imgdir name="level">
-				<imgdir name="1">
-					<string name="hs" value="h1"/>
-					<int name="mpCon" value="40"/>
-					<int name="cooltime" value="300"/>
-				</imgdir>
-				<imgdir name="2">
-					<string name="hs" value="h2"/>
-					<int name="mpCon" value="39"/>
-					<int name="cooltime" value="290"/>
-				</imgdir>
-				<imgdir name="3">
-					<string name="hs" value="h3"/>
-					<int name="mpCon" value="38"/>
-					<int name="cooltime" value="280"/>
-				</imgdir>
-				<imgdir name="4">
-					<string name="hs" value="h4"/>
-					<int name="mpCon" value="37"/>
-					<int name="cooltime" value="270"/>
-				</imgdir>
-				<imgdir name="5">
-					<string name="hs" value="h5"/>
-					<int name="mpCon" value="36"/>
-					<int name="cooltime" value="260"/>
-				</imgdir>
-				<imgdir name="6">
-					<string name="hs" value="h6"/>
-					<int name="mpCon" value="35"/>
-					<int name="cooltime" value="250"/>
-				</imgdir>
-				<imgdir name="7">
-					<string name="hs" value="h7"/>
-					<int name="mpCon" value="34"/>
-					<int name="cooltime" value="240"/>
-				</imgdir>
-				<imgdir name="8">
-					<string name="hs" value="h8"/>
-					<int name="mpCon" value="33"/>
-					<int name="cooltime" value="230"/>
-				</imgdir>
-				<imgdir name="9">
-					<string name="hs" value="h9"/>
-					<int name="mpCon" value="32"/>
-					<int name="cooltime" value="220"/>
-				</imgdir>
-				<imgdir name="10">
-					<string name="hs" value="h10"/>
-					<int name="mpCon" value="31"/>
-					<int name="cooltime" value="210"/>
-				</imgdir>
-				<imgdir name="11">
-					<string name="hs" value="h11"/>
-					<int name="mpCon" value="30"/>
-					<int name="cooltime" value="180"/>
-				</imgdir>
-				<imgdir name="12">
-					<string name="hs" value="h12"/>
-					<int name="mpCon" value="29"/>
-					<int name="cooltime" value="170"/>
-				</imgdir>
-				<imgdir name="13">
-					<string name="hs" value="h13"/>
-					<int name="mpCon" value="28"/>
-					<int name="cooltime" value="160"/>
-				</imgdir>
-				<imgdir name="14">
-					<string name="hs" value="h14"/>
-					<int name="mpCon" value="27"/>
-					<int name="cooltime" value="150"/>
-				</imgdir>
-				<imgdir name="15">
-					<string name="hs" value="h15"/>
-					<int name="mpCon" value="26"/>
-					<int name="cooltime" value="140"/>
-				</imgdir>
-				<imgdir name="16">
-					<string name="hs" value="h16"/>
-					<int name="mpCon" value="25"/>
-					<int name="cooltime" value="130"/>
-				</imgdir>
-				<imgdir name="17">
-					<string name="hs" value="h17"/>
-					<int name="mpCon" value="24"/>
-					<int name="cooltime" value="120"/>
-				</imgdir>
-				<imgdir name="18">
-					<string name="hs" value="h18"/>
-					<int name="mpCon" value="23"/>
-					<int name="cooltime" value="110"/>
-				</imgdir>
-				<imgdir name="19">
-					<string name="hs" value="h19"/>
-					<int name="mpCon" value="22"/>
-					<int name="cooltime" value="100"/>
-				</imgdir>
-				<imgdir name="20">
-					<string name="hs" value="h20"/>
-					<int name="mpCon" value="21"/>
-					<int name="cooltime" value="90"/>
-				</imgdir>
-				<imgdir name="21">
-					<string name="hs" value="h21"/>
-					<int name="mpCon" value="20"/>
-					<int name="cooltime" value="60"/>
-				</imgdir>
-				<imgdir name="22">
-					<string name="hs" value="h22"/>
-					<int name="mpCon" value="19"/>
-					<int name="cooltime" value="55"/>
-				</imgdir>
-				<imgdir name="23">
-					<string name="hs" value="h23"/>
-					<int name="mpCon" value="18"/>
-					<int name="cooltime" value="50"/>
-				</imgdir>
-				<imgdir name="24">
-					<string name="hs" value="h24"/>
-					<int name="mpCon" value="17"/>
-					<int name="cooltime" value="45"/>
-				</imgdir>
-				<imgdir name="25">
-					<string name="hs" value="h25"/>
-					<int name="mpCon" value="16"/>
-					<int name="cooltime" value="40"/>
-				</imgdir>
-				<imgdir name="26">
-					<string name="hs" value="h26"/>
-					<int name="mpCon" value="15"/>
-					<int name="cooltime" value="35"/>
-				</imgdir>
-				<imgdir name="27">
-					<string name="hs" value="h27"/>
-					<int name="mpCon" value="14"/>
-					<int name="cooltime" value="30"/>
-				</imgdir>
-				<imgdir name="28">
-					<string name="hs" value="h28"/>
-					<int name="mpCon" value="13"/>
-					<int name="cooltime" value="25"/>
-				</imgdir>
-				<imgdir name="29">
-					<string name="hs" value="h29"/>
-					<int name="mpCon" value="12"/>
-					<int name="cooltime" value="20"/>
-				</imgdir>
-				<imgdir name="30">
-					<string name="hs" value="h30"/>
-					<int name="mpCon" value="11"/>
-					<int name="cooltime" value="15"/>
-				</imgdir>
-			</imgdir>
 			<imgdir name="effect">
 				<canvas name="0" width="167" height="95">
 					<vector name="origin" x="92" y="62"/>
@@ -2983,6 +2831,158 @@
 				</canvas>
 			</imgdir>
 			<int name="invisible" value="1"/>
+			<imgdir name="level">
+				<imgdir name="1">
+					<string name="hs" value="h1"/>
+					<int name="mpCon" value="40"/>
+					<int name="cooltime" value="250"/>
+				</imgdir>
+				<imgdir name="2">
+					<string name="hs" value="h2"/>
+					<int name="mpCon" value="39"/>
+					<int name="cooltime" value="240"/>
+				</imgdir>
+				<imgdir name="3">
+					<string name="hs" value="h3"/>
+					<int name="mpCon" value="38"/>
+					<int name="cooltime" value="230"/>
+				</imgdir>
+				<imgdir name="4">
+					<string name="hs" value="h4"/>
+					<int name="mpCon" value="37"/>
+					<int name="cooltime" value="220"/>
+				</imgdir>
+				<imgdir name="5">
+					<string name="hs" value="h5"/>
+					<int name="mpCon" value="36"/>
+					<int name="cooltime" value="210"/>
+				</imgdir>
+				<imgdir name="6">
+					<string name="hs" value="h6"/>
+					<int name="mpCon" value="35"/>
+					<int name="cooltime" value="200"/>
+				</imgdir>
+				<imgdir name="7">
+					<string name="hs" value="h7"/>
+					<int name="mpCon" value="34"/>
+					<int name="cooltime" value="190"/>
+				</imgdir>
+				<imgdir name="8">
+					<string name="hs" value="h8"/>
+					<int name="mpCon" value="33"/>
+					<int name="cooltime" value="180"/>
+				</imgdir>
+				<imgdir name="9">
+					<string name="hs" value="h9"/>
+					<int name="mpCon" value="32"/>
+					<int name="cooltime" value="170"/>
+				</imgdir>
+				<imgdir name="10">
+					<string name="hs" value="h10"/>
+					<int name="mpCon" value="31"/>
+					<int name="cooltime" value="160"/>
+				</imgdir>
+				<imgdir name="11">
+					<string name="hs" value="h11"/>
+					<int name="mpCon" value="30"/>
+					<int name="cooltime" value="150"/>
+				</imgdir>
+				<imgdir name="12">
+					<string name="hs" value="h12"/>
+					<int name="mpCon" value="29"/>
+					<int name="cooltime" value="140"/>
+				</imgdir>
+				<imgdir name="13">
+					<string name="hs" value="h13"/>
+					<int name="mpCon" value="28"/>
+					<int name="cooltime" value="130"/>
+				</imgdir>
+				<imgdir name="14">
+					<string name="hs" value="h14"/>
+					<int name="mpCon" value="27"/>
+					<int name="cooltime" value="120"/>
+				</imgdir>
+				<imgdir name="15">
+					<string name="hs" value="h15"/>
+					<int name="mpCon" value="26"/>
+					<int name="cooltime" value="110"/>
+				</imgdir>
+				<imgdir name="16">
+					<string name="hs" value="h16"/>
+					<int name="mpCon" value="25"/>
+					<int name="cooltime" value="100"/>
+				</imgdir>
+				<imgdir name="17">
+					<string name="hs" value="h17"/>
+					<int name="mpCon" value="24"/>
+					<int name="cooltime" value="90"/>
+				</imgdir>
+				<imgdir name="18">
+					<string name="hs" value="h18"/>
+					<int name="mpCon" value="23"/>
+					<int name="cooltime" value="80"/>
+				</imgdir>
+				<imgdir name="19">
+					<string name="hs" value="h19"/>
+					<int name="mpCon" value="22"/>
+					<int name="cooltime" value="70"/>
+				</imgdir>
+				<imgdir name="20">
+					<string name="hs" value="h20"/>
+					<int name="mpCon" value="21"/>
+					<int name="cooltime" value="60"/>
+				</imgdir>
+				<imgdir name="21">
+					<string name="hs" value="h21"/>
+					<int name="mpCon" value="20"/>
+					<int name="cooltime" value="55"/>
+				</imgdir>
+				<imgdir name="22">
+					<string name="hs" value="h22"/>
+					<int name="mpCon" value="19"/>
+					<int name="cooltime" value="50"/>
+				</imgdir>
+				<imgdir name="23">
+					<string name="hs" value="h23"/>
+					<int name="mpCon" value="18"/>
+					<int name="cooltime" value="45"/>
+				</imgdir>
+				<imgdir name="24">
+					<string name="hs" value="h24"/>
+					<int name="mpCon" value="17"/>
+					<int name="cooltime" value="40"/>
+				</imgdir>
+				<imgdir name="25">
+					<string name="hs" value="h25"/>
+					<int name="mpCon" value="16"/>
+					<int name="cooltime" value="35"/>
+				</imgdir>
+				<imgdir name="26">
+					<string name="hs" value="h26"/>
+					<int name="mpCon" value="15"/>
+					<int name="cooltime" value="30"/>
+				</imgdir>
+				<imgdir name="27">
+					<string name="hs" value="h27"/>
+					<int name="mpCon" value="14"/>
+					<int name="cooltime" value="25"/>
+				</imgdir>
+				<imgdir name="28">
+					<string name="hs" value="h28"/>
+					<int name="mpCon" value="13"/>
+					<int name="cooltime" value="20"/>
+				</imgdir>
+				<imgdir name="29">
+					<string name="hs" value="h29"/>
+					<int name="mpCon" value="12"/>
+					<int name="cooltime" value="15"/>
+				</imgdir>
+				<imgdir name="30">
+					<string name="hs" value="h30"/>
+					<int name="mpCon" value="11"/>
+					<int name="cooltime" value="10"/>
+				</imgdir>
+			</imgdir>
 		</imgdir>
 		<imgdir name="3221008">
 			<canvas name="icon" width="32" height="32">

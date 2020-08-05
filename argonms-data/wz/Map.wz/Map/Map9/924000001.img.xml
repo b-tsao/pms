@@ -2303,11 +2303,11 @@
 		<int name="forcedReturn" value="924000002"/>
 		<float name="mobRate" value="1.1"/>
 		<string name="bgm" value="Bgm13/AcientForest"/>
-		<string name="mapMark" value="None"/>
+		<string name="mapMark" value="Quest"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="decHP" value="30000"/>
 		<int name="protectItem" value="1092041"/>
-		<int name="fieldLimit" value="8952"/>
+		<int name="fieldLimit" value="271096"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="2">

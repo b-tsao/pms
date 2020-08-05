@@ -1962,6 +1962,7 @@
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
 				<int name="zM" value="1"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="3">
 				<string name="oS" value="tower"/>
@@ -2820,9 +2821,9 @@
 		<int name="forcedReturn" value="920011200"/>
 		<float name="mobRate" value="1.0"/>
 		<string name="bgm" value="Bgm13/TowerOfGoddess"/>
-		<string name="mapMark" value="Orbis"/>
+		<string name="mapMark" value="GoddessTower"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8828"/>
+		<int name="fieldLimit" value="270972"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">
@@ -4620,6 +4621,7 @@
 					<int name="y2" value="-100"/>
 					<int name="prev" value="93"/>
 					<int name="next" value="215"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
 			<imgdir name="9">

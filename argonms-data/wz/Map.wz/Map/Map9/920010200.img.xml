@@ -3940,9 +3940,9 @@
 		<int name="forcedReturn" value="920011200"/>
 		<float name="mobRate" value="5.9999967"/>
 		<string name="bgm" value="Bgm13/TowerOfGoddess"/>
-		<string name="mapMark" value="Orbis"/>
+		<string name="mapMark" value="GoddessTower"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8828"/>
+		<int name="fieldLimit" value="270972"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="4">

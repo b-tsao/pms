@@ -288,32 +288,6 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="life">
-		<imgdir name="0">
-			<string name="type" value="n"/>
-			<string name="id" value="9000015"/>
-			<int name="x" value="140"/>
-			<int name="y" value="1515"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="52"/>
-			<int name="cy" value="1515"/>
-			<int name="rx0" value="190"/>
-			<int name="rx1" value="90"/>
-		</imgdir>
-		<imgdir name="0">
-			<string name="type" value="n"/>
-			<string name="id" value="9201073"/>
-			<int name="x" value="375"/>
-			<int name="y" value="1515"/>
-			<int name="mobTime" value="0"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/> 
-			<int name="fh" value="57"/>
-			<int name="cy" value="1515"/>
-			<int name="rx0" value="425"/>
-			<int name="rx1" value="325"/>
-		</imgdir>
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -2497,7 +2471,14 @@
 			<int name="tm" value="910000013"/>
 			<string name="tn" value="up01"/>
 		</imgdir>
-
+		<imgdir name="5">
+			<string name="pn" value="up01"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="-416"/>
+			<int name="y" value="1181"/>
+			<int name="tm" value="910000013"/>
+			<string name="tn" value="up02"/>
+		</imgdir>
 		<imgdir name="6">
 			<string name="pn" value="up02"/>
 			<int name="pt" value="1"/>
@@ -2507,8 +2488,22 @@
 			<string name="tn" value=""/>
 			<string name="script" value=""/>
 		</imgdir>
-
-
+		<imgdir name="7">
+			<string name="pn" value="dn00"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="461"/>
+			<int name="y" value="971"/>
+			<int name="tm" value="910000013"/>
+			<string name="tn" value="dn01"/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="pn" value="dn01"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="491"/>
+			<int name="y" value="1181"/>
+			<int name="tm" value="910000013"/>
+			<string name="tn" value="dn02"/>
+		</imgdir>
 		<imgdir name="9">
 			<string name="pn" value="dn02"/>
 			<int name="pt" value="1"/>
@@ -2518,6 +2513,14 @@
 			<string name="tn" value=""/>
 			<string name="script" value=""/>
 		</imgdir>
-
+		<imgdir name="10">
+			<string name="pn" value="out00"/>
+			<int name="pt" value="2"/>
+			<int name="x" value="50"/>
+			<int name="y" value="1421"/>
+			<int name="tm" value="910000000"/>
+			<string name="tn" value="in13"/>
+			<string name="script" value=""/>
+		</imgdir>
 	</imgdir>
 </imgdir>

@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="01452040.img">
-	<imgdir name="info">
-		<canvas name="icon" width="34" height="34">
-			<vector name="origin" x="0" y="31"/>
-		</canvas>
-		<canvas name="iconRaw" width="34" height="34">
-			<vector name="origin" x="0" y="31"/>
-		</canvas>
-		<string name="islot" value="WpSi"/>
-		<string name="vslot" value="WpSi"/>
-		<int name="walk" value="1"/>
-		<int name="stand" value="1"/>
-		<short name="attack" value="3"/>
-		<string name="afterImage" value="swordTS"/>
-		<string name="sfx" value="bow"/>
-		<int name="reqJob" value="4"/>
-		<int name="reqLevel" value="50"/>
-		<int name="reqSTR" value="55"/>
-		<int name="reqDEX" value="160"/>
-		<int name="reqINT" value="0"/>
-		<int name="reqLUK" value="0"/>
-		<int name="incPAD" value="75"/>
-		<int name="tuc" value="7"/>
-		<int name="price" value="250000"/>
-		<int name="attackSpeed" value="6"/>
-		<int name="cash" value="0"/>
-		<int name="knockback" value="45"/>
-		<int name="tradeBlock" value="1"/>
-		<int name="notSale" value="1"/>
-		<int name="only" value="1"/>
-		<int name="expireOnLogout" value="1"/>
-	</imgdir>
 	<imgdir name="walk1">
 		<imgdir name="0">
 			<canvas name="weapon" width="72" height="19">
@@ -286,5 +255,36 @@
 				<string name="z" value="weaponOverArm"/>
 			</canvas>
 		</imgdir>
+	</imgdir>
+	<imgdir name="info">
+		<canvas name="icon" width="34" height="34">
+			<vector name="origin" x="0" y="31"/>
+		</canvas>
+		<canvas name="iconRaw" width="34" height="34">
+			<vector name="origin" x="0" y="31"/>
+		</canvas>
+		<string name="islot" value="WpSi"/>
+		<string name="vslot" value="WpSi"/>
+		<int name="walk" value="1"/>
+		<int name="stand" value="1"/>
+		<short name="attack" value="3"/>
+		<string name="afterImage" value="bow"/>
+		<string name="sfx" value="bow"/>
+		<int name="reqJob" value="4"/>
+		<int name="reqLevel" value="50"/>
+		<int name="reqSTR" value="55"/>
+		<int name="reqDEX" value="160"/>
+		<int name="reqINT" value="0"/>
+		<int name="reqLUK" value="0"/>
+		<int name="incPAD" value="75"/>
+		<int name="tuc" value="7"/>
+		<int name="price" value="250000"/>
+		<int name="attackSpeed" value="6"/>
+		<int name="cash" value="0"/>
+		<int name="knockback" value="45"/>
+		<int name="tradeBlock" value="1"/>
+		<int name="notSale" value="1"/>
+		<int name="only" value="1"/>
+		<int name="expireOnLogout" value="1"/>
 	</imgdir>
 </imgdir>

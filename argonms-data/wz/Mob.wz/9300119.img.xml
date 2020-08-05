@@ -2,7 +2,6 @@
 <imgdir name="9300119.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
-		<int name="level" value="70"/>
 		<int name="maxHP" value="420000"/>
 		<int name="maxMP" value="300"/>
 		<int name="speed" value="-40"/>
@@ -40,6 +39,7 @@
 				<int name="effectAfter" value="0"/>
 			</imgdir>
 		</imgdir>
+		<int name="level" value="60"/>
 	</imgdir>
 	<imgdir name="move">
 		<canvas name="0" width="212" height="145">

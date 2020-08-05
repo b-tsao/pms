@@ -11,6 +11,7 @@
 				<string name="script" value="ariant_house3"/>
 			</imgdir>
 		</imgdir>
+		<int name="talkMouseOnly" value="1"/>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="4" height="4">

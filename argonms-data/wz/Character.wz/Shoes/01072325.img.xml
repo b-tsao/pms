@@ -92,7 +92,7 @@
 			<canvas name="shoes" width="26" height="10">
 				<vector name="origin" x="12" y="-11"/>
 				<imgdir name="map">
-					<vector name="navel" x="0" y="0"/>
+					<vector name="navel" x="1" y="0"/>
 				</imgdir>
 				<string name="z" value="shoesTop"/>
 			</canvas>

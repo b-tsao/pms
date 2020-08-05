@@ -4250,20 +4250,6 @@
 		<imgdir name="obj">
 		</imgdir>
 	</imgdir>
-	<imgdir name="ToolTip">
-		<imgdir name="0">
-			<int name="x1" value="628"/>
-			<int name="y1" value="738"/>
-			<int name="x2" value="757"/>
-			<int name="y2" value="819"/>
-		</imgdir>
-		<imgdir name="1">
-			<int name="x1" value="-2132"/>
-			<int name="y1" value="747"/>
-			<int name="x2" value="-1999"/>
-			<int name="y2" value="813"/>
-		</imgdir>
-	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">
 			<imgdir name="37">

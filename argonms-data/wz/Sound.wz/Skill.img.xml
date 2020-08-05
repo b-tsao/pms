@@ -3,9 +3,6 @@
 	<imgdir name="0001000">
 		<uol name="Use" value="../1001004/Use"/>
 	</imgdir>
-	<imgdir name="0001001">
-		<uol name="Use" value="../5001003/Use"/>
-	</imgdir>
 	<imgdir name="0001002">
 		<uol name="Use" value="../1111005/Use"/>
 	</imgdir>
@@ -35,9 +32,6 @@
 	</imgdir>
 	<imgdir name="1111003">
 		<sound name="Use"/>
-	</imgdir>
-	<imgdir name="1111004">
-		<uol name="use" value="../1111003/Use"/>
 	</imgdir>
 	<imgdir name="1111005">
 		<sound name="Use"/>
@@ -377,12 +371,15 @@
 	</imgdir>
 	<imgdir name="5001001">
 		<sound name="Use"/>
+		<sound name="Hit"/>
 	</imgdir>
 	<imgdir name="5001002">
 		<sound name="Use"/>
+		<sound name="Hit"/>
 	</imgdir>
 	<imgdir name="5001003">
 		<sound name="Use"/>
+		<sound name="Hit"/>
 	</imgdir>
 	<imgdir name="5001004">
 		<sound name="Use"/>
@@ -713,5 +710,196 @@
 	</imgdir>
 	<imgdir name="1201007">
 		<uol name="Use" value="../1101007/Use"/>
+	</imgdir>
+	<imgdir name="0001001">
+		<uol name="Use" value="../2301004/Use"/>
+	</imgdir>
+	<imgdir name="1111004">
+		<uol name="Use" value="../1111003/Use"/>
+	</imgdir>
+	<imgdir name="5101002">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5101003">
+		<sound name="Hit"/>
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5101004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+		<sound name="Loop"/>
+	</imgdir>
+	<imgdir name="5101005">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5101006">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5101007">
+		<sound name="Use"/>
+		<sound name="Use2"/>
+	</imgdir>
+	<imgdir name="5110001">
+		<sound name="Use"/>
+		<sound name="Use2"/>
+	</imgdir>
+	<imgdir name="5111002">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5111004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5111005">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5111006">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5121000">
+		<uol name="Use" value="../1121000/Use"/>
+	</imgdir>
+	<imgdir name="5121001">
+		<sound name="Hit"/>
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5121002">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5121003">
+		<uol name="Use" value="../5111005/Use"/>
+	</imgdir>
+	<imgdir name="5121004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5121005">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5121007">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5121008">
+		<uol name="Use" value="../1121011/Use"/>
+	</imgdir>
+	<imgdir name="5121009">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5121010">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5201001">
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5201002">
+		<sound name="Use2"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5201003">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5201004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5201005">
+		<sound name="Loop"/>
+	</imgdir>
+	<imgdir name="5201006">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5210000">
+		<sound name="Use"/>
+		<uol name="Hit" value="../5001003/Hit"/>
+	</imgdir>
+	<imgdir name="5211001">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5211002">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5211004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5211005">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5211006">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221000">
+		<uol name="Use" value="../1121000/Use"/>
+	</imgdir>
+	<imgdir name="5220002">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5221003">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221004">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221005">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5221006">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="5221007">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221008">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221009">
+		<sound name="Use"/>
+		<sound name="Hit"/>
+	</imgdir>
+	<imgdir name="5221010">
+		<uol name="Use" value="../1121011/Use"/>
+	</imgdir>
+	<imgdir name="5220011">
+		<uol name="Use" value="../5211006/Use"/>
+		<uol name="Hit" value="../5211006/Hit"/>
+	</imgdir>
+	<imgdir name="9001000">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001001">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001002">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001003">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001004">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001005">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001006">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001007">
+		<sound name="Use"/>
+	</imgdir>
+	<imgdir name="9001008">
+		<sound name="Use"/>
 	</imgdir>
 </imgdir>

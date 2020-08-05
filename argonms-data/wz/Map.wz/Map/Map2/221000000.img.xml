@@ -457,6 +457,19 @@
 			<int name="rx0" value="2245"/>
 			<int name="rx1" value="2345"/>
 		</imgdir>
+		<imgdir name="9">
+			<string name="type" value="n"/>
+			<string name="id" value="9010010"/>
+			<int name="x" value="2703"/>
+			<int name="y" value="149"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="136"/>
+			<int name="cy" value="158"/>
+			<int name="rx0" value="2653"/>
+			<int name="rx1" value="2753"/>
+		</imgdir>
 	</imgdir>
 	<imgdir name="0">
 		<imgdir name="info">
@@ -8299,19 +8312,21 @@
 		</imgdir>
 		<imgdir name="3">
 			<string name="pn" value="h002"/>
-			<int name="pt" value="1"/>
+			<int name="pt" value="10"/>
 			<int name="x" value="1413"/>
 			<int name="y" value="156"/>
 			<int name="tm" value="221000000"/>
 			<string name="tn" value="h003"/>
+			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="4">
 			<string name="pn" value="h003"/>
-			<int name="pt" value="1"/>
+			<int name="pt" value="10"/>
 			<int name="x" value="5150"/>
 			<int name="y" value="-26"/>
 			<int name="tm" value="221000000"/>
 			<string name="tn" value="h002"/>
+			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="5">
 			<string name="pn" value="st00"/>

@@ -893,6 +893,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="67" height="26">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtCancel">
 		<imgdir name="normal">
@@ -913,6 +918,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="65" height="24">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="67" height="26">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -937,6 +947,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="67" height="26">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtYes2">
 		<imgdir name="normal">
@@ -957,6 +972,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="46" height="18">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="48" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -981,6 +1001,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="67" height="26">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtNo2">
 		<imgdir name="normal">
@@ -1001,6 +1026,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="46" height="18">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="48" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -1426,6 +1456,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="41" height="20">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtCancel2">
 		<imgdir name="normal">
@@ -1446,6 +1481,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="47" height="18">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="41" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -1874,6 +1914,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="41" height="23">
+				<vector name="origin" x="2" y="2"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtCancel3">
 		<imgdir name="normal">
@@ -1896,6 +1941,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="41" height="23">
+				<vector name="origin" x="2" y="2"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtQGiveup">
 		<imgdir name="normal">
@@ -1916,6 +1966,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="35" height="18">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="37" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -1950,6 +2005,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="53" height="20">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtReceive">
 		<imgdir name="normal">
@@ -1972,6 +2032,11 @@
 				<vector name="origin" x="0" y="0"/>
 			</canvas>
 		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="71" height="20">
+				<vector name="origin" x="1" y="1"/>
+			</canvas>
+		</imgdir>
 	</imgdir>
 	<imgdir name="BtDel">
 		<imgdir name="normal">
@@ -1992,6 +2057,11 @@
 		<imgdir name="mouseOver">
 			<canvas name="0" width="70" height="18">
 				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="71" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -2119,6 +2189,70 @@
 			<canvas name="0" width="44" height="17">
 				<vector name="origin" x="0" y="0"/>
 				<int name="z" value="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="47" height="20">
+				<vector name="origin" x="2" y="2"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="KeyDownBar1">
+		<canvas name="graduation" width="72" height="12">
+			<vector name="origin" x="40" y="83"/>
+		</canvas>
+		<canvas name="bar" width="72" height="12">
+			<vector name="origin" x="40" y="83"/>
+		</canvas>
+		<canvas name="gauge" width="1" height="8">
+		</canvas>
+	</imgdir>
+	<imgdir name="BtHide3">
+		<imgdir name="normal">
+			<canvas name="0" width="12" height="12">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="pressed">
+			<canvas name="0" width="12" height="12">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="disabled">
+			<canvas name="0" width="12" height="12">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="mouseOver">
+			<canvas name="0" width="12" height="12">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="BtMacro">
+		<imgdir name="normal">
+			<canvas name="0" width="48" height="18">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="pressed">
+			<canvas name="0" width="48" height="18">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="disabled">
+			<canvas name="0" width="48" height="18">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="mouseOver">
+			<canvas name="0" width="48" height="18">
+				<vector name="origin" x="0" y="0"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="keyFocused">
+			<canvas name="0" width="50" height="20">
+				<vector name="origin" x="1" y="1"/>
 			</canvas>
 		</imgdir>
 	</imgdir>

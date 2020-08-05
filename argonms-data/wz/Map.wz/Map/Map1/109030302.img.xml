@@ -4881,20 +4881,6 @@
 	</imgdir>
 	<imgdir name="reactor">
 	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="1"/>
-		<int name="returnMap" value="109050001"/>
-		<float name="mobRate" value="0.0"/>
-		<string name="bgm" value="BgmEvent/FunnyRabbit"/>
-		<string name="mapDesc" value=""/>
-		<int name="hideMinimap" value="1"/>
-		<int name="forcedReturn" value="109050001"/>
-		<string name="mapMark" value="None"/>
-		<int name="fieldLimit" value="8959"/>
-		<int name="swim" value="0"/>
-	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="0">
 			<imgdir name="45">
@@ -9087,5 +9073,19 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
+	</imgdir>
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="1"/>
+		<int name="returnMap" value="109050001"/>
+		<float name="mobRate" value="0.0"/>
+		<string name="bgm" value="BgmEvent/FunnyRabbit"/>
+		<string name="mapDesc" value=""/>
+		<int name="hideMinimap" value="1"/>
+		<int name="forcedReturn" value="109050001"/>
+		<string name="mapMark" value="Event"/>
+		<int name="fieldLimit" value="467711"/>
+		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

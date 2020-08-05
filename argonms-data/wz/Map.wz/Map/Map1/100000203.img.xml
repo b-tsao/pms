@@ -16,256 +16,6 @@
 		<string name="mapMark" value="Henesys"/>
 		<int name="fieldLimit" value="4"/>
 	</imgdir>
-	<imgdir name="back">
-		<imgdir name="0">
-			<string name="bS" value="grassySoil"/>
-			<int name="no" value="0"/>
-			<int name="x" value="0"/>
-			<int name="y" value="0"/>
-			<int name="rx" value="0"/>
-			<int name="ry" value="0"/>
-			<int name="type" value="3"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="bS" value="grassySoil"/>
-			<int name="no" value="1"/>
-			<int name="x" value="112"/>
-			<int name="y" value="10"/>
-			<int name="rx" value="-5"/>
-			<int name="ry" value="-3"/>
-			<int name="type" value="4"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="bS" value="grassySoil"/>
-			<int name="no" value="2"/>
-			<int name="x" value="324"/>
-			<int name="y" value="183"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="3"/>
-			<int name="type" value="0"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-		</imgdir>
-		<imgdir name="3">
-			<string name="bS" value="grassySoil"/>
-			<int name="no" value="3"/>
-			<int name="x" value="203"/>
-			<int name="y" value="-121"/>
-			<int name="rx" value="-20"/>
-			<int name="ry" value="3"/>
-			<int name="type" value="0"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-		</imgdir>
-		<imgdir name="4">
-			<string name="bS" value="grassySoil"/>
-			<int name="front" value="0"/>
-			<int name="ani" value="0"/>
-			<int name="no" value="4"/>
-			<int name="x" value="31"/>
-			<int name="y" value="219"/>
-			<int name="rx" value="-30"/>
-			<int name="ry" value="-10"/>
-			<int name="type" value="1"/>
-			<int name="cx" value="0"/>
-			<int name="cy" value="0"/>
-			<int name="a" value="255"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="portal">
-		<imgdir name="0">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="905"/>
-			<int name="y" value="-327"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-400"/>
-			<int name="y" value="-149"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-700"/>
-			<int name="y" value="232"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="3">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-412"/>
-			<int name="y" value="-721"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="4">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="565"/>
-			<int name="y" value="-743"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="5">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="713"/>
-			<int name="y" value="-1049"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="6">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-183"/>
-			<int name="y" value="-1013"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="7">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-636"/>
-			<int name="y" value="-1000"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="8">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="-415"/>
-			<int name="y" value="-1730"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="9">
-			<string name="pn" value="sp"/>
-			<int name="pt" value="0"/>
-			<int name="x" value="151"/>
-			<int name="y" value="-1742"/>
-			<int name="tm" value="999999999"/>
-			<string name="tn" value=""/>
-		</imgdir>
-		<imgdir name="10">
-			<string name="pn" value="up01"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="17"/>
-			<int name="y" value="274"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up02"/>
-		</imgdir>
-		<imgdir name="11">
-			<string name="pn" value="up02"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="9"/>
-			<int name="y" value="63"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up03"/>
-		</imgdir>
-		<imgdir name="12">
-			<string name="pn" value="up03"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="21"/>
-			<int name="y" value="-114"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up04"/>
-		</imgdir>
-		<imgdir name="13">
-			<string name="pn" value="up04"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="8"/>
-			<int name="y" value="-297"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up05"/>
-		</imgdir>
-		<imgdir name="14">
-			<string name="pn" value="up05"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="17"/>
-			<int name="y" value="-477"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up06"/>
-		</imgdir>
-		<imgdir name="15">
-			<string name="pn" value="up06"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="14"/>
-			<int name="y" value="-657"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up07"/>
-		</imgdir>
-		<imgdir name="16">
-			<string name="pn" value="up07"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="14"/>
-			<int name="y" value="-957"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="up06"/>
-		</imgdir>
-		<imgdir name="17">
-			<string name="pn" value="h001"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="1189"/>
-			<int name="y" value="212"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="h001_1"/>
-		</imgdir>
-		<imgdir name="18">
-			<string name="pn" value="h001_1"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="589"/>
-			<int name="y" value="-958"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="h001"/>
-		</imgdir>
-		<imgdir name="19">
-			<string name="pn" value="h002"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="-912"/>
-			<int name="y" value="272"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="h002_1"/>
-		</imgdir>
-		<imgdir name="20">
-			<string name="pn" value="h002_1"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="-563"/>
-			<int name="y" value="-1678"/>
-			<int name="tm" value="100000203"/>
-			<string name="tn" value="h002"/>
-		</imgdir>
-		<imgdir name="21">
-			<string name="pn" value="out00"/>
-			<int name="pt" value="2"/>
-			<int name="x" value="596"/>
-			<int name="y" value="333"/>
-			<int name="tm" value="100000200"/>
-			<string name="tn" value="in00"/>
-		</imgdir>
-	</imgdir>
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="n"/>
@@ -278,1366 +28,6 @@
 			<int name="cy" value="214"/>
 			<int name="rx0" value="1029"/>
 			<int name="rx1" value="1129"/>
-		</imgdir>
-	</imgdir>
-	<imgdir name="0">
-		<imgdir name="info">
-			<string name="tS" value="coalMine"/>
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-			<imgdir name="0">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="9"/>
-				<int name="y" value="91"/>
-				<int name="z" value="0"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="44"/>
-				<int name="y" value="-88"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="2">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="9"/>
-				<int name="y" value="-299"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="3">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="44"/>
-				<int name="y" value="-448"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="6">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="5"/>
-				<int name="y" value="230"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="7">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-1"/>
-				<int name="y" value="21"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="8">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="6"/>
-				<int name="y" value="-159"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="9">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-1"/>
-				<int name="y" value="-339"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="5">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="5"/>
-				<int name="y" value="-677"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="67"/>
-			</imgdir>
-			<imgdir name="4">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="7"/>
-				<int name="y" value="-518"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="10">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="11"/>
-				<int name="y" value="-658"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="12">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house12"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="627"/>
-				<int name="y" value="-1255"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="11">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house12"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="1227"/>
-				<int name="y" value="-82"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="10"/>
-			</imgdir>
-			<imgdir name="13">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house4"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="34"/>
-				<int name="y" value="-1064"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="77"/>
-			</imgdir>
-			<imgdir name="14">
-				<string name="oS" value="door"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="door"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="6"/>
-				<int name="y" value="-998"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="77"/>
-			</imgdir>
-			<imgdir name="15">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house3"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="-543"/>
-				<int name="y" value="-1723"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="16">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house3"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="-541"/>
-				<int name="y" value="-1771"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="17">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house3"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="-892"/>
-				<int name="y" value="228"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="7"/>
-			</imgdir>
-			<imgdir name="18">
-				<string name="oS" value="houseGS"/>
-				<string name="l0" value="house3"/>
-				<string name="l1" value="basic"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="-890"/>
-				<int name="y" value="180"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="7"/>
-			</imgdir>
-			<imgdir name="19">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-712"/>
-				<int name="y" value="-1686"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="20">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-1062"/>
-				<int name="y" value="265"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="7"/>
-			</imgdir>
-			<imgdir name="21">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-215"/>
-				<int name="y" value="269"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="8"/>
-			</imgdir>
-			<imgdir name="22">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="89"/>
-				<int name="y" value="267"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="23">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="-65"/>
-				<int name="y" value="254"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="24">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="209"/>
-				<int name="y" value="229"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="25">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="-740"/>
-				<int name="y" value="227"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="7"/>
-			</imgdir>
-			<imgdir name="26">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="1339"/>
-				<int name="y" value="205"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="10"/>
-			</imgdir>
-			<imgdir name="27">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="523"/>
-				<int name="y" value="-1011"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="28">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="387"/>
-				<int name="y" value="-994"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="29">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="198"/>
-				<int name="y" value="-965"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="30">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="85"/>
-				<int name="y" value="-962"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="31">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="743"/>
-				<int name="y" value="-963"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="32">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-718"/>
-				<int name="y" value="-958"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="33">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="-603"/>
-				<int name="y" value="-996"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="34">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="24"/>
-				<int name="x" value="-576"/>
-				<int name="y" value="-994"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="35">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-622"/>
-				<int name="y" value="-985"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="36">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="-562"/>
-				<int name="y" value="-990"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="37">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="24"/>
-				<int name="x" value="-522"/>
-				<int name="y" value="-991"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="38">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-542"/>
-				<int name="y" value="-982"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="39">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-599"/>
-				<int name="y" value="-976"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="40">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-647"/>
-				<int name="y" value="-987"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="41">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-502"/>
-				<int name="y" value="-982"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="42">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-600"/>
-				<int name="y" value="-937"/>
-				<int name="z" value="7"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="43">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-525"/>
-				<int name="y" value="-951"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="44">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-604"/>
-				<int name="y" value="-1037"/>
-				<int name="z" value="7"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="75"/>
-			</imgdir>
-			<imgdir name="45">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="-381"/>
-				<int name="y" value="-1720"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="46">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="-367"/>
-				<int name="y" value="-1691"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="47">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="-279"/>
-				<int name="y" value="-1691"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="116"/>
-			</imgdir>
-			<imgdir name="48">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="276"/>
-				<int name="y" value="-1525"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="49">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="287"/>
-				<int name="y" value="-1538"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="50">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="24"/>
-				<int name="x" value="317"/>
-				<int name="y" value="-1532"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="51">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="335"/>
-				<int name="y" value="-1528"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="52">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="253"/>
-				<int name="y" value="-1529"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="53">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="181"/>
-				<int name="y" value="-1496"/>
-				<int name="z" value="0"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="54">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="306"/>
-				<int name="y" value="-1491"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="55">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="287"/>
-				<int name="y" value="-1578"/>
-				<int name="z" value="7"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="56">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="13"/>
-				<int name="x" value="433"/>
-				<int name="y" value="294"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="4"/>
-			</imgdir>
-			<imgdir name="57">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="281"/>
-				<int name="y" value="267"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="58">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-307"/>
-				<int name="y" value="-681"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="59">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="5"/>
-				<int name="x" value="-331"/>
-				<int name="y" value="-687"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="60">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-346"/>
-				<int name="y" value="-678"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="61">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-254"/>
-				<int name="y" value="-680"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="62">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-232"/>
-				<int name="y" value="-680"/>
-				<int name="z" value="2"/>
-				<int name="f" value="1"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="63">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="5"/>
-				<int name="x" value="-248"/>
-				<int name="y" value="-687"/>
-				<int name="z" value="1"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="64">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="6"/>
-				<int name="x" value="-201"/>
-				<int name="y" value="-680"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="65">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-190"/>
-				<int name="y" value="-707"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="66">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-388"/>
-				<int name="y" value="-670"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="67">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-286"/>
-				<int name="y" value="-678"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="71"/>
-			</imgdir>
-			<imgdir name="68">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-194"/>
-				<int name="y" value="-669"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="69">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-501"/>
-				<int name="y" value="-676"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="72"/>
-			</imgdir>
-			<imgdir name="70">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-566"/>
-				<int name="y" value="-677"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="72"/>
-			</imgdir>
-			<imgdir name="71">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-617"/>
-				<int name="y" value="-670"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="72"/>
-			</imgdir>
-			<imgdir name="72">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-739"/>
-				<int name="y" value="-663"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="68"/>
-			</imgdir>
-			<imgdir name="73">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-772"/>
-				<int name="y" value="-679"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="68"/>
-			</imgdir>
-			<imgdir name="74">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="-831"/>
-				<int name="y" value="-676"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="68"/>
-			</imgdir>
-			<imgdir name="75">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="310"/>
-				<int name="y" value="-677"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="76">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="423"/>
-				<int name="y" value="-674"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="77">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="461"/>
-				<int name="y" value="-681"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="78">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="510"/>
-				<int name="y" value="-676"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="79">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="577"/>
-				<int name="y" value="-677"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="80">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="643"/>
-				<int name="y" value="-678"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="81">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="708"/>
-				<int name="y" value="-678"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="82">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="825"/>
-				<int name="y" value="-678"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="73"/>
-			</imgdir>
-			<imgdir name="83">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="10"/>
-				<int name="x" value="868"/>
-				<int name="y" value="-675"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="73"/>
-			</imgdir>
-			<imgdir name="84">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-329"/>
-				<int name="y" value="45"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="14"/>
-			</imgdir>
-			<imgdir name="85">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-423"/>
-				<int name="y" value="51"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="14"/>
-			</imgdir>
-			<imgdir name="86">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="415"/>
-				<int name="y" value="50"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="87">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="498"/>
-				<int name="y" value="45"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="88">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="599"/>
-				<int name="y" value="48"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="89">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-645"/>
-				<int name="y" value="48"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="15"/>
-			</imgdir>
-			<imgdir name="90">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="-303"/>
-				<int name="y" value="-317"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="42"/>
-			</imgdir>
-			<imgdir name="91">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="-290"/>
-				<int name="y" value="-314"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="42"/>
-			</imgdir>
-			<imgdir name="92">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="-256"/>
-				<int name="y" value="-316"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="93">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="-236"/>
-				<int name="y" value="-313"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="94">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-360"/>
-				<int name="y" value="-310"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="42"/>
-			</imgdir>
-			<imgdir name="95">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="0"/>
-				<int name="x" value="-200"/>
-				<int name="y" value="-308"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="96">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="436"/>
-				<int name="y" value="-315"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="97">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="453"/>
-				<int name="y" value="-315"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="98">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="398"/>
-				<int name="y" value="-300"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="99">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="482"/>
-				<int name="y" value="-301"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="100">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="502"/>
-				<int name="y" value="-317"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="101">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="521"/>
-				<int name="y" value="-314"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="102">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="3"/>
-				<int name="x" value="386"/>
-				<int name="y" value="-315"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="103">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="4"/>
-				<int name="x" value="353"/>
-				<int name="y" value="-313"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="104">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="335"/>
-				<int name="y" value="-307"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="105">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="1"/>
-				<int name="x" value="549"/>
-				<int name="y" value="-303"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="6"/>
-			</imgdir>
-			<imgdir name="106">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="-529"/>
-				<int name="y" value="-1355"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="107">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="24"/>
-				<int name="x" value="-503"/>
-				<int name="y" value="-1351"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="108">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-547"/>
-				<int name="y" value="-1344"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="109">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-481"/>
-				<int name="y" value="-1347"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="110">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="23"/>
-				<int name="x" value="-572"/>
-				<int name="y" value="-1349"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="111">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="22"/>
-				<int name="x" value="-586"/>
-				<int name="y" value="-1337"/>
-				<int name="z" value="4"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="112">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-538"/>
-				<int name="y" value="-1306"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="113">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-629"/>
-				<int name="y" value="-1309"/>
-				<int name="z" value="3"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="114">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="-527"/>
-				<int name="y" value="-1395"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="100"/>
-			</imgdir>
-			<imgdir name="115">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="683"/>
-				<int name="y" value="-970"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="116">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="769"/>
-				<int name="y" value="-970"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="117">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="477"/>
-				<int name="y" value="-970"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="76"/>
-			</imgdir>
-			<imgdir name="118">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="1289"/>
-				<int name="y" value="199"/>
-				<int name="z" value="5"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="10"/>
-			</imgdir>
-			<imgdir name="119">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="grassySoil"/>
-				<string name="l1" value="artificiality"/>
-				<string name="l2" value="35"/>
-				<int name="x" value="1383"/>
-				<int name="y" value="199"/>
-				<int name="z" value="6"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="10"/>
-			</imgdir>
-			<imgdir name="120">
-				<string name="oS" value="acc1"/>
-				<string name="l0" value="darkWood"/>
-				<string name="l1" value="nature"/>
-				<string name="l2" value="20"/>
-				<int name="x" value="1431"/>
-				<int name="y" value="384"/>
-				<int name="z" value="2"/>
-				<int name="f" value="0"/>
-				<int name="zM" value="3"/>
-			</imgdir>
-		</imgdir>
-	</imgdir>
-	<imgdir name="1">
-		<imgdir name="info">
-			<string name="tS" value="logMarble"/>
-			<int name="tSMag" value="1"/>
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="2">
-		<imgdir name="info">
-			<string name="tS" value="logMarble"/>
-			<int name="tSMag" value="1"/>
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
 		</imgdir>
 	</imgdir>
 	<imgdir name="3">
@@ -7223,24 +5613,6 @@
 			</imgdir>
 		</imgdir>
 	</imgdir>
-	<imgdir name="6">
-		<imgdir name="info">
-			<string name="tS" value="brownBrick"/>
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
-	<imgdir name="7">
-		<imgdir name="info">
-			<string name="tS" value="brownBrick"/>
-		</imgdir>
-		<imgdir name="tile">
-		</imgdir>
-		<imgdir name="obj">
-		</imgdir>
-	</imgdir>
 	<imgdir name="seat">
 		<vector name="0" x="-385" y="-1677"/>
 		<vector name="1" x="-362" y="-1677"/>
@@ -10240,5 +8612,1643 @@
 		<int name="centerX" value="1158"/>
 		<int name="centerY" value="1965"/>
 		<int name="mag" value="4"/>
+	</imgdir>
+	<imgdir name="portal">
+		<imgdir name="0">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="905"/>
+			<int name="y" value="-327"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-400"/>
+			<int name="y" value="-149"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-700"/>
+			<int name="y" value="232"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-412"/>
+			<int name="y" value="-721"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="565"/>
+			<int name="y" value="-743"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="713"/>
+			<int name="y" value="-1049"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-183"/>
+			<int name="y" value="-1013"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-636"/>
+			<int name="y" value="-1000"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="-415"/>
+			<int name="y" value="-1730"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="pn" value="sp"/>
+			<int name="pt" value="0"/>
+			<int name="x" value="151"/>
+			<int name="y" value="-1742"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="pn" value="up01"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="17"/>
+			<int name="y" value="274"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up02"/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="pn" value="up02"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="9"/>
+			<int name="y" value="63"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up03"/>
+		</imgdir>
+		<imgdir name="12">
+			<string name="pn" value="up03"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="21"/>
+			<int name="y" value="-114"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up04"/>
+		</imgdir>
+		<imgdir name="13">
+			<string name="pn" value="up04"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="8"/>
+			<int name="y" value="-297"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up05"/>
+		</imgdir>
+		<imgdir name="14">
+			<string name="pn" value="up05"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="17"/>
+			<int name="y" value="-477"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up06"/>
+		</imgdir>
+		<imgdir name="15">
+			<string name="pn" value="up06"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="14"/>
+			<int name="y" value="-657"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up07"/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="onlyOnce" value="0"/>
+			<int name="delay" value="0"/>
+		</imgdir>
+		<imgdir name="16">
+			<string name="pn" value="up07"/>
+			<int name="pt" value="1"/>
+			<int name="x" value="14"/>
+			<int name="y" value="-957"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="up06"/>
+			<string name="script" value=""/>
+			<int name="hideTooltip" value="0"/>
+			<int name="onlyOnce" value="0"/>
+			<int name="delay" value="0"/>
+		</imgdir>
+		<imgdir name="17">
+			<string name="pn" value="h002_1"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="-563"/>
+			<int name="y" value="-1678"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="h002"/>
+			<string name="image" value=""/>
+		</imgdir>
+		<imgdir name="18">
+			<string name="pn" value="out00"/>
+			<int name="pt" value="2"/>
+			<int name="x" value="596"/>
+			<int name="y" value="333"/>
+			<int name="tm" value="100000200"/>
+			<string name="tn" value="in00"/>
+		</imgdir>
+		<imgdir name="19">
+			<string name="pn" value="h001"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="1189"/>
+			<int name="y" value="212"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="h001_1"/>
+			<string name="image" value=""/>
+		</imgdir>
+		<imgdir name="20">
+			<string name="pn" value="h001_1"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="589"/>
+			<int name="y" value="-958"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="h001"/>
+			<string name="image" value=""/>
+		</imgdir>
+		<imgdir name="21">
+			<string name="pn" value="h002"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="-912"/>
+			<int name="y" value="272"/>
+			<int name="tm" value="100000203"/>
+			<string name="tn" value="h002_1"/>
+			<string name="image" value=""/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="7">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="6">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="2">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="0">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="9"/>
+				<int name="y" value="91"/>
+				<int name="z" value="0"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="44"/>
+				<int name="y" value="-88"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="9"/>
+				<int name="y" value="-299"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="44"/>
+				<int name="y" value="-448"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="5"/>
+				<int name="y" value="230"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-1"/>
+				<int name="y" value="21"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="6"/>
+				<int name="y" value="-159"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-1"/>
+				<int name="y" value="-339"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="5"/>
+				<int name="y" value="-677"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="67"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="7"/>
+				<int name="y" value="-518"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="11"/>
+				<int name="y" value="-658"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house12"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="627"/>
+				<int name="y" value="-1255"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house12"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="1227"/>
+				<int name="y" value="-82"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="10"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house4"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="34"/>
+				<int name="y" value="-1064"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="77"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="door"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="door"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="6"/>
+				<int name="y" value="-998"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="77"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house3"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-543"/>
+				<int name="y" value="-1723"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house3"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-541"/>
+				<int name="y" value="-1771"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house3"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-892"/>
+				<int name="y" value="228"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="7"/>
+			</imgdir>
+			<imgdir name="18">
+				<string name="oS" value="houseGS"/>
+				<string name="l0" value="house3"/>
+				<string name="l1" value="basic"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-890"/>
+				<int name="y" value="180"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="7"/>
+			</imgdir>
+			<imgdir name="19">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-712"/>
+				<int name="y" value="-1686"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="20">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-1062"/>
+				<int name="y" value="265"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="7"/>
+			</imgdir>
+			<imgdir name="21">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-215"/>
+				<int name="y" value="269"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="8"/>
+			</imgdir>
+			<imgdir name="22">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="89"/>
+				<int name="y" value="267"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="23">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="-65"/>
+				<int name="y" value="254"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="24">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="209"/>
+				<int name="y" value="229"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="25">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="-740"/>
+				<int name="y" value="227"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="7"/>
+			</imgdir>
+			<imgdir name="26">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="1339"/>
+				<int name="y" value="205"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="10"/>
+			</imgdir>
+			<imgdir name="27">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="523"/>
+				<int name="y" value="-1011"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="28">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="387"/>
+				<int name="y" value="-994"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="29">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="198"/>
+				<int name="y" value="-965"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="30">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="85"/>
+				<int name="y" value="-962"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="31">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="743"/>
+				<int name="y" value="-963"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="32">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-718"/>
+				<int name="y" value="-958"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="33">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="-603"/>
+				<int name="y" value="-996"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="34">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="24"/>
+				<int name="x" value="-576"/>
+				<int name="y" value="-994"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="35">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-622"/>
+				<int name="y" value="-985"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="36">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="-562"/>
+				<int name="y" value="-990"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="37">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="24"/>
+				<int name="x" value="-522"/>
+				<int name="y" value="-991"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="38">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-542"/>
+				<int name="y" value="-982"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="39">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-599"/>
+				<int name="y" value="-976"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="40">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-647"/>
+				<int name="y" value="-987"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="41">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-502"/>
+				<int name="y" value="-982"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="42">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-600"/>
+				<int name="y" value="-937"/>
+				<int name="z" value="7"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="43">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-525"/>
+				<int name="y" value="-951"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="44">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-604"/>
+				<int name="y" value="-1037"/>
+				<int name="z" value="7"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="75"/>
+			</imgdir>
+			<imgdir name="45">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="-381"/>
+				<int name="y" value="-1720"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="46">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="-367"/>
+				<int name="y" value="-1691"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="47">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="-279"/>
+				<int name="y" value="-1691"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="116"/>
+			</imgdir>
+			<imgdir name="48">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="276"/>
+				<int name="y" value="-1525"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="49">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="287"/>
+				<int name="y" value="-1538"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="50">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="24"/>
+				<int name="x" value="317"/>
+				<int name="y" value="-1532"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="51">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="335"/>
+				<int name="y" value="-1528"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="52">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="253"/>
+				<int name="y" value="-1529"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="53">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="181"/>
+				<int name="y" value="-1496"/>
+				<int name="z" value="0"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="54">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="306"/>
+				<int name="y" value="-1491"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="55">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="287"/>
+				<int name="y" value="-1578"/>
+				<int name="z" value="7"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="56">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="13"/>
+				<int name="x" value="433"/>
+				<int name="y" value="294"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="4"/>
+			</imgdir>
+			<imgdir name="57">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="281"/>
+				<int name="y" value="267"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="58">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-307"/>
+				<int name="y" value="-681"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="59">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="5"/>
+				<int name="x" value="-331"/>
+				<int name="y" value="-687"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="60">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-346"/>
+				<int name="y" value="-678"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="61">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-254"/>
+				<int name="y" value="-680"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="62">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-232"/>
+				<int name="y" value="-680"/>
+				<int name="z" value="2"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="63">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="5"/>
+				<int name="x" value="-248"/>
+				<int name="y" value="-687"/>
+				<int name="z" value="1"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="64">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="6"/>
+				<int name="x" value="-201"/>
+				<int name="y" value="-680"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="65">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-190"/>
+				<int name="y" value="-707"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="66">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-388"/>
+				<int name="y" value="-670"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="67">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-286"/>
+				<int name="y" value="-678"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="71"/>
+			</imgdir>
+			<imgdir name="68">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-194"/>
+				<int name="y" value="-669"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="69">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-501"/>
+				<int name="y" value="-676"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="72"/>
+			</imgdir>
+			<imgdir name="70">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-566"/>
+				<int name="y" value="-677"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="72"/>
+			</imgdir>
+			<imgdir name="71">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-617"/>
+				<int name="y" value="-670"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="72"/>
+			</imgdir>
+			<imgdir name="72">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-739"/>
+				<int name="y" value="-663"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="68"/>
+			</imgdir>
+			<imgdir name="73">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-772"/>
+				<int name="y" value="-679"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="68"/>
+			</imgdir>
+			<imgdir name="74">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="-831"/>
+				<int name="y" value="-676"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="68"/>
+			</imgdir>
+			<imgdir name="75">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="310"/>
+				<int name="y" value="-677"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="76">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="423"/>
+				<int name="y" value="-674"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="77">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="461"/>
+				<int name="y" value="-681"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="78">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="510"/>
+				<int name="y" value="-676"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="79">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="577"/>
+				<int name="y" value="-677"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="80">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="643"/>
+				<int name="y" value="-678"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="81">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="708"/>
+				<int name="y" value="-678"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="82">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="825"/>
+				<int name="y" value="-678"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="73"/>
+			</imgdir>
+			<imgdir name="83">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="10"/>
+				<int name="x" value="868"/>
+				<int name="y" value="-675"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="73"/>
+			</imgdir>
+			<imgdir name="84">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-329"/>
+				<int name="y" value="45"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="14"/>
+			</imgdir>
+			<imgdir name="85">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-423"/>
+				<int name="y" value="51"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="14"/>
+			</imgdir>
+			<imgdir name="86">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="415"/>
+				<int name="y" value="50"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="87">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="498"/>
+				<int name="y" value="45"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="88">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="599"/>
+				<int name="y" value="48"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="89">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-645"/>
+				<int name="y" value="48"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="15"/>
+			</imgdir>
+			<imgdir name="90">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-303"/>
+				<int name="y" value="-317"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="42"/>
+			</imgdir>
+			<imgdir name="91">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-290"/>
+				<int name="y" value="-314"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="42"/>
+			</imgdir>
+			<imgdir name="92">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-256"/>
+				<int name="y" value="-316"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="93">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-236"/>
+				<int name="y" value="-313"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="94">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-360"/>
+				<int name="y" value="-310"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="42"/>
+			</imgdir>
+			<imgdir name="95">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-200"/>
+				<int name="y" value="-308"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="96">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="436"/>
+				<int name="y" value="-315"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="97">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="453"/>
+				<int name="y" value="-315"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="98">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="398"/>
+				<int name="y" value="-300"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="99">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="482"/>
+				<int name="y" value="-301"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="100">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="502"/>
+				<int name="y" value="-317"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="101">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="521"/>
+				<int name="y" value="-314"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="102">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="386"/>
+				<int name="y" value="-315"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="103">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="353"/>
+				<int name="y" value="-313"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="104">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="335"/>
+				<int name="y" value="-307"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="105">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="549"/>
+				<int name="y" value="-303"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="6"/>
+			</imgdir>
+			<imgdir name="106">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="-529"/>
+				<int name="y" value="-1355"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="107">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="24"/>
+				<int name="x" value="-503"/>
+				<int name="y" value="-1351"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="108">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-547"/>
+				<int name="y" value="-1344"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="109">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-481"/>
+				<int name="y" value="-1347"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="110">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="23"/>
+				<int name="x" value="-572"/>
+				<int name="y" value="-1349"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="111">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="22"/>
+				<int name="x" value="-586"/>
+				<int name="y" value="-1337"/>
+				<int name="z" value="4"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="112">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-538"/>
+				<int name="y" value="-1306"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="113">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-629"/>
+				<int name="y" value="-1309"/>
+				<int name="z" value="3"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="114">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="-527"/>
+				<int name="y" value="-1395"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="100"/>
+			</imgdir>
+			<imgdir name="115">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="683"/>
+				<int name="y" value="-970"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="116">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="769"/>
+				<int name="y" value="-970"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="117">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="477"/>
+				<int name="y" value="-970"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="76"/>
+			</imgdir>
+			<imgdir name="118">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="1289"/>
+				<int name="y" value="199"/>
+				<int name="z" value="5"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="10"/>
+			</imgdir>
+			<imgdir name="119">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="grassySoil"/>
+				<string name="l1" value="artificiality"/>
+				<string name="l2" value="35"/>
+				<int name="x" value="1383"/>
+				<int name="y" value="199"/>
+				<int name="z" value="6"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="10"/>
+			</imgdir>
+			<imgdir name="120">
+				<string name="oS" value="acc1"/>
+				<string name="l0" value="darkWood"/>
+				<string name="l1" value="nature"/>
+				<string name="l2" value="20"/>
+				<int name="x" value="1431"/>
+				<int name="y" value="384"/>
+				<int name="z" value="2"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="3"/>
+			</imgdir>
+		</imgdir>
+	</imgdir>
+	<imgdir name="1">
+		<imgdir name="info">
+		</imgdir>
+		<imgdir name="tile">
+		</imgdir>
+		<imgdir name="obj">
+		</imgdir>
+	</imgdir>
+	<imgdir name="back">
+		<imgdir name="0">
+			<string name="bS" value="grassySoil"/>
+			<int name="no" value="0"/>
+			<int name="x" value="0"/>
+			<int name="y" value="0"/>
+			<int name="rx" value="0"/>
+			<int name="ry" value="0"/>
+			<int name="type" value="3"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="f" value="0"/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="bS" value="grassySoil"/>
+			<int name="no" value="1"/>
+			<int name="x" value="112"/>
+			<int name="y" value="10"/>
+			<int name="rx" value="-5"/>
+			<int name="ry" value="-3"/>
+			<int name="type" value="4"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="f" value="0"/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="bS" value="grassySoil"/>
+			<int name="no" value="2"/>
+			<int name="x" value="324"/>
+			<int name="y" value="183"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="3"/>
+			<int name="type" value="0"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="f" value="0"/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="bS" value="grassySoil"/>
+			<int name="no" value="3"/>
+			<int name="x" value="203"/>
+			<int name="y" value="-121"/>
+			<int name="rx" value="-20"/>
+			<int name="ry" value="3"/>
+			<int name="type" value="0"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="f" value="0"/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="bS" value="grassySoil"/>
+			<int name="front" value="0"/>
+			<int name="ani" value="0"/>
+			<int name="no" value="4"/>
+			<int name="x" value="31"/>
+			<int name="y" value="219"/>
+			<int name="rx" value="-30"/>
+			<int name="ry" value="-10"/>
+			<int name="type" value="1"/>
+			<int name="cx" value="0"/>
+			<int name="cy" value="0"/>
+			<int name="a" value="255"/>
+			<int name="f" value="0"/>
+		</imgdir>
 	</imgdir>
 </imgdir>

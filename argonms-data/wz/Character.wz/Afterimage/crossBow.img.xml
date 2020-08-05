@@ -9,8 +9,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -24,8 +24,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -62,8 +62,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -77,8 +77,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -115,8 +115,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -130,8 +130,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -168,8 +168,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -183,8 +183,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -221,8 +221,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -236,8 +236,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -274,8 +274,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -289,8 +289,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -327,8 +327,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -342,8 +342,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -380,8 +380,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -395,8 +395,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -433,8 +433,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -448,8 +448,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -486,8 +486,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-86" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-61" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -501,8 +501,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -539,8 +539,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -554,8 +554,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -592,8 +592,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -607,8 +607,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-74" y="-26"/>
+			<vector name="rb" x="-11" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -645,8 +645,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -660,8 +660,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -698,8 +698,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -713,8 +713,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -751,8 +751,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -766,8 +766,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -804,8 +804,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -819,8 +819,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">
@@ -857,8 +857,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-88" y="-81"/>
-			<vector name="rb" x="-47" y="5"/>
+			<vector name="lt" x="-63" y="-81"/>
+			<vector name="rb" x="-22" y="5"/>
 		</imgdir>
 		<imgdir name="stabT1">
 			<imgdir name="2">
@@ -872,8 +872,8 @@
 					<int name="a1" value="0"/>
 				</canvas>
 			</imgdir>
-			<vector name="lt" x="-84" y="-26"/>
-			<vector name="rb" x="-21" y="-10"/>
+			<vector name="lt" x="-59" y="-26"/>
+			<vector name="rb" x="4" y="-10"/>
 		</imgdir>
 		<imgdir name="proneStab">
 			<imgdir name="1">

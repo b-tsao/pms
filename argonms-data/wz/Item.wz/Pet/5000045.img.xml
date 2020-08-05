@@ -16,8 +16,8 @@
 		<int name="hungry" value="2"/>
 		<int name="cash" value="1"/>
 		<int name="life" value="90"/>
-		<int name="nameTag" value="28"/>
-		<int name="chatBalloon" value="26"/>
+		<int name="nameTag" value="51"/>
+		<int name="chatBalloon" value="51"/>
 	</imgdir>
 	<imgdir name="interact">
 		<imgdir name="0">
@@ -790,7 +790,7 @@
 					<string name="act" value="chat"/>
 					<string name="0" value="c31_f1"/>
 					<string name="1" value="c31_f2"/>
-					<string name="2" value="c31_3"/>
+					<string name="2" value="c31_f3"/>
 					<string name="3" value="c31_f4"/>
 				</imgdir>
 			</imgdir>
@@ -1188,7 +1188,7 @@
 			<vector name="lt" x="-16" y="-32"/>
 			<vector name="rb" x="27" y="0"/>
 		</canvas>
-		<int name="delay" value="3000"/>
+		<int name="delay" value="1500"/>
 	</imgdir>
 	<imgdir name="fly">
 		<canvas name="0" width="69" height="45">

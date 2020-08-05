@@ -2,4 +2,6 @@
 <imgdir name="BgmEvent.img">
 	<sound name="FunnyRabbit"/>
 	<sound name="FunnyRabbitFaster"/>
+	<sound name="wedding"/>
+	<sound name="weddingDance"/>
 </imgdir>

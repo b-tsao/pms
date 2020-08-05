@@ -63,6 +63,8 @@
 				<int name="7" value="3221008"/>
 				<int name="8" value="4121009"/>
 				<int name="9" value="4221008"/>
+				<int name="10" value="5121008"/>
+				<int name="11" value="5221010"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -91,6 +93,8 @@
 				<int name="7" value="3221000"/>
 				<int name="8" value="4121000"/>
 				<int name="9" value="4221000"/>
+				<int name="10" value="5121000"/>
+				<int name="11" value="5221000"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>

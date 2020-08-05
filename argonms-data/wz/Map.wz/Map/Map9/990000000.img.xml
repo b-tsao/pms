@@ -244,19 +244,6 @@
 	</imgdir>
 	<imgdir name="life">
 		<imgdir name="0">
-			<string name="type" value="m"/>
-			<string name="id" value="9500174"/>
-			<int name="x" value="-283"/>
-			<int name="y" value="145"/>
-			<int name="mobTime" value="1800"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="1"/>
-			<int name="cy" value="165"/>
-			<int name="rx0" value="-700"/>
-			<int name="rx1" value="880"/>
-		</imgdir>
-		<imgdir name="1">
 			<string name="type" value="n"/>
 			<string name="id" value="9040011"/>
 			<int name="x" value="348"/>
@@ -1753,7 +1740,7 @@
 		<int name="VRLeft" value="-719"/>
 		<int name="VRBottom" value="350"/>
 		<int name="VRRight" value="897"/>
-		<int name="fieldLimit" value="8828"/>
+		<int name="fieldLimit" value="270972"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="3">

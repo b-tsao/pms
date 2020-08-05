@@ -1715,7 +1715,7 @@
 					<string name="hs" value="h20"/>
 					<int name="hpCon" value="30"/>
 					<int name="mpCon" value="25"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="200"/>
 					<int name="x" value="-2"/>
 				</imgdir>
 			</imgdir>

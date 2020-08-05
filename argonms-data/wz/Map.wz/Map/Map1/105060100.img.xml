@@ -5,11 +5,14 @@
 		<int name="cloud" value="0"/>
 		<int name="town" value="0"/>
 		<int name="returnMap" value="105040300"/>
-		<float name="mobRate" value="0.5999981"/>
+		<float name="mobRate" value="0.79999816"/>
 		<string name="bgm" value="Bgm01/AncientMove"/>
 		<string name="mapDesc" value=""/>
 		<int name="forcedReturn" value="999999999"/>
 		<string name="mapMark" value="Dungeon"/>
+		<int name="swim" value="0"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="0"/>
 	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
@@ -923,19 +926,6 @@
 			<int name="f" value="0"/>
 			<int name="fh" value="145"/>
 			<int name="cy" value="1188"/>
-			<int name="rx0" value="-640"/>
-			<int name="rx1" value="2530"/>
-		</imgdir>
-		<imgdir name="71">
-			<string name="type" value="m"/>
-			<string name="id" value="9500169"/>
-			<int name="x" value="935"/>
-			<int name="y" value="1148"/>
-			<int name="mobTime" value="1200"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="135"/>
-			<int name="cy" value="1178"/>
 			<int name="rx0" value="-640"/>
 			<int name="rx1" value="2530"/>
 		</imgdir>

@@ -2,20 +2,18 @@
 <imgdir name="9400531.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
-		<int name="level" value="83"/>
-		<int name="maxHP" value="29000"/>
-		<int name="maxMP" value="160"/>
+		<int name="level" value="39"/>
+		<int name="maxHP" value="1920"/>
+		<int name="maxMP" value="0"/>
 		<int name="speed" value="20"/>
-		<int name="PADamage" value="355"/>
-		<int name="PDDamage" value="650"/>
-		<int name="MADamage" value="380"/>
-		<int name="MDDamage" value="445"/>
-		<int name="acc" value="145"/>
-		<int name="eva" value="24"/>
-		<int name="exp" value="1250"/>
-		<int name="undead" value="1"/>
-		<int name="pushed" value="100"/>
-		<string name="elemAttr" value="H3"/>
+		<int name="PADamage" value="124"/>
+		<int name="PDDamage" value="110"/>
+		<int name="MADamage" value="0"/>
+		<int name="MDDamage" value="130"/>
+		<int name="acc" value="135"/>
+		<int name="eva" value="18"/>
+		<int name="undead" value="0"/>
+		<int name="pushed" value="1"/>
 		<float name="fs" value="10.0"/>
 		<int name="summonType" value="1"/>
 		<imgdir name="skill">

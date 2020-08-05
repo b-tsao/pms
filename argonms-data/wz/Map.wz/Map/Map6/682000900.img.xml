@@ -11,7 +11,7 @@
 		<string name="bgm" value="BgmGL/HauntedHouse"/>
 		<string name="mapMark" value="Halloween"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="74"/>
+		<int name="fieldLimit" value="131146"/>
 	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">

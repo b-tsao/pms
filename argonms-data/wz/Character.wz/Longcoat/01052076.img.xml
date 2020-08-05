@@ -2,10 +2,10 @@
 <imgdir name="01052076.img">
 	<imgdir name="info">
 		<canvas name="icon" width="33" height="34">
-			<vector name="origin" x="16" y="17"/>
+			<vector name="origin" x="0" y="34"/>
 		</canvas>
 		<canvas name="iconRaw" width="33" height="34">
-			<vector name="origin" x="16" y="17"/>
+			<vector name="origin" x="0" y="34"/>
 		</canvas>
 		<string name="islot" value="MaPn"/>
 		<string name="vslot" value="MaPn"/>

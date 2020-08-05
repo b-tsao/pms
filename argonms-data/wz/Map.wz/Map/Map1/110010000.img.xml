@@ -7443,184 +7443,6 @@
 		<imgdir name="obj">
 		</imgdir>
 	</imgdir>
-	<imgdir name="reactor">
-		<imgdir name="0">
-			<string name="id" value="1102000"/>
-			<int name="x" value="-669"/>
-			<int name="y" value="-31"/>
-			<int name="reactorTime" value="30"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="1">
-			<string name="id" value="1102001"/>
-			<int name="x" value="-665"/>
-			<int name="y" value="-86"/>
-			<int name="reactorTime" value="40"/>
-			<int name="f" value="1"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="3">
-			<string name="id" value="1102000"/>
-			<int name="x" value="-1486"/>
-			<int name="y" value="-333"/>
-			<int name="reactorTime" value="90"/>
-			<int name="f" value="1"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="4">
-			<string name="id" value="1102002"/>
-			<int name="x" value="-1538"/>
-			<int name="y" value="-479"/>
-			<int name="reactorTime" value="60"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="5">
-			<string name="id" value="1102001"/>
-			<int name="x" value="-1519"/>
-			<int name="y" value="-389"/>
-			<int name="reactorTime" value="60"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="6">
-			<string name="id" value="1102001"/>
-			<int name="x" value="-631"/>
-			<int name="y" value="-630"/>
-			<int name="reactorTime" value="80"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="7">
-			<string name="id" value="1102002"/>
-			<int name="x" value="-670"/>
-			<int name="y" value="-718"/>
-			<int name="reactorTime" value="70"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="8">
-			<string name="id" value="1102000"/>
-			<int name="x" value="-642"/>
-			<int name="y" value="-562"/>
-			<int name="reactorTime" value="120"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="2">
-			<string name="id" value="1102000"/>
-			<int name="x" value="-1526"/>
-			<int name="y" value="-327"/>
-			<int name="reactorTime" value="120"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="9">
-			<string name="id" value="1102000"/>
-			<int name="x" value="381"/>
-			<int name="y" value="-28"/>
-			<int name="reactorTime" value="80"/>
-			<int name="f" value="1"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="10">
-			<string name="id" value="1102001"/>
-			<int name="x" value="350"/>
-			<int name="y" value="-76"/>
-			<int name="reactorTime" value="60"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="11">
-			<string name="id" value="1102002"/>
-			<int name="x" value="328"/>
-			<int name="y" value="-181"/>
-			<int name="reactorTime" value="120"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="12">
-			<string name="id" value="1102000"/>
-			<int name="x" value="569"/>
-			<int name="y" value="-51"/>
-			<int name="reactorTime" value="90"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="13">
-			<string name="id" value="1102000"/>
-			<int name="x" value="623"/>
-			<int name="y" value="-41"/>
-			<int name="reactorTime" value="360"/>
-			<int name="f" value="1"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="14">
-			<string name="id" value="1102000"/>
-			<int name="x" value="791"/>
-			<int name="y" value="-62"/>
-			<int name="reactorTime" value="360"/>
-			<int name="f" value="1"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="15">
-			<string name="id" value="1102001"/>
-			<int name="x" value="758"/>
-			<int name="y" value="-102"/>
-			<int name="reactorTime" value="360"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="16">
-			<string name="id" value="1102003"/>
-			<int name="x" value="-1211"/>
-			<int name="y" value="-309"/>
-			<int name="reactorTime" value="20"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="17">
-			<string name="id" value="1102003"/>
-			<int name="x" value="-810"/>
-			<int name="y" value="-69"/>
-			<int name="reactorTime" value="30"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="18">
-			<string name="id" value="1102003"/>
-			<int name="x" value="538"/>
-			<int name="y" value="-10"/>
-			<int name="reactorTime" value="28"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="19">
-			<string name="id" value="1102003"/>
-			<int name="x" value="174"/>
-			<int name="y" value="-610"/>
-			<int name="reactorTime" value="35"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="20">
-			<string name="id" value="1102003"/>
-			<int name="x" value="717"/>
-			<int name="y" value="-670"/>
-			<int name="reactorTime" value="40"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-		<imgdir name="21">
-			<string name="id" value="1102003"/>
-			<int name="x" value="-885"/>
-			<int name="y" value="-669"/>
-			<int name="reactorTime" value="33"/>
-			<int name="f" value="0"/>
-			<string name="name" value=""/>
-		</imgdir>
-	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="0">
 			<imgdir name="120">
@@ -9672,6 +9494,136 @@
 			<int name="y" value="181"/>
 			<int name="tm" value="110020000"/>
 			<string name="tn" value="west00"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="reactor">
+		<imgdir name="0">
+			<string name="id" value="1102000"/>
+			<int name="x" value="-669"/>
+			<int name="y" value="-31"/>
+			<int name="reactorTime" value="30"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="1">
+			<string name="id" value="1102001"/>
+			<int name="x" value="-665"/>
+			<int name="y" value="-86"/>
+			<int name="reactorTime" value="40"/>
+			<int name="f" value="1"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="3">
+			<string name="id" value="1102000"/>
+			<int name="x" value="-1486"/>
+			<int name="y" value="-333"/>
+			<int name="reactorTime" value="90"/>
+			<int name="f" value="1"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="id" value="1102002"/>
+			<int name="x" value="-1538"/>
+			<int name="y" value="-479"/>
+			<int name="reactorTime" value="60"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="id" value="1102001"/>
+			<int name="x" value="-1519"/>
+			<int name="y" value="-389"/>
+			<int name="reactorTime" value="60"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="6">
+			<string name="id" value="1102001"/>
+			<int name="x" value="-631"/>
+			<int name="y" value="-630"/>
+			<int name="reactorTime" value="80"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="7">
+			<string name="id" value="1102002"/>
+			<int name="x" value="-670"/>
+			<int name="y" value="-718"/>
+			<int name="reactorTime" value="70"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="id" value="1102000"/>
+			<int name="x" value="-642"/>
+			<int name="y" value="-562"/>
+			<int name="reactorTime" value="120"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="2">
+			<string name="id" value="1102000"/>
+			<int name="x" value="-1526"/>
+			<int name="y" value="-327"/>
+			<int name="reactorTime" value="120"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="9">
+			<string name="id" value="1102000"/>
+			<int name="x" value="381"/>
+			<int name="y" value="-28"/>
+			<int name="reactorTime" value="80"/>
+			<int name="f" value="1"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="10">
+			<string name="id" value="1102001"/>
+			<int name="x" value="350"/>
+			<int name="y" value="-76"/>
+			<int name="reactorTime" value="60"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="11">
+			<string name="id" value="1102002"/>
+			<int name="x" value="328"/>
+			<int name="y" value="-181"/>
+			<int name="reactorTime" value="120"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="12">
+			<string name="id" value="1102000"/>
+			<int name="x" value="569"/>
+			<int name="y" value="-51"/>
+			<int name="reactorTime" value="90"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="13">
+			<string name="id" value="1102000"/>
+			<int name="x" value="623"/>
+			<int name="y" value="-41"/>
+			<int name="reactorTime" value="360"/>
+			<int name="f" value="1"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="14">
+			<string name="id" value="1102000"/>
+			<int name="x" value="791"/>
+			<int name="y" value="-62"/>
+			<int name="reactorTime" value="360"/>
+			<int name="f" value="1"/>
+			<string name="name" value=""/>
+		</imgdir>
+		<imgdir name="15">
+			<string name="id" value="1102001"/>
+			<int name="x" value="758"/>
+			<int name="y" value="-102"/>
+			<int name="reactorTime" value="360"/>
+			<int name="f" value="0"/>
+			<string name="name" value=""/>
 		</imgdir>
 	</imgdir>
 </imgdir>

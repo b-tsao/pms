@@ -835,12 +835,6 @@
 							<vector name="null" x="-47" y="30"/>
 							<vector name="null" x="236" y="30"/>
 						</extended>
-						<extended name="8">
-							<vector name="null" x="-14" y="114"/>
-							<vector name="null" x="235" y="263"/>
-							<vector name="null" x="305" y="263"/>
-							<vector name="null" x="305" y="121"/>
-						</extended>
 					</imgdir>
 				</canvas>
 			</imgdir>

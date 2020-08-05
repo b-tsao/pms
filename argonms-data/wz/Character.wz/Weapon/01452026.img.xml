@@ -12,7 +12,7 @@
 		<int name="walk" value="1"/>
 		<int name="stand" value="1"/>
 		<short name="attack" value="3"/>
-		<string name="afterImage" value="swordTS"/>
+		<string name="afterImage" value="bow"/>
 		<string name="sfx" value="bow"/>
 		<int name="reqJob" value="4"/>
 		<int name="reqLevel" value="90"/>

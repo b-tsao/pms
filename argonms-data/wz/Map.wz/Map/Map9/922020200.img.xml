@@ -319,7 +319,7 @@
 		<int name="forcedReturn" value="220010001"/>
 		<float name="mobRate" value="1.2"/>
 		<string name="bgm" value="Bgm06/FantasticThinking"/>
-		<string name="mapMark" value="Ludibrium"/>
+		<string name="mapMark" value="Quest"/>
 		<int name="hideMinimap" value="0"/>
 		<int name="VRTop" value="-300"/>
 		<int name="VRLeft" value="-400"/>

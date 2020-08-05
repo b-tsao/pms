@@ -2,17 +2,9 @@
 <imgdir name="9300042.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
-		<int name="level" value="61"/>
-		<int name="maxHP" value="16000"/>
 		<int name="maxMP" value="200"/>
 		<int name="speed" value="5"/>
-		<int name="PADamage" value="180"/>
 		<int name="PDDamage" value="190"/>
-		<int name="MADamage" value="195"/>
-		<int name="MDDamage" value="230"/>
-		<int name="acc" value="150"/>
-		<int name="eva" value="25"/>
-		<int name="exp" value="485"/>
 		<int name="undead" value="0"/>
 		<int name="pushed" value="500"/>
 		<float name="fs" value="10.0"/>
@@ -27,6 +19,14 @@
 				<int name="effectAfter" value="0"/>
 			</imgdir>
 		</imgdir>
+		<int name="level" value="57"/>
+		<int name="maxHP" value="7300"/>
+		<int name="PADamage" value="165"/>
+		<int name="MADamage" value="175"/>
+		<int name="MDDamage" value="330"/>
+		<int name="acc" value="125"/>
+		<int name="eva" value="22"/>
+		<int name="exp" value="370"/>
 	</imgdir>
 	<imgdir name="move">
 		<canvas name="0" width="60" height="57">

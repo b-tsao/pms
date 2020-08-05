@@ -17,12 +17,12 @@
 				<int name="delay" value="150"/>
 			</canvas>
 			<canvas name="1" width="48" height="31">
-				<vector name="origin" x="24" y="30"/>
+				<vector name="origin" x="25" y="29"/>
 				<int name="z" value="0"/>
 				<int name="delay" value="150"/>
 			</canvas>
 			<canvas name="2" width="50" height="31">
-				<vector name="origin" x="24" y="30"/>
+				<vector name="origin" x="23" y="30"/>
 				<int name="z" value="0"/>
 				<int name="delay" value="150"/>
 			</canvas>
@@ -69,17 +69,17 @@
 			<uol name="0" value="../../0/hit/0"/>
 			<uol name="1" value="../../0/hit/1"/>
 			<canvas name="2" width="49" height="31">
-				<vector name="origin" x="24" y="29"/>
+				<vector name="origin" x="19" y="29"/>
 				<int name="z" value="0"/>
 				<int name="delay" value="150"/>
 			</canvas>
 			<canvas name="3" width="59" height="25">
-				<vector name="origin" x="29" y="23"/>
+				<vector name="origin" x="20" y="23"/>
 				<int name="z" value="0"/>
 				<int name="delay" value="150"/>
 			</canvas>
 			<canvas name="4" width="65" height="18">
-				<vector name="origin" x="32" y="17"/>
+				<vector name="origin" x="23" y="17"/>
 				<int name="z" value="0"/>
 				<int name="delay" value="150"/>
 			</canvas>

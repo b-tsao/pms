@@ -8,9 +8,9 @@
 		<int name="forcedReturn" value="103000890"/>
 		<float name="mobRate" value="1.6000001"/>
 		<string name="bgm" value="Bgm00/SleepyWood"/>
-		<string name="mapMark" value="Dungeon"/>
+		<string name="mapMark" value="KerningParty"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8316"/>
+		<int name="fieldLimit" value="270460"/>
 		<int name="swim" value="0"/>
 	</imgdir>
 	<imgdir name="back">

@@ -17,8 +17,8 @@
 		<int name="reqLUK" value="0"/>
 		<int name="cash" value="1"/>
 		<imgdir name="effect">
-			<string name="path" value="Effect/CharacterEff.img/1002667/0"/>
-			<int name="follow" value="1"/>
+			<string name="path" value="Effect/CharacterEff.img/1002667"/>
+			<int name="follow" value="0"/>
 			<int name="left" value="-10"/>
 			<int name="top" value="-15"/>
 			<int name="right" value="10"/>
@@ -27,6 +27,8 @@
 			<int name="dy" value="10"/>
 			<int name="delay" value="1500"/>
 			<int name="interval" value="100"/>
+			<int name="z" value="-1"/>
+			<int name="genOnMove" value="1"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="default">

@@ -320,7 +320,7 @@
 				<imgdir name="20">
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="20"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="200"/>
 					<int name="mad" value="20"/>
 					<vector name="lt" x="-300" y="-200"/>
 					<vector name="rb" x="300" y="200"/>

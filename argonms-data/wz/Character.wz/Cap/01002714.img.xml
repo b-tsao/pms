@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="01002714.img">
-	<imgdir name="info">
-		<canvas name="icon" width="27" height="32">
-			<vector name="origin" x="-3" y="32"/>
-		</canvas>
-		<canvas name="iconRaw" width="27" height="32">
-			<vector name="origin" x="-3" y="32"/>
-		</canvas>
-		<string name="islot" value="Cp"/>
-		<string name="vslot" value="Cp"/>
-		<int name="reqJob" value="0"/>
-		<int name="reqLevel" value="10"/>
-		<int name="reqSTR" value="0"/>
-		<int name="reqDEX" value="0"/>
-		<int name="reqINT" value="0"/>
-		<int name="reqLUK" value="0"/>
-		<int name="cash" value="1"/>
-	</imgdir>
 	<imgdir name="default">
 		<canvas name="default" width="43" height="54">
 			<vector name="origin" x="23" y="23"/>
@@ -24,15 +7,6 @@
 				<vector name="brow" x="0" y="0"/>
 			</imgdir>
 			<string name="z" value="capOverHair"/>
-		</canvas>
-	</imgdir>
-	<imgdir name="backDefault">
-		<canvas name="default" width="40" height="50">
-			<vector name="origin" x="23" y="23"/>
-			<imgdir name="map">
-				<vector name="brow" x="0" y="0"/>
-			</imgdir>
-			<string name="z" value="backCapAccessory"/>
 		</canvas>
 	</imgdir>
 	<imgdir name="walk1">
@@ -403,44 +377,6 @@
 		<imgdir name="2">
 			<canvas name="default" width="43" height="54">
 				<vector name="origin" x="17" y="53"/>
-				<imgdir name="map">
-					<vector name="brow" x="0" y="0"/>
-				</imgdir>
-				<string name="z" value="capOverHair"/>
-			</canvas>
-		</imgdir>
-	</imgdir>
-	<imgdir name="swingTF">
-		<imgdir name="0">
-			<canvas name="default" width="40" height="49">
-				<vector name="origin" x="15" y="44"/>
-				<imgdir name="map">
-					<vector name="brow" x="0" y="0"/>
-				</imgdir>
-				<string name="z" value="backCap"/>
-			</canvas>
-		</imgdir>
-		<imgdir name="1">
-			<canvas name="default" width="43" height="53">
-				<vector name="origin" x="17" y="52"/>
-				<imgdir name="map">
-					<vector name="brow" x="0" y="0"/>
-				</imgdir>
-				<string name="z" value="capOverHair"/>
-			</canvas>
-		</imgdir>
-		<imgdir name="2">
-			<canvas name="default" width="43" height="54">
-				<vector name="origin" x="17" y="53"/>
-				<imgdir name="map">
-					<vector name="brow" x="0" y="0"/>
-				</imgdir>
-				<string name="z" value="capOverHair"/>
-			</canvas>
-		</imgdir>
-		<imgdir name="3">
-			<canvas name="default" width="43" height="53">
-				<vector name="origin" x="17" y="52"/>
 				<imgdir name="map">
 					<vector name="brow" x="0" y="0"/>
 				</imgdir>
@@ -892,6 +828,44 @@
 			</canvas>
 		</imgdir>
 	</imgdir>
+	<imgdir name="swingTF">
+		<imgdir name="0">
+			<canvas name="default" width="40" height="49">
+				<vector name="origin" x="15" y="44"/>
+				<imgdir name="map">
+					<vector name="brow" x="0" y="0"/>
+				</imgdir>
+				<string name="z" value="backCapOverHair"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="1">
+			<canvas name="default" width="43" height="53">
+				<vector name="origin" x="17" y="52"/>
+				<imgdir name="map">
+					<vector name="brow" x="0" y="0"/>
+				</imgdir>
+				<string name="z" value="capOverHair"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="2">
+			<canvas name="default" width="43" height="54">
+				<vector name="origin" x="17" y="53"/>
+				<imgdir name="map">
+					<vector name="brow" x="0" y="0"/>
+				</imgdir>
+				<string name="z" value="capOverHair"/>
+			</canvas>
+		</imgdir>
+		<imgdir name="3">
+			<canvas name="default" width="43" height="53">
+				<vector name="origin" x="17" y="52"/>
+				<imgdir name="map">
+					<vector name="brow" x="0" y="0"/>
+				</imgdir>
+				<string name="z" value="capOverHair"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
 	<imgdir name="ladder">
 		<imgdir name="0">
 			<canvas name="default" width="40" height="49">
@@ -899,7 +873,7 @@
 				<imgdir name="map">
 					<vector name="brow" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="backCap"/>
+				<string name="z" value="backCapOverHair"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -908,7 +882,7 @@
 				<imgdir name="map">
 					<vector name="brow" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="backCap"/>
+				<string name="z" value="backCapOverHair"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -919,7 +893,7 @@
 				<imgdir name="map">
 					<vector name="brow" x="0" y="0"/>
 				</imgdir>
-				<string name="z" value="backCap"/>
+				<string name="z" value="backCapOverHair"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -928,8 +902,34 @@
 				<imgdir name="map">
 					<vector name="brow" x="0" y="-3"/>
 				</imgdir>
-				<string name="z" value="backCap"/>
+				<string name="z" value="backCapOverHair"/>
 			</canvas>
 		</imgdir>
+	</imgdir>
+	<imgdir name="backDefault">
+		<canvas name="default" width="40" height="50">
+			<vector name="origin" x="23" y="23"/>
+			<imgdir name="map">
+				<vector name="brow" x="0" y="0"/>
+			</imgdir>
+			<string name="z" value="backCapOverHair"/>
+		</canvas>
+	</imgdir>
+	<imgdir name="info">
+		<canvas name="icon" width="27" height="32">
+			<vector name="origin" x="-3" y="32"/>
+		</canvas>
+		<canvas name="iconRaw" width="27" height="32">
+			<vector name="origin" x="-3" y="32"/>
+		</canvas>
+		<string name="islot" value="Cp"/>
+		<string name="vslot" value="CpH5"/>
+		<int name="reqJob" value="0"/>
+		<int name="reqLevel" value="0"/>
+		<int name="reqSTR" value="0"/>
+		<int name="reqDEX" value="0"/>
+		<int name="reqINT" value="0"/>
+		<int name="reqLUK" value="0"/>
+		<int name="cash" value="1"/>
 	</imgdir>
 </imgdir>

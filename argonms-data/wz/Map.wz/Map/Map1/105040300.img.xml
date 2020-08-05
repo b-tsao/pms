@@ -103,19 +103,6 @@
 		</imgdir>
 	</imgdir>
 	<imgdir name="life">
-		<imgdir name="0">
-			<string name="type" value="m"/>
-			<string name="id" value="9400569"/>
-			<int name="x" value="972"/>
-			<int name="y" value="237"/>
-			<int name="mobTime" value="86400"/>
-			<int name="f" value="0"/>
-			<int name="hide" value="0"/>
-			<int name="fh" value="73"/>
-			<int name="cy" value="255"/>
-			<int name="rx0" value="-418"/>
-			<int name="rx1" value="2488"/>
-		</imgdir>
 		<imgdir name="1">
 			<string name="type" value="n"/>
 			<string name="id" value="1061000"/>
@@ -192,16 +179,16 @@
 		<imgdir name="7">
 			<string name="type" value="n"/>
 			<string name="id" value="9100104"/>
-			<int name="x" value="717"/>
-			<int name="y" value="245"/>
+			<int name="x" value="950"/>
+			<int name="y" value="250"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
-			<int name="fh" value="70"/>
+			<int name="fh" value="73"/>
 			<int name="cy" value="255"/>
-			<int name="rx0" value="667"/>
-			<int name="rx1" value="767"/>
+			<int name="rx0" value="900"/>
+			<int name="rx1" value="1000"/>
 		</imgdir>
-		<imgdir name="8">
+		<imgdir name="0">
 			<string name="type" value="n"/>
 			<string name="id" value="9270002"/>
 			<int name="x" value="1822"/>
@@ -213,6 +200,19 @@
 			<int name="cy" value="375"/>
 			<int name="rx0" value="1772"/>
 			<int name="rx1" value="1872"/>
+		</imgdir>
+		<imgdir name="8">
+			<string name="type" value="n"/>
+			<string name="id" value="9010010"/>
+			<int name="x" value="719"/>
+			<int name="y" value="245"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="70"/>
+			<int name="cy" value="255"/>
+			<int name="rx0" value="669"/>
+			<int name="rx1" value="769"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="0">
@@ -5036,19 +5036,21 @@
 		</imgdir>
 		<imgdir name="11">
 			<string name="pn" value="hide00"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="823"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="815"/>
 			<int name="y" value="255"/>
 			<int name="tm" value="105040300"/>
 			<string name="tn" value="hide01"/>
+			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="12">
 			<string name="pn" value="hide01"/>
-			<int name="pt" value="1"/>
+			<int name="pt" value="10"/>
 			<int name="x" value="989"/>
 			<int name="y" value="-48"/>
 			<int name="tm" value="105040300"/>
 			<string name="tn" value="hide00"/>
+			<string name="image" value=""/>
 		</imgdir>
 		<imgdir name="13">
 			<string name="pn" value="in00"/>

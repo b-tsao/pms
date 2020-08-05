@@ -395,7 +395,6 @@
 		<imgdir name="4">
 			<uol name="hairOverHead" value="../../default/hairOverHead"/>
 			<uol name="hair" value="../../default/hair"/>
-			<uol name="hairShade" value="../../default/hairShade"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="shootF">

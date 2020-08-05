@@ -8,10 +8,10 @@
 		<int name="returnMap" value="670011000"/>
 		<int name="forcedReturn" value="670011000"/>
 		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm14/HotDesert"/>
+		<string name="bgm" value="BgmGL/Amorianchallenge"/>
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="1"/>
-		<int name="fieldLimit" value="1022"/>
+		<int name="fieldLimit" value="132094"/>
 	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
@@ -138,16 +138,16 @@
 	<imgdir name="life">
 		<imgdir name="0">
 			<string name="type" value="n"/>
-			<string name="id" value="9201044"/>
-			<int name="x" value="-8223"/>
-			<int name="y" value="450"/>
+			<string name="id" value="9201045"/>
+			<int name="x" value="8916"/>
+			<int name="y" value="60"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="1"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="236"/>
+			<int name="fh" value="13"/>
 			<int name="cy" value="90"/>
-			<int name="rx0" value="-8173"/>
-			<int name="rx1" value="-8273"/>
+			<int name="rx0" value="8866"/>
+			<int name="rx1" value="8966"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="reactor">
@@ -214,6 +214,303 @@
 		<imgdir name="tile">
 		</imgdir>
 		<imgdir name="obj">
+			<imgdir name="0">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8020"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="8043"/>
+				<int name="y" value="430"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8069"/>
+				<int name="y" value="414"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="8091"/>
+				<int name="y" value="399"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8116"/>
+				<int name="y" value="384"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8139"/>
+				<int name="y" value="373"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="8163"/>
+				<int name="y" value="355"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="8189"/>
+				<int name="y" value="339"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8205"/>
+				<int name="y" value="325"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8228"/>
+				<int name="y" value="311"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="8243"/>
+				<int name="y" value="297"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="8265"/>
+				<int name="y" value="282"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8289"/>
+				<int name="y" value="268"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8312"/>
+				<int name="y" value="252"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="8335"/>
+				<int name="y" value="237"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="8356"/>
+				<int name="y" value="223"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8376"/>
+				<int name="y" value="212"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8394"/>
+				<int name="y" value="198"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="18">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="8418"/>
+				<int name="y" value="182"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="19">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8444"/>
+				<int name="y" value="167"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="20">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="8469"/>
+				<int name="y" value="152"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="21">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="8496"/>
+				<int name="y" value="134"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="22">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="8516"/>
+				<int name="y" value="117"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="12"/>
+			</imgdir>
+			<imgdir name="23">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="7903"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="11"/>
+			</imgdir>
+			<imgdir name="24">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="7782"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="10"/>
+			</imgdir>
+			<imgdir name="25">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="7663"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="7"/>
+			</imgdir>
+			<imgdir name="26">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="7542"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="9"/>
+			</imgdir>
 		</imgdir>
 	</imgdir>
 	<imgdir name="1">
@@ -829,6 +1126,254 @@
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
 				<int name="zM" value="3"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9766"/>
+				<int name="y" value="339"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="16"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="30"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10256"/>
+				<int name="y" value="336"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="17"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="28"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10308"/>
+				<int name="y" value="336"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="17"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="29"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10358"/>
+				<int name="y" value="337"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="17"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="48"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10607"/>
+				<int name="y" value="336"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="20"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="41"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-11083"/>
+				<int name="y" value="340"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="14"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="25"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10887"/>
+				<int name="y" value="338"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="15"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="37"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10706"/>
+				<int name="y" value="337"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="18"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="25"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10977"/>
+				<int name="y" value="342"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="13"/>
+				<int name="flow" value="3"/>
+				<string name="rx" value="20"/>
+				<string name="ry" value="1"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10448"/>
+				<int name="y" value="336"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="21"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="27"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10794"/>
+				<int name="y" value="337"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="19"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="35"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10403"/>
+				<int name="y" value="338"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="17"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="20"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10502"/>
+				<int name="y" value="335"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="21"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="26"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10555"/>
+				<int name="y" value="336"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="20"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="32"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10650"/>
+				<int name="y" value="335"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="20"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="35"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10748"/>
+				<int name="y" value="338"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="18"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="27"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10836"/>
+				<int name="y" value="338"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="15"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="33"/>
+			</imgdir>
+			<imgdir name="18">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-10929"/>
+				<int name="y" value="341"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="15"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="34"/>
+			</imgdir>
+			<imgdir name="19">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Wraith"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-11028"/>
+				<int name="y" value="341"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="14"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="29"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -8303,6 +8848,1744 @@
 			</imgdir>
 		</imgdir>
 		<imgdir name="obj">
+			<imgdir name="1">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-7900"/>
+				<int name="y" value="452"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-7847"/>
+				<int name="y" value="453"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-7720"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-7476"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-7572"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-7525"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-7325"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-7088"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-7178"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-7129"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-6942"/>
+				<int name="y" value="452"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-6890"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-6761"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="18">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-6709"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="21">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-5921"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="26">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-4895"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="28">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-5817"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="29">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-6060"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="30">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-6108"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="31">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-5768"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="32">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-5715"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="33">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-5233"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="35">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-5081"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="38">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-5033"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="39">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-5436"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="40">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-5560"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="41">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-5287"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="44">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-3789"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="45">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-3680"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="47">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-3997"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="48">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-4114"/>
+				<int name="y" value="447"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="49">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-4240"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="50">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-4294"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="51">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-3944"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="52">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-3734"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="54">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-3572"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="55">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-3470"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="56">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-3372"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="57">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-3269"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="58">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-3222"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="59">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-3173"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="19">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-1606"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="20">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-1701"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="36">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-1748"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="25">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-1855"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="42">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-1961"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="43">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-2011"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-2056"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-2099"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-2628"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="22">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-2305"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="27">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-2451"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="23">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-2253"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="24">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-2497"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="37">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-2675"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="53">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-2726"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="46">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-2873"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="60">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-2922"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="34">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-2926"/>
+				<int name="y" value="638"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="2"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-3044"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="61">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-1498"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="62">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-1449"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="63">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-1331"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="64">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-1276"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="65">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-577"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="66">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-535"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="67">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-402"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="68">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-284"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="69">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-235"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="70">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="-183"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="71">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="-68"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="72">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="-24"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="73">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="25"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="74">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="77"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="75">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="199"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="76">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="251"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="77">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="371"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="78">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="421"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="79">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="472"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="80">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="593"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="81">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="643"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="82">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="763"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="83">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="812"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="84">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="937"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="85">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="1067"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="86">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="1118"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="87">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="1163"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="88">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="1312"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="89">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="1365"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="90">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="1409"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="91">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="1545"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="92">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="1597"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="93">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="1646"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="94">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="1701"/>
+				<int name="y" value="447"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="95">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="1752"/>
+				<int name="y" value="447"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="96">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="1946"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="97">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="1995"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="98">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="2149"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="99">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="2202"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="100">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="2248"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="101">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="2449"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="102">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="2494"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="103">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="2739"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="104">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="2610"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="105">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="2788"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="106">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="2835"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="107">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="2886"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="108">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="3054"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="109">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="3186"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="110">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="3872"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="111">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="3920"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="112">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="3967"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="113">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="4017"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="114">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="4070"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="115">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="4119"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="116">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="4168"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="117">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="4217"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="118">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="4267"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="119">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4320"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="120">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4369"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="121">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4418"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="122">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4468"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="123">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4516"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="124">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4568"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="125">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="4614"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="126">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4662"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="127">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4714"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="128">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4761"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="129">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4813"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="130">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4861"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="131">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4912"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="132">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="4962"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="133">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="5019"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="134">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="5077"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="135">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="5127"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="136">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="5174"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="137">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="5303"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="138">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="5358"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="139">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="5508"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="140">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="5555"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="141">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="5601"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="142">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="3"/>
+				<int name="x" value="5753"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="143">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="2"/>
+				<int name="x" value="5894"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="144">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="5942"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="145">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6575"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="146">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6603"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="147">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6635"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="148">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6663"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="149">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6689"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="150">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6718"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="151">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6744"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="152">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6767"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="153">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6794"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="154">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6820"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="155">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6846"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="156">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6869"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="157">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6894"/>
+				<int name="y" value="449"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="trap"/>
+				<string name="l1" value="norm"/>
+				<string name="l2" value="4"/>
+				<int name="x" value="6918"/>
+				<int name="y" value="448"/>
+				<int name="z" value="9"/>
+				<int name="f" value="0"/>
+				<int name="zM" value="0"/>
+			</imgdir>
 		</imgdir>
 	</imgdir>
 	<imgdir name="4">
@@ -20126,6 +22409,240 @@
 			</imgdir>
 		</imgdir>
 		<imgdir name="obj">
+			<imgdir name="2">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="BlackRatz"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9908"/>
+				<int name="y" value="452"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="5"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="26"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="BlackRatz"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9877"/>
+				<int name="y" value="452"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="5"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="27"/>
+			</imgdir>
+			<imgdir name="5">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="BlackRatz"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9858"/>
+				<int name="y" value="453"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="35"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="BlackRatz"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9957"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="29"/>
+			</imgdir>
+			<imgdir name="0">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="BlackRatz"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9941"/>
+				<int name="y" value="451"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="25"/>
+			</imgdir>
+			<imgdir name="7">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Skeledog"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-9792"/>
+				<int name="y" value="457"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="4"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="28"/>
+			</imgdir>
+			<imgdir name="8">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10024"/>
+				<int name="y" value="452"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="9">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10053"/>
+				<int name="y" value="452"/>
+				<int name="z" value="8"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="10">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10042"/>
+				<int name="y" value="452"/>
+				<int name="z" value="6"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="11">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10083"/>
+				<int name="y" value="452"/>
+				<int name="z" value="7"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="12">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10060"/>
+				<int name="y" value="452"/>
+				<int name="z" value="5"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="6">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Bloctopus"/>
+				<string name="l2" value="0"/>
+				<int name="x" value="-10053"/>
+				<int name="y" value="415"/>
+				<int name="z" value="4"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="6"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10126"/>
+				<int name="y" value="450"/>
+				<int name="z" value="3"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="13">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10191"/>
+				<int name="y" value="450"/>
+				<int name="z" value="2"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<string name="rx" value="18"/>
+				<int name="flow" value="1"/>
+			</imgdir>
+			<imgdir name="14">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10255"/>
+				<int name="y" value="451"/>
+				<int name="z" value="1"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<string name="rx" value="18"/>
+				<int name="flow" value="1"/>
+			</imgdir>
+			<imgdir name="15">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10445"/>
+				<int name="y" value="450"/>
+				<int name="z" value="9"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="16">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10510"/>
+				<int name="y" value="450"/>
+				<int name="z" value="8"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
+			<imgdir name="17">
+				<string name="oS" value="trapGL"/>
+				<string name="l0" value="mob"/>
+				<string name="l1" value="Rombad"/>
+				<string name="l2" value="1"/>
+				<int name="x" value="-10576"/>
+				<int name="y" value="450"/>
+				<int name="z" value="7"/>
+				<int name="f" value="1"/>
+				<int name="zM" value="0"/>
+				<int name="flow" value="1"/>
+				<string name="rx" value="18"/>
+			</imgdir>
 		</imgdir>
 	</imgdir>
 	<imgdir name="7">

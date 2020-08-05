@@ -783,7 +783,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="1" y="-14"/>
 				</imgdir>
-				<string name="z" value="shoesOverPants"/>
+				<string name="z" value="backShoes"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -792,7 +792,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="1" y="-14"/>
 				</imgdir>
-				<string name="z" value="shoesOverPants"/>
+				<string name="z" value="backShoes"/>
 			</canvas>
 		</imgdir>
 	</imgdir>
@@ -803,7 +803,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="2" y="-17"/>
 				</imgdir>
-				<string name="z" value="shoesOverPants"/>
+				<string name="z" value="backShoes"/>
 			</canvas>
 		</imgdir>
 		<imgdir name="1">
@@ -812,7 +812,7 @@
 				<imgdir name="map">
 					<vector name="navel" x="-1" y="-12"/>
 				</imgdir>
-				<string name="z" value="shoesOverPants"/>
+				<string name="z" value="backShoes"/>
 			</canvas>
 		</imgdir>
 	</imgdir>

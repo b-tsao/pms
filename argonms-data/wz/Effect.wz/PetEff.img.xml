@@ -680,4 +680,113 @@
 			</canvas>
 		</imgdir>
 	</imgdir>
+	<imgdir name="5000048">
+		<imgdir name="warp">
+			<canvas name="0" width="55" height="36">
+				<vector name="origin" x="46" y="44"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="1" width="61" height="36">
+				<vector name="origin" x="46" y="44"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="2" width="66" height="35">
+				<vector name="origin" x="46" y="44"/>
+				<int name="delay" value="90"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5000049">
+		<imgdir name="warp">
+			<canvas name="0" width="60" height="55">
+				<vector name="origin" x="52" y="54"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="1" width="56" height="59">
+				<vector name="origin" x="51" y="58"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="2" width="46" height="58">
+				<vector name="origin" x="47" y="57"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<uol name="3" value="0"/>
+			<uol name="4" value="1"/>
+			<uol name="5" value="2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5000050">
+		<imgdir name="warp">
+			<canvas name="0" width="62" height="55">
+				<vector name="origin" x="30" y="55"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="1" width="54" height="60">
+				<vector name="origin" x="28" y="59"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="2" width="41" height="64">
+				<vector name="origin" x="22" y="62"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<uol name="3" value="0"/>
+			<uol name="4" value="1"/>
+			<uol name="5" value="2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5000051">
+		<imgdir name="warp">
+			<canvas name="0" width="37" height="58">
+				<vector name="origin" x="20" y="53"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="1" width="52" height="62">
+				<vector name="origin" x="24" y="58"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="2" width="37" height="58">
+				<vector name="origin" x="20" y="53"/>
+				<int name="z" value="0"/>
+			</canvas>
+			<uol name="3" value="0"/>
+			<uol name="4" value="1"/>
+			<uol name="5" value="2"/>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5000052">
+		<imgdir name="warp">
+			<canvas name="0" width="83" height="59">
+				<vector name="origin" x="29" y="56"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="1" width="79" height="65">
+				<vector name="origin" x="29" y="61"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="2" width="69" height="70">
+				<vector name="origin" x="19" y="65"/>
+				<int name="delay" value="110"/>
+			</canvas>
+			<canvas name="3" width="69" height="70">
+				<vector name="origin" x="19" y="65"/>
+				<int name="delay" value="110"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
+	<imgdir name="5000053">
+		<imgdir name="warp">
+			<canvas name="0" width="59" height="50">
+				<vector name="origin" x="55" y="45"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="1" width="51" height="58">
+				<vector name="origin" x="49" y="54"/>
+				<int name="delay" value="80"/>
+			</canvas>
+			<canvas name="2" width="58" height="51">
+				<vector name="origin" x="51" y="61"/>
+				<int name="delay" value="80"/>
+			</canvas>
+		</imgdir>
+	</imgdir>
 </imgdir>

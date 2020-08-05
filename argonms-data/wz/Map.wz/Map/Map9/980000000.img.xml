@@ -10,7 +10,7 @@
 		<string name="bgm" value="Bgm06/FantasticThinking"/>
 		<string name="mapMark" value="Ludibrium"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8940"/>
+		<int name="fieldLimit" value="74476"/>
 		<int name="VRTop" value="-350"/>
 		<int name="VRLeft" value="-584"/>
 		<int name="VRBottom" value="250"/>

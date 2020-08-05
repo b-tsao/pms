@@ -269,7 +269,7 @@
 			<int name="mobTime" value="-1"/>
 			<int name="f" value="0"/>
 			<int name="hide" value="0"/>
-			<int name="fh" value="146"/>
+			<int name="fh" value="145"/>
 			<int name="cy" value="-334"/>
 			<int name="rx0" value="-420"/>
 			<int name="rx1" value="-181"/>
@@ -472,7 +472,7 @@
 				<int name="y" value="-79"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
+				<int name="zM" value="19"/>
 			</imgdir>
 			<imgdir name="1">
 				<string name="oS" value="guild"/>
@@ -483,7 +483,7 @@
 				<int name="y" value="-89"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
+				<int name="zM" value="25"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="oS" value="guild"/>
@@ -494,7 +494,7 @@
 				<int name="y" value="-79"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
+				<int name="zM" value="18"/>
 			</imgdir>
 			<imgdir name="3">
 				<string name="oS" value="guild"/>
@@ -505,7 +505,7 @@
 				<int name="y" value="-70"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="0"/>
+				<int name="zM" value="17"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -532,7 +532,7 @@
 				<int name="y" value="-398"/>
 				<int name="z" value="7"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="34"/>
+				<int name="zM" value="38"/>
 			</imgdir>
 			<imgdir name="5">
 				<string name="oS" value="guild"/>
@@ -543,7 +543,7 @@
 				<int name="y" value="-398"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="33"/>
+				<int name="zM" value="37"/>
 			</imgdir>
 			<imgdir name="3">
 				<string name="oS" value="guild"/>
@@ -554,7 +554,7 @@
 				<int name="y" value="-398"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="33"/>
+				<int name="zM" value="37"/>
 			</imgdir>
 			<imgdir name="6">
 				<string name="oS" value="guild"/>
@@ -565,7 +565,7 @@
 				<int name="y" value="-528"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="34"/>
+				<int name="zM" value="38"/>
 			</imgdir>
 			<imgdir name="7">
 				<string name="oS" value="guild"/>
@@ -576,7 +576,7 @@
 				<int name="y" value="-528"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="33"/>
+				<int name="zM" value="37"/>
 			</imgdir>
 			<imgdir name="8">
 				<string name="oS" value="guild"/>
@@ -587,7 +587,7 @@
 				<int name="y" value="-528"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="33"/>
+				<int name="zM" value="37"/>
 			</imgdir>
 			<imgdir name="9">
 				<string name="oS" value="guild"/>
@@ -2523,7 +2523,7 @@
 				<int name="y" value="-308"/>
 				<int name="z" value="4"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="32"/>
+				<int name="zM" value="36"/>
 			</imgdir>
 			<imgdir name="16">
 				<string name="oS" value="guild"/>
@@ -2534,7 +2534,7 @@
 				<int name="y" value="-322"/>
 				<int name="z" value="0"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="32"/>
+				<int name="zM" value="36"/>
 			</imgdir>
 			<imgdir name="17">
 				<string name="oS" value="guild"/>
@@ -2597,7 +2597,7 @@
 				<int name="y" value="-115"/>
 				<int name="z" value="8"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="23"/>
+				<int name="zM" value="27"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="oS" value="guild"/>
@@ -2630,7 +2630,7 @@
 				<int name="y" value="-115"/>
 				<int name="z" value="6"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="22"/>
+				<int name="zM" value="26"/>
 			</imgdir>
 			<imgdir name="7">
 				<string name="oS" value="guild"/>
@@ -2685,7 +2685,7 @@
 				<int name="y" value="-115"/>
 				<int name="z" value="8"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="24"/>
+				<int name="zM" value="28"/>
 			</imgdir>
 			<imgdir name="12">
 				<string name="oS" value="guild"/>
@@ -2740,7 +2740,7 @@
 				<int name="y" value="-116"/>
 				<int name="z" value="8"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="26"/>
+				<int name="zM" value="30"/>
 			</imgdir>
 			<imgdir name="11">
 				<string name="oS" value="guild"/>
@@ -2751,7 +2751,7 @@
 				<int name="y" value="-201"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
 			</imgdir>
 			<imgdir name="5">
 				<string name="oS" value="guild"/>
@@ -2762,7 +2762,7 @@
 				<int name="y" value="-201"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="26"/>
+				<int name="zM" value="30"/>
 			</imgdir>
 			<imgdir name="0">
 				<string name="oS" value="guild"/>
@@ -2773,7 +2773,7 @@
 				<int name="y" value="-116"/>
 				<int name="z" value="8"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
 			</imgdir>
 			<imgdir name="17">
 				<string name="oS" value="guild"/>
@@ -2784,7 +2784,7 @@
 				<int name="y" value="-201"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="28"/>
+				<int name="zM" value="32"/>
 			</imgdir>
 			<imgdir name="18">
 				<string name="oS" value="guild"/>
@@ -2795,7 +2795,7 @@
 				<int name="y" value="-201"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="29"/>
+				<int name="zM" value="33"/>
 			</imgdir>
 			<imgdir name="19">
 				<string name="oS" value="guild"/>
@@ -2806,7 +2806,7 @@
 				<int name="y" value="-201"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="27"/>
+				<int name="zM" value="31"/>
 			</imgdir>
 			<imgdir name="20">
 				<string name="oS" value="guild"/>
@@ -2817,7 +2817,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="27"/>
+				<int name="zM" value="31"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="21">
 				<string name="oS" value="guild"/>
@@ -2828,7 +2829,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="27"/>
+				<int name="zM" value="31"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="22">
 				<string name="oS" value="guild"/>
@@ -2839,7 +2841,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="29"/>
+				<int name="zM" value="33"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="23">
 				<string name="oS" value="guild"/>
@@ -2850,7 +2853,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="29"/>
+				<int name="zM" value="33"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="24">
 				<string name="oS" value="guild"/>
@@ -2861,7 +2865,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="29"/>
+				<int name="zM" value="33"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="25">
 				<string name="oS" value="guild"/>
@@ -2872,7 +2877,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="28"/>
+				<int name="zM" value="32"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="26">
 				<string name="oS" value="guild"/>
@@ -2883,7 +2889,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="28"/>
+				<int name="zM" value="32"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="27">
 				<string name="oS" value="guild"/>
@@ -2894,7 +2901,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="28">
 				<string name="oS" value="guild"/>
@@ -2905,7 +2913,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="29">
 				<string name="oS" value="guild"/>
@@ -2916,7 +2925,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="30">
 				<string name="oS" value="guild"/>
@@ -2927,7 +2937,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="31">
 				<string name="oS" value="guild"/>
@@ -2938,7 +2949,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="33">
 				<string name="oS" value="guild"/>
@@ -2971,7 +2983,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="4"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="27"/>
+				<int name="zM" value="31"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="37">
 				<string name="oS" value="guild"/>
@@ -2982,7 +2995,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="25"/>
+				<int name="zM" value="29"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="38">
 				<string name="oS" value="guild"/>
@@ -2993,7 +3007,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="31"/>
+				<int name="zM" value="35"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="32">
 				<string name="oS" value="guild"/>
@@ -3004,7 +3019,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="31"/>
+				<int name="zM" value="35"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="39">
 				<string name="oS" value="guild"/>
@@ -3015,7 +3031,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="30"/>
+				<int name="zM" value="34"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 			<imgdir name="36">
 				<string name="oS" value="guild"/>
@@ -3026,7 +3043,8 @@
 				<int name="y" value="-295"/>
 				<int name="z" value="2"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="30"/>
+				<int name="zM" value="34"/>
+				<int name="forbidFallDown" value="1"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -3045,7 +3063,7 @@
 				<int name="y" value="-30"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="17"/>
+				<int name="zM" value="20"/>
 			</imgdir>
 			<imgdir name="1">
 				<string name="oS" value="guild"/>
@@ -3056,7 +3074,7 @@
 				<int name="y" value="-30"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="18"/>
+				<int name="zM" value="21"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="oS" value="guild"/>
@@ -3067,7 +3085,7 @@
 				<int name="y" value="-30"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="19"/>
+				<int name="zM" value="22"/>
 			</imgdir>
 			<imgdir name="3">
 				<string name="oS" value="guild"/>
@@ -3078,7 +3096,7 @@
 				<int name="y" value="-30"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="20"/>
+				<int name="zM" value="23"/>
 			</imgdir>
 			<imgdir name="4">
 				<string name="oS" value="guild"/>
@@ -3089,7 +3107,7 @@
 				<int name="y" value="-30"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="21"/>
+				<int name="zM" value="24"/>
 			</imgdir>
 			<imgdir name="5">
 				<string name="oS" value="guild"/>
@@ -3100,7 +3118,7 @@
 				<int name="y" value="-67"/>
 				<int name="z" value="10"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="17"/>
+				<int name="zM" value="20"/>
 			</imgdir>
 			<imgdir name="6">
 				<string name="oS" value="guild"/>
@@ -3111,7 +3129,7 @@
 				<int name="y" value="-67"/>
 				<int name="z" value="10"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="21"/>
+				<int name="zM" value="24"/>
 			</imgdir>
 			<imgdir name="7">
 				<string name="oS" value="guild"/>
@@ -3122,7 +3140,7 @@
 				<int name="y" value="-67"/>
 				<int name="z" value="9"/>
 				<int name="f" value="0"/>
-				<int name="zM" value="19"/>
+				<int name="zM" value="22"/>
 			</imgdir>
 		</imgdir>
 	</imgdir>
@@ -3143,7 +3161,7 @@
 		<int name="VRRight" value="1080"/>
 		<int name="decHP" value="30000"/>
 		<int name="protectItem" value="1032033"/>
-		<int name="fieldLimit" value="8828"/>
+		<int name="fieldLimit" value="270972"/>
 	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="5">
@@ -4245,7 +4263,7 @@
 					<int name="next" value="0"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="32">
+			<imgdir name="36">
 				<imgdir name="138">
 					<int name="x1" value="-1015"/>
 					<int name="y1" value="-308"/>
@@ -4273,22 +4291,24 @@
 			</imgdir>
 		</imgdir>
 		<imgdir name="6">
-			<imgdir name="27">
+			<imgdir name="31">
 				<imgdir name="141">
 					<int name="x1" value="-711"/>
-					<int name="y1" value="-332"/>
-					<int name="x2" value="-708"/>
+					<int name="y1" value="-333"/>
+					<int name="x2" value="-707"/>
 					<int name="y2" value="-334"/>
 					<int name="prev" value="0"/>
 					<int name="next" value="142"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="142">
-					<int name="x1" value="-708"/>
+					<int name="x1" value="-707"/>
 					<int name="y1" value="-334"/>
 					<int name="x2" value="-609"/>
 					<int name="y2" value="-334"/>
 					<int name="prev" value="141"/>
 					<int name="next" value="144"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="143">
 					<int name="x1" value="-582"/>
@@ -4297,6 +4317,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="144"/>
 					<int name="next" value="145"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="144">
 					<int name="x1" value="-609"/>
@@ -4305,9 +4326,10 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="142"/>
 					<int name="next" value="143"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="29">
+			<imgdir name="33">
 				<imgdir name="145">
 					<int name="x1" value="-440"/>
 					<int name="y1" value="-334"/>
@@ -4315,6 +4337,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="143"/>
 					<int name="next" value="146"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="146">
 					<int name="x1" value="-369"/>
@@ -4323,6 +4346,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="145"/>
 					<int name="next" value="147"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="147">
 					<int name="x1" value="-232"/>
@@ -4331,9 +4355,10 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="146"/>
 					<int name="next" value="148"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="28">
+			<imgdir name="32">
 				<imgdir name="148">
 					<int name="x1" value="-161"/>
 					<int name="y1" value="-334"/>
@@ -4341,6 +4366,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="147"/>
 					<int name="next" value="149"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="149">
 					<int name="x1" value="-24"/>
@@ -4349,9 +4375,10 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="148"/>
 					<int name="next" value="150"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="25">
+			<imgdir name="29">
 				<imgdir name="150">
 					<int name="x1" value="47"/>
 					<int name="y1" value="-334"/>
@@ -4359,6 +4386,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="149"/>
 					<int name="next" value="151"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="151">
 					<int name="x1" value="184"/>
@@ -4367,6 +4395,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="150"/>
 					<int name="next" value="152"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="152">
 					<int name="x1" value="255"/>
@@ -4375,6 +4404,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="151"/>
 					<int name="next" value="153"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="153">
 					<int name="x1" value="392"/>
@@ -4383,6 +4413,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="152"/>
 					<int name="next" value="154"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="154">
 					<int name="x1" value="531"/>
@@ -4391,6 +4422,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="153"/>
 					<int name="next" value="155"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="155">
 					<int name="x1" value="602"/>
@@ -4399,9 +4431,10 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="154"/>
 					<int name="next" value="158"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="31">
+			<imgdir name="35">
 				<imgdir name="156">
 					<int name="x1" value="940"/>
 					<int name="y1" value="-334"/>
@@ -4409,6 +4442,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="157"/>
 					<int name="next" value="0"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="157">
 					<int name="x1" value="874"/>
@@ -4417,9 +4451,10 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="159"/>
 					<int name="next" value="156"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="30">
+			<imgdir name="34">
 				<imgdir name="158">
 					<int name="x1" value="671"/>
 					<int name="y1" value="-334"/>
@@ -4427,6 +4462,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="155"/>
 					<int name="next" value="159"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 				<imgdir name="159">
 					<int name="x1" value="746"/>
@@ -4435,6 +4471,7 @@
 					<int name="y2" value="-334"/>
 					<int name="prev" value="158"/>
 					<int name="next" value="157"/>
+					<int name="forbidFallDown" value="1"/>
 				</imgdir>
 			</imgdir>
 		</imgdir>

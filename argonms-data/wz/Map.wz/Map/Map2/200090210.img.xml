@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="200090210.img">
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<string name="streetName" value="&amp;#47700;&amp;#51060;&amp;#54540;&amp;#47196;&amp;#46300;"/>
-		<string name="mapName" value="&amp;#49324;&amp;#50864;&amp;#49828;&amp;#54168;&amp;#47532;"/>
-		<int name="town" value="1"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm06/FlyingInABlueDream"/>
-		<int name="returnMap" value="240000100"/>
-		<string name="mapMark" value="None"/>
-		<int name="forcedReturn" value="240000100"/>
-		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8318"/>
-		<int name="VRTop" value="-900"/>
-		<int name="VRLeft" value="-1000"/>
-		<int name="VRBottom" value="360"/>
-		<int name="VRRight" value="620"/>
-		<int name="swim" value="0"/>
-	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">
 			<int name="no" value="0"/>
@@ -963,5 +944,24 @@
 			<int name="tm" value="200090210"/>
 			<string name="tn" value="h001"/>
 		</imgdir>
+	</imgdir>
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<string name="streetName" value="&amp;#5314;&amp;#25419;&amp;#12100;&amp;#10369;&amp;#49818;"/>
+		<string name="mapName" value="&amp;#28218;&amp;#25231;&amp;#14572;&amp;#17221;&amp;#53226;"/>
+		<int name="town" value="1"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm06/FlyingInABlueDream"/>
+		<int name="returnMap" value="240000100"/>
+		<string name="mapMark" value="None"/>
+		<int name="forcedReturn" value="240000100"/>
+		<int name="hideMinimap" value="0"/>
+		<int name="fieldLimit" value="401534"/>
+		<int name="VRTop" value="-900"/>
+		<int name="VRLeft" value="-1000"/>
+		<int name="VRBottom" value="360"/>
+		<int name="VRRight" value="620"/>
+		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

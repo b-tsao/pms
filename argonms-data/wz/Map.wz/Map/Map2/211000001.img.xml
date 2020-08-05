@@ -37,14 +37,14 @@
 		<imgdir name="0">
 			<string name="type" value="n"/>
 			<string name="id" value="2020008"/>
-			<int name="x" value="-160"/>
-			<int name="y" value="-105"/>
+			<int name="x" value="-207"/>
+			<int name="y" value="-98"/>
 			<int name="mobTime" value="0"/>
 			<int name="f" value="0"/>
 			<int name="fh" value="1"/>
 			<int name="cy" value="-97"/>
-			<int name="rx0" value="-210"/>
-			<int name="rx1" value="-110"/>
+			<int name="rx0" value="-257"/>
+			<int name="rx1" value="-157"/>
 		</imgdir>
 		<imgdir name="2">
 			<string name="type" value="n"/>
@@ -94,6 +94,19 @@
 			<int name="cy" value="189"/>
 			<int name="rx0" value="249"/>
 			<int name="rx1" value="349"/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="type" value="n"/>
+			<string name="id" value="2020013"/>
+			<int name="x" value="104"/>
+			<int name="y" value="-100"/>
+			<int name="mobTime" value="0"/>
+			<int name="f" value="0"/>
+			<int name="hide" value="0"/>
+			<int name="fh" value="1"/>
+			<int name="cy" value="-97"/>
+			<int name="rx0" value="54"/>
+			<int name="rx1" value="154"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="0">

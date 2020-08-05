@@ -5430,22 +5430,6 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="4">
-			<string name="pn" value="h000"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="2474"/>
-			<int name="y" value="101"/>
-			<int name="tm" value="220000300"/>
-			<string name="tn" value="h001"/>
-		</imgdir>
-		<imgdir name="5">
-			<string name="pn" value="h001"/>
-			<int name="pt" value="1"/>
-			<int name="x" value="-2612"/>
-			<int name="y" value="102"/>
-			<int name="tm" value="220000300"/>
-			<string name="tn" value="h000"/>
-		</imgdir>
 		<imgdir name="6">
 			<string name="pn" value="west00"/>
 			<int name="pt" value="2"/>
@@ -5517,6 +5501,24 @@
 			<int name="y" value="103"/>
 			<int name="tm" value="220000307"/>
 			<string name="tn" value="out00"/>
+		</imgdir>
+		<imgdir name="4">
+			<string name="pn" value="h000"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="2473"/>
+			<int name="y" value="103"/>
+			<int name="tm" value="220000300"/>
+			<string name="tn" value="h001"/>
+			<string name="image" value=""/>
+		</imgdir>
+		<imgdir name="5">
+			<string name="pn" value="h001"/>
+			<int name="pt" value="10"/>
+			<int name="x" value="-2613"/>
+			<int name="y" value="102"/>
+			<int name="tm" value="220000300"/>
+			<string name="tn" value="h000"/>
+			<string name="image" value=""/>
 		</imgdir>
 	</imgdir>
 </imgdir>

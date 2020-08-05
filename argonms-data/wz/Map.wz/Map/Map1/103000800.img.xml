@@ -9,9 +9,9 @@
 		<string name="bgm" value="Bgm02/JungleBook"/>
 		<string name="mapDesc" value=""/>
 		<int name="forcedReturn" value="103000890"/>
-		<string name="mapMark" value="None"/>
+		<string name="mapMark" value="KerningParty"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="8316"/>
+		<int name="fieldLimit" value="270460"/>
 		<int name="VRTop" value="-1590"/>
 		<int name="VRLeft" value="-1197"/>
 		<int name="VRBottom" value="284"/>

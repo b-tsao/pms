@@ -11,7 +11,7 @@
 		<string name="bgm" value="BgmGL/Amorianchallenge"/>
 		<string name="mapMark" value="Wedding"/>
 		<int name="hideMinimap" value="0"/>
-		<int name="fieldLimit" value="1022"/>
+		<int name="fieldLimit" value="132094"/>
 	</imgdir>
 	<imgdir name="back">
 		<imgdir name="0">

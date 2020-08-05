@@ -19,6 +19,7 @@
 		<float name="fs" value="10.0"/>
 		<int name="invincible" value="1"/>
 		<int name="summonType" value="1"/>
+		<int name="hideName" value="1"/>
 	</imgdir>
 	<imgdir name="move">
 		<canvas name="0" width="125" height="107">

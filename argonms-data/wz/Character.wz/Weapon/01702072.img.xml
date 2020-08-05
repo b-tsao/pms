@@ -407,7 +407,6 @@
 		<uol name="jump" value="../40/jump"/>
 	</imgdir>
 	<imgdir name="42">
-		<uol name="walk1" value="../40/walk1"/>
 		<uol name="walk2" value="../41/walk2"/>
 		<uol name="stand2" value="../40/stand2"/>
 		<uol name="alert" value="../40/alert"/>

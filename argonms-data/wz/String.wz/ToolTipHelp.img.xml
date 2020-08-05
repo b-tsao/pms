@@ -221,7 +221,7 @@
 				<string name="Title" value="Use Portal(Up)"/>
 			</imgdir>
 			<imgdir name="3">
-				<string name="Title" value="To New Places&amp;#8230;"/>
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;"/>
 				<string name="Desc" value="Move to the right to explore new grounds."/>
 			</imgdir>
 			<imgdir name="4">
@@ -465,7 +465,7 @@
 				<string name="Title" value="Cab Station"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="Department Store"/>
@@ -545,7 +545,7 @@
 				<string name="Title" value="Free Market"/>
 			</imgdir>
 			<imgdir name="6">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="7">
 				<string name="Title" value="Warriors&apos; Sanctuary"/>
@@ -703,7 +703,7 @@
 				<string name="Title" value="Free Market"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="Guild Office"/>
@@ -862,7 +862,7 @@
 				<string name="Title" value="Free Market"/>
 			</imgdir>
 			<imgdir name="3">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="4">
 				<string name="Title" value="Department Store"/>
@@ -907,7 +907,7 @@
 				<string name="Title" value="Department Store"/>
 			</imgdir>
 			<imgdir name="10">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="11">
 				<string name="Title" value="Ludibrium Station"/>
@@ -922,10 +922,10 @@
 				<string name="Title" value="Townstreet"/>
 			</imgdir>
 			<imgdir name="15">
-				<string name="Title" value="Free Market&amp;#183;Plastic Surgery"/>
+				<string name="Title" value="Free Market&amp;#65463;Plastic Surgery"/>
 			</imgdir>
 			<imgdir name="16">
-				<string name="Title" value="Weapon Store&amp;#183;Department Store&amp;#183;Ludibrium Station"/>
+				<string name="Title" value="Weapon Store&amp;#65463;Department Store&amp;#65463;Ludibrium Station"/>
 			</imgdir>
 			<imgdir name="17">
 				<string name="Title" value="Helios Tower"/>
@@ -1049,26 +1049,6 @@
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="Coolan Field I"/>
-			</imgdir>
-		</imgdir>
-		<imgdir name="222000000">
-			<imgdir name="0">
-				<string name="Title" value="Kong&apos;s Inn"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="Title" value="Korean Folk Town"/>
-			</imgdir>
-			<imgdir name="2">
-				<string name="Title" value="Black Mountain"/>
-			</imgdir>
-			<imgdir name="3">
-				<string name="Title" value="Black Mountain"/>
-			</imgdir>
-			<imgdir name="4">
-				<string name="Title" value="Weapon&amp;#183;Armor Store"/>
-			</imgdir>
-			<imgdir name="5">
-				<string name="Title" value="Entrance to Black Mountain"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="222010000">
@@ -1203,7 +1183,7 @@
 				<string name="Title" value="Department Store"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="Weapon&amp;#183;Armor Store"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Store"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="Free Market"/>
@@ -1587,7 +1567,7 @@
 				<string name="Title" value="Department Store"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="Weapon&amp;#183;Armor Shop"/>
+				<string name="Title" value="Weapon&amp;#65463;Armor Shop"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="Newspaper Tray"/>
@@ -1635,7 +1615,7 @@
 				<string name="Title" value="Streets of Taipei II"/>
 			</imgdir>
 			<imgdir name="2">
-				<string name="Title" value="Streets of Taipei&amp;#8547;"/>
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="741000000">
@@ -1671,7 +1651,7 @@
 				<string name="Title" value="Streets of Night Market II"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="Streets of Night Market&amp;#8547;"/>
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;"/>
 			</imgdir>
 			<imgdir name="2">
 				<string name="Title" value="In Between the Road of Night Market I"/>
@@ -1756,14 +1736,6 @@
 		<imgdir name="101030104">
 			<imgdir name="0">
 				<string name="Title" value="RemainsI"/>
-			</imgdir>
-		</imgdir>
-		<imgdir name="222010300">
-			<imgdir name="0">
-				<string name="Title" value="Goblin Mountain"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="Title" value="Tiger Ridge"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="540000000">
@@ -1856,7 +1828,7 @@
 		<imgdir name="211041100">
 			<imgdir name="0">
 				<string name="Title" value="lich -alert-"/>
-				<string name="Desc" value="Lich area!! If you cannot escape from lich, dedicate teeth of zombie to grave!! Resource of lich&apos;s power is underneath&amp;#8230;..grave.."/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;"/>
 			</imgdir>
 			<imgdir name="1">
 				<string name="Title" value="Dead Tree&apos;s Forest II"/>
@@ -1865,7 +1837,7 @@
 		<imgdir name="211041200">
 			<imgdir name="0">
 				<string name="Title" value="lich -alert-"/>
-				<string name="Desc" value="Lich area!! If you cannot escape from lich, dedicate teeth of zombie to grave!! Resource of lich&apos;s power is underneath&amp;#8230;..grave.."/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;"/>
 			</imgdir>
 			<imgdir name="1">
 				<string name="Title" value="Dead tree;s forest I"/>
@@ -1877,13 +1849,13 @@
 		<imgdir name="211041300">
 			<imgdir name="0">
 				<string name="Title" value="lich -alert-"/>
-				<string name="Desc" value="Lich area!! If you cannot escape from lich, dedicate teeth of zombie to grave!! Resource of lich&apos;s power is underneath&amp;#8230;..grave.."/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="211041400">
 			<imgdir name="0">
 				<string name="Title" value="lich -alert-"/>
-				<string name="Desc" value="Lich area!! If you cannot escape from lich, dedicate teeth of zombie to grave!! Resource of lich&apos;s power is underneath&amp;#8230;..grave.."/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="222010101">
@@ -1899,7 +1871,7 @@
 				<string name="Title" value="Tiger forest II"/>
 			</imgdir>
 			<imgdir name="1">
-				<string name="Title" value="&amp;#8251;Prohibited to proceed "/>
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;"/>
 			</imgdir>
 		</imgdir>
 		<imgdir name="230010100">
@@ -2014,42 +1986,190 @@
 				<string name="Desc" value="Ariant 1500 Mesos"/>
 			</imgdir>
 		</imgdir>
-		<imgdir name="261000000">
-			<imgdir name="0">
-				<string name="Title" value="Sahell area"/>
-			</imgdir>
-			<imgdir name="1">
-				<string name="Title" value="Alchadeno Association*General shop"/>
-			</imgdir>
-			<imgdir name="2">
-				<string name="Title" value="Jenumist Association *Weapon&amp;#183;Armor shop"/>
-			</imgdir>
-			<imgdir name="3">
-				<string name="Title" value="Magatia bank"/>
-			</imgdir>
-			<imgdir name="4">
-				<string name="Title" value="Weapon&amp;#183;Armor shop"/>
-			</imgdir>
-			<imgdir name="5">
-				<string name="Title" value="Weapon&amp;#183;Armor shop"/>
-			</imgdir>
-			<imgdir name="6">
-				<string name="Title" value="Jenumist Association "/>
-			</imgdir>
-			<imgdir name="7">
-				<string name="Title" value="General shop"/>
-			</imgdir>
-			<imgdir name="8">
-				<string name="Title" value="Alchadeno Association"/>
-			</imgdir>
-			<imgdir name="9">
-				<string name="Title" value="Free Market Entrance"/>
-			</imgdir>
-		</imgdir>
 		<imgdir name="990000200">
 			<imgdir name="0">
 				<string name="Title" value="Shelenian Ruins"/>
 			</imgdir>
+		</imgdir>
+		<imgdir name="60002">
+			<imgdir name="0">
+				<string name="Title" value="Southperry"/>
+				<string name="Desc" value="Southperry is a port city."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="120000100">
+			<imgdir name="0">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="&amp;#43690;&amp;#43691;"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;"/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="120000300">
+			<imgdir name="0">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="Title" value="&amp;#43690;&amp;#43691;&amp;#43692;"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="211010000">
+			<imgdir name="0">
+				<string name="Title" value="Hunter&apos;s Altar"/>
+				<string name="Desc" value="A small altar setup by the hunters in El Nath. This was made to appease the Snow Witch when she appears enraged. If a dropped item from the snowfield is used as the sacrifice, then the witch will be appeased."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="211020000">
+			<imgdir name="0">
+				<string name="Title" value="Hunter&apos;s Altar"/>
+				<string name="Desc" value="A small altar setup by the hunters in El Nath. This was made to appease the Snow Witch when she appears enraged. If a dropped item from the snowfield is used as the sacrifice, then the witch will be appeased."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="211050000">
+			<imgdir name="0">
+				<string name="Title" value="Hunter&apos;s Altar"/>
+				<string name="Desc" value="A small altar setup by the hunters in El Nath. This was made to appease the Snow Witch when she appears enraged. If a dropped item from the snowfield is used as the sacrifice, then the witch will be appeased."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="229010000">
+			<imgdir name="0">
+				<string name="Title" value="Abandoned Grave"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="On the Way Back"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="261020200">
+			<imgdir name="0">
+				<string name="Title" value="Poison Spray"/>
+				<string name="Desc" value="A poison sprayer used to defeat Rurumo. All alchemists from Alcadno should only use this to eliminate Rurumo. Who keeps taking the poison from the spray bottle?"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="261020400">
+			<imgdir name="0">
+				<string name="Title" value="Poison Spray"/>
+				<string name="Desc" value="A poison sprayer used to defeat Rurumo. All alchemists from Alcadno should only use this to eliminate Rurumo. Who keeps taking the poison from the spray bottle?"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="261020600">
+			<imgdir name="0">
+				<string name="Title" value="Poison Spray"/>
+				<string name="Desc" value="A poison sprayer used to defeat Rurumo. All alchemists from Alcadno should only use this to eliminate Rurumo. Who keeps taking the poison from the spray bottle?"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300000000">
+			<imgdir name="0">
+				<string name="Title" value="Border Rock"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="General Store"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="Title" value="Clinic"/>
+			</imgdir>
+			<imgdir name="3">
+				<string name="Title" value="Camp Conference Room"/>
+			</imgdir>
+			<imgdir name="4">
+				<string name="Title" value="Border Rock"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300010000">
+			<imgdir name="0">
+				<string name="Title" value="Altair Camp"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="Moss Tree Forest"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300010200">
+			<imgdir name="0">
+				<string name="Title" value="Moss Tree Forest Trail"/>
+				<string name="Desc" value="All lost travelers should walk this way..."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300010300">
+			<imgdir name="0">
+				<string name="Title" value="West Forest of Moss Tree"/>
+				<string name="Desc" value="Camp is located over the west forest. - Rios -"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="South Forest of Moss Tree"/>
+			</imgdir>
+			<imgdir name="2">
+				<string name="Title" value="Towards Rocky Mountain"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300020000">
+			<imgdir name="0">
+				<string name="Title" value="Moss Tree Forest Trail"/>
+				<string name="Desc" value="All lost travelers should walk this way..."/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="300030000">
+			<imgdir name="0">
+				<string name="Title" value="Danger Zone!"/>
+				<string name="Desc" value="Strange things have been occurring here lately. Do not proceed any further. -Helena-"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="500010000">
+			<imgdir name="0">
+				<string name="Title" value="Toad Pond"/>
+			</imgdir>
+			<imgdir name="1">
+				<string name="Title" value="Floating Market"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="500010100">
+			<imgdir name="0">
+				<string name="Title" value="Frog Pond/Floating Market"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="800020110">
+			<imgdir name="0">
+				<string name="Title" value="Watch Out for the Bamboo Warrior!"/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;&amp;#43818;&amp;#43819;&amp;#43820;&amp;#43821;&amp;#43822;&amp;#43823;&amp;#43824;&amp;#43825;&amp;#43826;&amp;#43827;&amp;#43828;&amp;#43829;&amp;#43830;&amp;#43831;&amp;#43832;&amp;#43833;&amp;#43834;&amp;#43835;&amp;#43836;&amp;#43837;&amp;#43838;&amp;#43839;&amp;#43840;&amp;#43841;&amp;#43842;&amp;#43843;&amp;#43844;&amp;#43845;&amp;#43846;&amp;#43847;&amp;#43848;&amp;#43849;&amp;#43850;&amp;#43851;&amp;#43852;&amp;#43853;&amp;#43854;&amp;#43855;&amp;#43856;&amp;#43857;&amp;#43858;&amp;#43859;&amp;#43860;&amp;#43861;&amp;#43862;&amp;#43863;&amp;#43864;&amp;#43865;&amp;#43866;&amp;#43867;&amp;#43868;&amp;#43869;&amp;#43870;&amp;#43871;&amp;#43872;&amp;#43873;&amp;#43874;&amp;#43875;&amp;#43876;&amp;#43877;&amp;#43878;&amp;#43879;&amp;#43880;&amp;#43881;&amp;#43882;&amp;#43883;&amp;#43884;&amp;#43885;&amp;#43886;&amp;#43887;&amp;#43888;&amp;#43889;&amp;#43890;&amp;#43891;&amp;#43892;&amp;#43893;&amp;#43894;&amp;#43895;&amp;#43896;"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="800020120">
+			<imgdir name="0">
+				<string name="Title" value="Watch Out for the Bamboo Warrior!"/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;&amp;#43818;&amp;#43819;&amp;#43820;&amp;#43821;&amp;#43822;&amp;#43823;&amp;#43824;&amp;#43825;&amp;#43826;&amp;#43827;&amp;#43828;&amp;#43829;&amp;#43830;&amp;#43831;&amp;#43832;&amp;#43833;&amp;#43834;&amp;#43835;&amp;#43836;&amp;#43837;&amp;#43838;&amp;#43839;&amp;#43840;&amp;#43841;&amp;#43842;&amp;#43843;&amp;#43844;&amp;#43845;&amp;#43846;&amp;#43847;&amp;#43848;&amp;#43849;&amp;#43850;&amp;#43851;&amp;#43852;&amp;#43853;&amp;#43854;&amp;#43855;&amp;#43856;&amp;#43857;&amp;#43858;&amp;#43859;&amp;#43860;&amp;#43861;&amp;#43862;&amp;#43863;&amp;#43864;&amp;#43865;&amp;#43866;&amp;#43867;&amp;#43868;&amp;#43869;&amp;#43870;&amp;#43871;&amp;#43872;&amp;#43873;&amp;#43874;&amp;#43875;&amp;#43876;&amp;#43877;&amp;#43878;&amp;#43879;&amp;#43880;&amp;#43881;&amp;#43882;&amp;#43883;&amp;#43884;&amp;#43885;&amp;#43886;&amp;#43887;&amp;#43888;&amp;#43889;&amp;#43890;&amp;#43891;&amp;#43892;&amp;#43893;&amp;#43894;&amp;#43895;&amp;#43896;"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="800020130">
+			<imgdir name="0">
+				<string name="Title" value="Watch Out for the Bamboo Warrior!"/>
+				<string name="Desc" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;&amp;#43697;&amp;#43698;&amp;#43699;&amp;#43700;&amp;#43701;&amp;#43702;&amp;#43703;&amp;#43704;&amp;#43705;&amp;#43706;&amp;#43707;&amp;#43708;&amp;#43709;&amp;#43710;&amp;#43711;&amp;#43712;&amp;#43713;&amp;#43714;&amp;#43715;&amp;#43716;&amp;#43717;&amp;#43718;&amp;#43719;&amp;#43720;&amp;#43721;&amp;#43722;&amp;#43723;&amp;#43724;&amp;#43725;&amp;#43726;&amp;#43727;&amp;#43728;&amp;#43729;&amp;#43730;&amp;#43731;&amp;#43732;&amp;#43733;&amp;#43734;&amp;#43735;&amp;#43736;&amp;#43737;&amp;#43738;&amp;#43739;&amp;#43740;&amp;#43741;&amp;#43742;&amp;#43743;&amp;#43744;&amp;#43745;&amp;#43746;&amp;#43747;&amp;#43748;&amp;#43749;&amp;#43750;&amp;#43751;&amp;#43752;&amp;#43753;&amp;#43754;&amp;#43755;&amp;#43756;&amp;#43757;&amp;#43758;&amp;#43759;&amp;#43760;&amp;#43761;&amp;#43762;&amp;#43763;&amp;#43764;&amp;#43765;&amp;#43766;&amp;#43767;&amp;#43768;&amp;#43769;&amp;#43770;&amp;#43771;&amp;#43772;&amp;#43773;&amp;#43774;&amp;#43775;&amp;#43776;&amp;#43777;&amp;#43778;&amp;#43779;&amp;#43780;&amp;#43781;&amp;#43782;&amp;#43783;&amp;#43784;&amp;#43785;&amp;#43786;&amp;#43787;&amp;#43788;&amp;#43789;&amp;#43790;&amp;#43791;&amp;#43792;&amp;#43793;&amp;#43794;&amp;#43795;&amp;#43796;&amp;#43797;&amp;#43798;&amp;#43799;&amp;#43800;&amp;#43801;&amp;#43802;&amp;#43803;&amp;#43804;&amp;#43805;&amp;#43806;&amp;#43807;&amp;#43808;&amp;#43809;&amp;#43810;&amp;#43811;&amp;#43812;&amp;#43813;&amp;#43814;&amp;#43815;&amp;#43816;&amp;#43817;&amp;#43818;&amp;#43819;&amp;#43820;&amp;#43821;&amp;#43822;&amp;#43823;&amp;#43824;&amp;#43825;&amp;#43826;&amp;#43827;&amp;#43828;&amp;#43829;&amp;#43830;&amp;#43831;&amp;#43832;&amp;#43833;&amp;#43834;&amp;#43835;&amp;#43836;&amp;#43837;&amp;#43838;&amp;#43839;&amp;#43840;&amp;#43841;&amp;#43842;&amp;#43843;&amp;#43844;&amp;#43845;&amp;#43846;&amp;#43847;&amp;#43848;&amp;#43849;&amp;#43850;&amp;#43851;&amp;#43852;&amp;#43853;&amp;#43854;&amp;#43855;&amp;#43856;&amp;#43857;&amp;#43858;&amp;#43859;&amp;#43860;&amp;#43861;&amp;#43862;&amp;#43863;&amp;#43864;&amp;#43865;&amp;#43866;&amp;#43867;&amp;#43868;&amp;#43869;&amp;#43870;&amp;#43871;&amp;#43872;&amp;#43873;&amp;#43874;&amp;#43875;&amp;#43876;&amp;#43877;&amp;#43878;&amp;#43879;&amp;#43880;&amp;#43881;&amp;#43882;&amp;#43883;&amp;#43884;&amp;#43885;&amp;#43886;&amp;#43887;&amp;#43888;&amp;#43889;&amp;#43890;&amp;#43891;&amp;#43892;&amp;#43893;&amp;#43894;&amp;#43895;&amp;#43896;"/>
+			</imgdir>
+		</imgdir>
+		<imgdir name="100040105">
+			<string name="quest00" value="Rotten Tree Trail"/>
+		</imgdir>
+		<imgdir name="120000200">
+			<string name="market00" value="Free Market"/>
+		</imgdir>
+		<imgdir name="222000000">
+			<string name="market00" value="Free Market Entrance"/>
+		</imgdir>
+		<imgdir name="222010300">
+			<string name="west00" value="Tiger Ridge"/>
+		</imgdir>
+		<imgdir name="261000000">
+			<string name="market0" value="Free Market"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="PortalTooltip">
@@ -2179,6 +2299,21 @@
 		</imgdir>
 		<imgdir name="920010800">
 			<string name="in00" value="Tower of Goddess &lt;Center Tower&gt;"/>
+		</imgdir>
+		<imgdir name="100040105">
+			<string name="quest00" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;&amp;#43696;"/>
+		</imgdir>
+		<imgdir name="120000200">
+			<string name="market00" value="Free Market Entrance"/>
+		</imgdir>
+		<imgdir name="222000000">
+			<string name="market00" value="Free Market Entrance"/>
+		</imgdir>
+		<imgdir name="222010300">
+			<string name="west00" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;&amp;#43694;&amp;#43695;"/>
+		</imgdir>
+		<imgdir name="261000000">
+			<string name="market0" value="&amp;#43690;&amp;#43691;&amp;#43692;&amp;#43693;"/>
 		</imgdir>
 	</imgdir>
 	<imgdir name="Shop">

@@ -102,4 +102,23 @@
 		<int name="95" value="331"/>
 		<int name="100" value="331"/>
 	</imgdir>
+	<imgdir name="5">
+		<int name="10" value="24"/>
+		<int name="15" value="43"/>
+		<int name="20" value="56"/>
+		<int name="25" value="69"/>
+		<int name="30" value="82"/>
+		<int name="35" value="95"/>
+		<int name="40" value="108"/>
+		<int name="50" value="146"/>
+		<int name="55" value="149"/>
+		<int name="60" value="178"/>
+		<int name="65" value="181"/>
+		<int name="70" value="207"/>
+		<int name="75" value="213"/>
+		<int name="80" value="239"/>
+		<int name="85" value="245"/>
+		<int name="90" value="271"/>
+		<int name="100" value="309"/>
+	</imgdir>
 </imgdir>

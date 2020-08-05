@@ -176,7 +176,7 @@
 					<string name="hs" value="h20"/>
 					<int name="mpCon" value="40"/>
 					<int name="x" value="10"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="600"/>
 					<vector name="lt" x="-400" y="-300"/>
 					<vector name="rb" x="400" y="300"/>
 				</imgdir>
@@ -571,10 +571,6 @@
 					<int name="mobCount" value="6"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="prepare">
-				<string name="action" value="magic3"/>
-				<int name="time" value="0"/>
-			</imgdir>
 			<imgdir name="keydown">
 				<canvas name="0" width="159" height="159">
 					<vector name="origin" x="88" y="153"/>
@@ -764,6 +760,10 @@
 				<int name="duration" value="900"/>
 			</imgdir>
 			<int name="masterLevel" value="10"/>
+			<imgdir name="prepare">
+				<string name="action" value="dash"/>
+				<int name="time" value="0"/>
+			</imgdir>
 		</imgdir>
 		<imgdir name="2221002">
 			<canvas name="icon" width="32" height="32">
@@ -986,7 +986,7 @@
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="45"/>
 					<int name="prop" value="60"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="250"/>
 					<int name="x" value="200"/>
 				</imgdir>
 			</imgdir>
@@ -1300,7 +1300,7 @@
 				</imgdir>
 				<imgdir name="30">
 					<string name="hs" value="h30"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="40"/>
 					<int name="x" value="1"/>
 					<int name="cooltime" value="600"/>
 				</imgdir>
@@ -2168,7 +2168,7 @@
 				<imgdir name="30">
 					<string name="hs" value="h30"/>
 					<int name="mpCon" value="100"/>
-					<int name="time" value="30000"/>
+					<int name="time" value="160"/>
 					<int name="mastery" value="10"/>
 					<int name="mad" value="300"/>
 				</imgdir>

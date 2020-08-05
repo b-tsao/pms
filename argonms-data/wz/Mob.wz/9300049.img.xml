@@ -2,17 +2,8 @@
 <imgdir name="9300049.img">
 	<imgdir name="info">
 		<int name="bodyAttack" value="1"/>
-		<int name="level" value="63"/>
-		<int name="maxHP" value="20000"/>
 		<int name="maxMP" value="200"/>
 		<int name="speed" value="0"/>
-		<int name="PADamage" value="185"/>
-		<int name="PDDamage" value="200"/>
-		<int name="MADamage" value="195"/>
-		<int name="MDDamage" value="200"/>
-		<int name="acc" value="150"/>
-		<int name="eva" value="15"/>
-		<int name="exp" value="495"/>
 		<int name="undead" value="0"/>
 		<int name="pushed" value="500"/>
 		<int name="hpRecovery" value="30"/>
@@ -21,6 +12,15 @@
 		<int name="firstAttack" value="1"/>
 		<int name="summonType" value="1"/>
 		<int name="hideName" value="1"/>
+		<int name="level" value="59"/>
+		<int name="maxHP" value="10000"/>
+		<int name="PADamage" value="170"/>
+		<int name="PDDamage" value="180"/>
+		<int name="MADamage" value="180"/>
+		<int name="MDDamage" value="180"/>
+		<int name="acc" value="130"/>
+		<int name="eva" value="25"/>
+		<int name="exp" value="430"/>
 	</imgdir>
 	<imgdir name="regen">
 		<canvas name="0" width="12" height="9">
@@ -130,7 +130,7 @@
 			<int name="type" value="1"/>
 			<int name="attackAfter" value="850"/>
 			<int name="effectAfter" value="850"/>
-			<int name="PADamage" value="165"/>
+			<int name="PADamage" value="190"/>
 		</imgdir>
 		<canvas name="0" width="64" height="45">
 			<vector name="origin" x="40" y="45"/>

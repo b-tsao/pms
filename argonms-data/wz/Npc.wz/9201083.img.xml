@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="9201083.img">
 	<imgdir name="info">
+		<imgdir name="script">
+			<imgdir name="0">
+				<string name="script" value="Lost_Trans2"/>
+			</imgdir>
+		</imgdir>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="48" height="91">

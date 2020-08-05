@@ -11,6 +11,7 @@
 				<string name="script" value="thief_in2"/>
 			</imgdir>
 		</imgdir>
+		<int name="talkMouseOnly" value="1"/>
 	</imgdir>
 	<imgdir name="stand">
 		<canvas name="0" width="4" height="4">

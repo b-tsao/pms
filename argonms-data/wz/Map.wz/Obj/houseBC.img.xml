@@ -701,7 +701,7 @@
 							<vector name="null" x="-187" y="89"/>
 							<vector name="null" x="-66" y="89"/>
 							<vector name="null" x="-1" y="41"/>
-							<vector name="null" x="124" y="41"/>
+							<vector name="null" x="129" y="40"/>
 						</extended>
 					</imgdir>
 				</canvas>
@@ -803,9 +803,8 @@
 		</imgdir>
 		<imgdir name="acc">
 			<imgdir name="0">
-				<canvas name="0" width="243" height="207">
-					<vector name="origin" x="121" y="103"/>
-					<int name="z" value="0"/>
+				<canvas name="0" width="1" height="1">
+					<vector name="origin" x="0" y="0"/>
 				</canvas>
 			</imgdir>
 			<imgdir name="1">

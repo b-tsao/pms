@@ -2326,20 +2326,6 @@
 			<string name="name" value=""/>
 		</imgdir>
 	</imgdir>
-	<imgdir name="info">
-		<int name="version" value="10"/>
-		<int name="cloud" value="0"/>
-		<int name="town" value="0"/>
-		<float name="mobRate" value="1.0"/>
-		<string name="bgm" value="Bgm00/RestNPeace"/>
-		<int name="returnMap" value="109050001"/>
-		<string name="mapDesc" value=""/>
-		<int name="hideMinimap" value="0"/>
-		<int name="forcedReturn" value="109050001"/>
-		<string name="mapMark" value="None"/>
-		<int name="fieldLimit" value="8830"/>
-		<int name="swim" value="0"/>
-	</imgdir>
 	<imgdir name="foothold">
 		<imgdir name="1">
 			<imgdir name="0">
@@ -3347,5 +3333,19 @@
 			<string name="tn" value="st01"/>
 			<string name="script" value=""/>
 		</imgdir>
+	</imgdir>
+	<imgdir name="info">
+		<int name="version" value="10"/>
+		<int name="cloud" value="0"/>
+		<int name="town" value="0"/>
+		<float name="mobRate" value="1.0"/>
+		<string name="bgm" value="Bgm00/RestNPeace"/>
+		<int name="returnMap" value="109050001"/>
+		<string name="mapDesc" value=""/>
+		<int name="hideMinimap" value="0"/>
+		<int name="forcedReturn" value="109050001"/>
+		<string name="mapMark" value="Event"/>
+		<int name="fieldLimit" value="336510"/>
+		<int name="swim" value="0"/>
 	</imgdir>
 </imgdir>

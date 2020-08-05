@@ -18,6 +18,7 @@
 		<int name="incDEX" value="4"/>
 		<int name="timeLimited" value="1"/>
 		<int name="tradeBlock" value="1"/>
+		<int name="tuc" value="10"/>
 	</imgdir>
 	<imgdir name="default">
 		<canvas name="default" width="30" height="13">
