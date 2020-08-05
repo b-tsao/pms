@@ -1,8 +1,5 @@
 #!/bin/bash
 
-docker rmi pms_sql
-docker rmi pms
-
 docker build --file sql/Dockerfile -t pms_sql ..
 docker build --file pms/Dockerfile -t pms ..
 
