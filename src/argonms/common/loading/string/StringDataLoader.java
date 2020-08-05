@@ -133,6 +133,9 @@ public abstract class StringDataLoader {
 				case MCDB:
 					instance = new McdbStringDataLoader();
 					break;
+				case XML:
+					instance = new XmlStringDataLoader(wzPath);
+					break;
 			}
 		}
 	}
