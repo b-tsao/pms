@@ -312,6 +312,9 @@ public abstract class ItemDataLoader {
 				case MCDB:
 					instance = new McdbItemDataLoader();
 					break;
+				case XML:
+					instance = new XmlItemDataLoader(wzPath);
+					break;
 			}
 		}
 	}

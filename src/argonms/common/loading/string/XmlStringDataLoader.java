@@ -188,6 +188,7 @@ public class XmlStringDataLoader extends StringDataLoader {
 				reader.out();
 			}
 			reader.close();
+			
 			return true;
 		} catch (IOException ex) {
 			return false;

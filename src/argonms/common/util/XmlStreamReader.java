@@ -27,6 +27,7 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 public class XmlStreamReader {
@@ -49,20 +50,35 @@ public class XmlStreamReader {
 	public boolean next() {
 		if (this.node == null) {
 			this.node = this.document.getFirstChild();
+			return true;
 		} else if (this.node.getNextSibling() != null) {
-			this.node = this.node.getNextSibling();
+			Node node = this.node;
+			while (node.getNextSibling() != null) {
+				node = node.getNextSibling();
+				if (node.getNodeType() == Node.ELEMENT_NODE) {
+					this.node = node;
+					return true;
+				}
+			}
+			return false;
 		} else {
 			return false;
 		}
-		return true;
 	}
 	
 	public boolean in() {
 		if (!this.node.hasChildNodes()) {
 			return false;
 		}
-		this.node = this.node.getFirstChild();
-		return true;
+		NodeList nodes = this.node.getChildNodes();
+		for (int i = 0; i < nodes.getLength(); i++) {
+			Node node = nodes.item(i);
+			if (node.getNodeType() == Node.ELEMENT_NODE) {
+				this.node = node;
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	public boolean out() {
@@ -74,7 +90,7 @@ public class XmlStreamReader {
 		}
 	}
 	
-	public String name() {
+	public String element() {
 		return this.node.getNodeName();
 	}
 	
