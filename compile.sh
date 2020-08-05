@@ -5,5 +5,5 @@ javac -cp 'dist/*' -d tmp `find src -iname '*.java'`
 cd tmp
 jar cvf argonms.jar *
 cd ..
-mv tmp/argonms.jar .
+mv tmp/argonms.jar dist
 rm -rf tmp
