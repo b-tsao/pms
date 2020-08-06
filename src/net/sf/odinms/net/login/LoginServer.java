@@ -209,6 +209,7 @@ public class LoginServer implements Runnable, LoginServerMBean {
                 //System.out.println("Could not load subnet configuration. (Run) " + e);
             }
         } catch (Exception e) {
+        	e.printStackTrace();
             throw new RuntimeException("Could not connect to world server.", e);
         }
         ByteBuffer.setUseDirectBuffers(false);
