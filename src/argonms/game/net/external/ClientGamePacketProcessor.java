@@ -35,11 +35,14 @@ public class ClientGamePacketProcessor extends ClientPacketProcessor<GameClient>
 	@Override
 	public void process(LittleEndianReader reader, GameClient gc) {
 		short op = reader.readShort();
-		if (op != ClientRecvOps.MOVE_NPC &&
-			op != ClientRecvOps.HEAL_OVER_TIME &&
-			op != ClientRecvOps.MOVE_PLAYER &&
-			op != ClientRecvOps.MOVE_MOB) {
-			LOG.log(Level.FINE, "[DEBUG] Received client packet op {0}", String.format("0x%02X", op));
+		switch (op) {
+			case ClientRecvOps.MOVE_NPC:
+			case ClientRecvOps.HEAL_OVER_TIME:
+			case ClientRecvOps.MOVE_PLAYER:
+			case ClientRecvOps.MOVE_MOB:
+				break;
+			default:
+				LOG.log(Level.FINE, "[DEBUG] Received client packet op {0}", String.format("0x%02X", op));	
 		}
 		switch (op) {
 			case ClientRecvOps.SERVERLIST_REREQUEST:

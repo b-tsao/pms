@@ -145,10 +145,13 @@ public class ClientSession<T extends RemoteClient> implements Session {
 	@Override
 	public void send(byte[] message) {
 		short op = (short) (message[0] & 0xffL);
-		if (op != ClientSendOps.MOVE_NPC &&
-			op != ClientSendOps.PLAYER_STAT_UPDATE &&
-			op != ClientSendOps.MOVE_MONSTER_RESPONSE) {
-			LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1}", new Object[] { getAccountName(), String.format("0x%02X", op) });
+		switch (op) {
+			case ClientSendOps.MOVE_NPC:
+			case ClientSendOps.PLAYER_STAT_UPDATE:
+			case ClientSendOps.MOVE_MONSTER_RESPONSE:
+				break;
+			default:
+				LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1}", new Object[] { getAccountName(), String.format("0x%02X", op) });
 		}
 		//we will have to synchronize here because send can be called from any
 		//thread. we have to ensure that this message is sent before any shorter
