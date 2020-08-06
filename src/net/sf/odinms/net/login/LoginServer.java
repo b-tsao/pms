@@ -175,17 +175,20 @@ public class LoginServer implements Runnable, LoginServerMBean {
             FileReader fileReader = new FileReader(System.getProperty("net.sf.odinms.login.config"));
             initialProp.load(fileReader);
             fileReader.close();
+            System.out.println("1");
             Registry registry = LocateRegistry.getRegistry(initialProp.getProperty("net.sf.odinms.world.host"),
             Registry.REGISTRY_PORT, new SslRMIClientSocketFactory());
             worldRegistry = (WorldRegistry) registry.lookup("WorldRegistry");
             lwi = new LoginWorldInterfaceImpl();
             wli = worldRegistry.registerLoginServer(initialProp.getProperty("net.sf.odinms.login.key"), lwi);
+            System.out.println("2");
             Properties dbProp = new Properties();
             fileReader = new FileReader("db.properties");
             dbProp.load(fileReader);
             fileReader.close();
             DatabaseConnection.setProps(dbProp);
             DatabaseConnection.getConnection();
+            System.out.println("3");
             prop = wli.getWorldProperties();
             userLimit = Integer.parseInt(prop.getProperty("net.sf.odinms.login.userlimit", "150"));
             serverName = prop.getProperty("net.sf.odinms.world.serverName", "XiuzSource");
