@@ -3,7 +3,7 @@
 mkdir tmp
 javac -cp 'dist/*' -d tmp `find src -iname '*.java'`
 cd tmp
-jar cvf odinms.jar *
+jar cvf argonms.jar *
 cd ..
-mv tmp/odinms.jar dist
+mv tmp/argonms.jar dist
 rm -rf tmp

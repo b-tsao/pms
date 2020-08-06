@@ -1,7 +1,0 @@
-function start() {
-	cm.sendOk ("<Spark> I am cybernetic automaton model T-1337 *BZZ*");
-}
-
-function action() {
-	cm.dispose()
-}
