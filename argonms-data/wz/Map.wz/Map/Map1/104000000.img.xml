@@ -16110,12 +16110,20 @@
 		<imgdir name="42">
 			<string name="pn" value="tp"/>
 			<int name="pt" value="6"/>
+			<int name="x" value="4738"/>
+			<int name="y" value="316"/>
+			<int name="tm" value="999999999"/>
+			<string name="tn" value=""/>
+		</imgdir>
+		<imgdir name="43">
+			<string name="pn" value="tp"/>
+			<int name="pt" value="6"/>
 			<int name="x" value="4823"/>
 			<int name="y" value="317"/>
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="43">
+		<imgdir name="44">
 			<string name="pn" value="tp"/>
 			<int name="pt" value="6"/>
 			<int name="x" value="4882"/>
@@ -16123,7 +16131,7 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="44">
+		<imgdir name="45">
 			<string name="pn" value="tp"/>
 			<int name="pt" value="6"/>
 			<int name="x" value="4956"/>
@@ -16131,7 +16139,7 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="45">
+		<imgdir name="46">
 			<string name="pn" value="tp"/>
 			<int name="pt" value="6"/>
 			<int name="x" value="4748"/>
@@ -16139,7 +16147,7 @@
 			<int name="tm" value="999999999"/>
 			<string name="tn" value=""/>
 		</imgdir>
-		<imgdir name="46">
+		<imgdir name="47">
 			<string name="pn" value="tp"/>
 			<int name="pt" value="6"/>
 			<int name="x" value="4825"/>
