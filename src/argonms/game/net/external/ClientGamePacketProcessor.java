@@ -40,6 +40,9 @@ public class ClientGamePacketProcessor extends ClientPacketProcessor<GameClient>
 			case ClientRecvOps.HEAL_OVER_TIME:
 			case ClientRecvOps.MOVE_PLAYER:
 			case ClientRecvOps.MOVE_MOB:
+			case ClientRecvOps.AES_IV_UPDATE_REQUEST:
+			case ClientRecvOps.NPC_TALK:
+			case ClientRecvOps.NPC_TALK_MORE:
 				break;
 			default:
 				LOG.log(Level.FINE, "[DEBUG] Received client packet op {0}", String.format("0x%02X", op));	

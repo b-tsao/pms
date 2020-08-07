@@ -124,7 +124,7 @@ public class XmlItemDataLoader extends ItemDataLoader {
 			}
 			return true;
 		} catch (IOException ex) {
-			LOG.log(Level.WARNING, "Could not load all item data from KVJ files.", ex);
+			LOG.log(Level.WARNING, "Could not load all item data from XML files.", ex);
 			return false;
 		}
 	}

@@ -149,6 +149,8 @@ public class ClientSession<T extends RemoteClient> implements Session {
 			case ClientSendOps.MOVE_NPC:
 			case ClientSendOps.PLAYER_STAT_UPDATE:
 			case ClientSendOps.MOVE_MONSTER_RESPONSE:
+			case ClientSendOps.NPC_TALK:
+			case ClientSendOps.MOVE_PLAYER:
 				break;
 			default:
 				LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1}", new Object[] { getAccountName(), String.format("0x%02X", op) });
