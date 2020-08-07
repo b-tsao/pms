@@ -43,9 +43,19 @@ public class ClientGamePacketProcessor extends ClientPacketProcessor<GameClient>
 			case ClientRecvOps.AES_IV_UPDATE_REQUEST:
 			case ClientRecvOps.NPC_TALK:
 			case ClientRecvOps.NPC_TALK_MORE:
+			case ClientRecvOps.MOVE_PET:
 				break;
 			default:
-				LOG.log(Level.FINE, "[DEBUG] Received client packet op {0}", String.format("0x%02X", op));	
+				for (java.lang.reflect.Field field : ClientRecvOps.class.getDeclaredFields()) {
+					try {
+						if (java.lang.reflect.Modifier.isStatic(field.getModifiers()) && 
+							field.getShort(null) == op) {
+							LOG.log(Level.FINE, "[DEBUG] Received client ({0}) packet op {1} ({2})", new Object[] { gc.getAccountName(), field.getName(), String.format("0x%02X", op) });
+							break;
+						}
+					} catch (IllegalAccessException e) {
+					}
+				}
 		}
 		switch (op) {
 			case ClientRecvOps.SERVERLIST_REREQUEST:

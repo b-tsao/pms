@@ -753,12 +753,12 @@ public final class GamePackets {
 			case JUMP:
 				lew.writeByte((byte) v.getModifier());
 				break;
-			case HOMING_BEACON: //all non-debuff 5th byte keys
+			// case HOMING_BEACON: //all non-debuff 5th byte keys
 			case MORPH:
-			case RECOVERY:
-			case MAPLE_WARRIOR:
-			case POWER_STANCE:
-			case MANA_REFLECTION:
+			// case RECOVERY:
+			// case MAPLE_WARRIOR:
+			// case POWER_STANCE:
+			// case MANA_REFLECTION:
 				lew.writeShort(v.getModifier());
 				break;
 			case SEDUCE: //all debuffs besides slow (glitch in global, SLOW doesn't display properly and if you try, it error 38s)

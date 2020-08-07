@@ -151,9 +151,24 @@ public class ClientSession<T extends RemoteClient> implements Session {
 			case ClientSendOps.MOVE_MONSTER_RESPONSE:
 			case ClientSendOps.NPC_TALK:
 			case ClientSendOps.MOVE_PLAYER:
+			case ClientSendOps.SHOW_MONSTER_HP:
+			case ClientSendOps.PING:
+			case ClientSendOps.MOVE_PET:
+			case ClientSendOps.TOGGLE_PET:
+			case ClientSendOps.MOVE_MONSTER:
+			case ClientSendOps.UPDATE_PARTY_MEMBER_HP:
 				break;
 			default:
-				LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1}", new Object[] { getAccountName(), String.format("0x%02X", op) });
+				for (java.lang.reflect.Field field : ClientSendOps.class.getDeclaredFields()) {
+					try {
+						if (java.lang.reflect.Modifier.isStatic(field.getModifiers()) && 
+							field.getShort(null) == op) {
+							LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1} ({2})", new Object[] { getAccountName(), field.getName(), String.format("0x%02X", op) });
+							break;
+						}
+					} catch (IllegalAccessException e) {
+					}
+				}
 		}
 		//we will have to synchronize here because send can be called from any
 		//thread. we have to ensure that this message is sent before any shorter
