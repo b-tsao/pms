@@ -10648,4 +10648,9 @@ Map.wz/Map/Map1/104000002.img done.
 Map.wz/Map/Map1/109010103.img done.
 Finished compiling Map.wz!
 --------------------------------------------------------------------------------
-Processing completed in 13191ms!
+Compiling Etc.wz...
+Etc.wz/Commodity.img done.
+Etc.wz/CashPackage.img done.
+Finished compiling Etc.wz!
+--------------------------------------------------------------------------------
+Processing completed in 13715ms!
