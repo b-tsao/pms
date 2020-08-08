@@ -981,8 +981,6 @@
 					<int name="range" value="400"/>
 				</imgdir>
 			</imgdir>
-			<imgdir name="prepare">
-			</imgdir>
 			<imgdir name="effect">
 				<canvas name="0" width="97" height="98">
 					<vector name="origin" x="36" y="156"/>
