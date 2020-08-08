@@ -15,6 +15,7 @@ if (player.hasItem(4001020) {
 		cm.gainItem(4001020, -1);
 		npc.makeEvent([player, 221024400]);
 	}
+}
 else {
 	npc.sayNext("There's a rock that will enable you to teleport to #bSecond Eos Rock#k, but it cannot be activated without the scroll."")
 }
