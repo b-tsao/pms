@@ -29,7 +29,7 @@ function getRandomStyle(gender, currentHair) {
 	let color = currentHair % 10;
 	let styles;
 	if (gender == 0)
-		styles = [30130, 30350, 30190, 30110, 30180, 30050, 30040, 30160, 30770, 30620, 30550, 30520];
+		styles = [30130, 30350, 30190, 30110, 30180, 30050, 30040, 30160, 30770, 30620, 30550, 30520, 30780];
 	else if (gender == 1)
 		styles = [31060, 31090, 31020, 31130, 31120, 31140, 31330, 31010, 31520, 31440, 31750, 31620];
 	let style = styles[Math.floor(Math.random() * styles.length)];
