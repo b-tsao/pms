@@ -25,6 +25,7 @@ if (player.hasItem(4001020) {
 	} else if (selection == 0) {
 		npc.sayNext("Come back if you're tired of walking.");
 	}
+}
 else {
 	npc.sayNext("There's a rock that will enable you to teleport to either the #bFirst Eos Rock#k or #bThird Eos Rock#k, but it cannot be activated without the scroll."")
 }
