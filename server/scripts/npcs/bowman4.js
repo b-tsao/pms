@@ -9,10 +9,7 @@
 
 function advanceJob() {
 	npc.sayNext("You will now become the strongest among bowmen.");
-	if (player.getJob() != 311 && player.getJob() != 321 || player.getLevel() < 120) {
-		npc.logSuspicious("Tried to select NPC option that was not given");
-	} else {
-		if (player.getJob() == 311)	
+	if (player.getJob() == 311)	
 		npc.sayNext("You have officially been anointed as a #bBowmaster#k from this point forward.");
 	else if (player.getJob() == 321) 
 		npc.sayNext("You have officially been anointed as a #bCrossbow Master#k from this point forward.");
@@ -25,7 +22,6 @@ function advanceJob() {
 	npc.sayNext("You started your journey as a simple adventurer... but you have grown so much since then. You possesss great strength, willpower and courage.");
 	npc.sayNext("If one who possesses all of these qualities cannot be called a legend, then who can?");
 	npc.sayNext("A legend is not born, but is created through struggle. Accept your destiny, and lead Maple World to a brighter future.");
-	}
 }
 
 if (player.getJob() == 312 || player.getJob() == 322) {
