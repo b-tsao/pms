@@ -19,9 +19,9 @@
 package kvjcompiler.skill.structure;
 
 import java.awt.Point;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.TreeMap;
+import java.util.LinkedList;
+import java.util.List;
+
 import kvjcompiler.Converter;
 import kvjcompiler.Effects;
 import kvjcompiler.IStructure;
@@ -33,126 +33,184 @@ import kvjcompiler.Size;
  * @author GoldenKevin
  */
 public class SkillEffect implements IStructure {
-	private final Map<Byte, Integer> intProps;
-	private final Map<Byte, Short> shortProps;
-	private final Map<Byte, Byte> byteProps;
-	private final Map<Byte, Integer> summons;
-	private Point lt;
-	private Point rb;
+	private enum EffectType {
+		Integer,
+		Short,
+		Byte,
+		Point,
+		Summon
+	}
+	
+	private class Effect {
+		public EffectType t;
+		public byte e;
+		public int i;
+		public short s;
+		public byte b;
+		public Point p;
+		
+		public Effect(EffectType type, byte effect, int value) {
+			t = type;
+			e = effect;
+			i = value;
+		}
+		
+		public Effect(EffectType type, byte effect, short value) {
+			t = type;
+			e = effect;
+			s = value;
+		}
+		
+		public Effect(EffectType type, byte effect, byte value) {
+			t = type;
+			e = effect;
+			b = value;
+		}
+		
+		public Effect(EffectType type, byte effect, Point value) {
+			t = type;
+			e = effect;
+			p = value;
+		}
+		
+		public Effect(EffectType type, byte effect, byte value1, int value2) {
+			t = type;
+			e = effect;
+			b = value1;
+			i = value2;
+		}
+	}
+	
+	private final List<Effect> effects;
 
 	public SkillEffect() {
-		this.intProps = new TreeMap<Byte, Integer>();
-		this.shortProps = new TreeMap<Byte, Short>();
-		this.byteProps = new TreeMap<Byte, Byte>();
-		this.summons = new TreeMap<Byte, Integer>();
+		this.effects = new LinkedList<Effect>();
 	}
 
 	@Override
 	public void setProperty(String key, String value) {
 		if (key.equals("mpCon")) {
-			shortProps.put(Byte.valueOf(Effects.MP_CONSUME), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.MP_CONSUME, Short.parseShort(value)));
 		} else if (key.equals("hpCon")) {
-			shortProps.put(Byte.valueOf(Effects.HP_CONSUME), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.HP_CONSUME, Short.parseShort(value)));
 		} else if (key.equals("time")) {
-			intProps.put(Byte.valueOf(Effects.DURATION), Integer.valueOf(Integer.parseInt(value) * 1000));
+			effects.add(new Effect(EffectType.Integer, Effects.DURATION, Integer.parseInt(value) * 1000));
 		} else if (key.equals("x")) { //grr, mobskills has one with a value of 50000. that would work with unsigned short, but java doesn't have that...
-			intProps.put(Byte.valueOf(Effects.X), Integer.valueOf(Integer.parseInt(value)));
+			effects.add(new Effect(EffectType.Integer, Effects.X, Integer.parseInt(value)));
 		} else if (key.equals("y")) {
-			intProps.put(Byte.valueOf(Effects.Y), Integer.valueOf(Integer.parseInt(value)));
+			effects.add(new Effect(EffectType.Integer, Effects.Y, Integer.parseInt(value)));
 		} else if (key.equals("z")) {
 			if (Converter.isNumber(value))
-				intProps.put(Byte.valueOf(Effects.Z), Integer.valueOf(Integer.parseInt(value)));
+				effects.add(new Effect(EffectType.Integer, Effects.Z, Integer.parseInt(value)));
 		} else if (key.equals("damage")) {
-			shortProps.put(Byte.valueOf(Effects.DAMAGE), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.DAMAGE, Short.parseShort(value)));
 		} else if (key.equals("lt")) {
 			int comma = value.indexOf(',');
-			lt = new Point(Integer.parseInt(value.substring(0, comma)), Integer.parseInt(value.substring(comma + 1, value.length())));
+			effects.add(new Effect(EffectType.Point, Effects.LT, new Point(Integer.parseInt(value.substring(0, comma)), Integer.parseInt(value.substring(comma + 1, value.length())))));
 		} else if (key.equals("rb")) {
 			int comma = value.indexOf(',');
-			rb = new Point(Integer.parseInt(value.substring(0, comma)), Integer.parseInt(value.substring(comma + 1, value.length())));
+			effects.add(new Effect(EffectType.Point, Effects.RB, new Point(Integer.parseInt(value.substring(0, comma)), Integer.parseInt(value.substring(comma + 1, value.length())))));
 		} else if (key.equals("mobCount")) {
-			byteProps.put(Byte.valueOf(Effects.MOB_COUNT), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.MOB_COUNT, Byte.parseByte(value)));
 		} else if (key.equals("prop")) {
-			shortProps.put(Byte.valueOf(Effects.PROP), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.PROP, Short.parseShort(value)));
 		} else if (key.equals("mastery")) {
-			byteProps.put(Byte.valueOf(Effects.MASTERY), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.MASTERY, Byte.parseByte(value)));
 		} else if (key.equals("cooltime") || key.equals("interval")) {
-			shortProps.put(Byte.valueOf(Effects.COOLTIME), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.COOLTIME, Short.parseShort(value)));
 		} else if (key.equals("range")) {
-			shortProps.put(Byte.valueOf(Effects.RANGE), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.RANGE, Short.parseShort(value)));
 		} else if (key.equals("pad")) {
-			shortProps.put(Byte.valueOf(Effects.WATK), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.WATK, Short.parseShort(value)));
 		} else if (key.equals("pdd")) {
-			shortProps.put(Byte.valueOf(Effects.WDEF), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.WDEF, Short.parseShort(value)));
 		} else if (key.equals("mad")) {
-			shortProps.put(Byte.valueOf(Effects.MATK), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.MATK, Short.parseShort(value)));
 		} else if (key.equals("mdd")) {
-			shortProps.put(Byte.valueOf(Effects.MDEF), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.MDEF, Short.parseShort(value)));
 		} else if (key.equals("acc")) {
-			shortProps.put(Byte.valueOf(Effects.ACCY), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.ACCY, Short.parseShort(value)));
 		} else if (key.equals("eva")) {
-			shortProps.put(Byte.valueOf(Effects.AVOID), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.AVOID, Short.parseShort(value)));
 		} else if (key.equals("hp")) {
-			shortProps.put(Byte.valueOf(Effects.HP), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.HP, Short.parseShort(value)));
 		} else if (key.equals("mp")) {
-			shortProps.put(Byte.valueOf(Effects.MP), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.MP, Short.parseShort(value)));
 		} else if (key.equals("speed")) {
-			shortProps.put(Byte.valueOf(Effects.SPEED), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.SPEED, Short.parseShort(value)));
 		} else if (key.equals("jump")) {
-			shortProps.put(Byte.valueOf(Effects.JUMP), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.JUMP, Short.parseShort(value)));
 		} else if (key.equals("attackCount")) {
-			byteProps.put(Byte.valueOf(Effects.ATTACK_COUNT), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.ATTACK_COUNT, Byte.parseByte(value)));
 		} else if (key.equals("bulletCount")) {
-			byteProps.put(Byte.valueOf(Effects.BULLET_COUNT), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.BULLET_COUNT, Byte.parseByte(value)));
 		} else if (key.equals("itemCon")) {
-			intProps.put(Byte.valueOf(Effects.ITEM_CONSUME), Integer.valueOf(Integer.parseInt(value)));
+			effects.add(new Effect(EffectType.Integer, Effects.ITEM_CONSUME, Integer.parseInt(value)));
 		} else if (key.equals("itemConNo")) {
-			byteProps.put(Byte.valueOf(Effects.ITEM_CONSUME_COUNT), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.ITEM_CONSUME_COUNT, Byte.parseByte(value)));
 		} else if (key.equals("bulletConsume")) {
-			shortProps.put(Byte.valueOf(Effects.BULLET_CONSUME), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.BULLET_CONSUME, Short.parseShort(value)));
 		} else if (key.equals("moneyCon")) {
-			shortProps.put(Byte.valueOf(Effects.MONEY_CONSUME), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.MONEY_CONSUME, Short.parseShort(value)));
 		} else if (key.equals("morph")) {
-			intProps.put(Byte.valueOf(Effects.MORPH), Integer.valueOf(Integer.parseInt(value)));
+			effects.add(new Effect(EffectType.Integer, Effects.MORPH, Integer.parseInt(value)));
 		} else if (key.equals("limit")) {
-			shortProps.put(Byte.valueOf(Effects.LIMIT), Short.valueOf(Short.parseShort(value)));
+			effects.add(new Effect(EffectType.Short, Effects.LIMIT, Short.parseShort(value)));
 		} else if (key.equals("summonEffect")) {
-			byteProps.put(Byte.valueOf(Effects.SUMMON_EFFECT), Byte.valueOf(Byte.parseByte(value)));
+			effects.add(new Effect(EffectType.Byte, Effects.SUMMON_EFFECT, Byte.parseByte(value)));
 		} else if (Converter.isNumber(key)) {
 			//as of GMS v0.62, Shout level 4's prop is glitched, but we can't
 			//check that here, so we'll have to make a special case in the Kvj
 			//parser. :(
-			summons.put(Byte.valueOf(Byte.parseByte(key)), Integer.valueOf(Integer.parseInt(value)));
+			effects.add(new Effect(EffectType.Summon, Effects.SUMMON, Byte.parseByte(key), Integer.parseInt(value)));
 		}
 	}
 
 	@Override
 	public int size() {
 		int sum = 0;
-		sum += (intProps.size() * (Size.INT + Size.BYTE));
-		sum += (shortProps.size() * (Size.SHORT + Size.BYTE));
-		sum += (byteProps.size() * (Size.BYTE + Size.BYTE));
-		if (lt != null)
-			sum += Size.BYTE + 2 * Size.SHORT;
-		if (rb != null)
-			sum += Size.BYTE + 2 * Size.SHORT;
-		sum += (summons.size() * (Size.BYTE + Size.BYTE + Size.INT));
+		for (Effect e : effects) {
+			switch (e.t) {
+				case Integer:
+					sum += Size.INT + Size.BYTE;
+					break;
+				case Short:
+					sum += Size.SHORT + Size.BYTE;
+					break;
+				case Byte:
+					sum += Size.BYTE + Size.BYTE;
+					break;
+				case Point:
+					sum += Size.BYTE + 2 * Size.SHORT;
+					break;
+				case Summon:
+					sum += Size.BYTE + Size.BYTE + Size.INT;
+					break;
+			}
+		}
 		return sum;
 	}
 
 	@Override
 	public void writeBytes(LittleEndianWriter lew) {
-		for (Entry<Byte, Integer> entry : intProps.entrySet())
-			lew.writeByte(entry.getKey().byteValue()).writeInt(entry.getValue().intValue());
-		for (Entry<Byte, Short> entry : shortProps.entrySet())
-			lew.writeByte(entry.getKey().byteValue()).writeShort(entry.getValue().shortValue());
-		for (Entry<Byte, Byte> entry : byteProps.entrySet())
-			lew.writeByte(entry.getKey().byteValue()).writeByte(entry.getValue().byteValue());
-		if (lt != null)
-			lew.writeByte(Effects.LT).writeShort((short) lt.x).writeShort((short) lt.y);
-		if (rb != null)
-			lew.writeByte(Effects.RB).writeShort((short) rb.x).writeShort((short) rb.y);
-		for (Entry<Byte, Integer> entry : summons.entrySet())
-			lew.writeByte(Effects.SUMMON).writeByte(entry.getKey().byteValue()).writeInt(entry.getValue().intValue());
+		for (Effect e : effects) {
+			switch (e.t) {
+				case Integer:
+					lew.writeByte(e.e).writeInt(e.i);
+					break;
+				case Short:
+					lew.writeByte(e.e).writeShort(e.s);
+					break;
+				case Byte:
+					lew.writeByte(e.e).writeByte(e.b);
+					break;
+				case Point:
+					lew.writeByte(e.e).writeShort((short) e.p.x).writeShort((short) e.p.y);
+					break;
+				case Summon:
+					lew.writeByte(e.e).writeByte(e.b).writeInt(e.i);
+					break;
+			}
+		}
 	}
 }
