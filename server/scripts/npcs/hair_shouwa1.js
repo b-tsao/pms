@@ -11,9 +11,9 @@ function getStyleChoices(gender, currentHair) {
 	let color = currentHair % 10;
 	let styles;
 	if (gender == 0)
-		styles = [30230, 30030, 30780, 30260, 30280, 30240, 30290, 30020, 30270, 30340, 30710, 30920, 30810];
+		styles = [30230, 30030, 30260, 30280, 30240, 30290, 30020, 30270, 30340, 30710, 30810];
 	else if (gender == 1)
-		styles = [31310, 31150, 31300, 31050, 31040, 31160, 31100, 31410, 31030, 31790, 31550];
+		styles = [31310, 31300, 31050, 31040, 31160, 31100, 31410, 31030, 31790, 31550];
 	for (let i = 0; i < styles.length; i++)
 		if (npc.isHairValid(styles[i] + color)) //prefer current hair color
 			styles[i] += color;

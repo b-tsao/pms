@@ -29,7 +29,7 @@ function getStyleChoices(gender, currentHair) {
 	let color = currentHair % 10;
 	let styles;
 	if (gender == 0)
-		styles = [30030, 30020, 30000, 30130, 30350, 30190, 30110, 30180, 30050, 30040, 30160];
+		styles = [30030, 30020, 30780, 30000, 30130, 30350, 30190, 30110, 30180, 30050, 30040, 30160];
 	else if (gender == 1)
 		styles = [31050, 31040, 31000, 31060, 31090, 31020, 31130, 31120, 31140, 31330, 31010];
 	for (let i = 0; i < styles.length; i++)

@@ -11,9 +11,9 @@ function getRandomStyle(gender, currentHair) {
 	let color = currentHair % 10;
 	let styles;
 	if (gender == 0)
-		styles = [30230, 30030, 30780, 30260, 30280, 30240, 30290, 30020, 30270, 30340, 30710, 30920, 30810, 30800, 30790];
+		styles = [30000, 30120, 30140, 30190, 30210, 30360, 30220, 30370, 30400, 30440, 30790, 30800, 30810, 30770, 30760];
 	else if (gender == 1)
-		styles = [31310, 31150, 31300, 31050, 31040, 31160, 31100, 31410, 31030, 31790, 31550, 31800, 31770];
+		styles = [31030, 31050, 31000, 31070, 31100, 31120, 31130, 31250, 31340, 31680, 31350, 31400, 31650, 31550, 31800];
 	let style = styles[Math.floor(Math.random() * styles.length)];
 	if (npc.isHairValid(style + color)) //prefer current hair color
 		style += color;
