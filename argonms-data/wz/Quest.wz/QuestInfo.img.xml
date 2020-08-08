@@ -6440,8 +6440,8 @@
 		<string name="name" value=" Hero&apos;s Quality"/>
 		<string name="parent" value="The Thief&apos;s Extreme Path"/>
 		<int name="order" value="5"/>
-		<string name="1" value=" #b#p2081400##k said if I want to advance to the 4th job, I would have to prove that I am a true hero. He said to bring him #b#t4031518##k and #b#t4031517##k to prove that I am a true hero.\r\n#i4031518##t4031518# #b#c4031518#/1#k\r#i4031517##t4031517# #b#c4031517#/1"/>
-		<string name="2" value=" When I brought #b#t4031518##k and #b#t4031517##k to him, he said I have proved that I&apos;m a true hero and told me to come back and talk to him when I&apos;m ready for the 4th job."/>
+		<string name="1" value=" #b#p2081400##k said if I want to advance to the 4th job, I would have to prove that I am a true hero. She said to bring him #b#t4031518##k and #b#t4031517##k to prove that I am a true hero.\r\n#i4031518##t4031518# #b#c4031518#/1#k\r#i4031517##t4031517# #b#c4031517#/1"/>
+		<string name="2" value=" When I brought #b#t4031518##k and #b#t4031517##k to her, she said I have proved that I&apos;m a true hero and told me to come back and talk to her when I&apos;m ready for the 4th job."/>
 		<int name="area" value="10"/>
 	</imgdir>
 	<imgdir name="6935">
