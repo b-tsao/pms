@@ -12,7 +12,7 @@ if (player.hasItem(4001020, 1)) {
 	if (selection == 0) {
 		npc.sayNext("Come back if you're tired of walking.");
 	} else if (selection == 1) {
-		player.loseItem(4001020);
+		player.loseItem(4001020, 1);
 		player.changeMap(221022900);
 	}
 } else {
