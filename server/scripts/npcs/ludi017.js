@@ -7,7 +7,7 @@
  * @author joemama
  */
 
-if (player.hasItem(4001020) {
+if (player.hasItem(4001020)) {
 	let selection = npc.askYesNo("You can use #bEos Rock Scroll#k to activate #bFourth Eos Rock#k. Will you teleport to #bThird Eos Rock#k at the 41st floor?");
 	if (selection == 0) {
 		npc.sayNext("Come back whenever you're tired of walking.");
@@ -17,5 +17,5 @@ if (player.hasItem(4001020) {
 	}
 }
 else {
-	npc.sayNext("There's a rock that will enable you to teleport to #bThird Eos Rock#k, but it cannot be activated without the scroll."")
+	npc.sayNext("There's a rock that will enable you to teleport to #bThird Eos Rock#k, but it cannot be activated without the scroll.");
 }
