@@ -22,7 +22,7 @@ if (player.hasItem(4001020, 1)) {
 	}
 	selection = npc.askYesNo(prompt);
 	if (selection == 1) {
-		player.loseItem(4001020);
+		player.loseItem(4001020, 1);
 		player.changeMap(map);
 	} else {
 		npc.sayNext("Come back if you're tired of walking.");
