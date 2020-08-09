@@ -12,8 +12,8 @@ if (player.hasItem(4001020, 1)) {
 	if (selection == 0) {
 		npc.sayNext("Come back if you're tired of walking.");
 	} else if (selection == 1) {
-		cm.gainItem(4001020, -1);
-		npc.makeEvent([player, 221024400]);
+		player.loseItem(4001020);
+		player.changeMap(221022900);
 	}
 } else {
 	npc.sayNext("There's a rock that will enable you to teleport to #bSecond Eos Rock#k, but it cannot be activated without the scroll.");
