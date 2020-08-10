@@ -275,14 +275,14 @@ public abstract class Player {
 		savedMapId = rs.getInt(24);
 		savedSpawnPoint = rs.getByte(25);
 
-		inventories.put(InventoryType.EQUIP, new Inventory(rs.getShort(27)));
-		inventories.put(InventoryType.USE, new Inventory(rs.getShort(28)));
-		inventories.put(InventoryType.SETUP, new Inventory(rs.getShort(29)));
-		inventories.put(InventoryType.ETC, new Inventory(rs.getShort(30)));
-		inventories.put(InventoryType.CASH, new Inventory(rs.getShort(31)));
+		inventories.put(InventoryType.EQUIP, new Inventory(rs.getShort(28)));
+		inventories.put(InventoryType.USE, new Inventory(rs.getShort(29)));
+		inventories.put(InventoryType.SETUP, new Inventory(rs.getShort(30)));
+		inventories.put(InventoryType.ETC, new Inventory(rs.getShort(31)));
+		inventories.put(InventoryType.CASH, new Inventory(rs.getShort(32)));
 		//TODO: get real equipped inventory size?
 		inventories.put(InventoryType.EQUIPPED, new Inventory((short) 0));
-		gm = rs.getByte(33);
+		gm = rs.getByte(34);
 	}
 
 	private static void setEquipUpdateVariables(Equip equip, int inventoryKey, PreparedStatement ps) throws SQLException {

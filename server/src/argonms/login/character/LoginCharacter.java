@@ -148,10 +148,10 @@ public class LoginCharacter extends Player {
 			LoginCharacter p = new LoginCharacter();
 			p.client = c;
 			p.loadPlayerStats(rs, id);
-			p.worldRanking = rs.getInt(36);
-			p.worldRankingChange = rs.getInt(37) - p.worldRanking;
-			p.jobRanking = rs.getInt(38);
-			p.jobRankingChange = rs.getInt(39) - p.jobRanking;
+			p.worldRanking = rs.getInt(37);
+			p.worldRankingChange = rs.getInt(38) - p.worldRanking;
+			p.jobRanking = rs.getInt(39);
+			p.jobRankingChange = rs.getInt(40) - p.jobRanking;
 			rs.close();
 			ps.close();
 

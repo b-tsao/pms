@@ -431,13 +431,13 @@ public class ShopCharacter extends LoggedInPlayer {
 			p.client = c;
 			p.loadPlayerStats(rs, id);
 			p.mesos = rs.getInt(26);
-			short maxBuddies = rs.getShort(32);
-			c.setAccountName(rs.getString(42));
-			p.maxCharacters = rs.getByte(43);
-			p.birthday = rs.getInt(44);
-			p.cashShopBalance[PAYPAL_NX - 1] = new AtomicInteger(rs.getInt(45));
-			p.cashShopBalance[MAPLE_POINTS - 1] = new AtomicInteger(rs.getInt(46));
-			p.cashShopBalance[GAME_CARD_NX - 1] = new AtomicInteger(rs.getInt(47));
+			short maxBuddies = rs.getShort(33);
+			c.setAccountName(rs.getString(43));
+			p.maxCharacters = rs.getByte(44);
+			p.birthday = rs.getInt(45);
+			p.cashShopBalance[PAYPAL_NX - 1] = new AtomicInteger(rs.getInt(46));
+			p.cashShopBalance[MAPLE_POINTS - 1] = new AtomicInteger(rs.getInt(47));
+			p.cashShopBalance[GAME_CARD_NX - 1] = new AtomicInteger(rs.getInt(48));
 			rs.close();
 			ps.close();
 

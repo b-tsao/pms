@@ -281,7 +281,7 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 					+ "`accountid` = ?, `world` = ?, `name` = ?, `gender` = ?, `skin` = ?, `eyes` = ?, `hair` = ?, "
 					+ "`level` = ?, `job` = ?, `str` = ?, `dex` = ?, `int` = ?, `luk` = ?, "
 					+ "`hp` = ?, `maxhp` = ?, `mp` = ?, `maxmp` = ?, `ap` = ?, `sp` = ?, `exp` = ?, `fame` = ?, "
-					+ "`spouse` = ?, `map` = ?, `spawnpoint` = ?, `mesos` = ?, "
+					+ "`spouse` = ?, `map` = ?, `spawnpoint` = ?, `mesos` = ?, `battleshiphp` = ?, "
 					+ "`equipslots` = ?, `useslots` = ?, `setupslots` = ?, `etcslots` = ?, `cashslots` = ?, "
 					+ "`buddyslots` = ?, `gm` = ? WHERE `id` = ?");
 			ps.setInt(1, client.getAccountId());
@@ -309,14 +309,15 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 			ps.setInt(23, getMapId());
 			ps.setByte(24, map != null ? map.nearestSpawnPoint(getPosition()) : savedSpawnPoint);
 			ps.setInt(25, mesos);
-			ps.setShort(26, getInventory(InventoryType.EQUIP).getMaxSlots());
-			ps.setShort(27, getInventory(InventoryType.USE).getMaxSlots());
-			ps.setShort(28, getInventory(InventoryType.SETUP).getMaxSlots());
-			ps.setShort(29, getInventory(InventoryType.ETC).getMaxSlots());
-			ps.setShort(30, getInventory(InventoryType.CASH).getMaxSlots());
-			ps.setShort(31, buddies.getCapacity());
-			ps.setByte(32, getPrivilegeLevel());
-			ps.setInt(33, getDataId());
+			ps.setInt(26, battleShipHp);
+			ps.setShort(27, getInventory(InventoryType.EQUIP).getMaxSlots());
+			ps.setShort(28, getInventory(InventoryType.USE).getMaxSlots());
+			ps.setShort(29, getInventory(InventoryType.SETUP).getMaxSlots());
+			ps.setShort(30, getInventory(InventoryType.ETC).getMaxSlots());
+			ps.setShort(31, getInventory(InventoryType.CASH).getMaxSlots());
+			ps.setShort(32, buddies.getCapacity());
+			ps.setByte(33, getPrivilegeLevel());
+			ps.setInt(34, getDataId());
 			int updateRows = ps.executeUpdate();
 			if (updateRows < 1)
 				LOG.log(Level.WARNING, "Updating a deleted character with name {0} of account {1}.",
@@ -714,9 +715,10 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 			p.maxMp = p.baseMaxMp;
 
 			p.mesos = rs.getInt(26);
-			p.buddies = new BuddyList(rs.getShort(32));
-			c.setAccountName(rs.getString(42));
-			p.storage = new StorageInventory(rs.getShort(43), rs.getInt(44));
+			p.battleShipHp = rs.getInt(27);
+			p.buddies = new BuddyList(rs.getShort(33));
+			c.setAccountName(rs.getString(43));
+			p.storage = new StorageInventory(rs.getShort(44), rs.getInt(45));
 			rs.close();
 			ps.close();
 
