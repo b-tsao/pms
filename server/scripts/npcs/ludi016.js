@@ -7,25 +7,26 @@
  * @author joemama
  */
 
-if (player.hasItem(4001020)) {
-	let selection = npc.askMenu("You can use #bEos Rock Scroll#k to activate #bThird Eos Rock#k. Which of these rocks would you like to teleport to?"
-		+ "#L0# First Eos Rock - 41st floor#l\r\n"
-		+ "#L1# Third Eos Rock - 1st floor#l");
+if (player.hasItem(4001020, 1)) {
+	let selection = npc.askMenu("You can use #b#t4001020##k to activate #Third Eos Rock#k. Which of these rocks would you like to teleport to?\r\n"
+		+ "#L0# #bFirst Eos Rock - 100th floor#l\r\n"
+		+ "#L1# #bThird Eos Rock - 41st floor#l");
+	let prompt;
+	let map;
 	if (selection == 0) {
-		selection = npc.askYesNo("You can use #bEos Rock Scroll#k to activate #bThird Eos Rock#k. Will you teleport to #bSecond Eos Rock#k at the 71st Floor?");
-		cm.gainItem(4001020, -1);
-		npc.makeEvent([player, 221022900]);
+		prompt = "You can use #b#t4001020##k to activate #Third Eos Rock#k. Will you teleport to #Second Eos Rock#k at the 71st Floor?";
+		map = 221022900;
 	} else if (selection == 1) {
-		selection = npc.askYesNo("You can use #bEos Rock Scroll#k to activate #bThird Eos Rock#k. Will you teleport to #bFourth Eos Rock#k at the 1st Floor?");
-		cm.gainItem(4001020, -1);
-		npc.makeEvent([player, 221020000]);
+		prompt = "You can use #b#t4001020##k to activate #Third Eos Rock#k. Will you teleport to #Fourth Eos Rock#k at the 1st Floor?";
+		map = 221020000;
 	}
+	selection = npc.askYesNo(prompt);
 	if (selection == 1) {
-		break;
-	} else if (selection == 0) {
+		player.loseItem(4001020, 1);
+		player.changeMap(map);
+	} else {
 		npc.sayNext("Come back if you're tired of walking.");
 	}
-}
-else {
+} else {
 	npc.sayNext("There's a rock that will enable you to teleport to either the #bSecond Eos Rock#k or #bFourth Eos Rock#k, but it cannot be activated without the scroll.");
 }

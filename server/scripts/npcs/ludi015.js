@@ -9,8 +9,8 @@
 
 if (player.hasItem(4001020, 1)) {
 	let selection = npc.askMenu("You can use #b#t4001020##k to activate #bSecond Eos Rock#k. Which of these rocks would you like to teleport to?\r\n"
-		+ "#L0# First Eos Rock - 100th floor#l\r\n"
-		+ "#L1# Third Eos Rock - 41st floor#l");
+		+ "#L0# #bFirst Eos Rock - 100th floor#l\r\n"
+		+ "#L1# #bThird Eos Rock - 41st floor#l");
 	let prompt;
 	let map;
 	if (selection == 0) {
