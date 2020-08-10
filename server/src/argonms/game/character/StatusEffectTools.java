@@ -72,6 +72,8 @@ public final class StatusEffectTools {
 						return GamePackets.writeUsePirateSkill(updatedStats, e.getDataId(), duration, (short) 0);
 					case Skills.BATTLE_SHIP:
 						return GamePackets.writeMountSkill(updatedStats, e.getDataId(), 1932000, (short) 0);
+					case Skills.MONSTER_RIDING:
+						return GamePackets.writeMountSkill(updatedStats, e.getDataId(), p.getEquippedMount().getDataId(), (short) 0);
 					default:
 						return GamePackets.writeUseSkill(updatedStats, e.getDataId(), duration, (short) 0);
 				}
@@ -121,6 +123,8 @@ public final class StatusEffectTools {
 						return GamePackets.writeBuffMapShadowStarsEffect(p, updatedStats, -1, (short) 0);
 					case Skills.BATTLE_SHIP:
 						return GamePackets.writeBuffMapMountEffect(p, updatedStats, e.getDataId(), 1932000);
+					case Skills.MONSTER_RIDING:
+						return GamePackets.writeBuffMapMountEffect(p, updatedStats, e.getDataId(), p.getEquippedMount().getDataId());
 					default:
 						if (duration > 0)
 							return GamePackets.writeBuffMapEffect(p, updatedStats);
