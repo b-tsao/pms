@@ -186,6 +186,10 @@ public final class TakeDamageHandler {
 			if (mpBurn > 0)
 				p.gainMp(-mpBurn);
 			//TODO: morph dispel, battleship hurt...
+			PlayerStatusEffectValues mr = p.getEffectValue(PlayerStatusEffect.MONSTER_RIDING);
+			if (mr != null && p.isSkillActive(Skills.BATTLE_SHIP)) {
+				p.damageBattleship(damage);
+			}
 		} else {
 			p.setHp((short) 1);
 			p.setMp((short) 1);

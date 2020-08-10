@@ -66,6 +66,7 @@ import argonms.game.loading.quest.QuestChecks;
 import argonms.game.loading.quest.QuestChecks.QuestRequirementType;
 import argonms.game.loading.quest.QuestDataLoader;
 import argonms.game.loading.quest.QuestItemStats;
+import argonms.game.loading.skill.PlayerSkillEffectsData;
 import argonms.game.loading.skill.SkillDataLoader;
 import argonms.game.net.external.GameClient;
 import argonms.game.net.external.GamePackets;
@@ -149,6 +150,7 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 	private final ConcurrentMap<Integer, PlayerSkillSummon> summons;
 	private volatile short energyCharge;
 	private volatile MysticDoor door;
+	private volatile int battleShipHp;
 
 	private final Map<Short, QuestEntry> questStatuses;
 	private final Map<QuestRequirementType, Map<Number, List<Short>>> questSubscriptions;
@@ -1936,7 +1938,34 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 	public short getEnergyCharge() {
 		return energyCharge;
 	}
-
+	
+	public void resetBattleship() {
+		battleShipHp = 4000 * getSkillLevel(Skills.BATTLE_SHIP) + Math.max(getLevel() - 120, 0) * 2000;
+	}
+	
+	public int getBattleshipHp() {
+        return battleShipHp;
+    }
+	
+	public void damageBattleship(int damage) {
+		battleShipHp -= damage;
+        if (battleShipHp <= 0) {
+        	battleShipHp = 0;
+        	byte skillLevel = getSkillLevel(Skills.BATTLE_SHIP);
+        	PlayerSkillEffectsData e = SkillDataLoader.getInstance().getSkill(Skills.BATTLE_SHIP).getLevel(skillLevel);
+        	short cooldown = e.getCooltime();
+        	getClient().getSession().send(GamePackets.writeCooldown(Skills.BATTLE_SHIP, cooldown));
+        	addCooldown(Skills.BATTLE_SHIP, cooldown);
+        	StatusEffectTools.dispelEffectsAndShowVisuals(this, e);
+        } else {
+        	sendBattleshipHp();
+        }
+    }
+	
+	public void sendBattleshipHp() {
+		getClient().getSession().send(GamePackets.writeCooldown(5221999, (short) (battleShipHp / 10)));
+	}
+	
 	public Map<Integer, PlayerSkillSummon> getAllSummons() {
 		return summons;
 	}

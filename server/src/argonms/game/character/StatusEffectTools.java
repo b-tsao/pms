@@ -29,9 +29,10 @@ import argonms.game.loading.skill.MobSkillEffectsData;
 import argonms.game.loading.skill.PlayerSkillEffectsData;
 import argonms.game.net.external.GamePackets;
 import java.util.Collections;
-import java.util.EnumMap;
+import java.util.Comparator;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 /**
  *
@@ -69,6 +70,8 @@ public final class StatusEffectTools {
 						break;
 					case Skills.DASH:
 						return GamePackets.writeUsePirateSkill(updatedStats, e.getDataId(), duration, (short) 0);
+					case Skills.BATTLE_SHIP:
+						return GamePackets.writeMountSkill(updatedStats, e.getDataId(), 1932000, (short) 0);
 					default:
 						return GamePackets.writeUseSkill(updatedStats, e.getDataId(), duration, (short) 0);
 				}
@@ -116,6 +119,8 @@ public final class StatusEffectTools {
 						return GamePackets.writeBuffMapChargeEffect(p, updatedStats, e.getDataId(), (short) 600);
 					case Skills.SHADOW_STARS:
 						return GamePackets.writeBuffMapShadowStarsEffect(p, updatedStats, -1, (short) 0);
+					case Skills.BATTLE_SHIP:
+						return GamePackets.writeBuffMapMountEffect(p, updatedStats, e.getDataId(), 1932000);
 					default:
 						if (duration > 0)
 							return GamePackets.writeBuffMapEffect(p, updatedStats);
@@ -149,7 +154,17 @@ public final class StatusEffectTools {
 	}
 
 	public static Map<PlayerStatusEffect, Short> applyEffects(GameCharacter p, StatusEffectsData e) {
-		Map<PlayerStatusEffect, Short> updatedStats = new EnumMap<PlayerStatusEffect, Short>(PlayerStatusEffect.class);
+		Map<PlayerStatusEffect, Short> updatedStats = new TreeMap<PlayerStatusEffect, Short>(new Comparator<PlayerStatusEffect>() {
+			//sort by value order (i.e. 5,6,7,8,1,2,3,4), then by mask (i.e. enum order)
+			@Override
+			public int compare(PlayerStatusEffect k1, PlayerStatusEffect k2) {
+				int diff = k1.getValueOrder() - k2.getValueOrder();
+				if (diff == 0) //if k1 and k2 share the same value order
+					//sort by enum order (which should be smallest to biggest)
+					diff = k1.compareTo(k2); //also equivalent to ((int) (k1.longValue() - k2.longValue()))
+				return diff;
+			}
+		});
 		for (PlayerStatusEffect buff : e.getEffects()) {
 			PlayerStatusEffectValues v = p.getEffectValue(buff);
 			if (v != null)
@@ -175,6 +190,14 @@ public final class StatusEffectTools {
 		effect = getThirdPersonApplyEffect(p, e, updatedStats, duration);
 		if (p.isVisible() && effect != null)
 			p.getMap().sendToAll(effect, p);
+		
+		// This has to be sent after FirstPersonApplyEffect
+		if (e.getDataId() == Skills.BATTLE_SHIP) {
+			if (p.getBattleshipHp() == 0) {
+				p.resetBattleship();
+			}
+			p.sendBattleshipHp();
+		}
 	}
 
 	public static void applyEffectsAndShowVisuals(GameCharacter p, byte effectType, StatusEffectsData e, byte stance) {

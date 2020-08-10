@@ -161,6 +161,27 @@ public final class GamePackets {
 
 		return lew.getBytes();
 	}
+	
+	public static byte[] writeMountSkill(Map<PlayerStatusEffect, Short> stats, int skillId, int itemId, short delay) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
+
+		lew.writeShort(ClientSendOps.FIRST_PERSON_APPLY_STATUS_EFFECT);
+		long updateMask = 0;
+		for (PlayerStatusEffect key : stats.keySet())
+			updateMask |= key.longValue();
+		lew.writeLong(0);
+		lew.writeLong(updateMask);
+		for (Short statupdate : stats.values()) {
+			lew.writeShort(statupdate.shortValue());
+			lew.writeInt(itemId);
+			lew.writeInt(skillId);
+		}
+		lew.writeInt(0);
+		lew.writeShort(delay);
+		lew.writeByte((byte) 0); //# of times skill was cast
+
+		return lew.getBytes();
+	}
 
 	public static byte[] writeUsePirateSkill(Map<PlayerStatusEffect, Short> stats, int skillId, int duration, short delay) {
 		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
@@ -359,6 +380,27 @@ public final class GamePackets {
 				lew.writeByte((byte) 0);
 		}
 		lew.writeByte((byte) 0);
+		lew.writeShort((short) 0);
+
+		return lew.getBytes();
+	}
+	
+	public static byte[] writeBuffMapMountEffect(GameCharacter p, Map<PlayerStatusEffect, Short> stats, int skillId, int itemId) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
+
+		lew.writeShort(ClientSendOps.THIRD_PERSON_APPLY_STATUS_EFFECT);
+		lew.writeInt(p.getId());
+		long updateMask = 0;
+		for (PlayerStatusEffect key : stats.keySet())
+			updateMask |= key.longValue();
+		lew.writeLong(0);
+		lew.writeLong(updateMask);
+		for (Entry<PlayerStatusEffect, Short> statupdate : stats.entrySet()) {
+			lew.writeShort(statupdate.getValue().shortValue());
+			lew.writeInt(itemId);
+			lew.writeInt(skillId);
+		}
+		lew.writeInt(0x2D4DFC2A);
 		lew.writeShort((short) 0);
 
 		return lew.getBytes();

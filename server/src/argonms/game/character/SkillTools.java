@@ -83,7 +83,7 @@ public final class SkillTools {
 			}
 			p.itemCountChanged(itemId);
 		}
-		if (e.getCooltime() > 0) {
+		if (e.getCooltime() > 0 && e.getDataId() != Skills.BATTLE_SHIP) {
 			p.getClient().getSession().send(GamePackets.writeCooldown(e.getDataId(), e.getCooltime()));
 			p.addCooldown(e.getDataId(), e.getCooltime());
 		}
