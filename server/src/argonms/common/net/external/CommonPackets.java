@@ -192,6 +192,7 @@ public final class CommonPackets {
 				break;
 			}
 			case EQUIP:
+			case MOUNT:
 			case RING: {
 				Equip equip = (Equip) item;
 				lew.writeByte(equip.getUpgradeSlots());
