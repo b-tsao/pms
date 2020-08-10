@@ -144,7 +144,7 @@ public class ClientSession<T extends RemoteClient> implements Session {
 
 	@Override
 	public void send(byte[] message) {
-		short op = (short) (message[0] & 0xffL);
+		short op = (short) ((message[0] & 0xFF) | ((message[1] & 0xFF) << 8));
 		switch (op) {
 			case ClientSendOps.MOVE_NPC:
 			case ClientSendOps.PLAYER_STAT_UPDATE:
@@ -163,7 +163,7 @@ public class ClientSession<T extends RemoteClient> implements Session {
 					try {
 						if (java.lang.reflect.Modifier.isStatic(field.getModifiers()) && 
 							field.getShort(null) == op) {
-							LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1} ({2})", new Object[] { getAccountName(), field.getName(), String.format("0x%02X", op) });
+							LOG.log(Level.FINE, "[DEBUG] Send client ({0}) packet op {1} ({2})", new Object[] { getAccountName(), field.getName(), String.format("0x%04X", op) });
 							break;
 						}
 					} catch (IllegalAccessException e) {
