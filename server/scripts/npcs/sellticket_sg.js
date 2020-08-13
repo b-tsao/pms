@@ -1,21 +1,3 @@
-/*
- * ArgonMS MapleStory server emulator written in Java
- * Copyright (C) 2011-2013  GoldenKevin
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as
- * published by the Free Software Foundation, either version 3 of the
- * License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
 /**
  * Irene: Ticketing Usher (NPC 9270041)
  * Victoria Road: Kerning City (Map 103000000)
@@ -23,7 +5,7 @@
  * Sells tickets to Singapore and teleports player from Kerning City to the
  * waiting room on the airplane to Singapore.
  *
- * @author GoldenKevin (content from KiniroMS r227)
+ * @author joemama
  */
 
 let COST = 20000;
@@ -44,7 +26,7 @@ function admit(str, map) {
 
 let selection = npc.askMenu("Hello there~ I am #p" + npc.getNpcId() + "# from Singapore Airport. I was transferred to #m103000000# to celebrate new opening of our service! How can I help you?\r\n#b"
 		+ "#L0#I would like to buy a plane ticket to Singapore#l\r\n"
-		+ "#L1#Let me go in to the departure point.#l");
+		+ "#L1#Please take me to Singapore.#l");
 switch (selection) {
 	case 0:
 		selection = npc.askYesNo("The ticket will cost you " + COST + " mesos. Will you purchase the ticket?");
@@ -60,7 +42,15 @@ switch (selection) {
 		}
 		break;
 	case 1:
-		//TODO: write event script
+		if (!player.hasItem(4031731)) {
+			npc.say("You don't have a ticket to Singapore. Please purchase one to take the plane.")
+		} else {
+			npc.say("Have a nice flight!")
+			player.loseItem(4031731, 1);
+			player.changeMap(540010000);
+		}
+
+		/*//TODO: write event script
 		let ap = cm.getEventManager("AirPlane");
 		if (ap != null)
 			if (ap.getProperty("entry").equals("true"))
@@ -69,5 +59,5 @@ switch (selection) {
 				npc.say("The plane has not yet arrived. We have scheduled departures every 5 minutes, and we close our doors 1 minute before departure. Please check again soon.");
 		else
 			admit("It appears as though the plane to Singapore is having some difficulties. Would you like to be immediately warped to Singapore instead? You will lose your ticket if you accept.", 540010000);
-		break;
+		break;*/
 }
