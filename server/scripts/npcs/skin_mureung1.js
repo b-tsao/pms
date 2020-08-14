@@ -9,7 +9,7 @@
 
 let skinColorChoices = npc.getAllSkinColors();
 
-npc.sayNext("Well, hello! Welcome to the CBD Skin-Care~! Would you like to have a firm, tight, healthy looking skin like mine?  With #b#t5153006##k, you can let us take care of the rest and have the kind of skin you've always wanted~!");
+npc.sayNext("Well, hello! Welcome to the Mu Lung Skin-Care~! Would you like to have a firm, tight, healthy looking skin like mine?  With #b#t5153006##k, you can let us take care of the rest and have the kind of skin you've always wanted~!");
 let selection = npc.askAvatar("With our specialized machine, you can see the way you'll look after the treatment PRIOR to the procedure. What kind of a look are you looking for? Go ahead and choose the style of your liking~!", skinColorChoices);
 
 if (player.hasItem(5153006, 1)) {

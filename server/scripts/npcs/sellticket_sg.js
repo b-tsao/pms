@@ -43,9 +43,9 @@ switch (selection) {
 		/*break;*/
 	case 1:
 		if (!player.hasItem(4031731)) {
-			npc.say("You don't have a ticket to Singapore. Please purchase one to take the plane.")
+			npc.say("You don't have a ticket to Singapore. Please purchase one to take the plane.");
 		} else {
-			npc.say("Have a nice flight!")
+			npc.say("Have a nice flight!");
 			player.loseItem(4031731, 1);
 			player.changeMap(540010000);
 		}
