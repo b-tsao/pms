@@ -1437,7 +1437,7 @@ public class CenterServerSynchronization extends CrossProcessSynchronization {
 			//TODO: get packet for guild contract rejection
 			for (GuildList.LocalMember m : guild.getMembersInLocalChannel()) {
 				m.getPlayer().setGuild(null);
-				m.getPlayer().getClient().getSession().send(CommonPackets.writeServerMessage(ChatHandler.TextStyle.OK_BOX.byteValue(), "Guild contract was not unanimous.", (byte) -1, true));
+				m.getPlayer().getClient().getSession().send(CommonPackets.writeServerMessage(ChatHandler.TextStyle.OK_BOX.byteValue(), "Guild contract was not unanimous.", (byte) -1, false));
 				if (m.getRank() == 1)
 					master = m.getPlayer();
 			}

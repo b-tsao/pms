@@ -71,7 +71,9 @@ public interface CrossChannelSynchronization {
 
 	public void callCrossChannelCommandCharacterAccess(BlockingQueue<Pair<Byte, Object>> resultConsumer, String target, CharacterProperty key);
 
-	public void sendWorldWideNotice(byte style, String message);
+	public void sendWorldWideMessage(byte style, String message, byte channel, boolean megaEar);
+	
+	public void sendWorldWide(byte[] packet);
 
 	public void sendServerShutdown(boolean halt, boolean restart, boolean cancel, int seconds, String message);
 

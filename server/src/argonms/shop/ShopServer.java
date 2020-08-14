@@ -35,6 +35,7 @@ import argonms.common.util.DatabaseManager;
 import argonms.common.util.DatabaseManager.DatabaseType;
 import argonms.common.util.Scheduler;
 import argonms.common.util.collections.Pair;
+import argonms.game.net.external.handler.ChatHandler.TextStyle;
 import argonms.shop.character.ShopCharacter;
 import argonms.shop.loading.cashshop.CashShopDataLoader;
 import argonms.shop.loading.commodityoverride.CommodityOverrideDataLoader;
@@ -394,12 +395,11 @@ public class ShopServer implements LocalServer {
 		return ticker;
 	}
 
-	public void setNewsTickerMessage(String message) {
-		ticker = message;
-	}
-
-	public void serverWideMessage(byte style, String message) {
-		byte[] packet = CommonPackets.writeServerMessage(style, message, (byte) -1, true);
+	public void serverWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		if (style == TextStyle.TICKER.byteValue())
+			ticker = message;
+		
+		byte[] packet = CommonPackets.writeServerMessage(style, message, channel, megaEar);
 		for (ShopCharacter p : storage.getConnectedPlayers())
 			p.getClient().getSession().send(packet);
 	}

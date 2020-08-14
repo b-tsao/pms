@@ -85,8 +85,8 @@ public class ShopChannelSynchronization extends CrossProcessSynchronization {
 			case ChannelSynchronizationOps.BUDDY_ONLINE:
 				receivedSentBuddyLogInNotifications(packet);
 				break;
-			case ChannelSynchronizationOps.SYNCHRONIZED_NOTICE:
-				receivedWorldWideNotice(packet);
+			case ChannelSynchronizationOps.SYNCHRONIZED_MESSAGE:
+				receivedWorldWideMessage(packet);
 				break;
 		}
 	}
@@ -236,13 +236,12 @@ public class ShopChannelSynchronization extends CrossProcessSynchronization {
 		writeShopChannelSynchronizationPacket(lew.getBytes());
 	}
 
-	private void receivedWorldWideNotice(LittleEndianReader packet) {
+	private void receivedWorldWideMessage(LittleEndianReader packet) {
 		byte style = packet.readByte();
 		String message = packet.readLengthPrefixedString();
+		byte channel = packet.readByte();
+		boolean megaEar = packet.readBool();
 
-		if (style == (byte) 4)
-			ShopServer.getInstance().setNewsTickerMessage(message);
-
-		ShopServer.getInstance().serverWideMessage(style, message);
+		ShopServer.getInstance().serverWideMessage(style, message, channel, megaEar);
 	}
 }

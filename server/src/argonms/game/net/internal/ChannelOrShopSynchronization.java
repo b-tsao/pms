@@ -145,12 +145,22 @@ public abstract class ChannelOrShopSynchronization extends CrossProcessSynchroni
 		handler.receivedBuddyLogOffNotifications(sender, recipients);
 	}
 
-	public void sendWorldWideNotice(byte style, String message) {
-		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(7 + message.length());
-		writeSynchronizationPacketHeader(lew, ChannelSynchronizationOps.SYNCHRONIZED_NOTICE);
+	public void sendWorldWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(9 + message.length());
+		writeSynchronizationPacketHeader(lew, ChannelSynchronizationOps.SYNCHRONIZED_MESSAGE);
 		lew.writeByte(style);
 		lew.writeLengthPrefixedString(message);
+		lew.writeByte(channel);
+		lew.writeBool(megaEar);
 
+		writeSynchronizationPacket(lew.getBytes());
+	}
+	
+	public void sendWorldWide(byte[] packet) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(4 + packet.length);
+		writeSynchronizationPacketHeader(lew, ChannelSynchronizationOps.SYNCHRONIZED_PACKET);
+		lew.writeBytes(packet);
+		
 		writeSynchronizationPacket(lew.getBytes());
 	}
 }

@@ -584,6 +584,46 @@ public final class CommonPackets {
 		}
 		return lew.getBytes();
 	}
+	
+	public static byte[] enableTV() {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(7);
+		lew.writeShort(ClientSendOps.ENABLE_TV); 
+        lew.writeInt(0);
+        lew.writeByte((byte) 0);
+        return lew.getBytes();
+	}
+	
+	public static byte[] sendTV(byte type, String userName, byte[] user, String partnerName, byte[] partner, List<String> messages, int duration) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(7);
+		lew.writeShort(ClientSendOps.SEND_TV); 
+		lew.writeByte((byte) (partner != null ? 2 : 0));
+		lew.writeByte(type);
+		lew.writeBytes(user);
+		lew.writeLengthPrefixedString(userName);
+		if (partnerName != null) {
+			lew.writeLengthPrefixedString(partnerName);
+		} else {
+			lew.writeShort((short) 0);
+		}
+		for (int i = 0; i < messages.size(); i++) { 
+            if (i == 4 && messages.get(4).length() > 15) {
+            	lew.writeLengthPrefixedString(messages.get(4).substring(0, 15));
+            } else {
+            	lew.writeLengthPrefixedString(messages.get(i));
+            }
+        }
+		lew.writeInt(duration / 1000);
+		if (partner != null) {
+			lew.writeBytes(partner);
+		}
+        return lew.getBytes();
+	}
+	
+	public static byte[] removeTV() {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(7);
+		lew.writeShort(ClientSendOps.REMOVE_TV);
+		return lew.getBytes();
+	}
 
 	private CommonPackets() {
 		//uninstantiable...

@@ -130,6 +130,7 @@ public final class ChatHandler {
 		TICKER(4),
 		RED_TEXT_CLEAR_BG(5),
 		LIGHT_BLUE_TEXT_CLEAR_BG(6),
+		PINK_TEXT_WHITE_BG(3),
 		ORANGE_TEXT_CLEAR_BG(0),
 		PURPLE_TEXT_CLEAR_BG(1),
 		PINK_TEXT_CLEAR_BG(2),
@@ -157,6 +158,7 @@ public final class ChatHandler {
 			case LIGHT_BLUE_TEXT_WHITE_BG:
 			case RED_TEXT_CLEAR_BG:
 			case LIGHT_BLUE_TEXT_CLEAR_BG:
+			case PINK_TEXT_WHITE_BG:
 				return CommonPackets.writeServerMessage(ts.byteValue(), p.getName() + " : " + message, p.getClient().getChannel(), megaEar);
 			case ORANGE_TEXT_CLEAR_BG:
 			case PURPLE_TEXT_CLEAR_BG:

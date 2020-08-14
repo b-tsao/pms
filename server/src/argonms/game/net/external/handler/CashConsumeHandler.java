@@ -28,10 +28,13 @@ import argonms.common.net.external.ClientSendOps;
 import argonms.common.net.external.CommonPackets;
 import argonms.common.util.input.LittleEndianReader;
 import argonms.common.util.output.LittleEndianByteArrayWriter;
+import argonms.game.GameServer;
 import argonms.game.character.GameCharacter;
 import argonms.game.character.inventory.PetTools;
 import argonms.game.net.external.GameClient;
 import argonms.game.net.external.GamePackets;
+import argonms.game.net.external.handler.ChatHandler.TextStyle;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -57,6 +60,88 @@ public class CashConsumeHandler {
 
 	private static void handleMegaphone(LittleEndianReader packet, GameCharacter p, int itemId) {
 		//TODO: handle megaphone
+		switch (itemId / 1000 % 10) {
+			case 0: // Cheap megaphone
+			case 3: // Heart megaphone
+			case 4: // Skull megaphone
+				// Doesn't work client side
+				break;
+			case 1: // Megaphone
+				if (p.getLevel() >= 10) {
+					p.getMap().sendToAll(ChatHandler.writeStyledChat(TextStyle.LIGHT_BLUE_TEXT_WHITE_BG, p, packet.readLengthPrefixedString(), false));
+                } else {
+                	p.getClient().getSession().send(CommonPackets.writeServerMessage(TextStyle.RED_TEXT_CLEAR_BG.byteValue(), "You must be above level 10 to use this item!", (byte) -1, false));
+                }
+				break;
+			case 2: // Super megaphone
+				GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWideMessage(TextStyle.PINK_TEXT_WHITE_BG.byteValue(), p.getName() + " : " + packet.readLengthPrefixedString(), p.getClient().getChannel(), packet.readBool());
+				break;
+			case 5: // Maple TV
+//				int tvType = itemId % 10;
+//                boolean megassenger = false;
+//                boolean ear = false;
+//                String victimName = null;
+//                byte[] victimLook = null;
+//                if (tvType != 1) {
+//                    if (tvType >= 3) {
+//                        megassenger = true;
+//                        if (tvType == 3) {
+//                            packet.readByte();
+//                        }
+//                        ear = packet.readBool();
+//                    } else if (tvType != 2) {
+//                        packet.readByte();
+//                    }
+//                    if (tvType != 4) {
+//                    	victimName = packet.readLengthPrefixedString();
+//                        victimLook = GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().getCharLook(victimName, false, true);
+//                    }
+//                }
+//                List<String> messages = new LinkedList<>();
+//                StringBuilder builder = new StringBuilder();
+//                for (int i = 0; i < 5; i++) {
+//                    String message = packet.readLengthPrefixedString();
+//                    if (megassenger) {
+//                        builder.append(" ").append(message);
+//                    }
+//                    messages.add(message);
+//                }
+//                packet.readInt();
+//                if (megassenger) {
+//                	GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWideMessage(TextStyle.PINK_TEXT_WHITE_BG.byteValue(), p.getName() + " : " + builder.toString(), p.getClient().getChannel(), ear);
+//                }
+//                if (GameServer.getVariables().getMapleTV() == null) {
+//                	GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(CommonPackets.enableTV());
+//                	LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
+//            		CommonPackets.writeAvatar(lew, p, false);
+//            		int duration = 0;
+//            		switch (tvType) {
+//	        	        case 1:
+//	        	        case 4:
+//	        	        	duration = 30000;
+//	        	            break;
+//	        	        case 2:
+//	        	        case 5:
+//	        	        	duration = 60000;
+//	        	        	break;
+//	        	        default:
+//	        	        	duration = 15000;
+//	        	        	break;
+//	        		}
+//                	GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(CommonPackets.sendTV((byte) (tvType <= 2 ? tvType : tvType - 3), p.getName(), lew.getBytes(), victimName, victimLook, messages, duration));
+//                	Scheduler.getInstance().runAfterDelay(new Runnable() {
+//        				@Override
+//        				public void run() {
+//        					GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(CommonPackets.removeTV());
+//        				}
+//        			}, duration);
+//                } else {
+//                	p.getClient().getSession().send(CommonPackets.writeServerMessage(TextStyle.RED_TEXT_CLEAR_BG.byteValue(), "MapleTV is already in use.", (byte) -1, false));
+//                }
+				break;
+			case 6: // Item megaphone
+				break;
+		}
 	}
 
 	private static void handleBanner(LittleEndianReader packet, GameCharacter p, int itemId) {
@@ -133,6 +218,11 @@ public class CashConsumeHandler {
 
 	private static void handleSuperMegaphoneWithAvatar(LittleEndianReader packet, GameCharacter p, int itemId) {
 		//TODO: super megaphone with avatar
+		List<String> lines = new LinkedList<String>();
+        for (int i = 0; i < 4; i++) {
+            lines.add(packet.readLengthPrefixedString());
+        }
+        GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(GamePackets.writeAvatarMega(p, p.getClient().getChannel(), itemId, lines, packet.readBool()));
 	}
 
 	private static void handleCharacterRefactor(LittleEndianReader packet, GameCharacter p, int itemId) {

@@ -68,7 +68,7 @@ public class ScriptField {
 	}
 
 	public void blueMessage(String message) {
-		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, true));
+		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
 	}
 
 	public void showTimer(int seconds) {

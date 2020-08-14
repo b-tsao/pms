@@ -221,12 +221,21 @@ public class SameProcessCrossChannelSynchronization implements CrossChannelSynch
 	}
 
 	@Override
-	public void sendWorldWideNotice(byte style, String message) {
-		pipe.receivedWorldWideNotice(style, message);
+	public void sendWorldWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		pipe.receivedWorldWideMessage(style, message, channel, megaEar);
 	}
 
-	private void receivedWorldWideNotice(byte style, String message) {
-		handler.receivedWorldWideNotice(style, message);
+	private void receivedWorldWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		handler.receivedWorldWideMessage(style, message, channel, megaEar);
+	}
+	
+	@Override
+	public void sendWorldWide(byte[] packet) {
+		pipe.receivedWorldWide(packet);
+	}
+	
+	private void receivedWorldWide(byte[] packet) {
+		handler.receivedWorldWide(packet);
 	}
 
 	@Override

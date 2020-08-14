@@ -1063,30 +1063,56 @@ public class CrossServerSynchronization {
 		return null;
 	}
 
-	public void sendWorldWideNotice(byte style, String message) {
-		allChannelsInWorld.getWhenSafe(Byte.valueOf(self.getChannelId())).sendWorldWideNotice(style, message);
+	public void sendWorldWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		allChannelsInWorld.getWhenSafe(Byte.valueOf(self.getChannelId())).sendWorldWideMessage(style, message, channel, megaEar);
 		Set<Byte> triedGameServers = new HashSet<Byte>();
 		lockRead();
 		try {
 			for (CrossProcessCrossChannelSynchronization ccs : remoteChannelsInWorld.values()) {
 				if (!triedGameServers.contains(Byte.valueOf(ccs.getServerId()))) {
-					ccs.sendWorldWideNotice(style, message);
+					ccs.sendWorldWideMessage(style, message, channel, megaEar);
 					triedGameServers.add(Byte.valueOf(ccs.getServerId()));
 				}
 			}
 			if (shopServer != null)
-				shopServer.sendWorldWideNotice(style, message);
+				shopServer.sendWorldWideMessage(style, message, channel, megaEar);
 			//TODO: ticker must be sent to all worlds
 		} finally {
 			unlockRead();
 		}
 	}
+	
+	public void sendWorldWideNotice(byte style, String message) {
+		sendWorldWideMessage(style, message, (byte) -1, false);
+	}
 
-	/* package-private*/ void receivedWorldWideNotice(byte style, String message) {
-		if (style == ChatHandler.TextStyle.TICKER.byteValue())
-			GameServer.getVariables().setNewsTickerMessage(message);
-
-		GameServer.getInstance().serverWideMessage(style, message);
+	/* package-private*/ void receivedWorldWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		GameServer.getInstance().serverWideMessage(style, message, channel, megaEar);
+	}
+	
+	public void sendWorldWide(byte[] packet) {
+		allChannelsInWorld.getWhenSafe(Byte.valueOf(self.getChannelId())).sendWorldWide(packet);
+		Set<Byte> triedGameServers = new HashSet<Byte>();
+		lockRead();
+		try {
+			for (CrossProcessCrossChannelSynchronization ccs : remoteChannelsInWorld.values()) {
+				if (!triedGameServers.contains(Byte.valueOf(ccs.getServerId()))) {
+					ccs.sendWorldWide(packet);
+					triedGameServers.add(Byte.valueOf(ccs.getServerId()));
+				}
+			}
+			if (shopServer != null)
+				shopServer.sendWorldWide(packet);
+			//TODO: ticker must be sent to all worlds
+		} finally {
+			unlockRead();
+		}
+	}
+	
+	/* package-private*/ void receivedWorldWide(byte[] packet) {
+		for (WorldChannel chn : GameServer.getInstance().getChannels().values())
+			for (GameCharacter p : chn.getConnectedPlayers())
+				p.getClient().getSession().send(packet);
 	}
 
 	public void sendServerShutdown(boolean halt, boolean restart, boolean cancel, int seconds, String message) {
@@ -1117,7 +1143,7 @@ public class CrossServerSynchronization {
 
 		if (!cancel) {
 			String notice = "The server is going down for " + reason + " " + formattedTime + "!\r\n" + message;
-			GameServer.getInstance().serverWideMessage(ChatHandler.TextStyle.OK_BOX.byteValue(), notice);
+			GameServer.getInstance().serverWideNotice(ChatHandler.TextStyle.OK_BOX.byteValue(), notice);
 			LOG.log(Level.WARNING, notice);
 			GameServer.getInstance().shutdown(halt, seconds * 1000);
 			if (restart) {
@@ -1160,7 +1186,7 @@ public class CrossServerSynchronization {
 				str = "meso";
 				break;
 		}
-		GameServer.getInstance().serverWideMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), "This world's " + str + " rate has been set to " + newRate + ".");
+		GameServer.getInstance().serverWideNotice(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), "This world's " + str + " rate has been set to " + newRate + ".");
 	}
 
 	public String retrieveConnectedPlayersList(byte privilegeLevelLimit) {

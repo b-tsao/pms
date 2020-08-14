@@ -41,6 +41,7 @@ import argonms.game.loading.reactor.ReactorDataLoader;
 import argonms.game.loading.shop.NpcShopDataLoader;
 import argonms.game.loading.skill.SkillDataLoader;
 import argonms.game.net.WorldChannel;
+import argonms.game.net.external.handler.ChatHandler;
 import argonms.game.net.internal.CrossServerSynchronization;
 import argonms.game.net.internal.GameCenterInterface;
 import argonms.game.script.NpcScriptManager;
@@ -396,11 +397,18 @@ public class GameServer implements LocalServer {
 		return -1;
 	}
 
-	public void serverWideMessage(byte style, String message) {
-		byte[] packet = CommonPackets.writeServerMessage(style, message, (byte) -1, true);
+	public void serverWideMessage(byte style, String message, byte channel, boolean megaEar) {
+		if (style == ChatHandler.TextStyle.TICKER.byteValue())
+			getVariables().setNewsTickerMessage(message);
+		
+		byte[] packet = CommonPackets.writeServerMessage(style, message, channel, megaEar);
 		for (WorldChannel chn : GameServer.getInstance().getChannels().values())
 			for (GameCharacter p : chn.getConnectedPlayers())
 				p.getClient().getSession().send(packet);
+	}
+	
+	public void serverWideNotice(byte style, String message) {
+		serverWideMessage(style, message, (byte) -1, false);
 	}
 
 	public GameRegistry getRegistry() {

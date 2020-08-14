@@ -25,6 +25,7 @@ import argonms.common.net.external.CommonPackets;
 import argonms.common.util.collections.Pair;
 import argonms.common.util.output.LittleEndianByteArrayWriter;
 import argonms.common.util.output.LittleEndianWriter;
+import argonms.game.net.external.handler.ChatHandler.TextStyle;
 import argonms.shop.character.CashShopStaging;
 import argonms.shop.character.ShopCharacter;
 import java.util.Collection;
@@ -120,7 +121,7 @@ public class CashShopPackets {
 	}*/
 
 	public static byte[] writeNewsTickerMessage(String message) {
-		return CommonPackets.writeServerMessage((byte) 4, message, (byte) -1, true);
+		return CommonPackets.writeServerMessage(TextStyle.TICKER.byteValue(), message, (byte) -1, false);
 	}
 
 	public static byte[] writeCashShopCurrencyBalance(ShopCharacter p) {

@@ -150,8 +150,11 @@ public class CrossProcessCrossChannelSynchronization extends ChannelOrShopSynchr
 			case ChannelSynchronizationOps.CROSS_CHANNEL_COMMAND_CHARACTER_ACCESS_RESPONSE:
 				receivedCrossChannelCommandCharacterAccessResult(packet);
 				break;
-			case ChannelSynchronizationOps.SYNCHRONIZED_NOTICE:
-				receivedWorldWideNotice(packet);
+			case ChannelSynchronizationOps.SYNCHRONIZED_MESSAGE:
+				receivedWorldWideMessage(packet);
+				break;
+			case ChannelSynchronizationOps.SYNCHRONIZED_PACKET:
+				receivedWorldWide(packet);
 				break;
 			case ChannelSynchronizationOps.SYNCHRONIZED_SHUTDOWN:
 				receivedServerShutdown(packet);
@@ -589,11 +592,17 @@ public class CrossProcessCrossChannelSynchronization extends ChannelOrShopSynchr
 		consumer.offer(new Pair<Byte, Object>(Byte.valueOf(targetCh), result));
 	}
 
-	private void receivedWorldWideNotice(LittleEndianReader packet) {
+	private void receivedWorldWideMessage(LittleEndianReader packet) {
 		byte style = packet.readByte();
 		String message = packet.readLengthPrefixedString();
+		byte channel = packet.readByte();
+		boolean megaEar = packet.readBool();
 
-		handler.receivedWorldWideNotice(style, message);
+		handler.receivedWorldWideMessage(style, message, channel, megaEar);
+	}
+	
+	private void receivedWorldWide(LittleEndianReader packet) {
+		handler.receivedWorldWide(packet.readBytes(packet.available()));
 	}
 
 	@Override

@@ -2187,6 +2187,20 @@ public final class GamePackets {
 
 		return lew.getBytes();
 	}
+	
+	public static byte[] writeAvatarMega(GameCharacter p, byte channel, int itemId, List<String> message, boolean megaEar) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
+		lew.writeShort(ClientSendOps.AVATAR_MEGA);
+        lew.writeInt(itemId);
+        lew.writeLengthPrefixedString(p.getName());
+        for (String s : message) {
+            lew.writeLengthPrefixedString(s);
+        }
+        lew.writeInt(channel - 1);
+        lew.writeBool(megaEar);
+        CommonPackets.writeAvatar(lew, p, false);
+        return lew.getBytes();
+	}
 
 	private GamePackets() {
 		//uninstantiable...

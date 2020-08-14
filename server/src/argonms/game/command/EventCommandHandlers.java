@@ -76,7 +76,7 @@ public class EventCommandHandlers implements CommandCollection<CommandCaller> {
 				}
 				try {
 					String message = "The dice has been rolled. The result is " + (Rng.getGenerator().nextInt(Integer.parseInt(possibilities)) + 1) + ".";
-					caller.getMap().sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, true));
+					caller.getMap().sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
 				} catch (NumberFormatException e) {
 					resp.printErr(possibilities + " is not a valid number of possibilities.");
 					resp.printErr(usage);
