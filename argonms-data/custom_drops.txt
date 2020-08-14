@@ -131,15 +131,15 @@
 9300003	4001008	1000000	# King Slime (PC) => Pass
 
 # Ludibrium PQ
-9300169 4001008	1000000 # Ratz from Another Dimension => Pass
-9300171 4001008	1000000 # Bloctopus from Another Dimension => Pass
-9300170 4001008	1000000 # Black Ratz from Another Dimension => Pass
-9300014 4001008	1000000 # Dark Eye from Another Dimension => Pass
-9300008 4001008	1000000 # Shadow Eye from Another Dimension => Pass
-9300010 4001008	1000000 # Rombad from Another Dimension => Pass
-9300005 4001008	1000000 # Ratz from Another Dimension => Pass
-9300007 4001008	1000000 # Bloctopus from Another Dimension => Pass
-9300006 4001008	1000000 # Black Ratz from Another Dimension => Pass
+9300169 4001022 1000000 # Ratz from Another Dimension => Pass
+9300171 4001022 1000000 # Bloctopus from Another Dimension => Pass
+9300170 4001022 1000000 # Black Ratz from Another Dimension => Pass
+9300014 4001022 1000000 # Dark Eye from Another Dimension => Pass
+9300008 4001022 1000000 # Shadow Eye from Another Dimension => Pass
+9300010 4001022 1000000 # Rombad from Another Dimension => Pass
+9300005 4001022 1000000 # Ratz from Another Dimension => Pass
+9300007 4001022 1000000 # Bloctopus from Another Dimension => Pass
+9300006 4001156 1000000 # Black Ratz from Another Dimension => Pass
 
 # Magician's 2nd job advancement challenge
 9000001	4031013	1000000	# Curse Eye 2 => Dark Marble
