@@ -39,7 +39,7 @@ switch (selection) {
 				player.gainItem(4031732, 1);
 			}
 		}
-		break;
+		/*break;*/
 	case 1:
 		if (!player.hasItem(4031731)) {
 			npc.say("You don't have a ticket to Kerning City. Please purchase one to take the plane.")
