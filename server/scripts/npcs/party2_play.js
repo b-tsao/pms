@@ -94,7 +94,7 @@ function passesStages(stage) {
             leaderDialog = "You afraid of the dark? Too bad.";
             memberDialog = "Kill the #b#o9300008##k and give the passes to your leader.";
             stageClearDialog = "Gtfo.";
-            stageClearedDialog = "What do you want?";
+            stageClearedDialog = "You waiting for a cookie? Get out of here!";
             itemId = 4001022;
             required = 8;
             reward = 3360;
@@ -122,9 +122,10 @@ function passesStages(stage) {
     }
 
     if (player.getId() == party.getLeader()) {
-        let preamble = event.getVariable("leader1stpreamble");
+        let lVar = "leader" + stage + "preamble";
+        let preamble = event.getVariable(lVar);
         if (preamble == null || !preamble) {
-            event.setVariable("leader1stpreamble", true);
+            event.setVariable(lVar, true);
             npc.sayNext(leaderPreamble);
         } else {
             let complete = event.getVariable(stage + "stageclear");
@@ -142,7 +143,7 @@ function passesStages(stage) {
             }
         }
     } else {
-        let pVar = "member1stpreamble" + player.getId();
+        let pVar = "member" + stage + "preamble" + player.getId();
         let preamble = event.getVariable(pVar);
         if (preamble == null || !preamble) {
             npc.sayNext(memberDialog);
