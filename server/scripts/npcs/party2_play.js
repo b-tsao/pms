@@ -116,7 +116,7 @@ function passesStages(stage) {
             stageClearDialog = "Gtfo.";
             stageClearedDialog = "How about I spawn 100 #b#o9300010# and boot yo ass out of here?";
             itemId = 4001022;
-            required = 7;
+            required = 3;
             reward = 4620;
             break;
     }

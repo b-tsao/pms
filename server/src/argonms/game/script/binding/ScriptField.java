@@ -66,6 +66,10 @@ public class ScriptField {
 	public void soundEffect(String name) {
 		map.sendToAll(GamePackets.writeMapEffect((byte) 4, name));
 	}
+	
+	public void redMessage(String message) {
+		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.RED_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
+	}
 
 	public void blueMessage(String message) {
 		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
