@@ -33,6 +33,10 @@
 portal.playSoundEffect();
 if (map.getId() == 922010400) {
     player.changeMap(portal.getEvent("party2").getVariable("party2darkness" + (portal.getId() - 1)), "st00");
-} else {
+} else if (map.getId() > 922010400 && map.getId() < 922010500) {
     player.changeMap(portal.getEvent("party2").getVariable("party2stage4"), "in0" + (map.getId() % 10));
+} else if (map.getId() == 922010500) {
+    player.changeMap(portal.getEvent("party2").getVariable("party2portal" + (portal.getId() - 1)), "st00");
+} else if (map.getId() > 922010500 && map.getId() < 922010600) {
+    player.changeMap(portal.getEvent("party2").getVariable("party2stage5"), "in0" + (map.getId() % 10));
 }

@@ -43,11 +43,20 @@ function init(attachment) {
         map.overridePortal("next00", "party2");
 		event.setVariable("party2stage" + stage, map);
 		
-		if (stage == 4) {
+		if (stage == 2) {
+			// Trap
+			event.setVariable("party2trap", event.makeMap(922010201));
+		} else if (stage == 4) {
 			// Darkness portals
 			for (let i = 1; i <= 5; i++) {
-				map.overridePortal("in0" + i, "party2darkness");
+				map.overridePortal("in0" + i, "party2sub");
 				event.setVariable("party2darkness" + i, event.makeMap(922010400 + i));
+			}
+		} else if (stage == 5) {
+			// Boring portals
+			for (let i = 1; i <= 6; i++) {
+				map.overridePortal("in0" + i, "party2sub");
+				event.setVariable("party2portal" + i, event.makeMap(922010400 + i));
 			}
 		}
 	}
@@ -136,7 +145,9 @@ function deinit() {
 
     for (let stage = 1; stage <= 10; stage++)
 		event.destroyMap(event.getVariable("party2stage" + stage));
-	for (let i = 1; i <= 5; i++) {
+	event.destroyMap(event.getVariable("party2trap"));
+	for (let i = 1; i <= 5; i++)
 		event.destroyMap(event.getVariable("party2darkness" + i));
-	}
+	for (let i = 1; i <= 6; i++)
+		event.destroyMap(event.getVariable("party2portal" + i));
 }
