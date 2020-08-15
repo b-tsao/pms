@@ -144,6 +144,30 @@ public class ScriptParty {
 	public void changeMap(int mapId, String portal) {
 		changeMap(mapId, GameServer.getChannel(channel).getMapFactory().getMap(mapId).getPortalIdByName(portal));
 	}
+	
+	public void changeMap(ScriptField map) {
+		party.lockRead();
+		try {
+			for (PartyList.LocalMember member : party.getMembersInLocalChannel())
+				member.getPlayer().changeMap(map.getMap(), (byte) 0);
+		} finally {
+			party.unlockRead();
+		}
+	}
+
+	public void changeMap(ScriptField map, byte portal) {
+		party.lockRead();
+		try {
+			for (PartyList.LocalMember member : party.getMembersInLocalChannel())
+				member.getPlayer().changeMap(map.getMap(), portal);
+		} finally {
+			party.unlockRead();
+		}
+	}
+
+	public void changeMap(ScriptField map, String portal) {
+		changeMap(map, map.getMap().getPortalIdByName(portal));
+	}
 
 	public Scriptable getLocalMembers() {
 		Object[] members;

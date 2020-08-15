@@ -173,7 +173,7 @@ public class ScriptPlayer {
 	}
 	
 	public void changeMap(ScriptField map, String portal) {
-		getPlayer().changeMap(map.getMap(), map.getMap().getPortalIdByName(portal));
+		changeMap(map, map.getMap().getPortalIdByName(portal));
 	}
 
 	public short getLevel() {
