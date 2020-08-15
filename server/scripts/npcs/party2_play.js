@@ -41,7 +41,7 @@ let event = npc.getEvent("party2");
 function clear(stage, exp) {
 	event.setVariable(stage + "stageclear", true);
 	map.screenEffect("quest/party/clear");
-	map.soundEffect("Party1/Clear");
+	map.soundEffect("Party2/Clear");
 	map.portalEffect("gate");
 	let members = event.getVariable("members");
 	for (let i = 0; i < members.length; i++)
@@ -51,7 +51,7 @@ function clear(stage, exp) {
 
 function failStage() {
 	map.screenEffect("quest/party/wrong_kor");
-	map.soundEffect("Party1/Failed");
+	map.soundEffect("Party2/Failed");
 }
 
 function passesStages(stage) {
