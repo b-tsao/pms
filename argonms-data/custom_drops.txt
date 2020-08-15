@@ -82,6 +82,295 @@
 9400121	1082085			# Red Willow
 9400121	1332022			# Angelic Betrayal
 9400121	1472033			# Casters
+# Lorang mob
+3230102	1322021			# Black Tube
+# Grupin mob
+5120003	1322025			# Emergency Rescue Tube
+# Typhon mob
+9400574 4032005			# Typhon Feather
+
+#--------------------------------SINGAPORE MOBS
+# Slimy mob
+9420510 4010006			# Gold Ore
+9420510 4004004 		# Dark Crystal Ore
+9420510 4020008 		# Black Crystal Ore
+9420510 2070004			# Tobi Throwing-Star
+9420510 2043701 		# Scroll for Wand for Magic Attack 60%
+9420510 2022177  		# Mana Elixir
+9420510 1032011			# Blue Moon
+9420510 1102017			# White Magic Cape
+9420510 1432003 		# Nakamaki
+9420510 1312008 		# Buck
+9420510 1382007 		# Evil Wings
+9420510 1051034 		# Orange Calaf (F)
+9420510 1051046    		# White Anakarune (F)
+9420510 1051047    		# Dark Anakarune (F)
+9420510 1051030    		# Dark Calaf (F)
+9420510 1051031    		# White Calaf (F)
+9420510 1452008    		# Olympus 
+9420510 1041068    		# Dark Legolia (F)
+9420510 1061063    		# Dark Legolia Pants (F)
+9420510 1002249    		# Dark Identity
+9420510 1002210    		# Brown Sonata
+9420510 1002209    		# Green Sonata
+9420510 1040109    		# Red Pirate Top (M)
+9420510 1060098    		# Red Pirate Pants (M)
+9420510 1040084    		# Dark Shadow (F)
+9420510 1061071    		# Dark Shadow Pants (F)
+9420510 4000379			# Green Essence 
+
+# Stopnow mob
+9420500 4000370			# Metal Pole
+9420500 4000369			# Stop Sign
+9420500 4010006			# Gold Ore
+9420500 4020005			# Sapphire Ore
+9420500 2002002			# Magic Potion
+9420500 2000015			# Orange Potion
+9420500 2002003			# Wizard Potion
+9420500 2060000 		# Arrow for Bow
+9420500 2061000 		# Arrow for Crossbow
+9420500 2044002			# Scroll for Two-Handed Sword for ATT 10%
+9420500 1092007    		# Battle Shield
+9420500 1002141    		# Red Matty
+9420500 1040063    		# Black Knucklevest Pants (M)
+9420500 1332001    		# Halfmoon Zamadar
+9420500 1002178    		# Green Burgler
+9420500 1051007    		# Red Avenger (F)
+9420500 1051009    		# Purple Avenger (F)
+
+# Nospeed mob
+9420503 4000370			# Metal Pole
+9420503 4000371			# Speed Limit Sign
+9420503 4001000			# Arwen's Glass SHoes
+9420503 4010001 		# Steel Ore
+9420503 4010000 		# Garnet Ore
+9420503 2022174 		# White Potion
+9420503 2000017 		# Blue Potion
+9420503 2070001 		# Wolbi Throwing-Star 
+9420503 1061048    		# Blue Amoria Skirt (F)
+9420503 1002153    		# Red Guilitian
+9420503 1002137    		# Green Pole-Feather Hat
+9420503 1061070    		# Red Shadow Pants (F)
+9420503 1040061    		# Green Knucklevest (M)
+9420503 1002181    		# Red Pilfer
+9420503 1060050    		# Blue Knucklevest Pants (M)
+
+# Biner mob
+9420502 4000367			# Recycle Water Bottle
+9420502 4000366			# Waste Paper
+9420502 4010005			# Orihalcon Ore
+9420502 4020004			# Opal Ore
+9420502 2000000			# Red Potion
+9420502 1072048    		# Brown Aroa Boots
+9420502 1382002    		# Wizard Staff
+9420502 1002177    		# Blue Burgler
+
+# Freezer mob
+9420501 4000372 		# Fire Extinguisher
+9420501 4030012			 # Monster Card
+9420501 4020000		 	# Garnet Ore
+9420501 4010005 		# Orihalcon Ore
+#9420501 # Magic Powder (Green)
+#9420501 # Magic Powder (Blue)
+9420501 2000002 		# White Potion
+9420501 2000003 		# Blue Potion
+9420501 4006001		 	# The Summoning Rock
+9420501 2020028 		# Chocolate
+9420501 2044002 		# Scroll for Two-Handed Sword for ATT 10%
+9420501 2043200 		# Scroll for One-Handed BW for ATT 100%
+9420501 2043301 		# Scroll for Dagger for ATT 60%
+9420501 2040829 		# Scroll for Gloves for DEX 100%
+9420501 1332020    		# Korean Fan
+9420501 1302017    		# Sky Blue Umbrella
+9420501 1032008    		# Cat's Eye
+9420501 1332010    		# Iron Dagger
+9420501 1050011    		# Black Dragon Robe (M)
+9420501 1432002    		# Forked Spear 
+9420501 1382002    		# Wizard Staff
+9420501 1452005    		# Ryden
+9420501 1072103    		# Red Silky Boots
+9420501 1050058    		# Orange Tai (M)
+9420501 1472011    		# Bronze Guardian
+9420501 1040099    		# Oaker Scorpio (M)
+9420501 1060088    		# Oaker Scorpio Pants (M)
+
+# Trucker mob
+9420507 4000374			# Headlight 
+9420507 4000364			# Wires
+9420507 4000375			# Tires
+9420507 4010003			# Adamantium Ore
+9420507 4010000			# Bronze Ore
+9420507 4020002			# Aquamarine Ore
+9420507 2000004			# Elixir
+9420507 2020028 		# Chocolate
+9420507 2043201			# Scroll for One-Handed BW for ATT 60%
+9420507 2043001			# Scroll for One-Handed Sword for 60%
+9420507 1302017			# Sky Blue Umbrella
+9420507 1302016			# Yellow Umbrella
+9420507 1041087			# Red Shoulder (F)
+9420507 1040089			# Umber Shouldermail (M)
+9420507 1060078			# Umber Shouldermail Pants (M)
+9420507 1002243			# Blue Seraphis
+9420507 1002242			# Red Seraphis
+9420507 1050053			# Blue Anakamoon (M)
+9420507 1050054			# Red Anakamoon (M)
+9420507 1051032			# Blue Calaf (F)
+9420507 1051033			# Red Calaf (F)
+9420507 1002216			# Aqua Golden Circlet
+9420507 1002214			# Black Maro
+9420507 1002213			# Green Maro
+9420507 1041027			# Red Shivermail (F)
+9420507 1061025			# Red Shivermail Skirt (F)
+9420507 1332001			# Halfmoon Zamadar 
+9420507 1002619			# Brown Pitz Bandana
+9420507 1492002			# The Negotiator
+
+# Tippo Red mob
+9420504 4000377			# Small Poop
+9420504 4030012			# Monster Card
+9420504 4010001			# Steel Ore
+9420504 2020028			# Chocolate
+9420504 2000003			# Blue Potion
+9420504 2000002			# White Potion
+9420504 1102003			# White Napoleon
+
+# Tippo Blue mob
+9420505 4000378			# Big Poop
+9420505 4030012			# Monster Card
+9420505 4010001			# Steel Ore
+9420505 4010006			# Gold Ore
+9420505 2000003			# Blue Potion
+9420505 2002004			# Warrior Potion
+9420505 2000004			# Elixir
+9420505 2070003			# Kumbi Throwing-Star
+9420505 2000002			# White Potion
+9420505 1002083			# Black Bandana
+9420505 1032002			# Sapphire Earrings
+9420505 1432005			# Zeco
+9420505 1041014			# Orange Lolica Armor (F)
+9420505 1041065			# Red Legolia (F)
+9420505 1061070			# Red Shadow Pants (F)
+
+
+# Octobunny mob
+9420508 1040086			# Blue Jangoon Armor (M)
+9420508 1041087			# Red Shouldermail (F)
+9420508 1051010			# Dark Engrit (F)
+9420508 1002128			# Blue Loosecap
+
+# Pac Pinky mob
+9420509 4000380			# Pink Essence
+9420509 4001005			# Ancient Scroll
+9420509 4010006			# Gold Ore
+9420509 4020008			# Black Crystal Ore
+9420509 4004004			# Dark Crystal Ore
+9420509 2000004			# Elixir
+9420509 2070004			# Tobi Throwing-Star
+9420509 2044201			# Scroll for Two-Handed BW for ATT 60%
+9420509 2020028			# Chocolate
+9420509 1060081			# Blue Orientican Pants (M)
+9420509 1041093			# Blue Ice Queen (F)
+9420509 1051014			# Sapphire Fitted Mail (F)
+9420509 1051001			# Emerald Fitted Mail (F)
+9420509 1402007			# Zard
+9420509 1050037			# Green Starlight (M)
+9420509 1050036			# Red Starlight (M)
+9420509 1050039			# Dark Starlight (M)
+9420509 1050059			# Blue Tai (M)
+9420509 1050060			# Red Tai (M)
+9420509 1040075			# Dark Legolier (M)
+9420509 1060064			# Dark Legolier Pants (M)
+9420509 1051039			# Red Lumati (F)
+9420509 1002210			# Brown Sonata
+
+# Selkie Jr. mob
+9420511 4000382			# Blue Essence
+9420511 2050099			# Flaming Feather
+9420511 4020007			# Diamond Ore
+9420511 4010005			# Orihalcon Ore
+#9420511 # Magic Powder (Yellow)
+#9420511 # Magic Powder (Purple)
+9420511 2000006			# Mana Elixir
+9420511 2020028			# Chocolate
+9420511 2070005			# Steely Throwing-Knives
+9420511 1102015			# Blue Magic Cape
+9420511 1102016			# Red Magic Cape
+9420511 1041098			# Violet Platina (F)
+9420511 1060079			# Green Orientican (M)
+9420511 1002215			# Flame Golden Circlet 
+9420511 1050055			# White Anakamoon (M)
+9420511 1050056			# Dark Anakamoon (M)
+9420511 1072090			# Red Salt Shoes
+9420511 1051031			# White Calaf (F)
+9420511 1051034			# Orange Calaf (F)
+9420511 1382006			# Thorns
+9420511 1041083			# Dark Piettra (F)
+9420511 1061082			# Dark Piettra Skirt (F)
+9420511 1041079			# Brown Moon (F)
+9420511 1061078			# Brown Moon Pants (F)
+9420511 1082066			# Brown Moon Gloves
+9420511 1492008			# Burning Hell
+
+# Mr. Anchor mob
+9420512 4000383			# Red Essence
+9420512 4000381			# White Essence
+9420512 4020006			# Topaz Ore
+9420512 4010006			# Gold Ore
+9420512 4004004			# Dark Crystal Ore
+9420512 2070005			# Steely Throwing-Knives
+9420512 2041022			# Scroll for Cape for LUK 60%
+9420512 2043301			# Scroll for Dagger for ATT 60%
+9420512 4001107			# [Storybook] Black Book
+9420512 1032015			# Metal Silver Earrings
+9420512 1312009			# Hawkhead
+9420512 1040089			# Umber Shouldermail (M)
+9420512 1060078			# Umber Shouldermail Pants (M)
+9420512 1040093			# Dark Orientican (M)
+9420512 1302011			# Neocora 
+9420512 1082082			# Blue Pennance 
+9420512 1050093			# Blue Oriental Fury Coat (M)
+9420512 1452007			# Vaulter 2000
+9420512 1332015			# Deadly Fin
+
+# Capt. Latanica mob
+9420513 4000384			# Black Essence
+9420513 4000385			# Soul Lantern
+9420513 2020013			# Reindeer Milk
+9420513 2022177			# Mana Elixir
+9420513 2020015			# Sunset Dew
+9420513 2041022			# Scroll for Cape for LUK 60%
+9420513 1041120			# Purple Valkyrie (F)
+9420513 1061119			# Purple Valkyrie Skirt (F)
+9420513 1312015			# Vifennis
+9420513 1072211			# Blue Rivers Boots
+9420513 1072198			# Dark War Greave
+9420513 1040112			# Blue Commodore (M)
+9420513 1332026			# Cursayer
+9420513 1372009			# Magicodar
+9420513 1051057			# Purple Enigma Shoes
+9420513 1051097			# Black Oriental Fury Coat (F)
+9420513 1050094			# Red Oriental Fury Coat (M)
+9420513 1002405			# Dark Arlic Helmet
+9420513 1050090			# Green Ades (M)
+9420513 1462018			# Casa Crow
+9420513 1040118			# Red Osfa Suit (F)
+9420513 1060106			# Purple Osfa Pants (M)
+9420513 1072173			# Red Pirate Boots
+9420513 1332026			# Cursayer
+
+
+# Berserkie mob
+# Veetron mob
+# Slygie mob
+# Montrecer mob
+# Petrifigher mob
+# Duku mob
+# Black Eggs mob
+# Crow Slime mob
+# Krexel mob 
+
+
+#-------------------------------NEW LEAF CITY MOBS
 # Wolf Spider mob
 9400545	4032024			# Jumper Cable
 9400545	4032025			# T-1 Socket Adapter
@@ -113,22 +402,225 @@
 9400545	1072193			# Brown Osfa Boots
 9400545	1072172			# Green Pirate Boots
 9400545	1002285			# Blood Nightfox
-# Lorang mob
-3230102	1322021			# Black Tube
-# Grupin mob
-5120003	1322025			# Emergency Rescue Tube
-# Typhon mob
-9400574 4032005			# Typhon Feather
+
+# Street Slime mob
+9400538 4030012			# Monster Card
+9400538 4131010			# Bow Production Manual
+9400538 4020007			# Diamond Ore
+9400538 4010004			# Silver Ore
+9400538 4010000			# Bronze Ore
+9400538 2000000			# Red Potion
+9400538 2000003			# Blue Potion
+9400538 2022189			# Grilled Cheese
+9400538 2048001			# Scroll for Pet Equip. for Speed 60%
+9400538 2041004			# Scroll for Cape for Weapon Def 60%
+9400538 2044702			# Scroll for Claw for ATT 10%
+9400538 2043302			# Scroll for Dagger for ATT 10%
+9400538 2041017			# Scroll for Cape for INT 10%
+9400538 1412002			# Iron Axe
+9400538 1382018			# Petal Staff
+9400538 1050035			# Brown Starlight (M)
+
+# Boomer mob
+9400547 4000391			# Boomer Core
+9400547 4030012			# Monster Card
+9400547 4131010			# Bow Production Manual
+9400547 4010001			# Steel Ore
+9400547 4010002			# Mithril Ore
+9400547 4004002			# DEX Crystal Ore
+9400547 2000002			# White Potion
+9400547 2000003			# Blue Potion
+9400547 2002007			# Magic Pill
+9400547 2060000			# Arrow for Bow
+9400547 2061000			# Arrow for Crossbow
+9400547 2040801			# Scroll for Gloves for DEX 60%
+9400547 2070002			# Mokbi Throwing-Star
+9400547 1332010			# Iron Dagger
+9400547 1041041			# Purple Fairy Top (F)
+9400547 1061034			# Purple Fairy Skirt (F)
+9400547 1382002			# Wizard Staff
+9400547 1050028			# Green Wizard Robe (M)
+9400547 1002162			# Blue Hawkeye
+9400547 1082042			# Steel Sylvia
+9400547 1082043			# Silver Sylvia
+9400547 1472018			# Steel Slain
+
+# Urban Fungus mob
+9400539 4030012			# Monster Card
+9400539 4010001			# Steel Ore
+9400539 4010006			# Gold Ore
+9400539 4020005			# Sapphire Ore
+9400539 2000001			# Orange Potion
+9400539 2010004			# Lemon 
+9400539 2002002			# Magic Potion
+9400539 1332006			# Field Dagger
+9400539 1040012			# Blue Sergeant (M)
+9400539 1060010			# Steel Sergeant Kilt (M)
+9400539 1041027			# Red Shivermail (F)
+9400539 1002127			# Red Loosecap
+
+# Mighty Maple Eater mob
+9400548 4031937			# Jungle Lily
+9400548 4010002			# Mithril Ore
+9400548 4020004			# Opal Ore
+9400548 4020007			# Diamond Ore
+9400548 4004003			# LUK Crystal Ore
+9400548 2000001			# Orange Potion
+9400548 2060000			# Arrow for Bow
+9400548 2061000			# Arrow for Crossbow
+9400548 2041005			# Scroll for Cape for Weapon Def 10%
+9400548 1032006			# Lightning Earrings
+9400548 1040021			# Red Hwarang Shirt (M)
+9400548 1312016			# Contra Axe
+9400548 1412003			# The Rising
+9400548 1312008			# Buck
+9400548 1060017			# White Martial Arts Pants (M)
+9400548 1312005			# Fireman's Axe
+9400548 1382018			# Petal Staff
+9400548 1002137			# Green Pole-Feather Hat
+9400548 1060050			# Blue Knucklevest Pants (M)
+9400548 1082037			# Bronze Wolfskin
+
+# Electrophant mob
+9400543 4032025			# T-1 Socket Adapter
+9400543 4032023			# Sparkplug
+9400543 4032022			# Diferium Fuel Cell
+9400543 4130015			# Claw Production Simulator
+9400543 4130009			# Pole Arm Forging Simulator
+9400543 4020007			# Diamond Ore
+9400543 4004000			# Power Crystal Ore
+9400543 2000002			# White Potion
+9400543 2000017			# Blue Potion
+9400543 2002010			# Speed Pill
+9400543 2040804			# Scroll for Gloves for ATT 60%
+9400543 2041005			# Scroll for Cape for Weapon Def 10%
+9400543 2043102			# Scroll for One-Handed Axe for ATT 10%
+9400543 2060004			# Diamond Arrow for Bow
+9400543 2061004			# Diamond Arrow for Crossbow
+9400543 1402007			# Zard
+9400543 1312008			# Buck
+9400543 1040085			# Maroon Jangoon Armor (M)
+9400543 1092013			# Mithril Tower Shield
+9400543 1432004			# Serpent's Tongue
+9400543 1060074			# White Jangoon Pants (M)
+9400543 1402003			# Lion's Fang
+9400543 1002143			# Green Matty
+9400543 1050039			# Dark Starlight (F)
+9400543 1050035			# Brown Starlight (M)
+9400543 1050036			# Red Starlight (M)
+9400543 1072116			# Gold Moon Shoes
+9400543 1041083			# Dark Piettra (F)
+9400543 1061082			# Dark Piettra Skirt (F)
+9400543 1051038			# Green Lumati (F)
+9400543 1002169			# Brown Distinction
+9400543 1472019			# Blood Slain
+9400543 1002171			# Red Guise
+9400543 1082074			# Dark Cleave
+9400543 1002176			# Red Burgler
+9400543 1072110			# Black Blue-Lines Shoes
+
+# I.AM.ROBOT mob
+9400546 4032024			# Jumper Cable
+9400546 4032025			# T-1 Socket Adapter
+9400546 4004001			# Wisdom Crystal Ore
+9400546 2000004			# Elixir
+9400546 2002008			# Sniper Pill
+9400546 2044301			# Scroll for Spear for ATT 60%
+9400546 2040504			# Scroll for Overall Armor for Def 60%
+9400546 1302016			# Yellow Umbrella
+9400546 1040085			# Maroon Jangoon Armor (M)
+9400546 1082025			# Dark Knuckle
+9400546 1402003			# Lion's Fang
+9400546 1302010			# Jeweled Katar
+9400546 1402007			# Zard
+9400546 1412003			# The Rising
+9400546 1432004			# Serpent's Tongue
+9400546 1051026			# Dark Moonlight (F)
+9400546 1002214			# Black Maro
+9400546 1002169			# Brown Distinction
+9400546 1072101			# Blue Silky Boots
+9400546 1472020			# Sapphire Slain
+9400546 1040097			# Green China (M)
+9400546 1060086			# Green China Pants (M)
+9400546 1072110			# Black Blue-Lines Shoes
+
+# Gryphon mob
+9400544 4003005			# Soft Feather
+9400544 4031937			# Jungle Lily
+9400544 4131009			# Staff Production Manual
+9400544 4010003			# Adamantium Ore
+9400544 4020002			# Aquamarine Ore
+9400544 2000004			# Elixir
+9400544 2044004			# Dark Scroll for Two-Handed Sword for ATT 70%
+9400544 2044002			# Scroll for Two-Handed Sword for ATT 10%
+9400544 1302016			# Yellow Umbrella
+9400544 1322063			# Duck Tube
+9400544 1412003			# The Rising
+9400544 1041087			# Red Shouldermail (F)
+9400544 1061086			# Red Shouldermail Pants (F)
+9400544 1002085			# Mithril Crusader Helm
+9400544 1002025			# Red Duke
+9400544 1061098			# Blood Platina Pants (F)
+9400544 1432004			# Serpent's Tongue
+9400544 1382006			# Thorns
+9400544 1002217			# Orange Golden Circlet
+9400544 1382001			# Arc Staff
+9400544 1041082			# Brown Piettra (F)
+9400544 1061081			# Brown Piettra Skirt (F)
+9400544 1061082			# Dark Piettra Skirt (F)
+9400544 1040095			# Blue China (M)
+9400544 1060084			# Blue China Pants (M)
+9400544 1061077			# Blue Moon Pants (F)
+9400544 1040083			# Marine Shadow (M)
+9400544 1060072			# Marine Shadow Pants (M)
+
+# Killa Bee mob
+9400540 4032023			# Sparkplug
+9400540 4010004			# Silver Ore
+9400540 4020005			# Sapphire Ore
+9400540 2000001			# Orange Potion
+9400540 2010004			# Lemon
+9400540 2040601			# Scroll for Bottomwear for Def 60%
+9400540 2060004			# Diamond Arrow for Bow
+9400540 2061004			# Diamond Arrow for Crossbow
+9400540 1032009			# Yellow Square
+9400540 4031568			# Cat's Eye
+9400540 1302004			# Cutlus
+9400540 1002047			# Great Red Helmet
+9400540 1062006			# Bennis Chainpants (M)
+9400540 1060050			# Blue Knucklevest Pants (M)
+
+# Fire Tusk mob
+9400542 4130003			# One-Handed Axe Forging Simulator
+9400542 4131009			# Staff Production Manual
+9400542 2000002			# White Potion
+9400542 2002001			# Speed Potion
+9400542 2002008			# Sniper Pill
+9400542 2044705			# Dark Scroll for Claw for ATT 30%
+9400542 2040805			# Scroll for Gloves for ATT 10%
+9400542 2060004			# Diamond Arrow for Bow
+9400542 2061004			# Diamond Arrow for Crossbow
+9400542 1032039			# Eclipse Earrings
+9400542 1050039			# Dark Starlight (M)
+9400542 1332031			# Dragon Toenail
+
+
+# Jr. Alien Cog mob
+# Jr. Alien Miner mob
+# Galacto-Drill mob
+
 
 # Todd's How-to-Hunt quest
 9409000	4000300	800000	# Tutorial Leatty => Letty's Hairball
 9409001	4000301	800000	# Tutorial Drumming Rabbit => Toy Drum
+
 
 # Kerning PQ
 9300000	4001008	1000000	# Jr. Necki (PC) => Pass
 9300001	4001007	1000000	# Ligator (PC) => Coupon
 9300002	4001008	1000000	# Curse Eye (PC) => Pass
 9300003	4001008	1000000	# King Slime (PC) => Pass
+
 
 # Ludibrium PQ
 9300169 4001022 1000000 # Ratz from Another Dimension => Pass
@@ -140,6 +632,7 @@
 9300005 4001156 1000000 # Ratz from Another Dimension => Pass
 9300007 4001156 1000000 # Bloctopus from Another Dimension => Pass
 9300006 4001156 1000000 # Black Ratz from Another Dimension => Pass
+
 
 # Magician's 2nd job advancement challenge
 9000001	4031013	1000000	# Curse Eye 2 => Dark Marble
@@ -158,6 +651,7 @@
 # How to Become a Gunslinger quest
 9001005	4031857	1000000	# OctoPirate => Potent Wind Crystal
 
+
 # Magician's 3rd job advancement challenge
 9001001 4031059 1000000	# Grendel the Really Old's Clone => Black Charm
 # Warror's 3rd job advancement challenge
@@ -168,6 +662,7 @@
 9001003 4031059 1000000	# Dark Lord's Clone => Black Charm
 # Pirate's 3rd job advancement challenge
 9001008 4031059 1000000	# Shadow Kyrin's Clone => Black Charm
+
 
 # Maple Items
 1130100	1472032			# Axe Stump => Maple Kandayo
@@ -239,6 +734,8 @@
 9400563	2022251	50		# Nightmare => Maple Pop
 9400567	2022251	75		# Loki Box Tr => Maple Pop
 9500144	2022035	50		# Coke Snail => Maple Cola
+
+
 # Anniversary Cake mobs
 9400569	1302020	600000	# Big Puff Daddy => Maple Sword
 9400569	1302030	600000	# Big Puff Daddy => Maple Soul Singer
