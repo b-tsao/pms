@@ -311,7 +311,7 @@ public class GameMap {
 
 	public void spawnPlayer(final GameCharacter p) {
 		EntityPool players = entPools.get(EntityType.PLAYER);
-		// Stupid pet hack to set pet positions before calling show player
+		// When the player is spawned for the first time (map or login) the pet doesn't have a position
 		Pet[] pets = p.getPets();
 		for (byte i = 0; i < 3 && pets[i] != null; i++) {
 			Point petPos = new Point(p.getPosition());
@@ -320,7 +320,6 @@ public class GameMap {
 			pets[i].setStance((byte) 0);
 			pets[i].setFoothold(p.getFoothold());
 		}
-		// End pet hack
 		players.lockWrite();
 		try { //write lock allows us to read in mutex, so no need for a readLock
 			if (p.isVisible()) //show ourself to other clients if we are not hidden

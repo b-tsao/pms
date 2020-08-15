@@ -38,7 +38,7 @@
 //TODO: GMS-like conversation
 if (map.getId() == 922010000) {
 	npc.sayNext("See you next time.");
-	player.changeMap(221024500, "mid00"); //TODO: shouldn't this be a random portal in Kerning?
+	player.changeMap(221024500, "mid00");
 	player.loseItem(4001022);
 } else {
 	let str;
