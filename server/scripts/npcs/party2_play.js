@@ -17,21 +17,25 @@
  */
 
 /**
- * Cloto (NPC 9020001)
- *   Hidden Street: 1st Accompaniment <1st Stage> (Map 103000800),
- *   Hidden Street: 1st Accompaniment <2nd Stage> (Map 103000801),
- *   Hidden Street: 1st Accompaniment <3rd Stage> (Map 103000802),
- *   Hidden Street: 1st Accompaniment <4th stage> (Map 103000803),
- *   Hidden Street: 1st Accompaniment <Last Stage> (Map 103000804)
+ * Red Balloon (NPC 2040036)
+ *   Hidden Street: Abandoned Tower <Stage 1> (Map 922010100),
+ *   Hidden Street: Abandoned Tower <Stage 2> (Map 922010200),
+ *   Hidden Street: Abandoned Tower <Stage 3> (Map 922010300),
+ *   Hidden Street: Abandoned Tower <Stage 4> (Map 922010400),
+ *   Hidden Street: Abandoned Tower <Stage 5> (Map 922010500),
+ *   Hidden Street: Abandoned Tower <Stage 6> (Map 922010600),
+ *   Hidden Street: Abandoned Tower <Stage 7> (Map 922010700),
+ *   Hidden Street: Abandoned Tower <Stage 8> (Map 922010800),
+ *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100),
  *
- * Lets the party continue on through each stage in the Kerning City party
+ * Lets the party continue on through each stage in the Ludibrium party
  * quest.
  *
- * @author GoldenKevin (content from KiniroMS r227)
+ * @author Neuro
  */
 
-let stage = map.getId() - 103000800 + 1;
-let event = npc.getEvent("party1");
+let stage = (map.getId() - 922010000) / 100;
+let event = npc.getEvent("party2");
 
 //TODO: GMS-like conversation
 function clear(stage, exp) {
@@ -48,6 +52,68 @@ function clear(stage, exp) {
 function failStage() {
 	map.screenEffect("quest/party/wrong_kor");
 	map.soundEffect("Party1/Failed");
+}
+
+function passesStages(stage) {
+    let leaderPreamble, leaderDialog, memberDialog, stageClearDialog, stageClearedDialog;
+    let itemId, required;
+    let reward;
+    switch (stage) {
+        case 1:
+            leaderPreamble = "Bring me 25 passes by killing rats.";
+            leaderDialog = "You have downs? I said bring me 25 passes.";
+            memberDialog = "Kill rats and give them to your leader, sheep.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "You're falling behind.";
+            itemId = 4001022;
+            required = 25;
+            reward = 2100;
+        case 2:
+            leaderPreamble = "Bring me passes by beating the boxes.";
+            leaderDialog = "Get a move on, those boxes aint beating themselves.";
+            memberDialog = "Beat the boxes and give the passes to your leader.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "You want to beat more boxes? Move it!";
+            itemId = 4001022;
+            required = 10;
+            reward = 2520;
+    }
+
+    if (player.getId() == party.getLeader()) {
+        let preamble = event.getVariable("leader1stpreamble");
+        if (preamble == null || !preamble) {
+            event.setVariable("leader1stpreamble", true);
+            npc.sayNext(leaderPreamble);
+        } else {
+            let complete = event.getVariable(stage + "stageclear");
+            if (complete != null && complete) {
+                npc.sayNext(stageClearedDialog);
+            } else {
+                 // Check how many passes they have compared to number of party members
+                if (!player.hasItem(itemId, required)) {
+                    npc.sayNext(leaderDialog);
+                } else {
+                    clear(stage, reward);
+                    player.loseItem(itemId, numPasses);
+                    npc.sayNext(stageClearDialog);
+                }
+            }
+        }
+    } else {
+        let pVar = "member1stpreamble" + player.getId();
+        let preamble = event.getVariable(pVar);
+        if (preamble == null || !preamble) {
+            npc.sayNext(memberDialog);
+            event.setVariable(pVar, true);
+        } else {
+            let complete = event.getVariable(stage + "stageclear");
+            if (complete != null && complete) {
+                npc.sayNext(stageClearedDialog);
+            } else {
+                npc.sayNext(memberDialog);
+            }
+        }
+    }
 }
 
 function rectangleStages(stage) {
@@ -242,76 +308,7 @@ function getPrize() {
 
 switch (stage) {
 	case 1:
-		let questions = [
-			"Collect the same number of coupons as the minimum level required to make the first job advancement as warrior.",
-			"Collect the same number of coupons as the minimum amount of STR needed to make the first job advancement as a warrior.",
-			"Collect the same number of coupons as the minimum amount of INT needed to make the first job advancement as a magician.",
-			"Collect the same number of coupons as the minimum amount of DEX needed to make the first job advancement as a bowman.",
-			"Collect the same number of coupons as the minimum amount of DEX needed to make the first job advancement as a thief.",
-			"Collect the same number of coupons as the minimum level required to advance to 2nd job."
-		];
-		let answers = [10, 35, 20, 25, 25, 30];
-		if (player.getId() == party.getLeader()) {
-			let preamble = event.getVariable("leader1stpreamble");
-			if (preamble == null || !preamble) {
-				event.setVariable("leader1stpreamble", true);
-				npc.sayNext("Hello. Welcome to the first stage. Look around and you'll see Ligators wandering around. When you defeat them, they will cough up a #bcoupon#k. Every member of the party other than the leader should talk to me, geta  question, and gather up the same number of #bcoupons#k as the answer to the question I'll give to them.\r\nIf you gather up the right amount of #bcoupons#k, I'll give the #bpass#k to that player. Once all the party members other than the leader gather up the #bpasses#k and give them to the leader, the leader will hand over the #bpasses#k to me, clearing the stage in the process. The faster you take care of the stages, the more stages you'll be able to challenge. So I suggest you take care of things quickly and swiftly. Well then, best of luck to you.");
-			} else {
-				let complete = event.getVariable(stage + "stageclear");
-				if (complete != null && complete) {
-					npc.sayNext("You all have cleared the quest for this stage. Use the portal to move to the next stage...");
-				} else {
-					 // Check how many passes they have compared to number of party members
-					let numPasses = event.getVariable("members").length - 1;
-					if (!player.hasItem(4001008, numPasses)) {
-						npc.sayNext("I'm sorry, but you are short on the number of passes. You need to give me the right number of passes; it should be the number of members of your party minus the leader, #b" + numPasses + " passes#k to clear the stage. Tell your party members to solve the questions, gather up the passes, and give them to you.");
-					} else {
-						clear(stage, 100);
-						player.loseItem(4001008, numPasses);
-						npc.sayNext("You gathered up #b" + numPasses + " passes#k! Congratulations on clearing the stage! I'll make the portal that sends you to the next stage. There's a time limit on getting there, so please hurry. Best of luck to you all!");
-					}
-				}
-			}
-		} else {
-			let pVar = "member1stpreamble" + player.getId();
-			let qIndexVar = "member1st" + player.getId();
-			let preamble = event.getVariable(pVar);
-			if (preamble == null || !preamble) {
-				let qIndex = event.getVariable(qIndexVar);
-				if (qIndex == null) {
-					// Select a random question to ask the player.
-					qIndex = Math.floor(Math.random() * questions.length);
-					event.setVariable(qIndexVar, qIndex);
-				}
-				npc.sayNext("Here, you need to collect #bcoupons#k by defeating the same number of Ligators as the answer to the questions asked individually.");
-				npc.sayNext("Here's the question. " + questions[qIndex]);
-				event.setVariable(pVar, true);
-			} else {
-				let complete = event.getVariable(stage + "stageclear");
-				if (complete != null && complete) {
-					npc.sayNext("You all have cleared the quest for this stage. Use the portal to move to the next stage...");
-				} else {
-					let dVar = "member1stdone" + player.getId();
-					complete = event.getVariable(dVar);
-					// don't let one player get more than one pass for his question
-					if (complete == null || !complete) {
-						// Reply to player correct/incorrect response to the question they have been asked
-						let numcoupons = answers[event.getVariable(qIndexVar)];
-						if (!player.hasItem(4001007, numcoupons + 1) && player.hasItem(4001007, numcoupons)) {
-							player.loseItem(4001007, numcoupons);
-							//there should already be at least one empty slot in the ETC inventory by now
-							player.gainItem(4001008, 1);
-							npc.sayNext("That's the right answer! For that you have just received a #bpass#k. Please hand it to the leader of the party.");
-							event.setVariable(dVar, true);
-						} else {
-							npc.sayNext("I'm sorry, but that is not the right answer! Please have the correct number of coupons in your inventory. Here's the question again : #b" + questions[event.getVariable(qIndexVar)] + "#k");
-						}
-					} else {
-						npc.sayNext("Please hand your pass to your leader and have your leader contact me once all passes are collected in order to advance to the next stage.");
-					}
-				}
-			}
-		}
+		passesStages(stage);
 		break;
 	case 2:
 	case 3:

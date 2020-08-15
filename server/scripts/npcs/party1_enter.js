@@ -27,9 +27,9 @@
 
 if (party == null || player.getId() != party.getLeader()) {
 	npc.say("How about you and your party members collectively beating a quest? Here you'll find obstacles and problems where you won't be able to beat it without great teamwork.  If you want to try it, please tell the #bleader of your party#k to talk to me.");
-} else if (party.numberOfMembersInChannel() != 4 || party.getMembersCount(map.getId(), 1, 200) != 4) {
-	npc.say("Your party is not a party of four. Please come back when you have four party members.");
-} else if (party.getMembersCount(map.getId(), 21, 30) != 4) {
+} else if (party.numberOfMembersInChannel() != 3 || party.getMembersCount(map.getId(), 1, 200) != 3) {
+	npc.say("Your party is not a party of three. Please come back when you have three party members.");
+} else if (party.getMembersCount(map.getId(), 21, 30) != 3) {
 	npc.say("Someone in your your party does not have a level between 21 ~ 30. Please double-check.");
 } else if (npc.makeEvent("party1", true, party) == null) {
 	npc.say("Some other party has already gotten in to try clearing the quest. Please try again later.");
