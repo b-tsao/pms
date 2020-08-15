@@ -23,6 +23,7 @@ import argonms.common.character.inventory.Inventory;
 import argonms.common.character.inventory.Inventory.InventoryType;
 import argonms.common.character.inventory.InventorySlot;
 import argonms.common.character.inventory.InventoryTools;
+import argonms.common.character.inventory.Pet;
 import argonms.common.character.inventory.InventoryTools.UpdatedSlots;
 import argonms.common.loading.item.ItemDataLoader;
 import argonms.common.net.external.ClientSendOps;
@@ -310,7 +311,16 @@ public class GameMap {
 
 	public void spawnPlayer(final GameCharacter p) {
 		EntityPool players = entPools.get(EntityType.PLAYER);
-		p.spawnCurrentPets();
+		// Stupid pet hack to set pet positions before calling show player
+		Pet[] pets = p.getPets();
+		for (byte i = 0; i < 3 && pets[i] != null; i++) {
+			Point petPos = new Point(p.getPosition());
+			petPos.y -= 12;
+			pets[i].setPosition(petPos);
+			pets[i].setStance((byte) 0);
+			pets[i].setFoothold(p.getFoothold());
+		}
+		// End pet hack
 		players.lockWrite();
 		try { //write lock allows us to read in mutex, so no need for a readLock
 			if (p.isVisible()) //show ourself to other clients if we are not hidden
@@ -331,6 +341,7 @@ public class GameMap {
 		}
 		for (PlayerSkillSummon summon : p.getAllSummons().values())
 			spawnExistingEntity(summon);
+		p.spawnCurrentPets();
 		if (stats.hasClock())
 			p.getClient().getSession().send(GamePackets.writeClock());
 		if (timeLimitTasks != null) {

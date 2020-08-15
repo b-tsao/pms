@@ -174,6 +174,7 @@ public class ClientListener<T extends RemoteClient> implements SessionCreator {
 																	pp.process(new LittleEndianByteArrayReader(body), session.getClient());
 																} catch (Throwable ex) {
 																	LOG.log(Level.WARNING, "Uncaught exception while processing packet from client " + session.getAccountName() + " (" + session.getAddress() + ")", ex);
+																	ex.printStackTrace();
 																} finally {
 																	session.readDequeued();
 																}
