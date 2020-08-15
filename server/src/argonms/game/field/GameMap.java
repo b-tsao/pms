@@ -310,6 +310,7 @@ public class GameMap {
 
 	public void spawnPlayer(final GameCharacter p) {
 		EntityPool players = entPools.get(EntityType.PLAYER);
+		p.spawnCurrentPets();
 		players.lockWrite();
 		try { //write lock allows us to read in mutex, so no need for a readLock
 			if (p.isVisible()) //show ourself to other clients if we are not hidden
@@ -330,7 +331,6 @@ public class GameMap {
 		}
 		for (PlayerSkillSummon summon : p.getAllSummons().values())
 			spawnExistingEntity(summon);
-		p.spawnCurrentPets();
 		if (stats.hasClock())
 			p.getClient().getSession().send(GamePackets.writeClock());
 		if (timeLimitTasks != null) {
