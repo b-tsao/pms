@@ -60,61 +60,61 @@ function passesStages(stage) {
     let reward;
     switch (stage) {
         case 1:
-            leaderPreamble = "Bring me 25 passes by killing rats.";
-            leaderDialog = "You have downs? I said bring me 25 passes.";
-            memberDialog = "Kill rats and give them to your leader, sheep.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "You're falling behind.";
+            leaderPreamble = "Hello, and welcome to the first stage of Ludibrium PQ. There are #r25#k monsters in here, kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            leaderDialog = "I'm sorry, but you do not have all 25 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the first stage of Ludibrium PQ. There are #r25#k monsters in here, kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            stageClearDialog = "Congratulations on clearing the first stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
             required = 25;
             reward = 2100;
             break;
         case 2:
-            leaderPreamble = "Bring me passes by beating the boxes.";
-            leaderDialog = "Get a move on, those boxes aint beating themselves.";
-            memberDialog = "Beat the boxes and give the passes to your leader.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "You want to beat more boxes? Move it!";
+            leaderPreamble = "Hello, and welcome to the second stage of Ludibrium PQ. There are #r15#k boxes in here, break them to retrieve the passes, and give them to me, and I will open the portal. But be careful, one of them will lead you into a trap!";
+            leaderDialog = "I'm sorry, but you do not have all 15 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the second stage of Ludibrium PQ. There are #r15#k boxes in here, break them to retrieve the passes, and give them to me, and I will open the portal. But be careful, one of them will lead you into a trap!";
+            stageClearDialog = "Congratulations on clearing the second stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
-            required = 10;
+            required = 15;
             reward = 2520;
             break;
         case 3:
-            leaderPreamble = "Bring me passes by killing the octopuses.";
-            leaderDialog = "Get a move on, those octopuses aint killing themselves.";
-            memberDialog = "Kill the octopuses and give the passes to your leader.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "They're extinct already! Move on!";
+            leaderPreamble = "Hello, and welcome to the third stage of Ludibrium PQ. There are #r32#k #bBlocktopus#k in here, kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            leaderDialog = "I'm sorry, but you do not have all 32 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the third stage of Ludibrium PQ. There are #r32#k #bBlocktopus#k in here, kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            stageClearDialog = "Congratulations on clearing the third stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
             required = 32;
             reward = 2940;
             break;
         case 4:
-            leaderPreamble = "Bring me passes by killing the #b#o9300008##k.";
-            leaderDialog = "You afraid of the dark? Too bad.";
-            memberDialog = "Kill the #b#o9300008##k and give the passes to your leader.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "You waiting for a cookie? Get out of here!";
+            leaderPreamble = "Hello, and welcome to the fourth stage of Ludibrium PQ. There are #r8#k #bPasses#k to be collected in here, go through the portals and you'll see some Shadow Eyes. Kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            leaderDialog = "I'm sorry, but you do not have all 8 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the fourth stage of Ludibrium PQ. There are #r8#k #bPasses#k to be collected in here, go through the portals and you'll see some Shadow Eyes. Kill them to retrieve the passes, and give them to me, and I will open the portal.";
+            stageClearDialog = "Congratulations on clearing the fourth stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
             required = 8;
             reward = 3360;
             break;
         case 5:
-            leaderPreamble = "Bring me 24 passes.";
-            leaderDialog = "You want me to hold your hand or something? Get me 24 passes slob.";
-            memberDialog = "Go into the portals and bring the passes back to your leader.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "There's some nice golems down there that want to be your friend if you don't move on.";
+            leaderPreamble = "Hello, and welcome to the fifth stage of Ludibrium PQ. There are #r24#k #bPasses#k to be collected in here, go through the portals and you'll see some Boxes. Break them to retrieve the passes, and give them to me, and I will open the portal.";
+            leaderDialog = "I'm sorry, but you do not have all 24 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the fifth stage of Ludibrium PQ. There are #r24#k #bPasses#k to be collected in here, go through the portals and you'll see some Boxes. Break them to retrieve the passes, and give them to me, and I will open the portal.";
+            stageClearDialog = "Congratulations on clearing the fifth stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
             required = 24;
             reward = 3770;
             break;
         case 7:
-            leaderPreamble = "Summon #b#o9300010#, kill them, bring me 3 passes.";
-            leaderDialog = "It's the same god damn routine, must you ask again? 3 passes.";
-            memberDialog = "Summon #b#o9300010#, give leader the passes.";
-            stageClearDialog = "Gtfo.";
-            stageClearedDialog = "How about I spawn 100 #b#o9300010# and boot yo ass out of here?";
+            leaderPreamble = "Hello, and welcome to the seventh stage of Ludibrium PQ. There are #r3#k #bPasses#k to be collected in here. You need a Bowman or Thief with max Keen Eyes or Eye of the Amazon. Kill the monsters up there, and a Rombot will spawn somewhere in the map. Kill the Rombot to retrieve the pass. Collect for me 3 Pass, and I will open the portal.";
+            leaderDialog = "I'm sorry, but you do not have all 3 passes needed to clear this stage.";
+            memberDialog = "Hello, and welcome to the seventh stage of Ludibrium PQ. There are #r3#k #bPasses#k to be collected in here. You need a Bowman or Thief with max Keen Eyes or Eye of the Amazon. Kill the monsters up there, and a Rombot will spawn somewhere in the map. Kill the Rombot to retrieve the pass. Collect for me 3 Pass, and I will open the portal.";
+            stageClearDialog = "Congratulations on clearing the seventh stage! I will open the portal now.";
+            stageClearedDialog = "Please proceed in the Party Quest, the portal opened!";
             itemId = 4001022;
             required = 3;
             reward = 4620;
@@ -359,7 +359,7 @@ switch (stage) {
         passesStages(stage);
         break;
     case 6: // 133221333123111
-        npc.sayNext("Hop on the numbered boxes, press the up arrow and if you're correct you'll proceed to the next platform. If you're wrong I'll laugh at you as you pass me again.");
+        npc.sayNext("Hello and welcome to the sixth stage of Ludibrium Party Quest. Look here, and you'll see a number of boxes. All you have to do, is find the right combination, and press up on it to teleport up. But, if you get it wrong, you will be teleported back down to the bottom. Good Luck!");
         break;
     case 8:
         rectangleStages(stage);
