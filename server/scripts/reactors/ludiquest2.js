@@ -34,6 +34,8 @@ switch (map.getId()) {
         break;
     case 922010300:
         map.setNoSpawn(false);
-        map.spawnMob(9300061, -180, -196);
+        for (let amount = 0; amount < 4; amount++) {
+            map.spawnMob(9300171);
+        }
         break;
 }
