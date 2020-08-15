@@ -2,7 +2,7 @@
  *@Author Neuro
  */
  
-let map = event.getVariable("party2stage7")
+let map = reactor.getEvent("party2").getVariable("party2stage7")
 map.setNoSpawn(false);
 map.redMessage("Rombard has been summoned somewhere in the map.");
 map.spawnMob(9300010, 1, -211);

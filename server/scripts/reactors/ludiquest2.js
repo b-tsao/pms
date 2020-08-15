@@ -28,14 +28,12 @@
  */
 
 switch (map.getId()) {
-    case 922010200:
-    case 922010500:
-        reactor.dropItems(0, 0, 0, 4001022, 1000000);
-        break;
     case 922010300:
         map.setNoSpawn(false);
         for (let amount = 0; amount < 3; amount++) {
             reactor.spawnMob(9300171);
         }
         break;
+    default:
+        reactor.dropItems(0, 0, 0, 4001022, 1000000);
 }
