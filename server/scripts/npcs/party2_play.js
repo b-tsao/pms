@@ -79,6 +79,46 @@ function passesStages(stage) {
             required = 10;
             reward = 2520;
             break;
+        case 3:
+            leaderPreamble = "Bring me passes by killing the octopuses.";
+            leaderDialog = "Get a move on, those octopuses aint killing themselves.";
+            memberDialog = "Kill the octopuses and give the passes to your leader.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "They're extinct already! Move on!";
+            itemId = 4001022;
+            required = 32;
+            reward = 2940;
+            break;
+        case 4:
+            leaderPreamble = "Bring me passes by killing the #b#o9300008##k.";
+            leaderDialog = "You afraid of the dark? Too bad.";
+            memberDialog = "Kill the #b#o9300008##k and give the passes to your leader.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "What do you want?";
+            itemId = 4001022;
+            required = 8;
+            reward = 3360;
+            break;
+        case 5:
+            leaderPreamble = "Bring me 24 passes.";
+            leaderDialog = "You want me to hold your hand or something? Get me 24 passes slob.";
+            memberDialog = "Go into the portals and bring the passes back to your leader.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "There's some nice golems down there that want to be your friend if you don't move on.";
+            itemId = 4001022;
+            required = 24;
+            reward = 3770;
+            break;
+        case 7:
+            leaderPreamble = "Summon #b#o9300010#, kill them, bring me 3 passes.";
+            leaderDialog = "It's the same god damn routine, must you ask again? 3 passes.";
+            memberDialog = "Summon #b#o9300010#, give leader the passes.";
+            stageClearDialog = "Gtfo.";
+            stageClearedDialog = "How about I spawn 100 #b#o9300010# and boot yo ass out of here?";
+            itemId = 4001022;
+            required = 7;
+            reward = 4620;
+            break;
     }
 
     if (player.getId() == party.getLeader()) {
@@ -310,14 +350,17 @@ function getPrize() {
 
 switch (stage) {
 	case 1:
-		passesStages(stage);
-		break;
 	case 2:
 	case 3:
 	case 4:
-		rectangleStages(stage);
-		break;
 	case 5:
+    // case 6: // 133221333123111
+    case 7:
+        passesStages(stage);
+        break;
+    case 8:
+        rectangleStages(stage);
+		break;
 		let complete = event.getVariable(stage + "stageclear");
 		if (complete == null || !complete) {
 			if (player.getId() == party.getLeader()) {
