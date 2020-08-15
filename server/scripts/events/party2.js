@@ -25,20 +25,26 @@
 
 let EXIT_MAP = 922010000;
 
+let map;
 let party;
 let members;
 let endTime;
 
 function init(attachment) {
-	for (let stage = 1; stage <= 4; stage++)
-		event.getMap(922010000 + 100 * stage).overridePortal("next00", "party2");
+	for (let stage = 8; stage > 0 ; stage--) {
+        //create a new instance of the maps so we don't have to deal with clearing
+	    //the map and respawning the mobs in the right position
+        map = event.makeMap(922010000 + 100 * stage);
+        map.overridePortal("next00", "party2");
+        event.setVariable("party2stage" + stage, map);
+    }
 
     party = attachment;
 	party.loseItem(4001022);
-	party.changeMap(922010100, "st00");
+	party.changeMap(map, "st00");
 	members = party.getLocalMembers();
 
-	event.getMap(922010100).showTimer(60 * 60);
+	map.showTimer(60 * 60);
 	event.startTimer("kick", 60 * 60 * 1000);
 	endTime = new Date().getTime() + 60 * 60 * 1000;
 
@@ -113,6 +119,6 @@ function deinit() {
 	for (let i = 0; i < members.length; i++)
 		members[i].setEvent(null);
 
-	for (let stage = 1; stage <= 4; stage++)
-		event.getMap(922010100 + 100 * stage).revertPortal("next00");
+    for (let stage = 1; stage <= 8; stage++)
+        event.destroyMap(event.getVariable("party2stage" + stage));
 }
