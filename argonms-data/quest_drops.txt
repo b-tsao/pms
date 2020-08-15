@@ -20,17 +20,17 @@
 2230102	4031155	2071			# Wild Boar => Broken Mirror Glass
 
 # The Warrior's Extreme Path - Hero's Quality
-8180001 4031344 6904			# Griffey => Heroic Star
-8180000 4031343 6904			# Manon => Heroic Pentagon
+8180001 4031344 6904 330000		# Griffey => Heroic Star
+8180000 4031343 6904 330000		# Manon => Heroic Pentagon
 
 # The Magician's Extreme Path - A Hero's Quality
-8180001 4031512 6914			# Griffey => Heroic Star
-8180000 4031511 6914			# Manon => Heroic Pentagon
+8180001 4031512 6914 330000		# Griffey => Heroic Star
+8180000 4031511 6914 330000		# Manon => Heroic Pentagon
 
 # The Bowman's Extreme Path - Hero's Quality
-8180001 4031344 6924			# Griffey => Heroic Star
-8180000 4031343 6924			# Manon => Heroic Pentagon
+8180001 4031344 6924 330000		# Griffey => Heroic Star
+8180000 4031343 6924 330000		# Manon => Heroic Pentagon
 
 # The Thief's Extreme Path - Hero's Quality
-8180001 4031518 6934			# Griffey => Heroic Star
-8180000 4031517 6934			# Manon => Heroic Pentagon
+8180001 4031518 6934 330000		# Griffey => Heroic Star
+8180000 4031517 6934 330000		# Manon => Heroic Pentagon
