@@ -111,14 +111,9 @@ public class ScriptField {
 		for (MapEntity player : map.getAllEntities(MapEntity.EntityType.PLAYER))
 			((GameCharacter) player).changeMap(mapId);
 	}
-	
+
 	public void resetReactors() {
 		map.respawnReactors();
-	}
-	
-	public void resetMobs() {
-		clearMobs();
-		map.respawnMobs();
 	}
 
 	public Object spawnMob(int mobId, int x, int y) {
