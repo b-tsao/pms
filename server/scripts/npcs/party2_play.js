@@ -355,9 +355,11 @@ switch (stage) {
 	case 3:
 	case 4:
 	case 5:
-    // case 6: // 133221333123111
     case 7:
         passesStages(stage);
+        break;
+    case 6: // 133221333123111
+        npc.sayNext("Hop on the numbered boxes, press the up arrow and if you're correct you'll proceed to the next platform. If you're wrong I'll laugh at you as you pass me again.");
         break;
     case 8:
         rectangleStages(stage);
