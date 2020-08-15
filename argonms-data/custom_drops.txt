@@ -358,6 +358,12 @@
 9420513 1072173			# Red Pirate Boots
 9420513 1332026			# Cursayer
 
+# Batoo
+9420506 4000368			# Broken Wing
+9420506 2002000			# Dexterity Potion
+9420506 2000001			# Orange Potion
+9420506 2000003			# Blue Potion
+
 
 # Berserkie mob
 # Veetron mob
