@@ -95,9 +95,9 @@ function passesStages(stage) {
                 if (!player.hasItem(itemId, required)) {
                     npc.sayNext(leaderDialog);
                 } else {
-                    clear(stage, reward);
-                    player.loseItem(itemId, numPasses);
                     npc.sayNext(stageClearDialog);
+                    player.loseItem(itemId, numPasses);
+                    clear(stage, reward);
                 }
             }
         }
