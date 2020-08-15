@@ -37,6 +37,10 @@ public class ScriptPortal extends PlayerScriptInteraction {
 		this.portalId = portalId;
 		this.warped = true;
 	}
+	
+	public int getId() {
+		return this.portalId;
+	}
 
 	@Override
 	public void rememberMap(String variable) {

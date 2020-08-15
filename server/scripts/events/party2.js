@@ -32,7 +32,8 @@ let endTime;
 
 function init(attachment) {
     //create a new instance of the maps so we don't have to deal with clearing
-    //the map and respawning the mobs and boxes in the right position
+	//the map and respawning the mobs and boxes in the right position
+
     map = event.makeMap(922011000); // bonus
     event.setVariable("party2stage10", map);
     map = event.makeMap(922010900); // boss
@@ -40,7 +41,15 @@ function init(attachment) {
 	for (let stage = 8; stage > 0 ; stage--) {
         map = event.makeMap(922010000 + 100 * stage);
         map.overridePortal("next00", "party2");
-        event.setVariable("party2stage" + stage, map);
+		event.setVariable("party2stage" + stage, map);
+		
+		if (stage == 4) {
+			// Darkness portals
+			for (let i = 1; i <= 5; i++) {
+				map.overridePortal("in0" + i, "party2darkness");
+				event.setVariable("party2darkness" + i, event.makeMap(922010400 + i));
+			}
+		}
 	}
 	
 	event.setVariable("6stageclear", true);
@@ -126,5 +135,8 @@ function deinit() {
 		members[i].setEvent(null);
 
     for (let stage = 1; stage <= 10; stage++)
-        event.destroyMap(event.getVariable("party2stage" + stage));
+		event.destroyMap(event.getVariable("party2stage" + stage));
+	for (let i = 1; i <= 5; i++) {
+		event.destroyMap(event.getVariable("party2darkness" + i));
+	}
 }
