@@ -34,7 +34,7 @@ switch (map.getId()) {
         break;
     case 922010300:
         map.setNoSpawn(false);
-        for (let amount = 0; amount < 4; amount++) {
+        for (let amount = 0; amount < 3; amount++) {
             reactor.spawnMob(9300171);
         }
         break;
