@@ -31,9 +31,13 @@ let members;
 let endTime;
 
 function init(attachment) {
+    //create a new instance of the maps so we don't have to deal with clearing
+    //the map and respawning the mobs and boxes in the right position
+    map = event.makeMap(922011000); // bonus
+    event.setVariable("party2stage10", map);
+    map = event.makeMap(922010900); // boss
+    event.setVariable("party2stage9", map);
 	for (let stage = 8; stage > 0 ; stage--) {
-        //create a new instance of the maps so we don't have to deal with clearing
-	    //the map and respawning the mobs in the right position
         map = event.makeMap(922010000 + 100 * stage);
         map.overridePortal("next00", "party2");
         event.setVariable("party2stage" + stage, map);
@@ -119,6 +123,6 @@ function deinit() {
 	for (let i = 0; i < members.length; i++)
 		members[i].setEvent(null);
 
-    for (let stage = 1; stage <= 8; stage++)
+    for (let stage = 1; stage <= 10; stage++)
         event.destroyMap(event.getVariable("party2stage" + stage));
 }

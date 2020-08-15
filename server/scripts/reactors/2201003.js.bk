@@ -3,7 +3,7 @@
   *2201003.js
  */
  
-let map = event.getMap(922010700);
+let map = event.getVariable("party2stage9")
 map.setNoSpawn(false);
 map.redMessage("Alishar has been summoned.");
-map.spawnMob(9300012, 941, 184, true);
+map.spawnMob(9300012, 941, 184);

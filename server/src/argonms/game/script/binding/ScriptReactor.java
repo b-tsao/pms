@@ -26,11 +26,14 @@ import argonms.common.util.Rng;
 import argonms.game.GameServer;
 import argonms.game.character.GameCharacter;
 import argonms.game.field.entity.ItemDrop;
+import argonms.game.field.entity.Mob;
 import argonms.game.field.entity.Reactor;
+import argonms.game.loading.mob.MobDataLoader;
 import argonms.game.net.external.GameClient;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
 /**
@@ -69,5 +72,21 @@ public class ScriptReactor extends PlayerScriptInteraction {
 		}
 		GameCharacter p = getClient().getPlayer();
 		p.getMap().drop(drops, reactor, ItemDrop.PICKUP_ALLOW_OWNER, p.getId());
+	}
+	
+	public Object spawnMob(int mobId) {
+		GameCharacter p = getClient().getPlayer();
+		Mob mob = new Mob(MobDataLoader.getInstance().getMobStats(mobId), p.getMap());
+		mob.setPosition(reactor.getPosition());
+		p.getMap().spawnMonster(mob);
+		return Context.javaToJS(new ScriptMob(mob), globalScope);
+	}
+
+	public Object spawnMob(int mobId, boolean faceRight) {
+		GameCharacter p = getClient().getPlayer();
+		Mob mob = new Mob(MobDataLoader.getInstance().getMobStats(mobId), p.getMap(), faceRight ? (byte) 4 : (byte) 5);
+		mob.setPosition(reactor.getPosition());
+		p.getMap().spawnMonster(mob);
+		return Context.javaToJS(new ScriptMob(mob), globalScope);
 	}
 }

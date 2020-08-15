@@ -26,8 +26,9 @@
  *   Hidden Street: Abandoned Tower <Stage 6> (Map 922010600),
  *   Hidden Street: Abandoned Tower <Stage 7> (Map 922010700),
  *   Hidden Street: Abandoned Tower <Stage 8> (Map 922010800),
- *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100),
+ *   Hidden Street: A Crack on the Wall (Map 922010900),
  *   Hidden Street: Abandoned Tower <Bonus> (Map 922011000),
+ *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100),
  *   Hidden Street: Abandoned Tower <End of Journey> (Map 922010000)
  *
  * Exit NPC to forfeit the Ludibrium party quest.

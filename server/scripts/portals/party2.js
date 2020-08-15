@@ -26,7 +26,7 @@
  *   Hidden Street: Abandoned Tower <Stage 6> (Map 922010600),
  *   Hidden Street: Abandoned Tower <Stage 7> (Map 922010700),
  *   Hidden Street: Abandoned Tower <Stage 8> (Map 922010800),
- *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100)
+ *   Hidden Street: A Crack on the Wall (Map 922010900)
  *
  * Ludibrium PQ portals.
  * Overridden from script-less portals so entry may be blocked when a stage is
