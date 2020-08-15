@@ -41,7 +41,9 @@ function init(attachment) {
         map = event.makeMap(922010000 + 100 * stage);
         map.overridePortal("next00", "party2");
         event.setVariable("party2stage" + stage, map);
-    }
+	}
+	
+	event.setVariable("6stageclear", true);
 
     party = attachment;
 	party.loseItem(4001022);

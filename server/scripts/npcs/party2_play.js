@@ -355,10 +355,10 @@ switch (stage) {
 	case 3:
 	case 4:
 	case 5:
-    case 7:
-        passesStages(stage);
-        break;
-    case 6: // 133221333123111
+	case 7:
+		passesStages(stage);
+		break;
+	case 6: // 133221333123111
         npc.sayNext("Hello and welcome to the sixth stage of Ludibrium Party Quest. Look here, and you'll see a number of boxes. All you have to do, is find the right combination, and press up on it to teleport up. But, if you get it wrong, you will be teleported back down to the bottom. Good Luck!");
         break;
     case 8:
