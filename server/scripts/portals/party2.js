@@ -36,7 +36,7 @@
  */
 
 let stage = (map.getId() - 922010000) / 100;
-let clear = portal.getEvent("party2").getVariable((stage / 100) + "stageclear");
+let clear = portal.getEvent("party2").getVariable(stage + "stageclear");
 if (clear != null && clear) {
 	portal.playSoundEffect();
 	player.changeMap(portal.getEvent("party2").getVariable("party2stage" + stage), "st00");
