@@ -26,7 +26,7 @@
  *   Hidden Street: Abandoned Tower <Stage 6> (Map 922010600),
  *   Hidden Street: Abandoned Tower <Stage 7> (Map 922010700),
  *   Hidden Street: Abandoned Tower <Stage 8> (Map 922010800),
- *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100),
+ *   Hidden Street: Abandoned Tower <Determine to adventure> (Map 922011100)
  *
  * Lets the party continue on through each stage in the Ludibrium party
  * quest.
@@ -68,6 +68,7 @@ function passesStages(stage) {
             itemId = 4001022;
             required = 25;
             reward = 2100;
+            break;
         case 2:
             leaderPreamble = "Bring me passes by beating the boxes.";
             leaderDialog = "Get a move on, those boxes aint beating themselves.";
@@ -77,6 +78,7 @@ function passesStages(stage) {
             itemId = 4001022;
             required = 10;
             reward = 2520;
+            break;
     }
 
     if (player.getId() == party.getLeader()) {

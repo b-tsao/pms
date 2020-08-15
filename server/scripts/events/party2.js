@@ -34,15 +34,13 @@ function init(attachment) {
 		event.getMap(922010000 + 100 * stage).overridePortal("next00", "party2");
 
     party = attachment;
-    // TODO remove the necessary items here (passes)
-	party.loseItem(4001008);
-	party.loseItem(4001007);
+	party.loseItem(4001022);
 	party.changeMap(922010100, "st00");
 	members = party.getLocalMembers();
 
-	event.getMap(922010100).showTimer(30 * 60);
-	event.startTimer("kick", 30 * 60 * 1000);
-	endTime = new Date().getTime() + 30 * 60 * 1000;
+	event.getMap(922010100).showTimer(60 * 60);
+	event.startTimer("kick", 60 * 60 * 1000);
+	endTime = new Date().getTime() + 60 * 60 * 1000;
 
 	event.setVariable("members", members);
 
