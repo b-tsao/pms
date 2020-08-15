@@ -36,6 +36,7 @@
 9300005 # Ratz from Another Dimension 
 9300007 # Bloctopus from Another Dimension
 9300006 # Black Ratz from Another Dimension
+9300012 # Alishar
 
 # Henesys PQ
 9300062	# Flyeye
