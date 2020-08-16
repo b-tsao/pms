@@ -367,14 +367,14 @@ switch (stage) {
 		let players = party.getLocalMembers(map.getId());
 		let totPlayers = 0;
 		npc.sayNext(players);
-		// for (let i = 0; i < objset.length; i++) {
-		// 	for (let j = 0; j < players.length; j++) {
-		// 		if (areas[i].contains(players[j].getPosition())) {
-		// 			objset[i]++;
-		// 			totPlayers++;
-		// 		}
-		// 	}
-		// }
+		for (let i = 0; i < objset.length; i++) {
+			for (let j = 0; j < players.length; j++) {
+				if (areas[i].contains(players[j].getPosition())) {
+					objset[i]++;
+					totPlayers++;
+				}
+			}
+		}
 		npc.sayNext(objset);
 		// rectangleStages(stage);
 		break;
