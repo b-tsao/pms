@@ -366,10 +366,9 @@ switch (stage) {
 		let objset = [0,0,0,0,0,0,0,0,0];
 		let players = party.getLocalMembers(map.getId());
 		let totPlayers = 0;
-		npc.sayNext(players);
 		for (let i = 0; i < objset.length; i++) {
 			for (let j = 0; j < players.length; j++) {
-				if (areas.get(i).contains(players[j].getPosition())) {
+				if (areas.get(i.toString()).contains(players[j].getPosition())) {
 					objset[i]++;
 					totPlayers++;
 				}
