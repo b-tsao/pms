@@ -159,150 +159,190 @@ function passesStages(stage) {
     }
 }
 
-function rectangleStages(stage) {
-	let debug = false; //see which positions are occupied
-	let stages = ["2nd", "3rd", "4th"];
-	let objs = ["ropes", "platforms", "barrels"];
-	let verbs = ["hang", "stand", "stand"];
-	let donts = ["hang on the ropes too low", "stand too close to the edges", "stand too close to the edges"];
-	let combos = [
-		[ //stage 2
-			[0, 1, 1, 1],
-			[1, 0, 1, 1],
-			[1, 1, 0, 1],
-			[1, 1, 1, 0]
-		], 
-		[ //stage 3
-			[0, 0, 1, 1, 1],
-			[0, 1, 0, 1, 1],
-			[0, 1, 1, 0, 1],
-			[0, 1, 1, 1, 0],
-			[1, 0, 0, 1, 1],
-			[1, 0, 1, 0, 1],
-			[1, 0, 1, 1, 0],
-			[1, 1, 0, 0, 1],
-			[1, 1, 0, 1, 0],
-			[1, 1, 1, 0, 0]
-		],
-		[ //stage 4
-			[0, 0, 0, 1, 1, 1],
-			[0, 0, 1, 0, 1, 1],
-			[0, 0, 1, 1, 0, 1],
-			[0, 0, 1, 1, 1, 0],
-			[0, 1, 0, 0, 1, 1],
-			[0, 1, 0, 1, 0, 1],
-			[0, 1, 0, 1, 1, 0],
-			[0, 1, 1, 0, 0, 1],
-			[0, 1, 1, 0, 1, 0],
-			[0, 1, 1, 1, 0, 0],
-			[1, 0, 0, 0, 1, 1],
-			[1, 0, 0, 1, 0, 1],
-			[1, 0, 0, 1, 1, 0],
-			[1, 0, 1, 0, 0, 1],
-			[1, 0, 1, 0, 1, 0],
-			[1, 0, 1, 1, 0, 0],
-			[1, 1, 0, 0, 0, 1],
-			[1, 1, 0, 0, 1, 0],
-			[1, 1, 0, 1, 0, 0],
-			[1, 1, 1, 0, 0, 0]
-		]
-	];
-	let rects = [ //[x, y, width, height]
-		[ //stage 2
-			[-770, -132, 28, 178],
-			[-733, -337, 26, 105],
-			[-601, -328, 29, 105],
-			[-495, -125, 24, 165]
-		],
-		[ //stage 3
-			[608, -180, 140, 50],
-			[791, -117, 140, 45],
-			[958, -180, 140, 50],
-			[876, -238, 140, 45],
-			[702, -238, 140, 45]
-		],
-		[ //stage 4
-			[910, -236, 35, 5],
-			[877, -184, 35, 5],
-			[946, -184, 35, 5],
-			[845, -132, 35, 5],
-			[910, -132, 35, 5],
-			[981, -132, 35, 5]
-		]
-	];
-	let objsets = [
-		[0, 0, 0, 0],
-		[0, 0, 0, 0, 0],
-		[0, 0, 0, 0, 0, 0]
-	];
+function numbersStage(stage) {
+	let leaderPreamble = "leaderpreamble";
+	let leaderDialog = "leaderdialog";
+	let memberDialog = "memberdialog";
+	let stageClearedDialog = "";
+	let reward = 0;
 
-	let index = stage - 2;
+	let combos = [
+		[0, 0, 0, 0, 1, 1, 1, 1, 1],
+		[0, 0, 0, 1, 0, 1, 1, 1, 1],
+		[0, 0, 1, 0, 0, 1, 1, 1, 1],
+		[0, 1, 0, 0, 0, 1, 1, 1, 1],
+		[1, 0, 0, 0, 0, 1, 1, 1, 1],
+		[0, 0, 0, 1, 1, 0, 1, 1, 1],
+		[0, 0, 1, 0, 1, 0, 1, 1, 1],
+		[0, 1, 0, 0, 1, 0, 1, 1, 1],
+		[1, 0, 0, 0, 1, 0, 1, 1, 1],
+		[0, 0, 1, 1, 0, 0, 1, 1, 1],
+		[0, 1, 0, 1, 0, 0, 1, 1, 1],
+		[1, 0, 0, 1, 0, 0, 1, 1, 1],
+		[0, 1, 1, 0, 0, 0, 1, 1, 1],
+		[1, 0, 1, 0, 0, 0, 1, 1, 1],
+		[1, 1, 0, 0, 0, 0, 1, 1, 1],
+		[0, 0, 0, 1, 1, 1, 0, 1, 1],
+		[0, 0, 1, 0, 1, 1, 0, 1, 1],
+		[0, 1, 0, 0, 1, 1, 0, 1, 1],
+		[1, 0, 0, 0, 1, 1, 0, 1, 1],
+		[0, 0, 1, 1, 0, 1, 0, 1, 1],
+		[0, 1, 0, 1, 0, 1, 0, 1, 1],
+		[1, 0, 0, 1, 0, 1, 0, 1, 1],
+		[0, 1, 1, 0, 0, 1, 0, 1, 1],
+		[1, 0, 1, 0, 0, 1, 0, 1, 1],
+		[1, 1, 0, 0, 0, 1, 0, 1, 1],
+		[0, 0, 1, 1, 1, 0, 0, 1, 1],
+		[0, 1, 0, 1, 1, 0, 0, 1, 1],
+		[1, 0, 0, 1, 1, 0, 0, 1, 1],
+		[0, 1, 1, 0, 1, 0, 0, 1, 1],
+		[1, 0, 1, 0, 1, 0, 0, 1, 1],
+		[1, 1, 0, 0, 1, 0, 0, 1, 1],
+		[0, 1, 1, 1, 0, 0, 0, 1, 1],
+		[1, 0, 1, 1, 0, 0, 0, 1, 1],
+		[1, 1, 0, 1, 0, 0, 0, 1, 1],
+		[1, 1, 1, 0, 0, 0, 0, 1, 1],
+		[0, 0, 0, 1, 1, 1, 1, 0, 1],
+		[0, 0, 1, 0, 1, 1, 1, 0, 1],
+		[0, 1, 0, 0, 1, 1, 1, 0, 1],
+		[1, 0, 0, 0, 1, 1, 1, 0, 1],
+		[0, 0, 1, 1, 0, 1, 1, 0, 1],
+		[0, 1, 0, 1, 0, 1, 1, 0, 1],
+		[1, 0, 0, 1, 0, 1, 1, 0, 1],
+		[0, 1, 1, 0, 0, 1, 1, 0, 1],
+		[1, 0, 1, 0, 0, 1, 1, 0, 1],
+		[1, 1, 0, 0, 0, 1, 1, 0, 1],
+		[0, 0, 1, 1, 1, 0, 1, 0, 1],
+		[0, 1, 0, 1, 1, 0, 1, 0, 1],
+		[1, 0, 0, 1, 1, 0, 1, 0, 1],
+		[0, 1, 1, 0, 1, 0, 1, 0, 1],
+		[1, 0, 1, 0, 1, 0, 1, 0, 1],
+		[1, 1, 0, 0, 1, 0, 1, 0, 1],
+		[0, 1, 1, 1, 0, 0, 1, 0, 1],
+		[1, 0, 1, 1, 0, 0, 1, 0, 1],
+		[1, 1, 0, 1, 0, 0, 1, 0, 1],
+		[1, 1, 1, 0, 0, 0, 1, 0, 1],
+		[0, 0, 1, 1, 1, 1, 0, 0, 1],
+		[0, 1, 0, 1, 1, 1, 0, 0, 1],
+		[1, 0, 0, 1, 1, 1, 0, 0, 1],
+		[0, 1, 1, 0, 1, 1, 0, 0, 1],
+		[1, 0, 1, 0, 1, 1, 0, 0, 1],
+		[1, 1, 0, 0, 1, 1, 0, 0, 1],
+		[0, 1, 1, 1, 0, 1, 0, 0, 1],
+		[1, 0, 1, 1, 0, 1, 0, 0, 1],
+		[1, 1, 0, 1, 0, 1, 0, 0, 1],
+		[1, 1, 1, 0, 0, 1, 0, 0, 1],
+		[0, 1, 1, 1, 1, 0, 0, 0, 1],
+		[1, 0, 1, 1, 1, 0, 0, 0, 1],
+		[1, 1, 0, 1, 1, 0, 0, 0, 1],
+		[1, 1, 1, 0, 1, 0, 0, 0, 1],
+		[1, 1, 1, 1, 0, 0, 0, 0, 1],
+		[0, 0, 0, 1, 1, 1, 1, 1, 0],
+		[0, 0, 1, 0, 1, 1, 1, 1, 0],
+		[0, 1, 0, 0, 1, 1, 1, 1, 0],
+		[1, 0, 0, 0, 1, 1, 1, 1, 0],
+		[0, 0, 1, 1, 0, 1, 1, 1, 0],
+		[0, 1, 0, 1, 0, 1, 1, 1, 0],
+		[1, 0, 0, 1, 0, 1, 1, 1, 0],
+		[0, 1, 1, 0, 0, 1, 1, 1, 0],
+		[1, 0, 1, 0, 0, 1, 1, 1, 0],
+		[1, 1, 0, 0, 0, 1, 1, 1, 0],
+		[0, 0, 1, 1, 1, 0, 1, 1, 0],
+		[0, 1, 0, 1, 1, 0, 1, 1, 0],
+		[1, 0, 0, 1, 1, 0, 1, 1, 0],
+		[0, 1, 1, 0, 1, 0, 1, 1, 0],
+		[1, 0, 1, 0, 1, 0, 1, 1, 0],
+		[1, 1, 0, 0, 1, 0, 1, 1, 0],
+		[0, 1, 1, 1, 0, 0, 1, 1, 0],
+		[1, 0, 1, 1, 0, 0, 1, 1, 0],
+		[1, 1, 0, 1, 0, 0, 1, 1, 0],
+		[1, 1, 1, 0, 0, 0, 1, 1, 0],
+		[0, 0, 1, 1, 1, 1, 0, 1, 0],
+		[0, 1, 0, 1, 1, 1, 0, 1, 0],
+		[1, 0, 0, 1, 1, 1, 0, 1, 0],
+		[0, 1, 1, 0, 1, 1, 0, 1, 0],
+		[1, 0, 1, 0, 1, 1, 0, 1, 0],
+		[1, 1, 0, 0, 1, 1, 0, 1, 0],
+		[0, 1, 1, 1, 0, 1, 0, 1, 0],
+		[1, 0, 1, 1, 0, 1, 0, 1, 0],
+		[1, 1, 0, 1, 0, 1, 0, 1, 0],
+		[1, 1, 1, 0, 0, 1, 0, 1, 0],
+		[0, 1, 1, 1, 1, 0, 0, 1, 0],
+		[1, 0, 1, 1, 1, 0, 0, 1, 0],
+		[1, 1, 0, 1, 1, 0, 0, 1, 0],
+		[1, 1, 1, 0, 1, 0, 0, 1, 0],
+		[1, 1, 1, 1, 0, 0, 0, 1, 0],
+		[0, 0, 1, 1, 1, 1, 1, 0, 0],
+		[0, 1, 0, 1, 1, 1, 1, 0, 0],
+		[1, 0, 0, 1, 1, 1, 1, 0, 0],
+		[0, 1, 1, 0, 1, 1, 1, 0, 0],
+		[1, 0, 1, 0, 1, 1, 1, 0, 0],
+		[1, 1, 0, 0, 1, 1, 1, 0, 0],
+		[0, 1, 1, 1, 0, 1, 1, 0, 0],
+		[1, 0, 1, 1, 0, 1, 1, 0, 0],
+		[1, 1, 0, 1, 0, 1, 1, 0, 0],
+		[1, 1, 1, 0, 0, 1, 1, 0, 0],
+		[0, 1, 1, 1, 1, 0, 1, 0, 0],
+		[1, 0, 1, 1, 1, 0, 1, 0, 0],
+		[1, 1, 0, 1, 1, 0, 1, 0, 0],
+		[1, 1, 1, 0, 1, 0, 1, 0, 0],
+		[1, 1, 1, 1, 0, 0, 1, 0, 0],
+		[0, 1, 1, 1, 1, 1, 0, 0, 0],
+		[1, 0, 1, 1, 1, 1, 0, 0, 0],
+		[1, 1, 0, 1, 1, 1, 0, 0, 0],
+		[1, 1, 1, 0, 1, 1, 0, 0, 0],
+		[1, 1, 1, 1, 0, 1, 0, 0, 0],
+		[1, 1, 1, 1, 1, 0, 0, 0, 0]
+	];
 
 	if (player.getId() == party.getLeader()) {
-		let preamble = event.getVariable("leader" + stages[index] + "preamble");
+		let preamble = event.getVariable("leader" + stage + "preamble");
 		if (preamble == null || !preamble) {
-			npc.sayNext("Hi. Welcome to the " + stages[index] + " stage. Next to me, you'll see a number of " + objs[index] + ". Out of these " + objs[index] + ", #b3 are connected to the portal that sends you to the next stage#k. All you need to do is have #b3 party members find the correct " + objs[index] + " and " + verbs[index] + " on them.#k\r\nBUT, it doesn't count as an answer if you " + donts[index] + "; please be near the middle of the " + objs[index] + " to be counted as a correct answer. Also, only 3 members of your party are allowed on the " + objs[index] + ". Once they are " + verbs[index] + "ing on them, the leader of the party must #bdouble-click me to check and see if the answer's correct or not#k. Now, find the right " + objs[index] + " to " + verbs[index] + " on!");
-			event.setVariable("leader" + stages[index] + "preamble", true);
-			let sequenceNum = Math.floor(Math.random() * combos[index].length);
-			event.setVariable("stage" + stages[index] + "combo", sequenceNum);
+			npc.sayNext(leaderPreamble);
+			event.setVariable("leader" + stage + "preamble", true);
+			let sequenceNum = Math.floor(Math.random() * combos.length);
+			event.setVariable("stage" + stage + "combo", sequenceNum);
 		} else {
 			// Check for stage completed
 			let complete = event.getVariable(stage + "stageclear");
 			if (complete != null && complete) {
-				npc.sayNext("You all have cleared the quest for this stage. Use the portal to move to the next stage...");
-			} else { // Check for people on ropes and their positions
-				let totplayers = 0;
-				let members = event.getVariable("members");
-				for (let i = 0; i < members.length; i++) {
-					for (let j = 0; j < objsets[index].length; j++) {
-						let rectangle = rects[index][j];
-						if (members[i].getMapId() == map.getId() && members[i].inRectangle(rectangle[0], rectangle[1], rectangle[2], rectangle[3])) {
-							objsets[index][j]++;
-							totplayers++;
-							break;
+				npc.sayNext(stageClearedDialog);
+			} else { // Check for people and their positions
+				let areas = map.getAreas();
+				let objsets = [0,0,0,0,0,0,0,0,0];
+				let players = party.getLocalMembers(map.getId());
+				for (let i = 0; i < objsets.length; i++) {
+					for (let j = 0; j < players.length; j++) {
+						if (areas.get(i.toString()).contains(players[j].getPosition())) {
+							objsets[i]++;
+							totPlayers++;
 						}
 					}
 				}
 				// Compare to correct positions
-				// Don't even bother if there aren't three players.
-				if (totplayers == 3 || debug) {
-					let combo = combos[index][event.getVariable("stage" + stages[index] + "combo")];
+				if (totPlayers == 5) {
+					let combo = combos[event.getVariable("stage" + stage + "combo")];
 					let testcombo = true;
-					for (let i = 0; i < objsets[index].length && testcombo; i++)
-						if (combo[i] != objsets[index][i])
+					for (let i = 0; i < objsets.length && testcombo; i++)
+						if (combo[i] != objsets[i])
 							testcombo = false;
-					if (debug) {
-						let str = "Objects contain:"
-						for (let i = 0; i < objsets[index].length; i++)
-							str += "\r\n" + (i + 1) + ". " + objsets[index][i];
-						str += "\r\nCorrect combination: ";
-						for (let i = 0; i < combo.length; i++)
-							str += "\r\n" + (i + 1) + ". " + combo[i];
-						if (testcombo) {
-							str += "\r\nResult: #gClear#k";
-							npc.say(str);
-						} else {
-							str += "\r\nResult: #rWrong#k";
-							str += "\r\n#bForce clear stage?#k";
-							debug = npc.askYesNo(str);
-						}
-					}
-					if (testcombo || debug) {
-						clear(stage, Math.pow(2, stage) * 50);
+					if (testcombo) {
+						clear(stage, reward);
 					} else {
 						failStage();
 					}
 				} else {
-					npc.sayNext("It looks like you haven't found the 3 " + objs[index] + " just yet. Please think of a different combination of " + objs[index] + ". Only 3 are allowed to " + verbs[index] + " on " + objs[index] + ", and if you " + donts[index] + " it may not count as an answer, so please keep that in mind. Keep going!");
+					npc.sayNext(leaderDialog);
+					npc.sayNext(objset);
 				}
 			}
 		}
 	} else {
 		let complete = event.getVariable(stage + "stageclear");
 		if (complete != null && complete)
-			npc.sayNext("You all have cleared the quest for this stage. Use the portal to move to the next stage...");
+			npc.sayNext(stageClearedDialog);
 		else
-			npc.sayNext("Please have the party leader talk to me.");
+			npc.sayNext(memberDialog);
 	}
 }
 
@@ -362,37 +402,8 @@ switch (stage) {
         npc.sayNext("Hello and welcome to the sixth stage of Ludibrium Party Quest. Look here, and you'll see a number of boxes. All you have to do, is find the right combination, and press up on it to teleport up. But, if you get it wrong, you will be teleported back down to the bottom. Good Luck!");
         break;
     case 8:
-		let areas = map.getAreas();
-		let objset = [0,0,0,0,0,0,0,0,0];
-		let players = party.getLocalMembers(map.getId());
-		let totPlayers = 0;
-		for (let i = 0; i < objset.length; i++) {
-			for (let j = 0; j < players.length; j++) {
-				if (areas.get(i.toString()).contains(players[j].getPosition())) {
-					objset[i]++;
-					totPlayers++;
-				}
-			}
-		}
-		npc.sayNext(objset);
-		// rectangleStages(stage);
+		numbersStage(stage);
 		break;
-		let complete = event.getVariable(stage + "stageclear");
-		if (complete == null || !complete) {
-			if (player.getId() == party.getLeader()) {
-				if (player.hasItem(4001008, 10)) {
-					player.loseItem(4001008, 10);
-					clear(stage, 1500);
-					npc.sayNext("Here's the portal that leads you to the last, bonus stage. It's a stage that allows you to defeat regular monsters a little easier. You'll be given a set amount of time to hunt as much as possible, but you can always leave the stage in the middle of it through the NPC. Again, congratulations on clearing all the stages. Take care...");
-				} else {
-					npc.sayNext("Hello. Welcome to the 5th and final stage. Walk around the map and you'll be able to find some Boss monsters. Defeat all of them, gather up #bthe passes#k, and please get them to me. Once you earn your pass, the leader of your party will collect them, and then get them to me once the #bpasses#k are gathered up. The monsters may be familiar to you, but they may be much stronger than you think, so please be careful. Good luck!\r\nAs a result of complaints, it is now mandatory to kill all the Slimes! Do it!");
-				}
-			} else {
-				npc.sayNext("Welcome to the 5th and final stage.  Walk around the map and you will be able to find some Boss monsters.  Defeat them all, gather up the #bpasses#k, and give them to your leader.  Once you are done, return to me to collect your reward.");
-			}
-		} else {
-			npc.sayNext("Incredible! You cleared all the stages to get to this point. Here's a small prize for your job well done. Before you accept it, however, please make sure your use and etc. inventories have empty slots available.\r\n#bYou will not receive a prize if you have no free slots!#k");
-			getPrize();
-		}
-		break;
+	default:
+		npc.sayNext("Unhandled stage");
 }
