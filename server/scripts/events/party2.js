@@ -24,6 +24,8 @@
  */
 
 let EXIT_MAP = 922010000;
+let BONUS_MAP = 922011000;
+let REWARD_MAP = 922011100;
 
 let map;
 let party;
@@ -121,11 +123,16 @@ function playerDisconnected(player) {
 }
 
 function playerChangedMap(player, destination) {
-	//TODO: is it true that even when a non-leader clicks Nella, the entire
-	//party is booted? and that GMS forces party out when only two members
-	//remain alive and online?
-	if (destination.getId() == EXIT_MAP)
-		//player died and respawned or clicked Nella to leave PQ
+	if (destination.getId() == REWARD_MAP) {
+		player.setEvent(null);
+	} else if (destination.getId() == BONUS_MAP) {
+		if (party.getLeader() == player.getId()) {
+			event.stopTimer("kick");
+			event.startTime("clear", 60 * 1000);
+			destination.showTimer(60);
+		}
+	} else if (destination.getId() == EXIT_MAP)
+		//player died and respawned or clicked Sgt. Anderson to leave PQ
 		//changeMap is false so player doesn't get re-warped to exit map
 		removePlayer(player.getId(), false);
 	else
@@ -140,6 +147,26 @@ function timerExpired(key) {
 	switch (key) {
 		case "kick":
 			removePlayer(party.getLeader(), true);
+			break;
+		case "clear":
+			let maps = [
+				922010100,
+				922010200, 922010201,
+				922010300,
+				922010400, 922010401, 922010402, 922010403, 922010404, 922010405,
+				922010500, 922010501, 922010502, 922010503, 922010504, 922010505, 922010506,
+				922010600,
+				922010700,
+				922010800,
+				922010900,
+				BONUS_MAP
+			];
+			for (let i = 0; i < members.length; i++) {
+				if (maps.includes(members[i].getMapId())) {
+					members[i].changeMap(REWARD_MAP, "st00");
+				}
+			}
+			event.destroyEvent();
 			break;
 	}
 }

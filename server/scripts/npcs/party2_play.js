@@ -132,7 +132,6 @@ function passesStages(stage) {
             if (complete != null && complete) {
                 npc.sayNext(stageClearedDialog);
             } else {
-                 // Check how many passes they have compared to number of party members
                 if (!player.hasItem(itemId, required)) {
                     npc.sayNext(leaderDialog);
                 } else {
@@ -354,7 +353,58 @@ function numbersStage(stage) {
 	}
 }
 
-function getPrize() {
+function bossStage(stage) {
+	let leaderPreamble = "leaderpreamble";
+	let leaderDialog = "leaderdialog";
+	let memberDialog = "memberdialog";
+	let stageClearDialog = "clear";
+	let stageClearedDialog = "cleared";
+	let itemId = 4001023;
+	let required = 1;
+	let reward = 0;
+
+	if (player.getId() == party.getLeader()) {
+        let lVar = "leader" + stage + "preamble";
+        let preamble = event.getVariable(lVar);
+        if (preamble == null || !preamble) {
+            event.setVariable(lVar, true);
+            npc.sayNext(leaderPreamble);
+        } else {
+			if (!player.hasItem(itemId, required)) {
+				npc.sayNext(leaderDialog);
+			} else {
+				npc.sayNext(stageClearDialog);
+				player.loseItem(itemId);
+				clear(stage, reward);
+				player.changeMap(event.getVariable("party2stage10"), "st00");
+			}
+        }
+    } else {
+        let pVar = "member" + stage + "preamble" + player.getId();
+        let preamble = event.getVariable(pVar);
+        if (preamble == null || !preamble) {
+            npc.sayNext(memberDialog);
+            event.setVariable(pVar, true);
+        } else {
+            let complete = event.getVariable(stage + "stageclear");
+            if (complete != null && complete) {
+				npc.sayNext(stageClearedDialog);
+				player.changeMap(event.getVariable("party2stage10"), "st00");
+            } else {
+                npc.sayNext(memberDialog);
+            }
+        }
+    }
+}
+
+function bonusStage(stage) {
+	let selection = npc.askYesNo("Would you like to leave?");
+	if (selection == 1) {
+		player.changeMap(922011100, "st00");
+	}
+}
+
+function rewardStage(stage) {
 	let scrolls = [
 		2040502, 1, 2040505, 1,				// Overall DEX and DEF
 		2040802, 1,							// Gloves for DEX 
@@ -392,7 +442,7 @@ function getPrize() {
 
 	let index = Math.floor(Math.random() * (rewards.length / 2)) * 2;
 	if (player.gainItem(rewards[index], rewards[index + 1]))
-		player.changeMap(103000805, "sp");
+		player.changeMap(221024500, "sp");
 	else //TODO: GMS-like line
 		npc.say("Please check whether your inventory is full.");
 }
@@ -412,6 +462,13 @@ switch (stage) {
     case 8:
 		numbersStage(stage);
 		break;
-	default:
-		npc.sayNext("Unhandled stage");
+	case 9:
+		bossStage(stage);
+		break;
+	case 10:
+		bonusStage(stage);
+		break;
+	case 11:
+		rewardStage(stage);
+		break;
 }
