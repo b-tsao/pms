@@ -19,6 +19,8 @@
 package argonms.game.script.binding;
 
 import argonms.game.character.PartyList;
+
+import java.awt.Point;
 import java.awt.Rectangle;
 
 /**
@@ -40,5 +42,9 @@ public class ScriptPartyMember extends ScriptPlayer {
 
 	public boolean inRectangle(int x, int y, int width, int height) {
 		return new Rectangle(x, y, width, height).contains(getPlayer().getPosition());
+	}
+	
+	public Point getPosition() {
+		return getPlayer().getPosition();
 	}
 }

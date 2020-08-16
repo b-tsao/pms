@@ -2186,8 +2186,10 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 		if (party != null) {
 			party.lockRead();
 			try {
-				for (GameCharacter member : party.getLocalMembersInMap(getMapId()))
-					member.getClient().getSession().send(GamePackets.writePartyMemberHpUpdate(getId(), getHp(), getCurrentMaxHp()));
+				for (PartyList.LocalMember member : party.getLocalMembersInMap(getMapId())) {
+					GameCharacter player = member.getPlayer();
+					player.getClient().getSession().send(GamePackets.writePartyMemberHpUpdate(getId(), getHp(), getCurrentMaxHp()));
+				}
 			} finally {
 				party.unlockRead();
 			}
@@ -2198,8 +2200,10 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 		if (party != null) {
 			party.lockRead();
 			try {
-				for (GameCharacter member : party.getLocalMembersInMap(getMapId()))
-					client.getSession().send(GamePackets.writePartyMemberHpUpdate(member.getId(), member.getHp(), member.getCurrentMaxHp()));
+				for (PartyList.LocalMember member : party.getLocalMembersInMap(getMapId())) {
+					GameCharacter player = member.getPlayer();
+					client.getSession().send(GamePackets.writePartyMemberHpUpdate(player.getId(), player.getHp(), player.getCurrentMaxHp()));
+				}
 			} finally {
 				party.unlockRead();
 			}
@@ -2732,8 +2736,10 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 				if (party == null)
 					ourself.mobKilled(mobId);
 				else
-					for (GameCharacter mem : party.getLocalMembersInMap(mobMap))
-						mem.mobKilled(mobId);
+					for (PartyList.LocalMember mem : party.getLocalMembersInMap(mobMap)) {
+						GameCharacter player = mem.getPlayer();
+						player.mobKilled(mobId);
+					}
 			}
 		};
 	}

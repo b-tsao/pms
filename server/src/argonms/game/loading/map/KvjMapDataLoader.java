@@ -184,8 +184,8 @@ public class KvjMapDataLoader extends MapDataLoader {
 		String id = reader.readNullTerminatedString();
 		AreaData a = new AreaData();
 		a.setX1(reader.readShort());
-		a.setX2(reader.readShort());
 		a.setY1(reader.readShort());
+		a.setX2(reader.readShort());
 		a.setY2(reader.readShort());
 		stats.addArea(id, a);
 	}

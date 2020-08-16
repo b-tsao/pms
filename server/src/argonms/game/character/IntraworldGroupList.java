@@ -254,11 +254,11 @@ public abstract class IntraworldGroupList<M extends IntraworldGroupList.Member,
 	 * @param mapId
 	 * @return 
 	 */
-	public List<GameCharacter> getLocalMembersInMap(int mapId) {
-		List<GameCharacter> filtered = new ArrayList<GameCharacter>();
+	public List<L> getLocalMembersInMap(int mapId) {
+		List<L> filtered = new ArrayList<L>();
 		for (L m : localMembers.values())
 			if (m.getMapId() == mapId)
-				filtered.add(m.getPlayer());
+				filtered.add(m);
 		return filtered;
 	}
 

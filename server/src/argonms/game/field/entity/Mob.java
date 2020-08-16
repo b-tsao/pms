@@ -767,30 +767,31 @@ public class Mob extends AbstractEntity {
 				attackerParty.lockRead();
 				try {
 					int minAttackerLevel = lowestAttackerLevel - 5;
-					for (GameCharacter member : attackerParty.getLocalMembersInMap(map.getDataId())) {
-						if (member.isClosed() || member.getMapId() != map.getDataId() || !member.isAlive())
+					for (PartyList.LocalMember member : attackerParty.getLocalMembersInMap(map.getDataId())) {
+						GameCharacter player = member.getPlayer();
+						if (player.isClosed() || player.getMapId() != map.getDataId() || !player.isAlive())
 							continue;
-						short attackerLevel = member.getLevel();
-						if (attackerLevel >= minAttackerLevel || attackerLevel >= (stats.getLevel() - 5) || attackers.containsKey(member)) {
+						short attackerLevel = player.getLevel();
+						if (attackerLevel >= minAttackerLevel || attackerLevel >= (stats.getLevel() - 5) || attackers.containsKey(player)) {
 							totalLevel += attackerLevel;
-							splitExpMembers.add(member);
+							splitExpMembers.add(player);
 							//TODO: if more than one priest, only use highest? or use latest cast?
-							hsRate = Math.max(member.isEffectActive(PlayerStatusEffect.HOLY_SYMBOL) ?
-									member.getEffectValue(PlayerStatusEffect.HOLY_SYMBOL).getModifier() : 0, hsRate);
+							hsRate = Math.max(player.isEffectActive(PlayerStatusEffect.HOLY_SYMBOL) ?
+									player.getEffectValue(PlayerStatusEffect.HOLY_SYMBOL).getModifier() : 0, hsRate);
 						}
 						membersCount++; //I'm pretty sure party bonus is based on every member, not just for those who are getting EXP
 					}
 				} finally {
 					attackerParty.unlockRead();
 				}
-				for (GameCharacter member : splitExpMembers) {
-					long exp = share * ((8 * member.getLevel() / totalLevel) + (member == highestDamageAttacker.get() ? 2 : 0)) / 10;
+				for (GameCharacter player : splitExpMembers) {
+					long exp = share * ((8 * player.getLevel() / totalLevel) + (player == highestDamageAttacker.get() ? 2 : 0)) / 10;
 					exp *= GameServer.getVariables().getExpRate();
 					//exp = exp * getTauntEffect() / 100;
 					if (membersCount > 1)
 						exp += exp * 5 * membersCount / 100; //party bonus, 5% for each member
 					exp += exp * hsRate / 100;
-					member.gainExp((int) Math.min(exp, Integer.MAX_VALUE), member == killer, false);
+					player.gainExp((int) Math.min(exp, Integer.MAX_VALUE), player == killer, false);
 				}
 			}
 		}

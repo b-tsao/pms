@@ -18,6 +18,8 @@
 
 package argonms.game.loading.map;
 
+import java.awt.Point;
+
 /**
  *
  * @author GoldenKevin
@@ -62,6 +64,10 @@ public class AreaData {
 
 	public short getY2() {
 		return y2;
+	}
+	
+	public boolean contains(Point p) {
+		return p.x >= x1 && p.x <= x2 && p.y >= y1 && p.y <= y2;
 	}
 
 	@Override

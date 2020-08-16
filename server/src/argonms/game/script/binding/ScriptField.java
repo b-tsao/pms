@@ -20,6 +20,7 @@ package argonms.game.script.binding;
 
 import argonms.common.net.external.CommonPackets;
 import argonms.game.character.GameCharacter;
+import argonms.game.character.PartyList;
 import argonms.game.field.GameMap;
 import argonms.game.field.MapEntity;
 import argonms.game.field.entity.Mob;

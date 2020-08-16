@@ -52,9 +52,11 @@ public class ScriptParty {
 		byte count = 0;
 		party.lockRead();
 		try {
-			for (GameCharacter c : party.getLocalMembersInMap(mapId))
+			for (PartyList.LocalMember member : party.getLocalMembersInMap(mapId)) {
+				GameCharacter c = member.getPlayer();
 				if (c.getLevel() >= minLevel && c.getLevel() <= maxLevel)
 					count++;
+			}
 		} finally {
 			party.unlockRead();
 		}
@@ -176,6 +178,25 @@ public class ScriptParty {
 			members = new Object[party.getMembersInLocalChannel().size()];
 			int i = 0;
 			for (PartyList.LocalMember member : party.getMembersInLocalChannel())
+				members[i++] = Context.javaToJS(new ScriptPartyMember(member), globalScope);
+		} finally {
+			party.unlockRead();
+		}
+		Context cx = Context.enter();
+		try {
+			return cx.newArray(globalScope, members);
+		} finally {
+			Context.exit();
+		}
+	}
+	
+	public Scriptable getLocalMembers(int mapId) {
+		Object[] members;
+		party.lockRead();
+		try {
+			members = new Object[party.getLocalMembersInMap(mapId).size()];
+			int i = 0;
+			for (PartyList.LocalMember member : party.getLocalMembersInMap(mapId))
 				members[i++] = Context.javaToJS(new ScriptPartyMember(member), globalScope);
 		} finally {
 			party.unlockRead();
