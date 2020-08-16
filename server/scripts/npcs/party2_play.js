@@ -369,7 +369,7 @@ switch (stage) {
 		npc.sayNext(players);
 		for (let i = 0; i < objset.length; i++) {
 			for (let j = 0; j < players.length; j++) {
-				if (areas[i].contains(players[j].getPosition())) {
+				if (areas.get(i).contains(players[j].getPosition())) {
 					objset[i]++;
 					totPlayers++;
 				}
