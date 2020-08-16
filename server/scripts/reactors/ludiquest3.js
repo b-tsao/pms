@@ -17,23 +17,13 @@
  */
 
 /**
- * (Reactor 2202002)
+ * (Reactor 2202003)
  *   Hidden Street: Abandoned Tower<Stage 2> (Map 922010200)
- *   Hidden Street: Abandoned Tower<Stage 3> (Map 922010300)
  *   Hidden Street: Abandoned Tower<Stage 5> (Map 922010500)
  *
- * Ludibrium Party Quest drop passes in second stage, and fifth stage, spawn Bloctopus in third stage.
+ * Ludibrium Party Quest boxes drop passes in second stage and 5th stage.
  *
  * @author Neuro
  */
 
-switch (map.getId()) {
-    case 922010300:
-        map.setNoSpawn(false);
-        for (let amount = 0; amount < 3; amount++) {
-            reactor.spawnMob(9300171);
-        }
-        break;
-    default:
-        reactor.dropItems(0, 0, 0, 4001022, 1000000);
-}
+reactor.dropItems(0, 0, 0, 4001022, 1000000);

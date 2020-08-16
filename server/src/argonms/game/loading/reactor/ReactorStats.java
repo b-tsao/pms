@@ -55,6 +55,10 @@ public class ReactorStats {
 	protected int getLink() {
 		return link;
 	}
+	
+	protected void load(Map<Byte, State> map) {
+		states.putAll(map);
+	}
 
 	public Map<Byte, State> getStates() {
 		return states;

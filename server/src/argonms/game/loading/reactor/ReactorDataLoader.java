@@ -43,16 +43,22 @@ public abstract class ReactorDataLoader {
 	public abstract boolean canLoad(int reactorid);
 
 	public ReactorStats getReactorStats(int id) {
-		Integer oId;
+		ReactorStats ostats = null;
 		ReactorStats stats;
+		Integer oId;
 		do {
 			oId = Integer.valueOf(id);
 			if (!reactorStats.containsKey(oId))
 				load(id);
 			stats = reactorStats.get(oId);
+			if (ostats == null) {
+				ostats = stats;
+			} else {
+				ostats.load(stats.getStates());
+			}
 			id = stats != null ? stats.getLink() : 0;
 		} while (id != 0);
-		return stats;
+		return ostats;
 	}
 
 	public static void setInstance(DataFileType wzType, String wzPath) {

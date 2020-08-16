@@ -442,7 +442,7 @@ public class GameMap {
 			sendToAll(drop.getDisappearMessage());
 	}
 
-	public void drop(List<ItemDrop> drops, MapEntity ent, byte pickupAllow, int owner) {
+	public void drop(List<ItemDrop> drops, MapEntity ent, byte pickupAllow, int owner, int killer) {
 		Point entPos = ent.getPosition(), dropPos = new Point(entPos);
 		int entX = entPos.x;
 		int width = pickupAllow != ItemDrop.PICKUP_EXPLOSION ? 25 : 40;
@@ -454,7 +454,7 @@ public class GameMap {
 				dropPos.x = entX + delta;
 			else //drop odd numbered drops left
 				dropPos.x = entX - delta;
-			drop.init((ent instanceof Mob) ? ent.getId() : 0, owner, calcDropPos(dropPos, entPos), entPos, pickupAllow);
+			drop.init((ent instanceof Mob) ? ent.getId() : 0, owner, killer, calcDropPos(dropPos, entPos), entPos, pickupAllow);
 			drop(drop);
 		}
 	}
@@ -648,7 +648,7 @@ public class GameMap {
 	}
 
 	private void checkForItemTriggeredReactors(ItemDrop d) {
-		GameCharacter p = (GameCharacter) getEntityById(EntityType.PLAYER, d.getOwner());
+		GameCharacter p = (GameCharacter) getEntityById(EntityType.PLAYER, d.getKiller());
 		int itemId = d.getDataId();
 		short quantity = d.getItem().getQuantity();
 		Point pos = d.getPosition();

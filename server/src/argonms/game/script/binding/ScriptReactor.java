@@ -71,7 +71,7 @@ public class ScriptReactor extends PlayerScriptInteraction {
 			}
 		}
 		GameCharacter p = getClient().getPlayer();
-		p.getMap().drop(drops, reactor, ItemDrop.PICKUP_ALLOW_OWNER, p.getId());
+		p.getMap().drop(drops, reactor, ItemDrop.PICKUP_ALLOW_OWNER, p.getId(), p.getId());
 	}
 	
 	public Object spawnMob(int mobId) {

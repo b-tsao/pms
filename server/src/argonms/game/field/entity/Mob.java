@@ -158,12 +158,12 @@ public class Mob extends AbstractEntity {
 		return combined;
 	}
 
-	private void schedulePostDeathAnimationTasks(final int owner, final byte pickupAllow) {
+	private void schedulePostDeathAnimationTasks(final int owner, final int killer, final byte pickupAllow) {
 		Scheduler.getInstance().runAfterDelay(new Runnable() {
 			@Override
 			public void run() {
 				//drops
-				map.drop(getDrops(), Mob.this, pickupAllow, owner);
+				map.drop(getDrops(), Mob.this, pickupAllow, owner, killer);
 
 				//revives
 				for (Integer mobId : stats.getSummons()) {
@@ -172,7 +172,7 @@ public class Mob extends AbstractEntity {
 					map.spawnMonster(spawn);
 				}
 			}
-		}, getAnimationTime("die1"));
+		}, /* getAnimationTime("die1") */ 500);
 	}
 
 	private Pair<Attacker, GameCharacter> giveExp(GameCharacter killer) {
@@ -252,7 +252,7 @@ public class Mob extends AbstractEntity {
 		Pair<Attacker, GameCharacter> highestDamage = giveExp(killer);
 		for (MobDeathListener hook : subscribers)
 			hook.monsterKilled(highestDamage.right, killer);
-		schedulePostDeathAnimationTasks(highestDamage.left.getId(), highestDamage.left.getDropPickUpAllow());
+		schedulePostDeathAnimationTasks(highestDamage.left.getId(), killer.getId(), highestDamage.left.getDropPickUpAllow());
 	}
 
 	public void addListener(MobDeathListener subscriber) {

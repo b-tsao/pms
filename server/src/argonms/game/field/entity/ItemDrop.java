@@ -60,6 +60,7 @@ public class ItemDrop extends AbstractEntity {
 	private byte mod;
 	private int mob;
 	private int owner;
+	private int killer;
 	private Point dropFrom;
 	private boolean gone;
 	private byte petLooter;
@@ -76,8 +77,13 @@ public class ItemDrop extends AbstractEntity {
 	}
 
 	public void init(int mob, int owner, Point dropTo, Point dropFrom, byte allow) {
+		init(mob, owner, owner, dropTo, dropFrom, allow);
+	}
+	
+	public void init(int mob, int owner, int killer, Point dropTo, Point dropFrom, byte allow) {
 		this.mob = mob;
 		this.owner = owner;
+		this.killer = killer;
 		this.setPosition(dropTo);
 		this.dropFrom = dropFrom;
 		this.mod = allow;
@@ -101,6 +107,10 @@ public class ItemDrop extends AbstractEntity {
 
 	public int getOwner() {
 		return owner;
+	}
+	
+	public int getKiller() {
+		return killer;
 	}
 
 	public Point getSourcePos() {

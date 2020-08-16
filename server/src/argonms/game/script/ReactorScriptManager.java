@@ -20,7 +20,6 @@ package argonms.game.script;
 
 import argonms.common.GlobalConstants;
 import argonms.game.field.entity.Reactor;
-import argonms.game.loading.reactor.ReactorDataLoader;
 import argonms.game.net.external.GameClient;
 import argonms.game.script.binding.ScriptField;
 import argonms.game.script.binding.ScriptParty;

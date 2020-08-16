@@ -57,7 +57,7 @@ public class ScriptMob {
 
 	public void dropItem(int itemId) {
 		InventorySlot item = InventoryTools.makeItemWithId(itemId);
-		m.getMap().drop(Collections.singletonList(new ItemDrop(item)), m, ItemDrop.PICKUP_ALLOW_ALL, 0);
+		m.getMap().drop(Collections.singletonList(new ItemDrop(item)), m, ItemDrop.PICKUP_ALLOW_ALL, 0, 0);
 	}
 
 	public int getDropAfter(boolean afterHit) {
