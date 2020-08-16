@@ -33,7 +33,6 @@ let endTime;
 function init(attachment) {
     //create a new instance of the maps so we don't have to deal with clearing
 	//the map and respawning the mobs and boxes in the right position
-
     map = event.makeMap(922011000); // bonus
     event.setVariable("party2stage10", map);
     map = event.makeMap(922010900); // boss
@@ -45,18 +44,24 @@ function init(attachment) {
 		
 		if (stage == 2) {
 			// Trap
-			event.setVariable("party2trap", event.makeMap(922010201));
+			let subMap = event.makeMap(922010201);
+			subMap.overridePortal("out00", "party2sub");
+			event.setVariable("party2trap", subMap);
 		} else if (stage == 4) {
 			// Darkness portals
 			for (let i = 1; i <= 5; i++) {
+				let subMap = event.makeMap(922010400 + i);
+				subMap.overridePortal("out00", "party2sub");
 				map.overridePortal("in0" + i, "party2sub");
-				event.setVariable("party2darkness" + i, event.makeMap(922010400 + i));
+				event.setVariable("party2darkness" + i, subMap);
 			}
 		} else if (stage == 5) {
 			// Boring portals
 			for (let i = 1; i <= 6; i++) {
+				let subMap = event.makeMap(922010500 + i);
+				subMap.overridePortal("out00", "party2sub");
 				map.overridePortal("in0" + i, "party2sub");
-				event.setVariable("party2portal" + i, event.makeMap(922010400 + i));
+				event.setVariable("party2portal" + i, subMap);
 			}
 		}
 	}

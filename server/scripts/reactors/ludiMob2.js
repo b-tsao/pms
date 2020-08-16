@@ -1,7 +1,7 @@
 /*Ludi PQ Stage 7 Reactor - 2201002.js
  *@Author Neuro
  */
- 
+
 let map = reactor.getEvent("party2").getVariable("party2stage7");
 map.setNoSpawn(false);
 map.redMessage("Rombard has been summoned somewhere in the map.");

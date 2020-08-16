@@ -32,6 +32,7 @@ import argonms.game.character.GuildList;
 import argonms.game.character.inventory.PetTools;
 import argonms.game.loading.skill.SkillDataLoader;
 import argonms.game.net.external.GamePackets;
+import argonms.game.net.external.handler.ChatHandler;
 import argonms.game.net.external.handler.GuildListHandler;
 import java.lang.ref.WeakReference;
 import org.mozilla.javascript.Context;
@@ -54,6 +55,10 @@ public class ScriptPlayer {
 
 	public int getId() {
 		return getPlayer().getId();
+	}
+	
+	public void redMessage(String message) {
+		getPlayer().getClient().getSession().send(CommonPackets.writeServerMessage(ChatHandler.TextStyle.RED_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
 	}
 
 	public void gainExp(int gain) {

@@ -31,7 +31,9 @@
  */
 
 portal.playSoundEffect();
-if (map.getId() == 922010400) {
+if (map.getId() > 922010200 && map.getId() < 922010300) {
+    player.changeMap(portal.getEvent("party2").getVariable("party2stage2"), "st00");
+} else if (map.getId() == 922010400) {
     player.changeMap(portal.getEvent("party2").getVariable("party2darkness" + (portal.getId() - 1)), "st00");
 } else if (map.getId() > 922010400 && map.getId() < 922010500) {
     player.changeMap(portal.getEvent("party2").getVariable("party2stage4"), "in0" + (map.getId() % 10));
