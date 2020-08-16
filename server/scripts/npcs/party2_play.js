@@ -311,6 +311,7 @@ function numbersStage(stage) {
 				let areas = map.getAreas();
 				let objsets = [0,0,0,0,0,0,0,0,0];
 				let players = party.getLocalMembers(map.getId());
+				let totPlayers = 0;
 				for (let i = 0; i < objsets.length; i++) {
 					for (let j = 0; j < players.length; j++) {
 						if (areas.get(i.toString()).contains(players[j].getPosition())) {
