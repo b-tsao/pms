@@ -48,6 +48,7 @@ import argonms.game.field.entity.PlayerNpc;
 import argonms.game.field.entity.PlayerSkillSummon;
 import argonms.game.field.entity.Reactor;
 import argonms.game.field.movement.LifeMovementFragment;
+import argonms.game.loading.map.AreaData;
 import argonms.game.loading.map.Foothold;
 import argonms.game.loading.map.MapStats;
 import argonms.game.loading.map.PortalData;
@@ -170,6 +171,10 @@ public class GameMap {
 
 	public int getForcedReturnMap() {
 		return stats.getForcedReturn();
+	}
+	
+	public Map<String, AreaData> getAreas() {
+		return stats.getAreas();
 	}
 
 	public byte nearestSpawnPoint(Point from) {

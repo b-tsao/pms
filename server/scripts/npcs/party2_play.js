@@ -362,6 +362,7 @@ switch (stage) {
         npc.sayNext("Hello and welcome to the sixth stage of Ludibrium Party Quest. Look here, and you'll see a number of boxes. All you have to do, is find the right combination, and press up on it to teleport up. But, if you get it wrong, you will be teleported back down to the bottom. Good Luck!");
         break;
     case 8:
+		npc.sayNext(map.getAreas());
         rectangleStages(stage);
 		break;
 		let complete = event.getVariable(stage + "stageclear");

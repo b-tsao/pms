@@ -23,10 +23,13 @@ import argonms.game.character.GameCharacter;
 import argonms.game.field.GameMap;
 import argonms.game.field.MapEntity;
 import argonms.game.field.entity.Mob;
+import argonms.game.loading.map.AreaData;
 import argonms.game.loading.mob.MobDataLoader;
 import argonms.game.net.external.GamePackets;
 import argonms.game.net.external.handler.ChatHandler;
 import java.awt.Point;
+import java.util.Map;
+
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
@@ -53,6 +56,10 @@ public class ScriptField {
 
 	public int getPlayerCount() {
 		return map.getPlayerCount();
+	}
+	
+	public Map<String, AreaData> getAreas() {
+		return map.getAreas();
 	}
 
 	public void portalEffect(String name) {
