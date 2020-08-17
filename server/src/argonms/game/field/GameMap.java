@@ -90,6 +90,7 @@ public class GameMap {
 	 * Amount of time in milliseconds that a dropped item will remain on the map
 	 */
 	private static final int DROP_EXPIRE = 60000;
+	private static final int DROP_TRIGGER = 5000;
 	private final MapStats stats;
 	private final Map<EntityType, EntityPool> entPools;
 	private final LockableList<MonsterSpawn> monsterSpawns;
@@ -413,9 +414,17 @@ public class GameMap {
 	 */
 	private void drop(ItemDrop d) {
 		spawnEntity(d);
-		if (d.getDropType() == ItemDrop.ITEM)
-			checkForItemTriggeredReactors(d);
 		final Integer eid = Integer.valueOf(d.getId());
+		if (d.getDropType() == ItemDrop.ITEM)
+			Scheduler.getInstance().runAfterDelay(new Runnable() {
+				@Override
+				public void run() {
+					ItemDrop d = (ItemDrop) entPools.get(EntityType.DROP).getByIdSafely(eid);
+					if (d != null) {
+						checkForItemTriggeredReactors(d);
+					}
+				}
+			}, DROP_TRIGGER); //trigger after 5 seconds
 		Scheduler.getInstance().runAfterDelay(new Runnable() {
 			@Override
 			public void run() {
