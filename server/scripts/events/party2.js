@@ -124,12 +124,13 @@ function playerDisconnected(player) {
 }
 
 function playerChangedMap(player, destination) {
-	if (destination.getId() == BONUS_MAP) {
+	if (destination.getId() == REWARD_MAP) {
+		player.setEvent(null);
+	} else if (destination.getId() == BONUS_MAP) {
 		if (party.getLeader() == player.getId()) {
 			event.stopTimer("kick");
 			event.startTimer("clear", 60 * 1000);
 			destination.showTimer(60);
-			event.destroyEvent();
 		}
 		player.setEvent(null);
 	} else if (destination.getId() == EXIT_MAP)
@@ -171,6 +172,7 @@ function timerExpired(key) {
 					}
 				}
 			}
+			event.destroyEvent();
 			break;
 	}
 }
