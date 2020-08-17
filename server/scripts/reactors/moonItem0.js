@@ -35,4 +35,4 @@
 let items = [4001095, 4001096, 4001097, 4001098, 4001099, 4001100];
 if (Math.floor(Math.random() * 2) == 1) //50% chance a seed is dropped
 	//8.33% chance a particular color seed is drpoped
-	reactor.dropItems(0, 0, 0, items[Math.floor(Math.random() * items.length)], 1000000);
+	reactor.dropItems(0, 0, 0, 0, items[Math.floor(Math.random() * items.length)], 1000000);

@@ -26,4 +26,4 @@
  * @author Neuro
  */
 
-reactor.dropItems(0, 0, 0, 4001022, 1000000);
+reactor.dropItems(0, 0, 0, 0, 4001022, 1000000);
