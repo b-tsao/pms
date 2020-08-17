@@ -162,10 +162,11 @@ function timerExpired(key) {
 				922010900,
 				BONUS_MAP
 			];
-			for (let i = 0; i < members.length; i++) {
+			let pmembers = party.getLocalMembers();
+			for (let i = 0; i < pmembers.length; i++) {
 				for (let j = 0; j < maps.length; j++) {
-					if (members[i].getMapId() == maps[j]) {
-						members[i].changeMap(REWARD_MAP, "st00");
+					if (pmembers[i].getMapId() == maps[j]) {
+						pmembers[i].changeMap(REWARD_MAP, "st00");
 						break;
 					}
 				}
