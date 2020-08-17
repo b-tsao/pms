@@ -35,13 +35,11 @@
  * @author Neuro
  */
 
-// let stage = (map.getId() - 922010000) / 100;
-// let clear = portal.getEvent("party2").getVariable(stage + "stageclear");
-// if (clear != null && clear) {
-// 	portal.playSoundEffect();
-// 	player.changeMap(portal.getEvent("party2").getVariable("party2stage" + (stage + 1)), "st00");
-// } else {
-// 	portal.block();
-// }
-
-player.changeMap(portal.getEvent("party2").getVariable("party2stage9"), "st00");
+let stage = (map.getId() - 922010000) / 100;
+let clear = portal.getEvent("party2").getVariable(stage + "stageclear");
+if (clear != null && clear) {
+	portal.playSoundEffect();
+	player.changeMap(portal.getEvent("party2").getVariable("party2stage" + (stage + 1)), "st00");
+} else {
+	portal.block();
+}
