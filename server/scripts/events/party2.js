@@ -124,14 +124,13 @@ function playerDisconnected(player) {
 }
 
 function playerChangedMap(player, destination) {
-	if (destination.getId() == REWARD_MAP) {
-		player.setEvent(null);
-	} else if (destination.getId() == BONUS_MAP) {
+	if (destination.getId() == BONUS_MAP) {
 		if (party.getLeader() == player.getId()) {
 			event.stopTimer("kick");
 			event.startTimer("clear", 60 * 1000);
 			destination.showTimer(60);
 		}
+		player.setEvent(null);
 	} else if (destination.getId() == EXIT_MAP)
 		//player died and respawned or clicked Sgt. Anderson to leave PQ
 		//changeMap is false so player doesn't get re-warped to exit map
