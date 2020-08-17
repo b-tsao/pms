@@ -44,4 +44,4 @@
 // 	portal.block();
 // }
 
-player.changeMap(portal.getEvent("party2").getVariable("party2stage9"), "st00");
+player.changeMap(portal.getEvent("party2").getVariable("party2stage8"), "st00");
