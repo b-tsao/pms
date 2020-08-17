@@ -72,6 +72,7 @@ function init(attachment) {
 
     party = attachment;
 	party.loseItem(4001022);
+	party.loseItem(4001023);
 	party.changeMap(map, "st00");
 	members = party.getLocalMembers();
 
@@ -128,7 +129,7 @@ function playerChangedMap(player, destination) {
 	} else if (destination.getId() == BONUS_MAP) {
 		if (party.getLeader() == player.getId()) {
 			event.stopTimer("kick");
-			event.startTime("clear", 60 * 1000);
+			event.startTimer("clear", 60 * 1000);
 			destination.showTimer(60);
 		}
 	} else if (destination.getId() == EXIT_MAP)
