@@ -163,8 +163,11 @@ function timerExpired(key) {
 				BONUS_MAP
 			];
 			for (let i = 0; i < members.length; i++) {
-				if (maps.includes(members[i].getMapId())) {
-					members[i].changeMap(REWARD_MAP, "st00");
+				for (let j = 0; j < maps.length; j++) {
+					if (members[i].getMapId() == maps[j]) {
+						members[i].changeMap(REWARD_MAP, "st00");
+						break;
+					}
 				}
 			}
 			event.destroyEvent();
