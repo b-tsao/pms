@@ -158,6 +158,17 @@ function passesStages(stage) {
     }
 }
 
+function bitArrayToNum(arr) {
+    let val = 0;
+    let i = 0;
+    for (let i = arr.length - 1; i >= 0; i--) {
+        if (arr[i] != 0) {
+            val += Math.pow(2, arr.length - i - 1);
+        }
+    }
+    return val;
+}
+
 function numbersStage(stage) {
 	let leaderPreamble = "leaderpreamble";
 	let leaderDialog = "leaderdialog";
@@ -300,6 +311,7 @@ function numbersStage(stage) {
 			npc.sayNext(leaderPreamble);
 			event.setVariable("leader" + stage + "preamble", true);
 			let sequenceNum = Math.floor(Math.random() * combos.length);
+			map.blueMessage("Hint: " + bitArrayToNum(combos[sequenceNum]));
 			event.setVariable("stage" + stage + "combo", sequenceNum);
 		} else {
 			// Check for stage completed
