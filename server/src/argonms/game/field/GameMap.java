@@ -420,9 +420,8 @@ public class GameMap {
 				@Override
 				public void run() {
 					ItemDrop d = (ItemDrop) entPools.get(EntityType.DROP).getByIdSafely(eid);
-					if (d != null) {
+					if (d != null)
 						checkForItemTriggeredReactors(d);
-					}
 				}
 			}, DROP_TRIGGER); //trigger after 5 seconds
 		Scheduler.getInstance().runAfterDelay(new Runnable() {
@@ -675,8 +674,11 @@ public class GameMap {
 				if (itemTrigger != null
 						&& itemTrigger.left.intValue() == itemId
 						&& itemTrigger.right.shortValue() == quantity
-						&& r.getItemTriggerZone().contains(pos))
+						&& r.getItemTriggerZone().contains(pos)) {
+					d.expire();
+					destroyEntity(d);
 					r.hit(p, (byte) 0);
+				}
 			}
 		} finally {
 			reactors.unlockRead();
