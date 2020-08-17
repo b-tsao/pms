@@ -129,6 +129,7 @@ function playerChangedMap(player, destination) {
 			event.stopTimer("kick");
 			event.startTimer("clear", 60 * 1000);
 			destination.showTimer(60);
+			event.destroyEvent();
 		}
 		player.setEvent(null);
 	} else if (destination.getId() == EXIT_MAP)
@@ -170,7 +171,6 @@ function timerExpired(key) {
 					}
 				}
 			}
-			event.destroyEvent();
 			break;
 	}
 }
