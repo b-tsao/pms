@@ -45,6 +45,11 @@ import java.util.List;
 public class CashConsumeHandler {
 	private static void handleHiredMerchant(LittleEndianReader packet, GameCharacter p, int itemId) {
 		//TODO: handle hired merchant
+		// NOTE: This doesn't come here.
+		// Packet sent is USE_HIRED_MERCHANT(0x3B)
+		// Currently unhandled in ClientGamePacketProcessor
+		
+		// Can refer to MINIROOM_ACT (regular player store permit) for how to implement this
 	}
 
 	private static void handleVipTeleportRock(LittleEndianReader packet, GameCharacter p, int itemId) {
@@ -178,6 +183,7 @@ public class CashConsumeHandler {
 
 	private static void handlePlayerShopPermit(LittleEndianReader packet, GameCharacter p, int itemId) {
 		//TODO: handle create shop
+		// NOTE: This doesn't come here and is already handled by MINIROOM_ACT
 	}
 
 	private static void handlePetNameTag(LittleEndianReader packet, GameCharacter p) {

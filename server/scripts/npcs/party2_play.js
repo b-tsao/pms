@@ -311,7 +311,7 @@ function numbersStage(stage) {
 			npc.sayNext(leaderPreamble);
 			event.setVariable("leader" + stage + "preamble", true);
 			let sequenceNum = Math.floor(Math.random() * combos.length);
-			map.blueMessage("Hint: " + bitArrayToNum(combos[sequenceNum]));
+			map.yellowMessage("Hint: " + bitArrayToNum(combos[sequenceNum]));
 			event.setVariable("stage" + stage + "combo", sequenceNum);
 		} else {
 			// Check for stage completed

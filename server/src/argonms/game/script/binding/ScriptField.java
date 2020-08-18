@@ -82,6 +82,10 @@ public class ScriptField {
 	public void blueMessage(String message) {
 		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.LIGHT_BLUE_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
 	}
+	
+	public void yellowMessage(String message) {
+		map.sendToAll(CommonPackets.writeServerMessage(ChatHandler.TextStyle.YELLOW_TEXT_CLEAR_BG.byteValue(), message, (byte) -1, false));
+	}
 
 	public void showTimer(int seconds) {
 		map.sendToAll(GamePackets.writeTimer(seconds));
