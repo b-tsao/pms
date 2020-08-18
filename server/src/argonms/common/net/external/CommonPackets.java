@@ -585,6 +585,21 @@ public final class CommonPackets {
 		return lew.getBytes();
 	}
 	
+	public static byte[] writeServerMessage(InventorySlot item, short position, String message, byte channel, boolean megaEar) {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter();
+		lew.writeShort(ClientSendOps.SERVER_MESSAGE);
+		lew.writeByte((byte) 8);
+		lew.writeLengthPrefixedString(message);
+		lew.writeByte((byte) (channel - 1));
+		lew.writeBool(megaEar);
+		if (item == null) {
+			lew.writeBool(false);
+		} else {
+			writeItemInfo(lew, position, item);
+		}
+		return lew.getBytes();
+	}
+	
 	public static byte[] enableTV() {
 		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(7);
 		lew.writeShort(ClientSendOps.ENABLE_TV); 

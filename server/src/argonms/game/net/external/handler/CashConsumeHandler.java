@@ -19,6 +19,7 @@
 package argonms.game.net.external.handler;
 
 import argonms.common.character.inventory.Inventory;
+import argonms.common.character.inventory.Inventory.InventoryType;
 import argonms.common.character.inventory.InventorySlot;
 import argonms.common.character.inventory.InventoryTools;
 import argonms.common.character.inventory.Pet;
@@ -140,6 +141,21 @@ public class CashConsumeHandler {
 //                }
 				break;
 			case 6: // Item megaphone
+				String message = p.getName() + " : " + packet.readLengthPrefixedString();
+				boolean megaEar = packet.readBool();
+				boolean selectedItem = packet.readBool();
+				if (selectedItem) {
+					byte type = (byte) packet.readInt();
+					short pos = (short) packet.readInt();
+					InventorySlot item = p.getInventory(InventoryType.valueOf(type)).get(pos);
+					if (item != null && !ItemDataLoader.getInstance().canDrop(itemId)) {
+						return;
+					} else {
+						GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(CommonPackets.writeServerMessage(item, pos, message, p.getClient().getChannel(), megaEar));
+					}
+				} else {
+					GameServer.getChannel(p.getClient().getChannel()).getCrossServerInterface().sendWorldWide(CommonPackets.writeServerMessage(null, (short) 0, message, p.getClient().getChannel(), megaEar));
+				}
 				break;
 		}
 	}
@@ -217,7 +233,6 @@ public class CashConsumeHandler {
 	}
 
 	private static void handleSuperMegaphoneWithAvatar(LittleEndianReader packet, GameCharacter p, int itemId) {
-		//TODO: super megaphone with avatar
 		List<String> lines = new LinkedList<String>();
         for (int i = 0; i < 4; i++) {
             lines.add(packet.readLengthPrefixedString());
@@ -251,6 +266,7 @@ public class CashConsumeHandler {
 			gc.getSession().send(CommonPackets.writeInventoryClearSlot(Inventory.InventoryType.CASH, slot));
 		p.itemCountChanged(itemId);
 
+		System.out.println(itemId / 10000);
 		switch (itemId / 10000) {
 			case 503:
 				handleHiredMerchant(packet, p, itemId);
