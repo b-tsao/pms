@@ -25,16 +25,18 @@
  * @author Neuro
  */
 
-if (party == null) {
-	npc.say("From here on above, this place is full of dangerous objects and monsters, so I can't let you make your way up anymore. If you're interested in saving us and bring peace back into Ludibrium, however, that's a different story. If you want to defeat a powerful creature residing at the very top, then please gather up your party members. It won't be easy. but ... I think you can do it.");
-} else if (player.getId() != party.getLeader()) {
-	npc.say("If you want to try the quest, please tell the #bleader of your party#k to talk to me.");
-} else if (party.numberOfMembersInChannel() != 4 || party.getMembersCount(map.getId(), 1, 200) != 4) {
-	npc.say("Your party does not consist of four, therefore making you ineligible to participate in this party quest. Please come back when you have four party members.")
-} else if (party.getMembersCount(map.getId(), 35, 50) != 4) {
-	npc.say("Please check that all your party members are between the levels of 35 ~ 50.");
-} else if (npc.makeEvent("party2", true, party) == null) {
-	npc.say("Some other party has already gotten in to try clearing the quest. Please try again later.");
-}
+// if (party == null) {
+// 	npc.say("From here on above, this place is full of dangerous objects and monsters, so I can't let you make your way up anymore. If you're interested in saving us and bring peace back into Ludibrium, however, that's a different story. If you want to defeat a powerful creature residing at the very top, then please gather up your party members. It won't be easy. but ... I think you can do it.");
+// } else if (player.getId() != party.getLeader()) {
+// 	npc.say("If you want to try the quest, please tell the #bleader of your party#k to talk to me.");
+// } else if (party.numberOfMembersInChannel() != 4 || party.getMembersCount(map.getId(), 1, 200) != 4) {
+// 	npc.say("Your party does not consist of four, therefore making you ineligible to participate in this party quest. Please come back when you have four party members.")
+// } else if (party.getMembersCount(map.getId(), 35, 50) != 4) {
+// 	npc.say("Please check that all your party members are between the levels of 35 ~ 50.");
+// } else if (npc.makeEvent("party2", true, party) == null) {
+// 	npc.say("Some other party has already gotten in to try clearing the quest. Please try again later.");
+// }
 
-map.yellowMessage("help!");
+for (let i = -10; i < 30; i++) {
+	map.testMessage(i, "test_message " + i);
+}
