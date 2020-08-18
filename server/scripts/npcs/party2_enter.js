@@ -37,7 +37,4 @@
 // 	npc.say("Some other party has already gotten in to try clearing the quest. Please try again later.");
 // }
 
-for (let i = 8; i < 10; i++) {
-	npc.sayNext("next test is " + i);
-	map.testMessage(i, "test_message : here we go " + i);
-}
+map.tipMessage("test");
