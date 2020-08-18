@@ -38,5 +38,6 @@
 // }
 
 for (let i = -10; i < 30; i++) {
+	npc.sayNext("next test is " + i);
 	map.testMessage(i, "test_message " + i);
 }
