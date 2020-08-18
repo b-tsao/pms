@@ -352,6 +352,7 @@ public final class MiniroomHandler {
 	private static void gameExitAfterFinish(GameCharacter p, boolean shouldExit) {
 		Minigame room = (Minigame) p.getMiniRoom();
 		room.setExitAfterGame(p, shouldExit);
+		room.sendToAll(writeChat(room.positionOf(p), p.getName(), shouldExit ? "Leaving after this game." : "Staying after this game."));
 	}
 
 	private static void gameAskTie(GameCharacter p) {
