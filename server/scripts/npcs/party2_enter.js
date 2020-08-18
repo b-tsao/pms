@@ -36,3 +36,5 @@ if (party == null) {
 } else if (npc.makeEvent("party2", true, party) == null) {
 	npc.say("Some other party has already gotten in to try clearing the quest. Please try again later.");
 }
+
+map.yellowMessage("help!");
