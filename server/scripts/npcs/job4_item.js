@@ -80,6 +80,7 @@ if ((!player.isQuestActive(6905) || !player.isQuestActive(6915) || !player.isQue
             case 1:
                 player.startQuest(6945, npc.getNpcId());
                 break;
+        }
     }
 } else if ((player.isQuestActive(6905) || player.isQuestActive(6915) || player.isQuestActive(6925) || player.isQuestActive(6935) || player.isQuestActive(6945))) {
     if (player.hasItem(4031348, 1)) {
@@ -112,9 +113,8 @@ if ((!player.isQuestActive(6905) || !player.isQuestActive(6915) || !player.isQue
             player.getItem(4031512, 1);
         } 
     } else {
-        npc.say("Still working on that scroll? Do your best.");
+        npc.say("Still working on that scroll? It'll really strengthen the #bbuilding blocks#k of our town.");
     }
 } else {
-    npc.say("monkas");
+    npc.say("Hello young one. If you are ever in need of the #bStar#k and the #bPentagon#k speak to me.");
     }
-}
