@@ -67,39 +67,8 @@ if ((!player.isQuestActive(6905) || !player.isQuestActive(6915) || !player.isQue
                 break;
         }
     }
-} /*else if ((player.isQuestActive(6905) || player.isQuestActive(6915) || player.isQuestActive(6925) || player.isQuestActive(6935) || player.isQuestActive(6945))) {
-    if (player.hasItem(4031348, 1)) {
-        npc.sayNext("You finally got the #b#t4031348##k!");
-        npc.sayNext("Please take these items to your 4th job instructor.");
-        if (player.getJob() > 100 && player.getJob() < 200) {
-            player.completeQuest(6905, npc.getNpcId());
-            player.loseItem(4031348, 1);
-            player.getItem(4031343, 1);
-            player.getItem(4031344, 1);
-        } else if (player.getJob() > 200 && player.getJob() < 300) {
-            player.completeQuest(6915, npc.getNpcId());
-            player.loseItem(4031348, 1);
-            player.getItem(4031511, 1);
-            player.getItem(4031512, 1);
-        } else if (player.getJob() > 300 && player.getJob() < 400) {
-            player.completeQuest(6925, npc.getNpcId());
-            player.loseItem(4031348, 1);
-            player.getItem(4031343, 1);
-            player.getItem(4031344, 1);
-        } else if (player.getJob() > 400 && player.getJob() < 500) {
-            player.completeQuest(6935, npc.getNpcId());
-            player.loseItem(4031348, 1);
-            player.getItem(4031517, 1);
-            player.getItem(4031518, 1);
-        } else if (player.getJob() > 500 && player.getJob() < 600) {
-            player.completeQuest(6945, npc.getNpcId());
-            player.loseItem(4031348, 1);
-            player.getItem(4031511, 1);
-            player.getItem(4031512, 1);
-        } 
-    } else {
-        npc.say("Still working on that scroll? It'll really strengthen the #bbuilding blocks#k of our town.");
-    }
-}*/ else {
+} else if (player.getLevel() < 120) {
     npc.say("Hello young one. If you are ever in need of the #bStar#k and the #bPentagon#k speak to me.");
+    } else {
+        npc.say("You've grown much since I first saw you. Remember to use your strength for the greater good.")
     }
