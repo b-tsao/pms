@@ -169,6 +169,85 @@ function bitArrayToNum(arr) {
     return val;
 }
 
+function combination(arr) {
+    let combinations = [];
+    for (let i = 0; i < arr.length; i++) {
+        let c = combinations.length;
+        for (let j = 0; j < c; j++) {
+            combinations.push([...combinations[j], arr[i]]);
+        }
+        combinations.push([arr[i]]);
+    }
+    return combinations;
+}
+
+function permutation(arr) {
+    let permutations = [];
+    backtrackPermutation(permutations, arr, 0);
+    return permutations;
+}
+    
+function backtrackPermutation(result, arr, index) {
+    if (index == arr.length) {
+        result.push([...arr]);
+    }
+    for (let i = index; i < arr.length; i++) {
+        swap(arr, i, index);
+        backtrackPermutation(result, arr, index + 1);
+        swap(arr, i, index);
+    }
+}
+
+function subPermutations(arr) {
+    let sub = [];
+    for (let i = 0; i < arr.length; i++) {
+        sub.push(...permutation(arr[i]));
+    }
+    return sub;
+}
+
+function swap(arr, i, j) {
+    let temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
+function hint(sequence) {
+	let ops = [['+', '-'], ['/']];
+	let combo = combination(sequence);
+	let subPerm = subPermutations(combo);
+	let selected = subPerm[Math.floor(Math.random() * subPerm.length)];
+	let num = parseInt(selected.join(''));
+	let str = '';
+	for (let i = 0; i < 2; i++) {
+		let type = Math.floor(Math.random() * ops.length);
+		let op = ops[type][Math.floor(Math.random() * ops[type].length)];
+        let qual = Math.floor(Math.random() * 100) + 1;
+		switch (op) {
+			case '+':
+				num -= qual;
+				break;
+			case '-':
+				num += qual;
+				break;
+			case '/':
+				num *= qual;
+				break;
+		}
+		if (i == 0) {
+            str = ` ${op} ${qual}${str}`;
+		} else {
+            if (num < 0) {
+                str = `((${num}) ${op} ${qual})${str}`;
+            } else {
+                str = `(${num} ${op} ${qual})${str}`;
+            }
+		}
+	}
+	str += ' = ?';
+	return str;
+}
+
 function numbersStage(stage) {
 	let leaderPreamble = "leaderpreamble";
 	let leaderDialog = "leaderdialog";
@@ -311,7 +390,6 @@ function numbersStage(stage) {
 			npc.sayNext(leaderPreamble);
 			event.setVariable("leader" + stage + "preamble", true);
 			let sequenceNum = Math.floor(Math.random() * combos.length);
-			map.tipMessage("Hint: " + bitArrayToNum(combos[sequenceNum]));
 			event.setVariable("stage" + stage + "combo", sequenceNum);
 		} else {
 			// Check for stage completed
@@ -334,14 +412,15 @@ function numbersStage(stage) {
 				// Compare to correct positions
 				if (totPlayers == 5) {
 					let combo = combos[event.getVariable("stage" + stage + "combo")];
-					let testcombo = true;
-					for (let i = 0; i < objsets.length && testcombo; i++)
+					let missing = [];
+					for (let i = 0; i < objsets.length; i++)
 						if (combo[i] != objsets[i])
-							testcombo = false;
-					if (testcombo) {
+							missing.push(i);
+					if (missing.length == 0) {
 						clear(stage, reward);
 					} else {
 						failStage();
+						map.tipMessage("Hint: " + hint(missing));
 					}
 				} else {
 					npc.sayNext(leaderDialog);

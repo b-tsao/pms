@@ -33,7 +33,8 @@ public abstract class Minigame extends Miniroom {
 	public enum MinigameResult {
 		WIN(0),
 		TIE(1),
-		LOSS(2);
+		LOSS(2),
+		ELO(3);
 
 		private final byte byteValue;
 
@@ -87,19 +88,20 @@ public abstract class Minigame extends Miniroom {
 
 	public void endGame(MinigameResult result, byte winnerPos) {
 		GameCharacter p;
+	    // TODO: calculate real elo changes (no idea how Nexon calculates it, probably use bayesian elo)
 		switch (result) {
 			case WIN:
 			case LOSS:
 				p = getPlayerByPosition(winnerPos);
-				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.WIN);
+				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.WIN, 2);
 				p = getPlayerByPosition((byte) ((winnerPos + 1) % 2));
-				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.LOSS);
+				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.LOSS, -2);
 				break;
 			case TIE:
 				p = getPlayerByPosition((byte) 0);
-				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.TIE);
+				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.TIE, 0);
 				p = getPlayerByPosition((byte) 1);
-				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.TIE);
+				p.incrementMinigamePoints(getMiniroomType(), MinigameResult.TIE, 0);
 				break;
 		}
 		sendToAll(getFinishMessage(result, winnerPos));
@@ -445,24 +447,11 @@ public abstract class Minigame extends Miniroom {
 		}
 	}
 
-	//TODO: actually calculate real scores (no idea how Nexon calculates it)
-	private static int getScore(int wins, int ties, int losses) {
-		int score = 2000;
-		if (wins + ties + losses > 0) {
-			score += wins * 2;
-			score -= losses * 2;
-		}
-		return score;
-	}
-
 	private static void writeMinigameScores(LittleEndianWriter lew, GameCharacter p, MiniroomType type) {
-		int wins = p.getMinigamePoints(type, MinigameResult.WIN);
-		int ties = p.getMinigamePoints(type, MinigameResult.TIE);
-		int losses = p.getMinigamePoints(type, MinigameResult.LOSS);
 		lew.writeInt(type.byteValue());
-		lew.writeInt(wins);
-		lew.writeInt(ties);
-		lew.writeInt(losses);
-		lew.writeInt(getScore(wins, ties, losses));
+		lew.writeInt(p.getMinigamePoints(type, MinigameResult.WIN));
+		lew.writeInt(p.getMinigamePoints(type, MinigameResult.TIE));
+		lew.writeInt(p.getMinigamePoints(type, MinigameResult.LOSS));
+		lew.writeInt(p.getMinigamePoints(type, MinigameResult.ELO));
 	}
 }

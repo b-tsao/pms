@@ -626,8 +626,8 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 			ps.close();
 
 			ps = con.prepareStatement("INSERT INTO `minigamescores` "
-					+ "(`characterid`,`gametype`,`wins`,`ties`,`losses`) "
-					+ "VALUES (?, ?, ?, ?, ?)");
+					+ "(`characterid`,`gametype`, `wins`,`ties`,`losses`, `elo`) "
+					+ "VALUES (?, ?, ?, ?, ?, ?)");
 			ps.setInt(1, getDataId());
 			synchronized(minigameStats) {
 				for (Entry<MiniroomType, Map<MinigameResult, AtomicInteger>> stats : minigameStats.entrySet()) {
@@ -635,6 +635,7 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 					ps.setInt(3, stats.getValue().get(MinigameResult.WIN).get());
 					ps.setInt(4, stats.getValue().get(MinigameResult.TIE).get());
 					ps.setInt(5, stats.getValue().get(MinigameResult.LOSS).get());
+					ps.setInt(6, stats.getValue().get(MinigameResult.ELO).get());
 					ps.addBatch();
 				}
 			}
@@ -924,6 +925,7 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 				stats.put(MinigameResult.WIN, new AtomicInteger(rs.getInt(4)));
 				stats.put(MinigameResult.TIE, new AtomicInteger(rs.getInt(5)));
 				stats.put(MinigameResult.LOSS, new AtomicInteger(rs.getInt(6)));
+				stats.put(MinigameResult.ELO, new AtomicInteger(rs.getInt(7)));
 				p.minigameStats.put(MiniroomType.valueOf(rs.getByte(3)), Collections.unmodifiableMap(stats));
 			}
 			rs.close();
@@ -2803,7 +2805,7 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 		return stats != null ? stats.get(stat).get() : 0;
 	}
 
-	public void incrementMinigamePoints(MiniroomType game, MinigameResult stat) {
+	public void incrementMinigamePoints(MiniroomType game, MinigameResult stat, int eloChange) {
 		Map<MinigameResult, AtomicInteger> stats;
 		synchronized(minigameStats) {
 			stats = minigameStats.get(game);
@@ -2812,10 +2814,12 @@ public class GameCharacter extends LoggedInPlayer implements MapEntity {
 				stats.put(MinigameResult.WIN, new AtomicInteger(0));
 				stats.put(MinigameResult.TIE, new AtomicInteger(0));
 				stats.put(MinigameResult.LOSS, new AtomicInteger(0));
+				stats.put(MinigameResult.ELO, new AtomicInteger(2000));
 				minigameStats.put(game, Collections.unmodifiableMap(stats));
 			}
 		}
 		stats.get(stat).incrementAndGet();
+		stats.get(MinigameResult.ELO).addAndGet(eloChange);
 	}
 
 	public long getLastFameGivenTime() {
