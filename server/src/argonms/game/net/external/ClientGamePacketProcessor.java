@@ -44,13 +44,14 @@ public class ClientGamePacketProcessor extends ClientPacketProcessor<GameClient>
 			case ClientRecvOps.NPC_TALK:
 			case ClientRecvOps.NPC_TALK_MORE:
 			case ClientRecvOps.MOVE_PET:
+			case ClientRecvOps.PONG:
 				break;
 			default:
 				for (java.lang.reflect.Field field : ClientRecvOps.class.getDeclaredFields()) {
 					try {
 						if (java.lang.reflect.Modifier.isStatic(field.getModifiers()) && 
 							field.getShort(null) == op) {
-							LOG.log(Level.FINE, "[DEBUG] Received client ({0}) packet op {1} ({2})", new Object[] { gc.getAccountName(), field.getName(), String.format("0x%02X", op) });
+							LOG.log(Level.FINE, "[DEBUG] Received client ({0}) packet op {1} ({2})", new Object[] { gc.getAccountName(), field.getName(), String.format("0x%04X", op) });
 							break;
 						}
 					} catch (IllegalAccessException e) {
@@ -129,6 +130,9 @@ public class ClientGamePacketProcessor extends ClientPacketProcessor<GameClient>
 				break;
 			case ClientRecvOps.NPC_STORAGE:
 				NpcMiniroomHandler.handleNpcStorageAction(reader, gc);
+				break;
+			case ClientRecvOps.USE_HIRED_MERCHANT:
+				NpcMiniroomHandler.handleHiredMerchantAction(reader, gc);
 				break;
 			case ClientRecvOps.ITEM_MOVE:
 				InventoryHandler.handleItemMove(reader, gc);

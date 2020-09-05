@@ -313,6 +313,12 @@ public final class NpcMiniroomHandler {
 			}
 		}
 	}
+	
+	public static void handleHiredMerchantAction(LittleEndianReader packet, GameClient gc) {
+//		gc.getSession().send(writeRetrieveItems());
+//		gc.getSession().send(writeHiredMerchant());
+		gc.getSession().send(CommonPackets.writeServerMessage(ChatHandler.TextStyle.OK_BOX.byteValue(), "You can not open a store here.", (byte) -1, false));
+	}
 
 	private static byte[] writeConfirmShopTransaction(byte code) {
 		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(3);
@@ -394,7 +400,25 @@ public final class NpcMiniroomHandler {
 
 		return lew.getBytes();
 	}
+	
+	private static byte[] writeHiredMerchant() {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(3);
 
+		lew.writeShort(ClientSendOps.SHOW_HIRED_MERCHANT_AGREEMENT);
+		lew.writeByte((byte) 0x07);
+
+		return lew.getBytes();
+	}
+	
+	private static byte[] writeRetrieveItems() {
+		LittleEndianByteArrayWriter lew = new LittleEndianByteArrayWriter(3);
+
+		lew.writeShort(ClientSendOps.SHOW_HIRED_MERCHANT_AGREEMENT);
+		lew.writeByte((byte) 0x09);
+
+		return lew.getBytes();
+	}
+	
 	private NpcMiniroomHandler() {
 		//uninstantiable...
 	}
